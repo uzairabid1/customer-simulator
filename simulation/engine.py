@@ -1,0 +1,278 @@
+# engine.py
+import json
+import uuid
+import random
+from datetime import datetime
+from typing import List, Dict
+from config import Config
+from .models import Customer, Review, Restaurant
+from .llm import LLMInterface
+from .logger import SimulationLogger
+
+class RestaurantSimulation:
+    def _should_investigate_further(self, reviews: List[Dict]) -> bool:
+        """Determine if reviews appear too positive or outdated"""
+        if not reviews:
+            return False
+        
+        # Check if mostly 5-star reviews (more than 80%)
+        five_star_count = sum(1 for r in reviews if r['stars'] == 5)
+        if five_star_count / len(reviews) > 0.8:
+            return True
+        
+        # Check if reviews are outdated (all older than 1 year)
+        current_date = datetime.now()
+        one_year_ago = current_date.replace(year=current_date.year-1)
+        most_recent_date = max(datetime.strptime(r['date'], "%Y-%m-%d %H:%M:%S") for r in reviews)
+        if most_recent_date < one_year_ago:
+            return True
+        
+        return False
+
+    def _get_additional_reviews(self, restaurant: Restaurant) -> List[Dict]:
+        """Get additional reviews if initial set seems biased"""
+        additional = []
+        
+        # Get some recent reviews (2-3)
+        additional.extend(r.__dict__ for r in restaurant.get_recent_reviews(3))
+        
+        # Get some low-rated reviews (1-2 star, 2-3 reviews)
+        for stars in [1, 2]:
+            additional.extend(r.__dict__ for r in restaurant.get_reviews_by_rating(stars, 2))
+        
+        # Remove duplicates and limit total
+        unique_reviews = {r['review_id']: r for r in additional}
+        return list(unique_reviews.values())[:5]  # Return up to 5 additional reviews
+
+    def _get_combined_reviews(self, restaurant: Restaurant) -> List[Dict]:
+        all_reviews = self.shared_reviews + restaurant.reviews
+        if restaurant.review_policy == "highest_rating":
+            sorted_reviews = sorted(all_reviews, key=lambda x: x.stars, reverse=True)
+        else:
+            sorted_reviews = sorted(all_reviews, key=lambda x: x.date, reverse=True)
+        return [r.__dict__ for r in sorted_reviews]
+
+    def __init__(self):
+        self.llm = LLMInterface()
+        self.logger = SimulationLogger(Config.LOG_DIR)
+        self.restaurant_a = Restaurant("A", "highest_rating")
+        self.restaurant_b = Restaurant("B", "latest")
+        self.shared_reviews = self._load_shared_reviews()
+        self.current_day = 0
+        self.customers = []
+
+    def _load_shared_reviews(self) -> List[Review]:
+        try:
+            with open("data/inputs/initial_reviews.json") as f:
+                return [
+                    Review(
+                        review_id=r["review_id"],
+                        user_id=r["user_id"],
+                        business_id="shared",
+                        stars=r["stars"],
+                        text=r["text"],
+                        date=r["date"],
+                        ordered_item="(initial)"
+                    ) 
+                    for r in json.load(f)
+                ]
+        except FileNotFoundError:
+            return []
+
+    def _generate_customer(self) -> Customer:
+        customer_data = self.llm.generate_customer()
+        customer_id=f"cust_{uuid.uuid4().hex[:8]}"
+        customer = Customer(
+            customer_id=customer_id,
+            name=customer_data["name"],
+            role_desc={
+                "income": customer_data["income"],
+                "taste": customer_data["taste"],
+                "health": customer_data["health"],
+                "dietary_restriction": customer_data["dietary_restriction"],
+                "personality": customer_data["personality"]
+            }
+        )
+        self.logger.log_customer_arrival({
+            "customer_id": customer_id,
+            "name": customer_data["name"],
+            **customer_data
+        })
+        return customer
+
+    def run_day(self):
+        self.current_day += 1
+        print(f"Day {self.current_day}/{Config.DAYS}")
+        
+        for _ in range(Config.CUSTOMERS_PER_DAY):
+            try:
+                customer = self._generate_customer()
+                self.customers.append(customer)
+                
+                # Get base reviews and restaurant info
+                a_reviews = self._get_combined_reviews(self.restaurant_a)
+                b_reviews = self._get_combined_reviews(self.restaurant_b)
+                
+                # Prepare initial review sets (5 each)
+                a_reviews_shown = a_reviews[:5]
+                b_reviews_shown = b_reviews[:5]
+                
+                # Log initial reviews seen
+                self.logger.log_reviews_seen(
+                    customer.customer_id, customer.name, self.current_day,
+                    "A", a_reviews_shown
+                )
+                self.logger.log_reviews_seen(
+                    customer.customer_id, customer.name, self.current_day,
+                    "B", b_reviews_shown
+                )
+                
+                # Check if we need additional reviews
+                a_additional_reviews = []
+                b_additional_reviews = []
+                
+                if self._should_investigate_further(a_reviews_shown):
+                    a_additional_reviews = self._get_additional_reviews(self.restaurant_a)
+                    a_reviews_shown.extend(a_additional_reviews)
+                    a_reviews_shown = a_reviews_shown[:10]  # Limit to 10 total
+                    
+                    # Log additional reviews seen
+                    self.logger.log_reviews_seen(
+                        customer.customer_id, customer.name, self.current_day,
+                        "A", a_additional_reviews, is_additional=True
+                    )
+                
+                if self._should_investigate_further(b_reviews_shown):
+                    b_additional_reviews = self._get_additional_reviews(self.restaurant_b)
+                    b_reviews_shown.extend(b_additional_reviews)
+                    b_reviews_shown = b_reviews_shown[:10]  # Limit to 10 total
+                    
+                    # Log additional reviews seen
+                    self.logger.log_reviews_seen(
+                        customer.customer_id, customer.name, self.current_day,
+                        "B", b_additional_reviews, is_additional=True
+                    )
+                
+                # Get overall ratings and counts
+                a_rating = self.restaurant_a.get_overall_rating()
+                a_count = self.restaurant_a.get_review_count()
+                b_rating = self.restaurant_b.get_overall_rating()
+                b_count = self.restaurant_b.get_review_count()
+                
+                decision = self.llm.make_decision(
+                    {
+                        "name": customer.name,
+                        "income": customer.role_desc["income"],
+                        "taste": customer.role_desc["taste"],
+                        "health": customer.role_desc["health"],
+                        "dietary_restriction": customer.role_desc["dietary_restriction"],
+                        "personality": customer.role_desc["personality"],
+                        "customer_id": customer.customer_id
+                    },
+                    a_reviews_shown,
+                    b_reviews_shown,
+                    self.restaurant_a.menu,
+                    self.restaurant_b.menu,
+                    a_rating,
+                    a_count,
+                    b_rating,
+                    b_count
+                )
+
+                self.logger.log_decision_details(
+                    customer.customer_id,
+                    customer.name,
+                    a_reviews_shown,
+                    b_reviews_shown,
+                    decision["decision"],
+                    decision["reason"],
+                    self.current_day)
+                
+                restaurant = self.restaurant_a if decision["decision"] == "A" else self.restaurant_b
+                ordered_item = random.choice(list(restaurant.menu.keys()))
+                price = restaurant.menu[ordered_item]
+                restaurant.revenue += price
+                
+                self.logger.log_decision(
+                    customer.customer_id,
+                    customer.name,
+                    decision["decision"],
+                    decision["reason"],
+                    self.current_day
+                )
+                
+                self.logger.log_order(
+                    customer.customer_id,
+                    customer.name,
+                    restaurant.restaurant_id,
+                    ordered_item,
+                    price,
+                    self.current_day
+                )
+                
+                review_data = self.llm.generate_review(
+                    {
+                        "customer_id": customer.customer_id,
+                        "name": customer.name,
+                        "income": customer.role_desc["income"],
+                        "taste": customer.role_desc["taste"],
+                        "health": customer.role_desc["health"],
+                        "dietary_restriction": customer.role_desc["dietary_restriction"],
+                        "personality": customer.role_desc["personality"]
+                    },
+                    restaurant.restaurant_id,
+                    ordered_item
+                )
+                
+                rating_reason = review_data.get("rating_reason")
+                
+                review = Review(
+                    review_id=review_data["review_id"],
+                    user_id=customer.customer_id,
+                    business_id=restaurant.restaurant_id,
+                    stars=float(review_data["stars"]),
+                    text=review_data["text"],
+                    date=review_data["date"],
+                    ordered_item=ordered_item
+                )
+
+                
+                
+                self.logger.log_review(review.__dict__, rating_reason)
+                restaurant.reviews.append(review)
+                
+            except Exception as e:
+                print(f"Error processing customer: {str(e)}")
+                continue
+
+    def run_simulation(self):
+        print(f"Starting simulation for {Config.DAYS} days")
+        for _ in range(Config.DAYS):
+            self.run_day()
+        self._save_results()
+        print("Simulation complete!")
+
+    def _save_results(self):
+        self.logger.save_logs()
+        
+        with open("data/outputs/customers.json", "w") as f:
+            json.dump([
+                {
+                    "customer_id": c.customer_id,
+                    "name": c.name,
+                    "role_desc": c.role_desc
+                }
+                for c in self.customers
+            ], f, indent=2)
+        
+        with open("data/outputs/restaurants.json", "w") as f:
+            json.dump({
+                "A": {
+                    "reviews": [r.__dict__ for r in self.restaurant_a.reviews],
+                    "revenue": self.restaurant_a.revenue
+                },
+                "B": {
+                    "reviews": [r.__dict__ for r in self.restaurant_b.reviews],
+                    "revenue": self.restaurant_b.revenue
+                }
+            }, f, indent=2)

@@ -1,0 +1,1145 @@
+[
+  {
+    "timestamp": "2025-06-03T20:48:47.152320",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_d615bf3b",
+    "name": "Customer_9288",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:48:47.152841",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_d615bf3b",
+    "name": "Customer_9288",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      },
+      {
+        "stars": 5.0,
+        "text": "Probably the best BBQ in middle Tennessee. They actually have a pit and smoke all of their awesome pork shoulders, links, chicken and ribs. Also, their sweet potato pie and baked beans are home made.\n...",
+        "date": "2021-08-20 18:46:57",
+        "review_id": "2KehrqTHrpe1PVwGmpjOUw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:48:47.161584",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_d615bf3b",
+    "name": "Customer_9288",
+    "restaurant_id": "A",
+    "is_additional": true,   
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-06-03T20:48:47.169721",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_d615bf3b",
+    "name": "Customer_9288",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-06-03T20:48:56.078562",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_f9f28982",
+    "name": "Customer_2059",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:48:56.087140",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_f9f28982",
+    "name": "Customer_2059",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      },
+      {
+        "stars": 5.0,
+        "text": "Probably the best BBQ in middle Tennessee. They actually have a pit and smoke all of their awesome pork shoulders, links, chicken and ribs. Also, their sweet potato pie and baked beans are home made.\n...",
+        "date": "2021-08-20 18:46:57",
+        "review_id": "2KehrqTHrpe1PVwGmpjOUw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:48:56.093829",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_f9f28982",
+    "name": "Customer_2059",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the Fish and Chips as a satisfying comfort food with a crispy batter that hit the spot. It was a bit challenging to confirm low sugar content, but overall it felt like a hearty, adventurous ...",
+        "date": "2025-06-03 20:48:56",
+        "review_id": "rev_bbc754c9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:48:56.100469",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_f9f28982",
+    "name": "Customer_2059",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-06-03T20:49:06.033670",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_9b53bd3b",
+    "name": "Customer_4887",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:06.042799",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_9b53bd3b",
+    "name": "Customer_4887",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      },
+      {
+        "stars": 5.0,
+        "text": "Probably the best BBQ in middle Tennessee. They actually have a pit and smoke all of their awesome pork shoulders, links, chicken and ribs. Also, their sweet potato pie and baked beans are home made.\n...",
+        "date": "2021-08-20 18:46:57",
+        "review_id": "2KehrqTHrpe1PVwGmpjOUw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:06.049684",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_9b53bd3b",
+    "name": "Customer_4887",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the Club Sandwich overall, but it wasn't the best fit for my lactose intolerance and low sodium needs. The flavors were vibrant, but I wished it had fewer dairy ingredients and less salt to ...",
+        "date": "2025-06-03 20:49:06",
+        "review_id": "rev_8e4460e6"
+      },
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the Fish and Chips as a satisfying comfort food with a crispy batter that hit the spot. It was a bit challenging to confirm low sugar content, but overall it felt like a hearty, adventurous ...",
+        "date": "2025-06-03 20:48:56",
+        "review_id": "rev_bbc754c9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:06.056574",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_9b53bd3b",
+    "name": "Customer_4887",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-06-03T20:49:17.192950",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_33221b7b",
+    "name": "Customer_5133",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:17.202302",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_33221b7b",
+    "name": "Customer_5133",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      },
+      {
+        "stars": 5.0,
+        "text": "Probably the best BBQ in middle Tennessee. They actually have a pit and smoke all of their awesome pork shoulders, links, chicken and ribs. Also, their sweet potato pie and baked beans are home made.\n...",
+        "date": "2021-08-20 18:46:57",
+        "review_id": "2KehrqTHrpe1PVwGmpjOUw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:17.209381",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_33221b7b",
+    "name": "Customer_5133",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the gourmet pizza\u2019s inventive toppings and fresh ingredients, which really satisfied my taste for elevated dishes. Being lactose intolerant, I appreciated the dairy-free crust option that le...",
+        "date": "2025-06-03 20:49:17",
+        "review_id": "rev_f44c4c46"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the Club Sandwich overall, but it wasn't the best fit for my lactose intolerance and low sodium needs. The flavors were vibrant, but I wished it had fewer dairy ingredients and less salt to ...",
+        "date": "2025-06-03 20:49:06",
+        "review_id": "rev_8e4460e6"
+      },
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the Fish and Chips as a satisfying comfort food with a crispy batter that hit the spot. It was a bit challenging to confirm low sugar content, but overall it felt like a hearty, adventurous ...",
+        "date": "2025-06-03 20:48:56",
+        "review_id": "rev_bbc754c9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:17.216230",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_33221b7b",
+    "name": "Customer_5133",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-06-03T20:49:27.027528",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_1ef1b1f0",
+    "name": "Customer_2198",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:27.037119",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_1ef1b1f0",
+    "name": "Customer_2198",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      },
+      {
+        "stars": 5.0,
+        "text": "Probably the best BBQ in middle Tennessee. They actually have a pit and smoke all of their awesome pork shoulders, links, chicken and ribs. Also, their sweet potato pie and baked beans are home made.\n...",
+        "date": "2021-08-20 18:46:57",
+        "review_id": "2KehrqTHrpe1PVwGmpjOUw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:27.044943",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_1ef1b1f0",
+    "name": "Customer_2198",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I appreciated that the pizza had a decent plant-based option, but it was a bit heavy and didn\u2019t quite meet my low-sugar needs. It was tasty but not as healthy as I would have liked given my diet and h...",
+        "date": "2025-06-03 20:49:27",
+        "review_id": "rev_bc6defdc"
+      },
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the gourmet pizza\u2019s inventive toppings and fresh ingredients, which really satisfied my taste for elevated dishes. Being lactose intolerant, I appreciated the dairy-free crust option that le...",
+        "date": "2025-06-03 20:49:17",
+        "review_id": "rev_f44c4c46"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the Club Sandwich overall, but it wasn't the best fit for my lactose intolerance and low sodium needs. The flavors were vibrant, but I wished it had fewer dairy ingredients and less salt to ...",
+        "date": "2025-06-03 20:49:06",
+        "review_id": "rev_8e4460e6"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:27.052006",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_1ef1b1f0",
+    "name": "Customer_2198",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-06-03T20:49:35.441832",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_918b7a2f",
+    "name": "Customer_1682",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:35.451465",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_918b7a2f",
+    "name": "Customer_1682",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      },
+      {
+        "stars": 5.0,
+        "text": "Probably the best BBQ in middle Tennessee. They actually have a pit and smoke all of their awesome pork shoulders, links, chicken and ribs. Also, their sweet potato pie and baked beans are home made.\n...",
+        "date": "2021-08-20 18:46:57",
+        "review_id": "2KehrqTHrpe1PVwGmpjOUw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:35.459906",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_918b7a2f",
+    "name": "Customer_1682",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was excited to try the onion rings, but as someone who loves seafood, they felt a bit off my usual preference. Also, they didn\u2019t fully meet my lactose intolerance needs since I wasn\u2019t sure about the...",
+        "date": "2025-06-03 20:49:35",
+        "review_id": "rev_178fab66"
+      },
+      {
+        "stars": 3.0,
+        "text": "I appreciated that the pizza had a decent plant-based option, but it was a bit heavy and didn\u2019t quite meet my low-sugar needs. It was tasty but not as healthy as I would have liked given my diet and h...",
+        "date": "2025-06-03 20:49:27",
+        "review_id": "rev_bc6defdc"
+      },
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the gourmet pizza\u2019s inventive toppings and fresh ingredients, which really satisfied my taste for elevated dishes. Being lactose intolerant, I appreciated the dairy-free crust option that le...",
+        "date": "2025-06-03 20:49:17",
+        "review_id": "rev_f44c4c46"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:35.468012",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_918b7a2f",
+    "name": "Customer_1682",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-06-03T20:49:43.904720",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_cfa37cf3",
+    "name": "Customer_8415",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:43.915427",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_cfa37cf3",
+    "name": "Customer_8415",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      },
+      {
+        "stars": 5.0,
+        "text": "Probably the best BBQ in middle Tennessee. They actually have a pit and smoke all of their awesome pork shoulders, links, chicken and ribs. Also, their sweet potato pie and baked beans are home made.\n...",
+        "date": "2021-08-20 18:46:57",
+        "review_id": "2KehrqTHrpe1PVwGmpjOUw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:43.924589",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_cfa37cf3",
+    "name": "Customer_8415",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty vegan club sandwich that fits my dairy-free needs, but this one fell short. It wasn\u2019t fully vegan and had some dairy ingredients, which didn\u2019t sit well with my diet. The flavo...",
+        "date": "2025-06-03 20:49:43",
+        "review_id": "rev_89b85730"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was excited to try the onion rings, but as someone who loves seafood, they felt a bit off my usual preference. Also, they didn\u2019t fully meet my lactose intolerance needs since I wasn\u2019t sure about the...",
+        "date": "2025-06-03 20:49:35",
+        "review_id": "rev_178fab66"
+      },
+      {
+        "stars": 3.0,
+        "text": "I appreciated that the pizza had a decent plant-based option, but it was a bit heavy and didn\u2019t quite meet my low-sugar needs. It was tasty but not as healthy as I would have liked given my diet and h...",
+        "date": "2025-06-03 20:49:27",
+        "review_id": "rev_bc6defdc"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:43.932669",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_cfa37cf3",
+    "name": "Customer_8415",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-06-03T20:49:54.611943",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_a0fd8bb5",
+    "name": "Customer_6587",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:54.621950",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_a0fd8bb5",
+    "name": "Customer_6587",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the French-inspired salad, which was fresh and flavorful while fitting my gluten-free and dairy-free needs. It was a thoughtful dish, though I wished for a bit more variety in the vegetables...",
+        "date": "2025-06-03 20:49:54",
+        "review_id": "rev_7dcd8454"
+      },
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:49:54.630071",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_a0fd8bb5",
+    "name": "Customer_6587",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty vegan club sandwich that fits my dairy-free needs, but this one fell short. It wasn\u2019t fully vegan and had some dairy ingredients, which didn\u2019t sit well with my diet. The flavo...",
+        "date": "2025-06-03 20:49:43",
+        "review_id": "rev_89b85730"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was excited to try the onion rings, but as someone who loves seafood, they felt a bit off my usual preference. Also, they didn\u2019t fully meet my lactose intolerance needs since I wasn\u2019t sure about the...",
+        "date": "2025-06-03 20:49:35",
+        "review_id": "rev_178fab66"
+      },
+      {
+        "stars": 3.0,
+        "text": "I appreciated that the pizza had a decent plant-based option, but it was a bit heavy and didn\u2019t quite meet my low-sugar needs. It was tasty but not as healthy as I would have liked given my diet and h...",
+        "date": "2025-06-03 20:49:27",
+        "review_id": "rev_bc6defdc"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:50:05.871200",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_2f0b6972",
+    "name": "Customer_6704",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:50:05.881496",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_2f0b6972",
+    "name": "Customer_6704",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was really hoping for a tasty Chinese dish, but I ended up ordering cheesecake, which didn\u2019t suit my dairy-free diet at all. It was rich, but honestly not the best choice for my health goals or tast...",
+        "date": "2025-06-03 20:50:05",
+        "review_id": "rev_9a8b82c7"
+      },
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the French-inspired salad, which was fresh and flavorful while fitting my gluten-free and dairy-free needs. It was a thoughtful dish, though I wished for a bit more variety in the vegetables...",
+        "date": "2025-06-03 20:49:54",
+        "review_id": "rev_7dcd8454"
+      },
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:50:05.889583",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_2f0b6972",
+    "name": "Customer_6704",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty vegan club sandwich that fits my dairy-free needs, but this one fell short. It wasn\u2019t fully vegan and had some dairy ingredients, which didn\u2019t sit well with my diet. The flavo...",
+        "date": "2025-06-03 20:49:43",
+        "review_id": "rev_89b85730"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was excited to try the onion rings, but as someone who loves seafood, they felt a bit off my usual preference. Also, they didn\u2019t fully meet my lactose intolerance needs since I wasn\u2019t sure about the...",
+        "date": "2025-06-03 20:49:35",
+        "review_id": "rev_178fab66"
+      },
+      {
+        "stars": 3.0,
+        "text": "I appreciated that the pizza had a decent plant-based option, but it was a bit heavy and didn\u2019t quite meet my low-sugar needs. It was tasty but not as healthy as I would have liked given my diet and h...",
+        "date": "2025-06-03 20:49:27",
+        "review_id": "rev_bc6defdc"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:50:13.548291",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_8692e2e2",
+    "name": "Customer_3687",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "I tried this place for the first time and I have to say the pork bbq sandwich may the best I've ever had. It was so good! I'll have to try other items on my return visits.",
+        "date": "2021-06-12 02:49:34",
+        "review_id": "IxggZMADUbJDT9GRimdUUQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "I'm not going to lie, I was not expecting the food to be good. More so because I'm not a huge bbq person, and I've found that everyone is just not good getting down on the grill. But, to my surprise I...",
+        "date": "2021-06-05 00:45:55",
+        "review_id": "-bdGXIIKkxq-sckKV129PQ"
+      },
+      {
+        "stars": 5.0,
+        "text": "JUST opened today and I went to try them out. Ordered the Hawg Dog, and Two Thyme Pork sandwich along with coleslaw and baked beans. The taste is delicious for everything! The bread is soft on the san...",
+        "date": "2021-03-20 19:03:07",
+        "review_id": "yctqBDi6Q1qMa0BMmZHIVA"
+      },
+      {
+        "stars": 5.0,
+        "text": "This is a cool little gem. Family operated and they are very nice. I went on opening day, so they were still working out the kinks - totally understandable. But what I really like is that it's AFFORDA...",
+        "date": "2021-04-03 04:29:11",
+        "review_id": "UvuGHB7lMvA-bsack6p-cA"
+      },
+      {
+        "stars": 5.0,
+        "text": "I am very partial to NC BBQ but I must say, JoJo's takes the top spot for BBQ in Sumner County! The sides are also great as well as the sweet potato pie! Mmm mmm so good! Extremely nice family busines...",
+        "date": "2021-09-05 23:11:53",
+        "review_id": "a3fcfoYbk-6VbrJl2tWGhw"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:50:13.570389",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_8692e2e2",
+    "name": "Customer_3687",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was really hoping for a tasty Chinese dish, but I ended up ordering cheesecake, which didn\u2019t suit my dairy-free diet at all. It was rich, but honestly not the best choice for my health goals or tast...",
+        "date": "2025-06-03 20:50:05",
+        "review_id": "rev_9a8b82c7"
+      },
+      {
+        "stars": 4.0,
+        "text": "I enjoyed the French-inspired salad, which was fresh and flavorful while fitting my gluten-free and dairy-free needs. It was a thoughtful dish, though I wished for a bit more variety in the vegetables...",
+        "date": "2025-06-03 20:49:54",
+        "review_id": "rev_7dcd8454"
+      },
+      {
+        "stars": 5.0,
+        "text": "We had JoJo's catered to our office for lunch, it was absolutely amazing.  Timothy the owner was great working with, he offered great input on items that was good for the office, which was absolutely ...",
+        "date": "2021-12-28 20:49:54",
+        "review_id": "n-cO00Btm4oB_VL2-WRkhg"
+      },
+      {
+        "stars": 2.0,
+        "text": "Just eh. The slaw was bland. Salt and pepper would help. Received my order through the drive thru quickly, but the Vienna hot dog seemed old and wasn't even warm. I ordered the Vienna Hawt Dawg and wa...",
+        "date": "2021-11-12 23:50:42",
+        "review_id": "HrqBnH4CmvcKzgTDZ-bMEQ"
+      },
+      {
+        "stars": 3.0,
+        "text": "I'm such a big fan of local food and such a big fan of Goodlettsville. I write reluctantly and am adding an extra star because I want you to succeed. \n\nI've visited twice. The first visit I got a whol...",
+        "date": "2021-10-29 17:10:35",
+        "review_id": "hsj-zy1tUdpT4pa4M8t4pA"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-06-03T20:50:13.587807",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_8692e2e2",
+    "name": "Customer_3687",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a delightful dessert experience, but the pasta I ordered didn\u2019t quite satisfy my sweet tooth. Although it was gluten-free, it didn\u2019t align well with my preference for desserts and my ...",
+        "date": "2025-06-03 20:50:13",
+        "review_id": "rev_6502544d"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty vegan club sandwich that fits my dairy-free needs, but this one fell short. It wasn\u2019t fully vegan and had some dairy ingredients, which didn\u2019t sit well with my diet. The flavo...",
+        "date": "2025-06-03 20:49:43",
+        "review_id": "rev_89b85730"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was excited to try the onion rings, but as someone who loves seafood, they felt a bit off my usual preference. Also, they didn\u2019t fully meet my lactose intolerance needs since I wasn\u2019t sure about the...",
+        "date": "2025-06-03 20:49:35",
+        "review_id": "rev_178fab66"
+      }
+    ]
+  }
+]

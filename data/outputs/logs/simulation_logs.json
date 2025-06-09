@@ -1,0 +1,432 @@
+[
+  {
+    "timestamp": "2025-06-03T20:48:47.152285",
+    "type": "customer_arrival",
+    "customer_id": "cust_d615bf3b",
+    "name": "Customer_9288",
+    "details": {
+      "income": "$5K-5.8K(Very Poor)",
+      "taste": "Comfort food",
+      "health": "Allergies",
+      "dietary_restriction": "Low sugar",
+      "personality": "Adventurous"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:48:52.469221",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_d615bf3b",
+    "name": "Customer_9288",
+    "decision": "A",
+    "reason": "Both restaurants have an overall rating of 0.0 stars due to no official aggregated score, but the sample reviews provided give meaningful insights. Restaurant A has consistently glowing 5-star reviews praising the quality, flavor, affordability, and family-operated nature, emphasizing excellent BBQ sandwiches, sides, and customer service. Restaurant B's reviews are more mixed, with some criticism regarding blandness and service inconsistencies, although it also has strong positive feedback on its BBQ. Given the customer's very limited budget ($5K-$5.8K, considered very poor), Restaurant A's emphasis on affordability and fast food prices makes it a better fit. Both menus are identical, but Restaurant A's reviews highlight comfort food options like BBQ sandwiches and baked beans, aligning well with the customer's preference for comfort food. Considering the low sugar allergy, BBQ sauces served on the side at Restaurant A allow better control over sugar intake. Additionally, Restaurant A's reviews appear recent, positive, and trustworthy with multiple reviewers mentioning specific dishes, suggesting a reliable and consistent experience. The adventurous personality can be satisfied by trying new BBQ items and sides that the restaurant plans to expand. Overall, Restaurant A better matches the budget, dietary needs, and food preferences with more consistent and positive feedback."
+  },
+  {
+    "timestamp": "2025-06-03T20:48:52.469227",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_d615bf3b",
+    "name": "Customer_9288",
+    "restaurant_id": "A",
+    "item": "Fish and Chips",
+    "price": 14
+  },
+  {
+    "timestamp": "2025-06-03T20:48:56.078514",
+    "type": "review",
+    "review_id": "rev_bbc754c9",
+    "customer_id": "cust_d615bf3b",
+    "restaurant_id": "A",
+    "stars": 4.0,
+    "text": "I enjoyed the Fish and Chips as a satisfying comfort food with a crispy batter that hit the spot. It was a bit challenging to confirm low sugar content, but overall it felt like a hearty, adventurous choice that respected my dietary needs.",
+    "item": "Fish and Chips",
+    "reason": "The meal suited my craving for comfort food and was mindful of my allergies and low sugar requirement, though clearer nutritional info would improve my confidence."
+  },
+  {
+    "timestamp": "2025-06-03T20:48:56.078543",
+    "type": "customer_arrival",
+    "customer_id": "cust_f9f28982",
+    "name": "Customer_2059",
+    "details": {
+      "income": "$8K-11.9K(Middle Class)",
+      "taste": "Breakfast foods",
+      "health": "Lactose intolerant",
+      "dietary_restriction": "Low sodium",
+      "personality": "Vibrant"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:49:02.040488",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_f9f28982",
+    "name": "Customer_2059",
+    "decision": "A",
+    "reason": "Considering all factors, I choose Restaurant A. Although both restaurants share the same menu items, neither specifically offers typical breakfast foods, which is a preference of mine. However, Restaurant A has an overall rating of 4.0 stars based on multiple recent reviews (some 5-star), indicating consistent quality and customer satisfaction, whereas Restaurant B has no official overall rating (0.0 stars) despite having some mixed reviews. The reviews for Restaurant A highlight a family-run, vibrant atmosphere with friendly staff, affordable prices, and well-prepared food, which aligns well with my vibrant personality and middle-class budget. Additionally, Restaurant A appears to be more reliable with a variety of positive feedback, while Restaurant B shows mixed experiences with some complaints about food quality and service. Although the menu items are not ideal for lactose intolerance and low sodium needs, Restaurant A\u2019s variety (including salads and vegetable stir fry) might allow me to select dishes accommodating my dietary restrictions better than Restaurant B, which has less consistent quality. Therefore, Restaurant A is the better choice given its stronger reputation, trustworthy positive reviews, and alignment with my budget and personality."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:02.040497",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_f9f28982",
+    "name": "Customer_2059",
+    "restaurant_id": "A",
+    "item": "Club Sandwich",
+    "price": 11
+  },
+  {
+    "timestamp": "2025-06-03T20:49:06.033628",
+    "type": "review",
+    "review_id": "rev_8e4460e6",
+    "customer_id": "cust_f9f28982",
+    "restaurant_id": "A",
+    "stars": 3.0,
+    "text": "I enjoyed the Club Sandwich overall, but it wasn't the best fit for my lactose intolerance and low sodium needs. The flavors were vibrant, but I wished it had fewer dairy ingredients and less salt to better suit my diet.",
+    "item": "Club Sandwich",
+    "reason": "The sandwich contained cheese and a higher sodium content, which didn't align well with my lactose intolerance and preference for low sodium foods, even though I love breakfast-style flavors."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:06.033652",
+    "type": "customer_arrival",
+    "customer_id": "cust_9b53bd3b",
+    "name": "Customer_4887",
+    "details": {
+      "income": "$6K-7.9K(Poor)",
+      "taste": "Gourmet dishes",
+      "health": "Lactose intolerant",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Thoughtful"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:49:13.920522",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_9b53bd3b",
+    "name": "Customer_4887",
+    "decision": "A",
+    "reason": "Considering my profile as a thoughtful customer with a poor budget ($6K-7.9K), preference for gourmet dishes, and lactose intolerance, I evaluated both restaurants carefully. Both restaurants offer the same menu items, including gourmet options like mushroom risotto, grilled salmon, and sushi platter, which align with my food preferences. However, I need to avoid dairy-containing dishes such as cheesecake, ice cream sundae, and chocolate cake, so I would selectively order dairy-free options from either menu.\n\nRestaurant A has a solid overall rating of 3.5 stars based on 2 reviews, while Restaurant B has no official star rating despite having several reviews with mixed ratings (from 2 to 5 stars). The reviews for Restaurant A are very positive, highlighting the quality and seasoning of their BBQ and other dishes, with multiple 5-star ratings praising both food and customer service. The reviews appear trustworthy, recent, and consistent, showing a family-run business that values customer experience.\n\nRestaurant B shows a wider range of review scores, including some lower ratings pointing out issues with food temperature and blandness, which raises some concerns about consistency and quality. Also, Restaurant B has no overall rating yet, likely due to fewer or less reliable aggregated reviews.\n\nGiven my budget constraints and the importance of both quality and reliability for gourmet, dairy-free meals, Restaurant A seems the safer and more thoughtful choice. It offers affordable pricing mentioned explicitly in the reviews, good customer interaction, and trustworthy positive feedback. Therefore, I would choose Restaurant A."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:13.920530",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_9b53bd3b",
+    "name": "Customer_4887",
+    "restaurant_id": "A",
+    "item": "Pizza",
+    "price": 12
+  },
+  {
+    "timestamp": "2025-06-03T20:49:17.192908",
+    "type": "review",
+    "review_id": "rev_f44c4c46",
+    "customer_id": "cust_9b53bd3b",
+    "restaurant_id": "A",
+    "stars": 4.0,
+    "text": "I enjoyed the gourmet pizza\u2019s inventive toppings and fresh ingredients, which really satisfied my taste for elevated dishes. Being lactose intolerant, I appreciated the dairy-free crust option that let me indulge without worries. It wasn\u2019t perfect but definitely thoughtful.",
+    "item": "Pizza",
+    "reason": "The pizza matched my preference for gourmet food and accommodated my dairy-free diet well, though I wished for a bit more variety in dairy-free cheeses."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:17.192932",
+    "type": "customer_arrival",
+    "customer_id": "cust_33221b7b",
+    "name": "Customer_5133",
+    "details": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Plant-based meals",
+      "health": "Overweight",
+      "dietary_restriction": "Low sugar",
+      "personality": "Bold"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:49:22.877902",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_33221b7b",
+    "name": "Customer_5133",
+    "decision": "A",
+    "reason": "As an affluent customer with a budget of $12K-$14.8K who prefers plant-based meals and needs to maintain a low sugar diet due to being overweight, Restaurant A is the better choice. Both restaurants have identical menus, including plant-based options like salad, vegetable stir fry, mushroom risotto, and vegetable curry that fit my dietary preferences. However, Restaurant A has a clearly established overall rating of 3.7 stars from multiple recent reviews, whereas Restaurant B has a 0.0 star rating with no official aggregated score, despite having some reviews, which reduces its reliability. The reviews for Restaurant A are overwhelmingly positive, praising the quality of food and service, showing a trustworthy and consistent customer satisfaction. Although the menu is similar and includes items that may not fully align with my health needs, the presence of plant-based and presumably low-sugar options makes it suitable. Restaurant A also appears to be affordable and family-run, which suggests a welcoming and quality-focused environment. Restaurant B's mixed reviews and lack of an official rating, combined with some negative feedback about food temperature and blandness, make it less appealing. Considering all factors\u2014ratings, reviews, menu suitability, and trustworthiness\u2014Restaurant A aligns better with my bold personality and dietary needs."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:22.877909",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_33221b7b",
+    "name": "Customer_5133",
+    "restaurant_id": "A",
+    "item": "Pizza",
+    "price": 12
+  },
+  {
+    "timestamp": "2025-06-03T20:49:27.027485",
+    "type": "review",
+    "review_id": "rev_bc6defdc",
+    "customer_id": "cust_33221b7b",
+    "restaurant_id": "A",
+    "stars": 3.0,
+    "text": "I appreciated that the pizza had a decent plant-based option, but it was a bit heavy and didn\u2019t quite meet my low-sugar needs. It was tasty but not as healthy as I would have liked given my diet and health goals.",
+    "item": "Pizza",
+    "reason": "The pizza included plant-based ingredients which I like, but it was not tailored for low sugar or lighter portions, which is important for my overweight condition and dietary preferences."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:27.027509",
+    "type": "customer_arrival",
+    "customer_id": "cust_1ef1b1f0",
+    "name": "Customer_2198",
+    "details": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Seafood",
+      "health": "Lactose intolerant",
+      "dietary_restriction": "Low cholesterol",
+      "personality": "Explorer"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:49:32.468447",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_1ef1b1f0",
+    "name": "Customer_2198",
+    "decision": "A",
+    "reason": "As an affluent customer with a budget of $12K-14.8K and a preference for seafood while being lactose intolerant with a low cholesterol diet, I carefully evaluated both restaurants. Both Restaurant A and B share identical menus that include seafood options like Sushi Platter and Grilled Salmon, which suit my food preferences and dietary restrictions. However, Restaurant A has an overall rating of 3.5 stars based on 4 reviews, while Restaurant B has no official rating despite having some reviews with mixed sentiments. The reviews for Restaurant A are consistently positive, emphasizing quality, affordability, and family-friendly service, which aligns well with my explorer personality seeking reliable and enjoyable culinary experiences. Although Restaurant B has some positive reviews, it also has notably negative feedback regarding food temperature and quality, which raises concerns about consistency and trustworthiness. Given the importance of trustworthy reviews, a stable rating, and a menu that fits my dietary needs, I choose Restaurant A for a more dependable and satisfying dining experience."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:32.468454",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_1ef1b1f0",
+    "name": "Customer_2198",
+    "restaurant_id": "A",
+    "item": "Onion Rings",
+    "price": 6
+  },
+  {
+    "timestamp": "2025-06-03T20:49:35.441425",
+    "type": "review",
+    "review_id": "rev_178fab66",
+    "customer_id": "cust_1ef1b1f0",
+    "restaurant_id": "A",
+    "stars": 2.0,
+    "text": "I was excited to try the onion rings, but as someone who loves seafood, they felt a bit off my usual preference. Also, they didn\u2019t fully meet my lactose intolerance needs since I wasn\u2019t sure about the batter ingredients.",
+    "item": "Onion Rings",
+    "reason": "While I enjoy seafood, the onion rings were my order and they didn\u2019t align well with my preference for seafood dishes or my lactose intolerance, making it less suitable for my diet."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:35.441798",
+    "type": "customer_arrival",
+    "customer_id": "cust_918b7a2f",
+    "name": "Customer_1682",
+    "details": {
+      "income": "$5K-5.8K(Very Poor)",
+      "taste": "Vegan options",
+      "health": "Overweight",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Artistic"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:49:40.239499",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_918b7a2f",
+    "name": "Customer_1682",
+    "decision": "A",
+    "reason": "As Customer_1682, with a very limited budget ($5K-5.8K, considered very poor) and dietary restrictions favoring vegan and dairy-free options due to being overweight, I need to carefully consider menu availability, health needs, and affordability. Both restaurants offer the same menu items, but neither explicitly lists vegan or dairy-free options, which is a drawback. However, Restaurant A has an overall rating of 3.2 stars based on 5 reviews, whereas Restaurant B has 0.0 stars with no ratings yet, making A the more trustworthy and reliable choice. The reviews for Restaurant A are uniformly positive, highlighting affordable, family-run, and well-prepared food with attentive service. Although their menu is BBQ-centric and heavy on meat, they do have some vegetable-based items like salads, vegetable stir fry, mushroom risotto, and vegetable curry, which could potentially be adapted to fit vegan, dairy-free needs. Given the limited budget, Restaurant A is described as affordable with fast food pricing, which aligns better with my financial constraints. Restaurant B, despite some positive reviews about BBQ quality, has mixed feedback and no overall rating, making it a riskier choice. Taking into account the lack of explicit vegan options, affordability, and overall reliability, Restaurant A is the safer and more practical choice."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:40.239507",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_918b7a2f",
+    "name": "Customer_1682",
+    "restaurant_id": "A",
+    "item": "Club Sandwich",
+    "price": 11
+  },
+  {
+    "timestamp": "2025-06-03T20:49:43.904677",
+    "type": "review",
+    "review_id": "rev_89b85730",
+    "customer_id": "cust_918b7a2f",
+    "restaurant_id": "A",
+    "stars": 2.0,
+    "text": "I was hoping for a tasty vegan club sandwich that fits my dairy-free needs, but this one fell short. It wasn\u2019t fully vegan and had some dairy ingredients, which didn\u2019t sit well with my diet. The flavor was okay, but not ideal for me.",
+    "item": "Club Sandwich",
+    "reason": "The club sandwich did not meet my vegan and dairy-free preferences, which is crucial for my health and taste, leading to a low rating despite some decent flavors."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:43.904701",
+    "type": "customer_arrival",
+    "customer_id": "cust_cfa37cf3",
+    "name": "Customer_8415",
+    "details": {
+      "income": "$8K-11.9K(Middle Class)",
+      "taste": "French cuisine",
+      "health": "Gluten sensitivity",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Gentle"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:49:50.428879",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_cfa37cf3",
+    "name": "Customer_8415",
+    "decision": "B",
+    "reason": "As Customer_8415, with a middle-class budget ($8K-11.9K) and a gentle personality prioritizing French cuisine and gluten sensitivity with dairy-free needs, neither restaurant explicitly offers French cuisine or clearly labeled gluten-free and dairy-free options. However, both restaurants have the same menu items, none of which directly align with French cuisine or explicitly accommodate gluten sensitivity or dairy-free diets. \n\nConsidering overall ratings and reviews, Restaurant A has a 3.0-star rating from 6 reviews, all generally positive but mostly focused on BBQ items, which might not suit my dietary restrictions. Restaurant B has no overall rating yet but includes several 5-star reviews praising the BBQ quality and customer service, alongside some mixed reviews indicating inconsistency. The presence of more diverse reviews (including critical ones) for Restaurant B suggests a more trustworthy and transparent rating environment. \n\nGiven the limited menu options and lack of specific accommodations, I would prioritize the restaurant that seems to be more customer-oriented and willing to improve, which is Restaurant B. The positive reviews about the quality of food and customer service, combined with the potential for customization (e.g., sauces on the side), make Restaurant B a better choice despite the lack of direct French cuisine or clear gluten-free/dairy-free options. \n\nTherefore, I choose Restaurant B, hoping for better customer interaction and possibly better accommodation of my dietary restrictions upon request."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:50.428886",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_cfa37cf3",
+    "name": "Customer_8415",
+    "restaurant_id": "B",
+    "item": "Salad",
+    "price": 8
+  },
+  {
+    "timestamp": "2025-06-03T20:49:54.611900",
+    "type": "review",
+    "review_id": "rev_7dcd8454",
+    "customer_id": "cust_cfa37cf3",
+    "restaurant_id": "B",
+    "stars": 4.0,
+    "text": "I enjoyed the French-inspired salad, which was fresh and flavorful while fitting my gluten-free and dairy-free needs. It was a thoughtful dish, though I wished for a bit more variety in the vegetables to make it even more satisfying.",
+    "item": "Salad",
+    "reason": "The salad aligned well with my gluten sensitivity and dairy-free diet, and it reflected French cuisine flavors, but it lacked some complexity I hoped for."
+  },
+  {
+    "timestamp": "2025-06-03T20:49:54.611925",
+    "type": "customer_arrival",
+    "customer_id": "cust_a0fd8bb5",
+    "name": "Customer_6587",
+    "details": {
+      "income": "$8K-11.9K(Middle Class)",
+      "taste": "Chinese cuisine",
+      "health": "Overweight",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Resourceful"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:50:01.832539",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_a0fd8bb5",
+    "name": "Customer_6587",
+    "decision": "B",
+    "reason": "Given my profile as a middle-class customer with a budget of $8K-11.9K, a preference for Chinese cuisine, and a dairy-free dietary restriction due to being overweight, Restaurant B is the better choice. Although both restaurants have very similar menus and offer items like vegetable stir fry and ramen that align with my Chinese cuisine preference, Restaurant B has a higher overall rating (4.0 stars) compared to Restaurant A (3.0 stars), despite having fewer reviews. The reviews for Restaurant B, while mixed, include strong positive feedback praising the quality and customer service, indicating a willingness to improve and cater to dietary needs, as seen with the French-inspired dairy-free salad. Restaurant A's reviews are overwhelmingly positive but mainly focus on BBQ items and do not emphasize options compatible with my dairy-free requirement or Chinese cuisine preference. Additionally, Restaurant B\u2019s sample reviews include a thoughtful mention of accommodating dietary restrictions, which is important for my health needs. The price range suitability is implied to be similar, but Restaurant B\u2019s higher rating and consideration for dietary needs make it a more resourceful and suitable choice for me."
+  },
+  {
+    "timestamp": "2025-06-03T20:50:01.832547",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_a0fd8bb5",
+    "name": "Customer_6587",
+    "restaurant_id": "B",
+    "item": "Cheesecake",
+    "price": 7
+  },
+  {
+    "timestamp": "2025-06-03T20:50:05.871157",
+    "type": "review",
+    "review_id": "rev_9a8b82c7",
+    "customer_id": "cust_a0fd8bb5",
+    "restaurant_id": "B",
+    "stars": 2.0,
+    "text": "I was really hoping for a tasty Chinese dish, but I ended up ordering cheesecake, which didn\u2019t suit my dairy-free diet at all. It was rich, but honestly not the best choice for my health goals or taste preferences.",
+    "item": "Cheesecake",
+    "reason": "As someone who loves Chinese cuisine and avoids dairy due to health reasons, the cheesecake didn\u2019t align with my dietary needs or flavor preferences, leading to a low rating."
+  },
+  {
+    "timestamp": "2025-06-03T20:50:05.871181",
+    "type": "customer_arrival",
+    "customer_id": "cust_2f0b6972",
+    "name": "Customer_6704",
+    "details": {
+      "income": "$6K-7.9K(Poor)",
+      "taste": "Desserts",
+      "health": "High cholesterol",
+      "dietary_restriction": "Gluten-free",
+      "personality": "Gentle"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:50:10.508502",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_2f0b6972",
+    "name": "Customer_6704",
+    "decision": "A",
+    "reason": "Both Restaurant A and B have the same overall rating of 3.0 stars, but Restaurant A has significantly more reviews (6 vs 2), which makes its rating more reliable. As a customer with a poor budget ($6K-$7.9K), affordability is important; Restaurant A is described as affordable BBQ with fast food prices, which fits well within a limited budget. Regarding food preferences, I favor desserts and both restaurants offer desserts like cheesecake, ice cream sundae, and chocolate cake, so they are comparable in that regard. However, health-wise, I have high cholesterol and require gluten-free options. Both menus are identical, including salads and vegetable dishes that could be suitable gluten-free choices. Yet, Restaurant A reviews emphasize fresh, daily prepared food and friendly, family-run service, suggesting a more caring environment, which aligns well with my gentle personality. Restaurant B\u2019s reviews are mixed with some low ratings mentioning bland or poorly prepared items, and one review notes that cheesecake was not good for a dairy-free diet (though I am gluten-free, not dairy-free). Overall, Restaurant A offers a better balance of trustworthy reviews, affordable prices, suitable menu items, and a warm atmosphere, making it the better choice for me."
+  },
+  {
+    "timestamp": "2025-06-03T20:50:10.508510",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_2f0b6972",
+    "name": "Customer_6704",
+    "restaurant_id": "A",
+    "item": "Pasta",
+    "price": 11
+  },
+  {
+    "timestamp": "2025-06-03T20:50:13.548248",
+    "type": "review",
+    "review_id": "rev_6502544d",
+    "customer_id": "cust_2f0b6972",
+    "restaurant_id": "A",
+    "stars": 2.0,
+    "text": "I was hoping for a delightful dessert experience, but the pasta I ordered didn\u2019t quite satisfy my sweet tooth. Although it was gluten-free, it didn\u2019t align well with my preference for desserts and my high cholesterol needs.",
+    "item": "Pasta",
+    "reason": "The pasta was gluten-free, which suits my diet, but it lacked the dessert qualities I enjoy and didn't feel ideal given my high cholesterol concerns."
+  },
+  {
+    "timestamp": "2025-06-03T20:50:13.548273",
+    "type": "customer_arrival",
+    "customer_id": "cust_8692e2e2",
+    "name": "Customer_3687",
+    "details": {
+      "income": "$6K-7.9K(Poor)",
+      "taste": "Mexican food",
+      "health": "Vegan",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Easy-going"
+    }
+  },
+  {
+    "timestamp": "2025-06-03T20:50:20.236778",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_8692e2e2",
+    "name": "Customer_3687",
+    "decision": "B",
+    "reason": "As a customer with a budget of $6K-7.9K (poor), vegan (dairy-free) dietary restrictions, and a preference for Mexican food, I carefully considered both restaurants. Both A and B have very similar menus, including tacos which align with Mexican cuisine, but neither explicitly lists vegan-specific Mexican dishes. However, neither menu clearly states ingredients or vegan options, so I rely heavily on reviews and ratings. Restaurant A has a lower overall rating (2.9 stars from 7 reviews) with uniformly positive reviews that focus mainly on BBQ items (pork, chicken, pulled pork) which are not suitable for my vegan diet. None mention vegan or dairy-free options, and their emphasis on BBQ suggests limited vegan offerings. Restaurant B has a slightly higher rating (3.0 stars from 2 reviews) with more mixed reviews, including some mentioning dairy-containing items like cheesecake (not suitable for me), but also a positive note on a French-inspired salad that was dairy-free and gluten-free, indicating some awareness of dietary restrictions. Additionally, one review praises the catering from JoJo's (same as in A?), but also mixed feedback on hot dogs and chicken, showing a range of experiences. Both places seem affordable, which fits my budget. Considering my vegan dairy-free diet and Mexican preference, neither is ideal, but Restaurant B\u2019s mention of a dairy-free salad suggests a better likelihood of accommodating my needs. The overall rating is slightly better, and the reviews are more diverse and recent. Therefore, I choose Restaurant B for a better chance at suitable vegan Mexican options and slightly higher rating."
+  },
+  {
+    "timestamp": "2025-06-03T20:50:20.236785",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_8692e2e2",
+    "name": "Customer_3687",
+    "restaurant_id": "B",
+    "item": "Ramen",
+    "price": 14
+  },
+  {
+    "timestamp": "2025-06-03T20:50:25.664141",
+    "type": "review",
+    "review_id": "rev_f10abb40",
+    "customer_id": "cust_8692e2e2",
+    "restaurant_id": "B",
+    "stars": 2.0,
+    "text": "I tried the ramen here hoping it would fit my vegan and dairy-free diet, but it leaned more towards traditional flavors and ingredients that didn\u2019t quite match my Mexican food cravings or dietary needs. Still, it was tasty in its own right.",
+    "item": "Ramen",
+    "reason": "The ramen wasn\u2019t vegan or dairy-free, which didn\u2019t suit my dietary restrictions, and it lacked the Mexican flavors I enjoy, so it didn\u2019t fully meet my taste or health preferences."
+  }
+]

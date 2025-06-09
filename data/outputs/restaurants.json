@@ -1,0 +1,102 @@
+{
+  "A": {
+    "reviews": [
+      {
+        "review_id": "rev_bbc754c9",
+        "user_id": "cust_d615bf3b",
+        "business_id": "A",
+        "stars": 4.0,
+        "text": "I enjoyed the Fish and Chips as a satisfying comfort food with a crispy batter that hit the spot. It was a bit challenging to confirm low sugar content, but overall it felt like a hearty, adventurous choice that respected my dietary needs.",
+        "date": "2025-06-03 20:48:56",
+        "ordered_item": "Fish and Chips"
+      },
+      {
+        "review_id": "rev_8e4460e6",
+        "user_id": "cust_f9f28982",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I enjoyed the Club Sandwich overall, but it wasn't the best fit for my lactose intolerance and low sodium needs. The flavors were vibrant, but I wished it had fewer dairy ingredients and less salt to better suit my diet.",
+        "date": "2025-06-03 20:49:06",
+        "ordered_item": "Club Sandwich"
+      },
+      {
+        "review_id": "rev_f44c4c46",
+        "user_id": "cust_9b53bd3b",
+        "business_id": "A",
+        "stars": 4.0,
+        "text": "I enjoyed the gourmet pizza\u2019s inventive toppings and fresh ingredients, which really satisfied my taste for elevated dishes. Being lactose intolerant, I appreciated the dairy-free crust option that let me indulge without worries. It wasn\u2019t perfect but definitely thoughtful.",
+        "date": "2025-06-03 20:49:17",
+        "ordered_item": "Pizza"
+      },
+      {
+        "review_id": "rev_bc6defdc",
+        "user_id": "cust_33221b7b",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I appreciated that the pizza had a decent plant-based option, but it was a bit heavy and didn\u2019t quite meet my low-sugar needs. It was tasty but not as healthy as I would have liked given my diet and health goals.",
+        "date": "2025-06-03 20:49:27",
+        "ordered_item": "Pizza"
+      },
+      {
+        "review_id": "rev_178fab66",
+        "user_id": "cust_1ef1b1f0",
+        "business_id": "A",
+        "stars": 2.0,
+        "text": "I was excited to try the onion rings, but as someone who loves seafood, they felt a bit off my usual preference. Also, they didn\u2019t fully meet my lactose intolerance needs since I wasn\u2019t sure about the batter ingredients.",
+        "date": "2025-06-03 20:49:35",
+        "ordered_item": "Onion Rings"
+      },
+      {
+        "review_id": "rev_89b85730",
+        "user_id": "cust_918b7a2f",
+        "business_id": "A",
+        "stars": 2.0,
+        "text": "I was hoping for a tasty vegan club sandwich that fits my dairy-free needs, but this one fell short. It wasn\u2019t fully vegan and had some dairy ingredients, which didn\u2019t sit well with my diet. The flavor was okay, but not ideal for me.",
+        "date": "2025-06-03 20:49:43",
+        "ordered_item": "Club Sandwich"
+      },
+      {
+        "review_id": "rev_6502544d",
+        "user_id": "cust_2f0b6972",
+        "business_id": "A",
+        "stars": 2.0,
+        "text": "I was hoping for a delightful dessert experience, but the pasta I ordered didn\u2019t quite satisfy my sweet tooth. Although it was gluten-free, it didn\u2019t align well with my preference for desserts and my high cholesterol needs.",
+        "date": "2025-06-03 20:50:13",
+        "ordered_item": "Pasta"
+      }
+    ],
+    "revenue": 77
+  },
+  "B": {
+    "reviews": [
+      {
+        "review_id": "rev_7dcd8454",
+        "user_id": "cust_cfa37cf3",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the French-inspired salad, which was fresh and flavorful while fitting my gluten-free and dairy-free needs. It was a thoughtful dish, though I wished for a bit more variety in the vegetables to make it even more satisfying.",
+        "date": "2025-06-03 20:49:54",
+        "ordered_item": "Salad"
+      },
+      {
+        "review_id": "rev_9a8b82c7",
+        "user_id": "cust_a0fd8bb5",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I was really hoping for a tasty Chinese dish, but I ended up ordering cheesecake, which didn\u2019t suit my dairy-free diet at all. It was rich, but honestly not the best choice for my health goals or taste preferences.",
+        "date": "2025-06-03 20:50:05",
+        "ordered_item": "Cheesecake"
+      },
+      {
+        "review_id": "rev_f10abb40",
+        "user_id": "cust_8692e2e2",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I tried the ramen here hoping it would fit my vegan and dairy-free diet, but it leaned more towards traditional flavors and ingredients that didn\u2019t quite match my Mexican food cravings or dietary needs. Still, it was tasty in its own right.",
+        "date": "2025-06-03 20:50:25",
+        "ordered_item": "Ramen"
+      }
+    ],
+    "revenue": 29
+  }
+}
