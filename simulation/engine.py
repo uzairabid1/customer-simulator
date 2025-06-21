@@ -173,10 +173,10 @@ class RestaurantSimulation:
                     b_reviews_shown,
                     self.restaurant_a.menu,
                     self.restaurant_b.menu,
-                    a_rating,
-                    a_count,
-                    b_rating,
-                    b_count
+                    self.restaurant_a.get_overall_rating(),
+                    self.restaurant_a.get_review_count(),
+                    self.restaurant_b.get_overall_rating(),
+                    self.restaurant_b.get_review_count()
                 )
 
                 self.logger.log_decision_details(

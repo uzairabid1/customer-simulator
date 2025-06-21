@@ -63,7 +63,8 @@ class SimulationLogger:
             "stars": review["stars"],
             "text": review["text"],
             "item": review["ordered_item"],
-            "reason": reason
+            "reason": reason,
+            "expectation_level": "high" if review["business_id"] == "A" else "normal"
         })
     
     def save_logs(self):

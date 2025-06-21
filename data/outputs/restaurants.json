@@ -2,101 +2,902 @@
   "A": {
     "reviews": [
       {
-        "review_id": "rev_bbc754c9",
-        "user_id": "cust_d615bf3b",
+        "review_id": "rev_9c8aa76d",
+        "user_id": "cust_d86f79ac",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I enjoyed the Ice Cream Sundae, but as someone who usually prefers sandwiches and salads, it felt a bit indulgent, especially with my gluten sensitivity and low cholesterol needs. The portion was generous, though I wish there were gluten-free options.",
+        "date": "2025-06-18 18:31:29",
+        "ordered_item": "Ice Cream Sundae"
+      },
+      {
+        "review_id": "rev_4640ca75",
+        "user_id": "cust_974aa3f6",
         "business_id": "A",
         "stars": 4.0,
-        "text": "I enjoyed the Fish and Chips as a satisfying comfort food with a crispy batter that hit the spot. It was a bit challenging to confirm low sugar content, but overall it felt like a hearty, adventurous choice that respected my dietary needs.",
-        "date": "2025-06-03 20:48:56",
+        "text": "I really enjoyed the ramen here; it captured the comforting essence of traditional Japanese cuisine I love. Though slightly saltier than I prefer given my high blood pressure, the rich broth and tender noodles made it a satisfying meal overall.",
+        "date": "2025-06-18 18:31:56",
+        "ordered_item": "Ramen"
+      },
+      {
+        "review_id": "rev_2a5b6279",
+        "user_id": "cust_86b259b3",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I appreciate the simplicity of the chicken wings, which suits my preference for straightforward dishes. However, being dairy-free and overweight, I found the wings a bit greasy and lacking healthier preparation options, especially from a top-rated place like this.",
+        "date": "2025-06-18 18:32:05",
+        "ordered_item": "Chicken Wings"
+      },
+      {
+        "review_id": "rev_c603bb4b",
+        "user_id": "cust_7688e581",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I enjoyed the smoky flavor of the grilled tacos, which really hit the spot for my taste. However, the preparation didn\u2019t fully align with my gluten-free and dairy-free needs, which was a bit disappointing given the restaurant\u2019s reputation.",
+        "date": "2025-06-18 18:36:34",
+        "ordered_item": "Tacos"
+      },
+      {
+        "review_id": "rev_a4f2f288",
+        "user_id": "cust_85ea5f31",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I appreciate the prompt service and the pasta was adequately prepared, but it didn\u2019t quite satisfy my preference for fast food simplicity. The dish was a bit too elaborate and lacked the quick, flavorful punch I typically enjoy.",
+        "date": "2025-06-18 18:36:42",
+        "ordered_item": "Pasta"
+      },
+      {
+        "review_id": "rev_effbc6f8",
+        "user_id": "cust_6f53015a",
+        "business_id": "A",
+        "stars": 4.0,
+        "text": "I enjoyed the Vegetable Stir Fry as a fresh take on local comfort food, with vibrant veggies and a clean gluten-free preparation. However, given restaurant A's reputation, I expected bolder flavors and a bit more creativity to elevate this dish.",
+        "date": "2025-06-18 18:38:19",
+        "ordered_item": "Vegetable Stir Fry"
+      },
+      {
+        "review_id": "rev_d187a5ba",
+        "user_id": "cust_df90bbb6",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I love home-cooked flavors, and while the chocolate cake was rich and moist, it felt a bit too sweet for my low-sugar preference. For a top-rated spot, I expected a more balanced dessert that suits a health-conscious palate.",
+        "date": "2025-06-18 18:38:39",
+        "ordered_item": "Chocolate Cake"
+      },
+      {
+        "review_id": "rev_fbc2db16",
+        "user_id": "cust_2e915157",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I enjoyed the Margherita Pizza as a comforting local dish, but it was a bit saltier than I prefer given my low sodium needs. The flavors were fresh, yet I expected a bit more subtlety from a highly rated spot like this.",
+        "date": "2025-06-18 18:42:19",
+        "ordered_item": "Margherita Pizza"
+      },
+      {
+        "review_id": "rev_6e084b37",
+        "user_id": "cust_1fbd8401",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I expected a bit more from a top-rated spot like this. The Fish and Chips were tasty but felt too greasy for my low-fat needs. I prefer barbecue flavors, so this was a bit bland for my ambitious palate.",
+        "date": "2025-06-18 18:42:47",
         "ordered_item": "Fish and Chips"
       },
       {
-        "review_id": "rev_8e4460e6",
-        "user_id": "cust_f9f28982",
+        "review_id": "rev_75d8b7f3",
+        "user_id": "cust_a7fa13a1",
         "business_id": "A",
         "stars": 3.0,
-        "text": "I enjoyed the Club Sandwich overall, but it wasn't the best fit for my lactose intolerance and low sodium needs. The flavors were vibrant, but I wished it had fewer dairy ingredients and less salt to better suit my diet.",
-        "date": "2025-06-03 20:49:06",
-        "ordered_item": "Club Sandwich"
+        "text": "I appreciate the effort to offer a comforting ramen that suits my low-sugar needs, but the broth was a bit too salty and rich for my diabetic diet. It\u2019s tasty but could be better balanced to meet my health goals.",
+        "date": "2025-06-18 18:43:50",
+        "ordered_item": "Ramen"
       },
       {
-        "review_id": "rev_f44c4c46",
-        "user_id": "cust_9b53bd3b",
-        "business_id": "A",
-        "stars": 4.0,
-        "text": "I enjoyed the gourmet pizza\u2019s inventive toppings and fresh ingredients, which really satisfied my taste for elevated dishes. Being lactose intolerant, I appreciated the dairy-free crust option that let me indulge without worries. It wasn\u2019t perfect but definitely thoughtful.",
-        "date": "2025-06-03 20:49:17",
-        "ordered_item": "Pizza"
-      },
-      {
-        "review_id": "rev_bc6defdc",
-        "user_id": "cust_33221b7b",
+        "review_id": "rev_bac1fc7b",
+        "user_id": "cust_60b30f61",
         "business_id": "A",
         "stars": 3.0,
-        "text": "I appreciated that the pizza had a decent plant-based option, but it was a bit heavy and didn\u2019t quite meet my low-sugar needs. It was tasty but not as healthy as I would have liked given my diet and health goals.",
-        "date": "2025-06-03 20:49:27",
-        "ordered_item": "Pizza"
+        "text": "I enjoyed the Ice Cream Sundae as a sweet treat, but it didn\u2019t fully meet my gluten-free needs or fast food cravings. The taste was good, yet I expected a bit more indulgence from a top-rated spot like this.",
+        "date": "2025-06-18 18:45:08",
+        "ordered_item": "Ice Cream Sundae"
       },
       {
-        "review_id": "rev_178fab66",
-        "user_id": "cust_1ef1b1f0",
+        "review_id": "rev_c96b0a10",
+        "user_id": "cust_eed7e06e",
         "business_id": "A",
-        "stars": 2.0,
-        "text": "I was excited to try the onion rings, but as someone who loves seafood, they felt a bit off my usual preference. Also, they didn\u2019t fully meet my lactose intolerance needs since I wasn\u2019t sure about the batter ingredients.",
-        "date": "2025-06-03 20:49:35",
-        "ordered_item": "Onion Rings"
+        "stars": 3.0,
+        "text": "I appreciate the fresh ingredients in the Caesar Salad, but it felt a bit heavy for my lactose intolerance and didn\u2019t quite match my craving for zestier street food flavors. Expecting a bit more creativity from top-rated Restaurant A.",
+        "date": "2025-06-18 18:45:36",
+        "ordered_item": "Caesar Salad"
       },
       {
-        "review_id": "rev_89b85730",
-        "user_id": "cust_918b7a2f",
+        "review_id": "rev_71d6a81a",
+        "user_id": "cust_284e3478",
         "business_id": "A",
-        "stars": 2.0,
-        "text": "I was hoping for a tasty vegan club sandwich that fits my dairy-free needs, but this one fell short. It wasn\u2019t fully vegan and had some dairy ingredients, which didn\u2019t sit well with my diet. The flavor was okay, but not ideal for me.",
-        "date": "2025-06-03 20:49:43",
-        "ordered_item": "Club Sandwich"
+        "stars": 3.0,
+        "text": "I enjoyed the cheesecake\u2019s rich flavor, which satisfied my meat-lover cravings in a sweet way. However, for a top-rated spot, it was a bit too sugary for my low-sugar needs and didn\u2019t fully meet my expectations.",
+        "date": "2025-06-18 18:45:54",
+        "ordered_item": "Cheesecake"
       },
       {
-        "review_id": "rev_6502544d",
-        "user_id": "cust_2f0b6972",
+        "review_id": "rev_1a2e8468",
+        "user_id": "cust_1c9a6051",
         "business_id": "A",
-        "stars": 2.0,
-        "text": "I was hoping for a delightful dessert experience, but the pasta I ordered didn\u2019t quite satisfy my sweet tooth. Although it was gluten-free, it didn\u2019t align well with my preference for desserts and my high cholesterol needs.",
-        "date": "2025-06-03 20:50:13",
-        "ordered_item": "Pasta"
+        "stars": 3.0,
+        "text": "I enjoy street food, and the Fish and Chips here had a decent crunch and flavor. However, given the high reputation of Restaurant A, I expected a bit more originality and less grease. It fits my low cholesterol diet moderately well but could be lighter.",
+        "date": "2025-06-18 18:46:20",
+        "ordered_item": "Fish and Chips"
       }
     ],
-    "revenue": 77
+    "revenue": 150
   },
   "B": {
     "reviews": [
       {
-        "review_id": "rev_7dcd8454",
-        "user_id": "cust_cfa37cf3",
+        "review_id": "rev_ba892104",
+        "user_id": "cust_2e011408",
         "business_id": "B",
-        "stars": 4.0,
-        "text": "I enjoyed the French-inspired salad, which was fresh and flavorful while fitting my gluten-free and dairy-free needs. It was a thoughtful dish, though I wished for a bit more variety in the vegetables to make it even more satisfying.",
-        "date": "2025-06-03 20:49:54",
-        "ordered_item": "Salad"
+        "stars": 3.0,
+        "text": "I enjoyed the steak's flavor, though it didn\u2019t quite satisfy my craving for Chinese cuisine. As someone gluten-free and overweight, I appreciated the meal\u2019s simple seasoning but wished for more authentic Chinese options to better fit my taste and dietary needs.",
+        "date": "2025-06-18 18:31:20",
+        "ordered_item": "Steak"
       },
       {
-        "review_id": "rev_9a8b82c7",
-        "user_id": "cust_a0fd8bb5",
+        "review_id": "rev_19cd3cf8",
+        "user_id": "cust_1967cd36",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the effort, but the burger wasn\u2019t quite what I hoped for given my preference for salads and my diabetic, low cholesterol diet. It was tasty but a bit heavy and not the healthiest option for me.",
+        "date": "2025-06-18 18:31:38",
+        "ordered_item": "Burger"
+      },
+      {
+        "review_id": "rev_4085faed",
+        "user_id": "cust_6e4beb25",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the Margherita Pizza's fresh ingredients and vegan-friendly preparation, but it didn't quite satisfy my craving for soups or stews. It\u2019s a decent choice, though not my top pick given my usual preferences.",
+        "date": "2025-06-18 18:31:47",
+        "ordered_item": "Margherita Pizza"
+      },
+      {
+        "review_id": "rev_f1ca91c9",
+        "user_id": "cust_71405fb2",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the pasta here! The dish was gourmet and flavorful, and I appreciated that it was dairy-free to suit my dietary needs. It didn\u2019t overwhelm my high cholesterol concerns, making it a satisfying and thoughtful choice.",
+        "date": "2025-06-18 18:32:14",
+        "ordered_item": "Pasta"
+      },
+      {
+        "review_id": "rev_c4c7bd2b",
+        "user_id": "cust_4d395d7a",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated the Mushroom Risotto's rich Caribbean-inspired flavors and the careful gluten-free preparation. It suited my taste well, though I wished for a bit more spice to fully capture the island vibe. Overall, a satisfying and thoughtful dish.",
+        "date": "2025-06-18 18:32:21",
+        "ordered_item": "Mushroom Risotto"
+      },
+      {
+        "review_id": "rev_634d2976",
+        "user_id": "cust_487b7fca",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the vibrant flavors of the Vegetable Curry, but as someone who favors hearty steak and meat dishes, it felt a bit light for my taste. Still, it aligned well with my dairy-free, gluten-free needs.",
+        "date": "2025-06-18 18:32:31",
+        "ordered_item": "Vegetable Curry"
+      },
+      {
+        "review_id": "rev_f348c178",
+        "user_id": "cust_58a7ac14",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the pizza as it featured local flavors and avoided dairy, which suits my diabetic and dairy-free needs perfectly. The crust was satisfying, though a bit more spice would have elevated the comfort-food vibe for me.",
+        "date": "2025-06-18 18:32:43",
+        "ordered_item": "Pizza"
+      },
+      {
+        "review_id": "rev_5ba8e8d6",
+        "user_id": "cust_c92fa354",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the crispy onion rings, but as a steak lover and someone with lactose intolerance and low sodium needs, the dish felt a bit limited for my taste and dietary preferences.",
+        "date": "2025-06-18 18:32:55",
+        "ordered_item": "Onion Rings"
+      },
+      {
+        "review_id": "rev_63afd177",
+        "user_id": "cust_53cbbae2",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated that the French Fries stayed true to their traditional style, crisp and well-seasoned without any sugary coatings. Given my low sugar needs and allergy concerns, they were a safe and satisfying choice that aligned well with my preferences.",
+        "date": "2025-06-18 18:33:08",
+        "ordered_item": "French Fries"
+      },
+      {
+        "review_id": "rev_aff25aa1",
+        "user_id": "cust_c8e1970d",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the Club Sandwich from Restaurant B; it was satisfying and well-prepared, fitting nicely with my preference for hearty breakfast-style foods. While not a traditional breakfast item, it hit the spot without feeling too heavy.",
+        "date": "2025-06-18 18:33:17",
+        "ordered_item": "Club Sandwich"
+      },
+      {
+        "review_id": "rev_e24141b4",
+        "user_id": "cust_69a4f9ab",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the tasty chicken wings, but as someone who prefers healthy, low-cholesterol salads, this dish felt a bit indulgent. It\u2019s flavorful but not quite aligned with my usual diet.",
+        "date": "2025-06-18 18:33:25",
+        "ordered_item": "Chicken Wings"
+      },
+      {
+        "review_id": "rev_e167e0e1",
+        "user_id": "cust_df02b4a7",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the Vegetable Curry at Restaurant B. It was flavorful and aligned well with my preference for vegetarian, low-fat dishes. The portion was generous, though I wished it had a bit more spice to elevate the taste further.",
+        "date": "2025-06-18 18:33:34",
+        "ordered_item": "Vegetable Curry"
+      },
+      {
+        "review_id": "rev_fd37fd65",
+        "user_id": "cust_574201d9",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the chicken wings here! They had that great street food vibe I love, and the seasoning wasn\u2019t too heavy on sugar, which works well for my health needs. A tasty, satisfying choice for sure.",
+        "date": "2025-06-18 18:33:42",
+        "ordered_item": "Chicken Wings"
+      },
+      {
+        "review_id": "rev_c1534251",
+        "user_id": "cust_54c07c69",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the plant-based burger here! It was flavorful and fit perfectly with my vegan, low-sugar diet. A bit more sauce would have been nice, but overall a satisfying and healthy choice.",
+        "date": "2025-06-18 18:33:51",
+        "ordered_item": "Burger"
+      },
+      {
+        "review_id": "rev_46197846",
+        "user_id": "cust_9681f00a",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the Caribbean flair of the chicken wings, but as a vegan watching sodium, they were a bit salty for me. Still, the flavors were vibrant and satisfying overall.",
+        "date": "2025-06-18 18:33:59",
+        "ordered_item": "Chicken Wings"
+      },
+      {
+        "review_id": "rev_94480ebb",
+        "user_id": "cust_076051b7",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated the international flair of the steak dish and how the kitchen carefully avoided dairy, making it safe and flavorful for me. While I wished for a bit more seasoning variety, it was a satisfying and thoughtful meal.",
+        "date": "2025-06-18 18:34:07",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_7bcc2cc9",
+        "user_id": "cust_0deabdba",
         "business_id": "B",
         "stars": 2.0,
-        "text": "I was really hoping for a tasty Chinese dish, but I ended up ordering cheesecake, which didn\u2019t suit my dairy-free diet at all. It was rich, but honestly not the best choice for my health goals or taste preferences.",
-        "date": "2025-06-03 20:50:05",
+        "text": "I tried the steak even though I usually prefer vegan breakfast foods. It was well-cooked but didn\u2019t fit my low-cholesterol diet or adventurous breakfast cravings. Not the best match for me, but might suit others better.",
+        "date": "2025-06-18 18:34:17",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_1af582cc",
+        "user_id": "cust_26d86a08",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the crispy onion rings, but as someone who loves hearty meat dishes, it felt a bit lacking. Being vegan and gluten-free, I appreciated the option, though it didn\u2019t fully satisfy my usual cravings.",
+        "date": "2025-06-18 18:34:25",
+        "ordered_item": "Onion Rings"
+      },
+      {
+        "review_id": "rev_e8da6bdb",
+        "user_id": "cust_378533d7",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the Ice Cream Sundae here; it was a delightful treat with a fine dining touch. While it wasn't the healthiest option, the portion was reasonable and not overly sugary, which suited my low sugar preference fairly well.",
+        "date": "2025-06-18 18:34:37",
+        "ordered_item": "Ice Cream Sundae"
+      },
+      {
+        "review_id": "rev_eb36b7a3",
+        "user_id": "cust_dad6f893",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the French fries as a vegan and dairy-free option, but they weren't grilled, which I usually prefer. They were tasty and crispy, but I wished for a bit more flavor that matches my love for grilled dishes.",
+        "date": "2025-06-18 18:34:47",
+        "ordered_item": "French Fries"
+      },
+      {
+        "review_id": "rev_1e216d2c",
+        "user_id": "cust_fc6a3ba2",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the crispy French fries, but as someone who loves vegan options and watches cholesterol, I wished for a bit more variety or a healthier twist. Still, a decent snack that fits my energetic vibe!",
+        "date": "2025-06-18 18:34:54",
+        "ordered_item": "French Fries"
+      },
+      {
+        "review_id": "rev_16b15772",
+        "user_id": "cust_0c65e4b9",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the cheesecake\u2014it was rich and satisfying without being overly sweet, which suited my low sugar preference perfectly. The texture was creamy and indulgent, hitting the chocolate-sweets spot just right while being gentle on my gluten sensitivity.",
+        "date": "2025-06-18 18:35:04",
         "ordered_item": "Cheesecake"
       },
       {
-        "review_id": "rev_f10abb40",
-        "user_id": "cust_8692e2e2",
+        "review_id": "rev_5f83d1e3",
+        "user_id": "cust_17b7c4fc",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the crispy texture of the Fish and Chips, though it didn\u2019t quite satisfy my craving for authentic Japanese flavors. As someone who loves sushi and needs to watch sodium, this was a decent but not ideal choice.",
+        "date": "2025-06-18 18:35:13",
+        "ordered_item": "Fish and Chips"
+      },
+      {
+        "review_id": "rev_47519e7b",
+        "user_id": "cust_844fda35",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the effort, but the pasta didn't quite align with my gluten intolerance and low sugar needs. While it was tasty, I prefer sandwiches or salads that better suit my diet. A decent meal, though not ideal for my preferences.",
+        "date": "2025-06-18 18:35:21",
+        "ordered_item": "Pasta"
+      },
+      {
+        "review_id": "rev_662c3cbf",
+        "user_id": "cust_18be0d2a",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the Vegetable Curry here! The exotic mix of flavors was a nice treat, and it was clearly made without dairy or heavy salt, which suits my lactose intolerance and low sodium needs perfectly. Would love a bit more fruitiness next time though.",
+        "date": "2025-06-18 18:35:29",
+        "ordered_item": "Vegetable Curry"
+      },
+      {
+        "review_id": "rev_48933b6c",
+        "user_id": "cust_8f7e0d5b",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the crispy onion rings, but as someone who loves soups and stews and has gluten intolerance, this side didn't quite satisfy my cravings or dietary needs. Still, they were tasty and not too heavy on sugar, which I liked.",
+        "date": "2025-06-18 18:35:38",
+        "ordered_item": "Onion Rings"
+      },
+      {
+        "review_id": "rev_d838313f",
+        "user_id": "cust_51fb6667",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the Ice Cream Sundae enjoyable but a bit too rich for my low-fat preference. While it hit the traditional sweet spot I like, it didn\u2019t quite align with my health goals. A lighter option would be more ideal.",
+        "date": "2025-06-18 18:35:51",
+        "ordered_item": "Ice Cream Sundae"
+      },
+      {
+        "review_id": "rev_31994cd5",
+        "user_id": "cust_90d2db8c",
         "business_id": "B",
         "stars": 2.0,
-        "text": "I tried the ramen here hoping it would fit my vegan and dairy-free diet, but it leaned more towards traditional flavors and ingredients that didn\u2019t quite match my Mexican food cravings or dietary needs. Still, it was tasty in its own right.",
-        "date": "2025-06-03 20:50:25",
+        "text": "I appreciate a good fried dish, but the steak here was neither fried nor vegan-friendly, which didn\u2019t suit my preferences. The flavors were decent, but it missed the mark for my usual cravings and dietary needs.",
+        "date": "2025-06-18 18:36:01",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_c7b179a9",
+        "user_id": "cust_6b398dfc",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the Club Sandwich, though it wasn\u2019t quite what I expected given my preference for healthy, vegan Chinese dishes. It was tasty but lacked the plant-based ingredients I usually favor. Still, it was a decent, relaxed meal.",
+        "date": "2025-06-18 18:36:14",
+        "ordered_item": "Club Sandwich"
+      },
+      {
+        "review_id": "rev_f84856f6",
+        "user_id": "cust_e8b75cfb",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the French fries here; they hit the comfort food spot perfectly. Although a bit salty, they were crispy and satisfying, which I appreciate given my high blood pressure and need for low sugar. A great cozy snack overall!",
+        "date": "2025-06-18 18:36:22",
+        "ordered_item": "French Fries"
+      },
+      {
+        "review_id": "rev_021e4013",
+        "user_id": "cust_cacca4d3",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the effort in the cheesecake, though it wasn't quite what I hoped given my preference for lighter, Japanese-inspired flavors. It was rich and creamy but felt a bit heavy considering my dietary needs.",
+        "date": "2025-06-18 18:36:52",
+        "ordered_item": "Cheesecake"
+      },
+      {
+        "review_id": "rev_1e9fc6e0",
+        "user_id": "cust_fa5a0922",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I found the Vegetable Stir Fry quite delightful and fitting for my Mediterranean preferences. It was fresh and flavorful, and I appreciated the careful avoidance of dairy, which suits my diabetic needs well. A lovely, healthy choice overall.",
+        "date": "2025-06-18 18:37:03",
+        "ordered_item": "Vegetable Stir Fry"
+      },
+      {
+        "review_id": "rev_efc91174",
+        "user_id": "cust_315d0204",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I expected a bit more alignment with my healthy vegan diet, but the onion rings were decent. They weren\u2019t greasy, which I appreciated, though I wish there were more vegan-friendly Chinese options here. Decent snack, but not quite my ideal meal.",
+        "date": "2025-06-18 18:37:13",
+        "ordered_item": "Onion Rings"
+      },
+      {
+        "review_id": "rev_6c9f0a7c",
+        "user_id": "cust_aa22fe1f",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciated the gluten-free tacos, which suited my dietary needs, but they lacked the rich, sweet flavors I usually crave. The meal was decent, though it didn\u2019t satisfy my sweet tooth or help with my high cholesterol concerns as much as I hoped.",
+        "date": "2025-06-18 18:37:23",
+        "ordered_item": "Tacos"
+      },
+      {
+        "review_id": "rev_5dcb7f0c",
+        "user_id": "cust_228e511c",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the Vegetable Stir Fry as it aligned well with my love for Mediterranean-style vegetables and fresh flavors. The low sodium content suited my health needs perfectly, though I wished for a bit more olive oil or herbs to enhance the Mediterranean touch.",
+        "date": "2025-06-18 18:38:07",
+        "ordered_item": "Vegetable Stir Fry"
+      },
+      {
+        "review_id": "rev_718b0e7e",
+        "user_id": "cust_8d4a584c",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the Vegetable Curry here; it was flavorful and aligned well with my preference for healthy, low-fat Indian cuisine. The spices were balanced without overwhelming, making it a satisfying and nourishing choice.",
+        "date": "2025-06-18 18:38:28",
+        "ordered_item": "Vegetable Curry"
+      },
+      {
+        "review_id": "rev_f7a3945b",
+        "user_id": "cust_84645bf3",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the chicken wings, but as someone who prefers organic and vegan options due to allergies, they didn\u2019t fully meet my needs. The wings were tasty but lacked the organic quality I look for in my meals.",
+        "date": "2025-06-18 18:38:46",
+        "ordered_item": "Chicken Wings"
+      },
+      {
+        "review_id": "rev_efe6a38b",
+        "user_id": "cust_f68872c7",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate that the Vegetable Curry was low in sugar, which suits my diabetic needs, but it lacked the fried texture I usually crave. It\u2019s a decent healthy choice, though I missed the satisfying crunch of fried food.",
+        "date": "2025-06-18 18:38:55",
+        "ordered_item": "Vegetable Curry"
+      },
+      {
+        "review_id": "rev_52f06bcb",
+        "user_id": "cust_80dd2b2a",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the Vegetable Stir Fry, but as someone who adores chocolate and sweets, it didn\u2019t quite satisfy my craving for something more indulgent. Still, it was fresh and gluten-friendly, which suits my diet perfectly.",
+        "date": "2025-06-18 18:39:04",
+        "ordered_item": "Vegetable Stir Fry"
+      },
+      {
+        "review_id": "rev_aa91f763",
+        "user_id": "cust_473e15b4",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the chicken wings, but they weren\u2019t quite what I hoped given my dairy-free needs. The flavor was good, yet I missed a baked goods option to satisfy my cravings. Overall, decent but not perfect for my diet.",
+        "date": "2025-06-18 18:39:14",
+        "ordered_item": "Chicken Wings"
+      },
+      {
+        "review_id": "rev_e1f6f66b",
+        "user_id": "cust_94bb1535",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the Vegetable Stir Fry here; it was fresh and flavorful with a nice balance of vegetables and noodles, fitting my love for rice and noodle dishes. It could use a bit more seasoning, but overall a solid meal.",
+        "date": "2025-06-18 18:39:25",
+        "ordered_item": "Vegetable Stir Fry"
+      },
+      {
+        "review_id": "rev_5fd5fb48",
+        "user_id": "cust_c07023a6",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I was excited to try the steak, but as a seafood lover with gluten and dairy restrictions, it didn\u2019t quite hit the mark. The dish was well-prepared but lacked the fresh, light qualities I crave, and I had to double-check for hidden dairy.",
+        "date": "2025-06-18 18:39:36",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_7aba5bee",
+        "user_id": "cust_31bc1b9f",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the fresh and vibrant salad here! It suited my gluten-free needs perfectly, and the flavors were bright and satisfying, though I do miss a bit more gourmet flair. Still, a great healthy option that fits my tastes well.",
+        "date": "2025-06-18 18:39:47",
+        "ordered_item": "Salad"
+      },
+      {
+        "review_id": "rev_87885af2",
+        "user_id": "cust_c918b500",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the Club Sandwich decent but not exceptional. While it offered a variety of international flavors, it lacked vegan options and did not fully address allergy concerns, which slightly limited my experience.",
+        "date": "2025-06-18 18:39:56",
+        "ordered_item": "Club Sandwich"
+      },
+      {
+        "review_id": "rev_9b7f3436",
+        "user_id": "cust_f03f3eff",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated the gourmet flair in the Mushroom Risotto, which was rich and flavorful. It respected my gluten sensitivity and dairy-free needs well, though I wished for a bit more boldness in seasoning to truly wow my palate.",
+        "date": "2025-06-18 18:40:06",
+        "ordered_item": "Mushroom Risotto"
+      },
+      {
+        "review_id": "rev_71e068e0",
+        "user_id": "cust_92821a21",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the Margherita Pizza decent but a bit lacking for my vegan and low sodium needs. While the fresh tomatoes and basil were delightful, the cheese made it less suitable for my diet. A nice option if you're flexible.",
+        "date": "2025-06-18 18:40:15",
+        "ordered_item": "Margherita Pizza"
+      },
+      {
+        "review_id": "rev_a5aab112",
+        "user_id": "cust_dcfcc0ef",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the traditional cheesecake here, which suited my love for classic flavors. It was thoughtful of them to keep it low sodium, though I wished it was more clearly lactose-free. Overall, a satisfying treat that mostly fit my dietary needs.",
+        "date": "2025-06-18 18:40:25",
+        "ordered_item": "Cheesecake"
+      },
+      {
+        "review_id": "rev_1fddb565",
+        "user_id": "cust_e50e8989",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I really enjoy trying new dishes, and the fish and chips here were decent but didn\u2019t quite satisfy my sweet tooth cravings. Also, being gluten-free, I wished there were clearer options to avoid gluten in the batter.",
+        "date": "2025-06-18 18:40:37",
+        "ordered_item": "Fish and Chips"
+      },
+      {
+        "review_id": "rev_97ef4bb1",
+        "user_id": "cust_3a5d4c9c",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the cheesecake as a sweet treat, but it didn\u2019t quite align with my vegan diet. I usually prefer sandwiches or salads, so it was a nice change but not my go-to choice here.",
+        "date": "2025-06-18 18:40:47",
+        "ordered_item": "Cheesecake"
+      },
+      {
+        "review_id": "rev_a7227c92",
+        "user_id": "cust_a3caa4e8",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the Caesar Salad at Restaurant B! It was fresh and light, fitting nicely with my preference for healthy, low-sugar options. While I usually lean towards baked goods, this salad was a refreshing and satisfying choice.",
+        "date": "2025-06-18 18:40:57",
+        "ordered_item": "Caesar Salad"
+      },
+      {
+        "review_id": "rev_34ff0b60",
+        "user_id": "cust_bc59adba",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the pasta decent but not quite aligned with my love for authentic Greek flavors. While the dish was tasty, it didn\u2019t fully cater to my high cholesterol and low sugar needs, which I had hoped for. Still, it was a pleasant meal overall.",
+        "date": "2025-06-18 18:41:05",
+        "ordered_item": "Pasta"
+      },
+      {
+        "review_id": "rev_918738b2",
+        "user_id": "cust_9415cc1a",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the vegan pizza at Restaurant B; it had a great balance of flavors and fresh ingredients that suited my vegan diet perfectly. The crust was nicely done, though I wished for a bit more variety in toppings to match my pasta and pizza preferences.",
+        "date": "2025-06-18 18:41:16",
+        "ordered_item": "Pizza"
+      },
+      {
+        "review_id": "rev_d9110cc8",
+        "user_id": "cust_85030ba8",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the pizza but it wasn\u2019t quite what I hoped for since I usually go for steak or meat dishes. The pizza was tasty but a bit heavy for my lactose intolerance and low-fat diet.",
+        "date": "2025-06-18 18:41:25",
+        "ordered_item": "Pizza"
+      },
+      {
+        "review_id": "rev_a9b67934",
+        "user_id": "cust_4590c218",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I love breakfast foods and usually go for low-fat options due to my diabetes, but French fries weren't the best fit. They were tasty but a bit too greasy for my diet. Still, the service was friendly and laid-back.",
+        "date": "2025-06-18 18:41:34",
+        "ordered_item": "French Fries"
+      },
+      {
+        "review_id": "rev_cfbf2219",
+        "user_id": "cust_ce16fa5f",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the chocolate cake here! While I\u2019m all about seafood, this dessert was a delightful treat and didn\u2019t cause any gluten issues. It\u2019s a solid choice if you want something sweet after a meal, though I\u2019d love to see more seafood specials next time.",
+        "date": "2025-06-18 18:41:43",
+        "ordered_item": "Chocolate Cake"
+      },
+      {
+        "review_id": "rev_1156f0d9",
+        "user_id": "cust_b583e7bd",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the steak at restaurant B; it was flavorful and well-prepared, matching my preference for international cuisine. The low-sugar preparation suited my health needs, though a bit more seasoning would elevate it further.",
+        "date": "2025-06-18 18:41:53",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_5a154b6b",
+        "user_id": "cust_e57aa930",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the chicken wings flavorful but somewhat disappointing given my preference for steak and low-fat, gluten-free options. While tasty, the dish didn\u2019t fully align with my dietary needs and meat preferences.",
+        "date": "2025-06-18 18:42:03",
+        "ordered_item": "Chicken Wings"
+      },
+      {
+        "review_id": "rev_018c0a62",
+        "user_id": "cust_ce98a031",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the freshness of the Sushi Platter, but it didn\u2019t quite satisfy my craving for Greek flavors. It was a decent choice given my gluten intolerance and low sugar needs, though I wish there were more options aligned with my usual tastes.",
+        "date": "2025-06-18 18:42:11",
+        "ordered_item": "Sushi Platter"
+      },
+      {
+        "review_id": "rev_a9c01716",
+        "user_id": "cust_648451b4",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated how the grilled salmon was prepared with a light touch, fitting well with my low-fat, gluten-free needs. The flavors reminded me of Greek cuisine, which I enjoy. It wasn\u2019t perfect but definitely a solid choice for my diet.",
+        "date": "2025-06-18 18:42:28",
+        "ordered_item": "Grilled Salmon"
+      },
+      {
+        "review_id": "rev_5739286f",
+        "user_id": "cust_1a653760",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the French Fries here! They were crispy and perfectly seasoned, making them a great vegan and gluten-free snack. While not a full meal, they fit nicely with my dietary needs and satisfied my craving.",
+        "date": "2025-06-18 18:42:36",
+        "ordered_item": "French Fries"
+      },
+      {
+        "review_id": "rev_b7e12271",
+        "user_id": "cust_2ae84b74",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated the Sushi Platter's fresh, exotic fruit accents which complemented the seafood well. It was mindful of my lactose intolerance and low sodium needs, though a touch more fruit variety would elevate it further.",
+        "date": "2025-06-18 18:42:57",
+        "ordered_item": "Sushi Platter"
+      },
+      {
+        "review_id": "rev_114d5c7c",
+        "user_id": "cust_9778900d",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the fresh, vibrant flavors of the salad which nicely suited my adventurous palate and gluten-free diet. Though it wasn't traditional Indian cuisine, the spices used gave it a delightful twist that kept me interested and satisfied.",
+        "date": "2025-06-18 18:43:05",
+        "ordered_item": "Salad"
+      },
+      {
+        "review_id": "rev_38940c49",
+        "user_id": "cust_427d1395",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the Vegetable Curry's fresh ingredients and dairy-free preparation, which aligns well with my health needs. However, as a steak enthusiast, the dish lacked the robust, meaty depth I usually prefer. Still, it was a respectable, wholesome option.",
+        "date": "2025-06-18 18:43:15",
+        "ordered_item": "Vegetable Curry"
+      },
+      {
+        "review_id": "rev_7fc310c9",
+        "user_id": "cust_f964ac43",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I truly enjoyed the pasta here! The international flavors were vibrant and exciting, perfectly matching my love for diverse cuisine. Though a bit heavy on sodium for my low-sodium needs, it was still a satisfying and flavorful meal overall.",
+        "date": "2025-06-18 18:43:30",
+        "ordered_item": "Pasta"
+      },
+      {
+        "review_id": "rev_cd9328af",
+        "user_id": "cust_910563aa",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated the thoughtful preparation of the steak, which was both flavorful and compatible with my lactose-free, gluten-free diet. While it delivered on quality and taste befitting fine dining, a touch more seasoning would elevate it further.",
+        "date": "2025-06-18 18:43:39",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_6b2df057",
+        "user_id": "cust_f1642d9d",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated the earthy depth of the Mushroom Risotto, which aligned well with my love for hearty, comforting dishes like soups and stews. The dairy-free preparation was thoughtful, though a touch more seasoning would elevate the complexity.",
+        "date": "2025-06-18 18:43:57",
+        "ordered_item": "Mushroom Risotto"
+      },
+      {
+        "review_id": "rev_d53a0f4b",
+        "user_id": "cust_95ec5a7e",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the steak decent but a bit disappointing since I prefer sweets and low-fat options. It was flavorful but quite rich, which didn\u2019t suit my taste or diet. A dessert option would have helped balance the meal.",
+        "date": "2025-06-18 18:44:09",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_d12789b5",
+        "user_id": "cust_167a18d0",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the effort in the ramen, but as a fan of pasta and pizza, it didn\u2019t quite hit the mark for my taste preferences. The flavors were decent, yet I missed the familiar comfort of Italian dishes I usually enjoy.",
+        "date": "2025-06-18 18:44:17",
         "ordered_item": "Ramen"
+      },
+      {
+        "review_id": "rev_55bf04dd",
+        "user_id": "cust_ba5efd13",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I ordered steak here, which totally clashes with my vegan and high cholesterol diet. The place nails street food vibes but missed the mark on catering to my health needs. Not quite what I expected or needed.",
+        "date": "2025-06-18 18:44:31",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_7dec22e4",
+        "user_id": "cust_0dcdfaf1",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the creamy texture of the cheesecake, though it wasn't the best fit for my diabetic diet. As a lover of seafood, I hoped for a dessert that felt lighter and more aligned with my health needs. Still, it was a decent treat.",
+        "date": "2025-06-18 18:44:40",
+        "ordered_item": "Cheesecake"
+      },
+      {
+        "review_id": "rev_92f43512",
+        "user_id": "cust_a456b946",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated that the tacos offered a solid vegan and gluten-free option, aligning well with my dietary needs. The flavors were balanced, though I would have preferred a bit more variety in toppings to enhance the experience.",
+        "date": "2025-06-18 18:44:50",
+        "ordered_item": "Tacos"
+      },
+      {
+        "review_id": "rev_1a9bc12e",
+        "user_id": "cust_2824b774",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the Sushi Platter's fresh flavors, though as a meat lover on a vegan/dairy-free diet, it was a bit limiting. The dish was well-prepared but didn\u2019t fully satisfy my craving for hearty, meat-based meals.",
+        "date": "2025-06-18 18:44:59",
+        "ordered_item": "Sushi Platter"
+      },
+      {
+        "review_id": "rev_dc6663d1",
+        "user_id": "cust_516a3dd2",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the onion rings as a tasty treat that complemented my love for gourmet burgers. They were flavorful without being overly salty, which is great for managing my low sodium needs. A satisfying choice that fits well within my dietary concerns.",
+        "date": "2025-06-18 18:45:16",
+        "ordered_item": "Onion Rings"
+      },
+      {
+        "review_id": "rev_df8e72ee",
+        "user_id": "cust_24f5ab7c",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the ramen\u2019s rich broth, though it\u2019s not my usual French cuisine pick. It was comforting but a bit high in gluten and sugar for my diet, so I couldn\u2019t indulge fully. Still, a decent option for a flavorful meal.",
+        "date": "2025-06-18 18:45:26",
+        "ordered_item": "Ramen"
+      },
+      {
+        "review_id": "rev_e3da70b7",
+        "user_id": "cust_eadef11b",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I ordered the steak despite my preference for grilled seafood. While the preparation was adequate, it didn\u2019t align with my tastes, making the experience less satisfying than expected.",
+        "date": "2025-06-18 18:45:46",
+        "ordered_item": "Steak"
+      },
+      {
+        "review_id": "rev_aacfd13b",
+        "user_id": "cust_08cf4f5a",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I really enjoyed the Vegetable Curry here; it was flavorful and dairy-free, which suits my high blood pressure diet perfectly. As someone who loves baked goods, I wished for a little more of that comforting texture, but the spices were well balanced and fresh.",
+        "date": "2025-06-18 18:46:01",
+        "ordered_item": "Vegetable Curry"
+      },
+      {
+        "review_id": "rev_de8907dd",
+        "user_id": "cust_3d0b6a76",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I was excited to try the Grilled Salmon, but as a vegan with gluten intolerance who loves Indian cuisine, it didn\u2019t quite fit my needs. The dish was tasty but not aligned with my diet, which was a bit disappointing.",
+        "date": "2025-06-18 18:46:09",
+        "ordered_item": "Grilled Salmon"
+      },
+      {
+        "review_id": "rev_8afa0142",
+        "user_id": "cust_8903399b",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the Ice Cream Sundae as a sweet treat, but it wasn\u2019t the best fit for my low sodium, overweight-friendly diet. The portion was generous and the flavor was good, though I wish there was a lighter option to better suit my health needs.",
+        "date": "2025-06-18 18:46:33",
+        "ordered_item": "Ice Cream Sundae"
+      },
+      {
+        "review_id": "rev_63130326",
+        "user_id": "cust_6280a3d7",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the Club Sandwich decent but it didn\u2019t quite satisfy my craving for grilled seafood. While tasty, it wasn\u2019t ideal for my low cholesterol needs. I appreciate the effort, though it\u2019s not my perfect match.",
+        "date": "2025-06-18 18:46:45",
+        "ordered_item": "Club Sandwich"
+      },
+      {
+        "review_id": "rev_659ed6a2",
+        "user_id": "cust_908f1d57",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the onion rings as a tasty snack, but they were a bit greasy given my high cholesterol concerns. While they satisfied my craving for baked goods textures, I wish there was a lower-oil option to better fit my diet.",
+        "date": "2025-06-18 18:46:56",
+        "ordered_item": "Onion Rings"
+      },
+      {
+        "review_id": "rev_94c8b743",
+        "user_id": "cust_bb70f5f9",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the ramen enjoyable but not quite aligned with my sweet tooth cravings. While the broth was rich, it lacked the subtle chocolate or sweet undertones I prefer. Given my cholesterol concerns, it was a decent but somewhat indulgent choice.",
+        "date": "2025-06-18 18:47:05",
+        "ordered_item": "Ramen"
+      },
+      {
+        "review_id": "rev_81b2baac",
+        "user_id": "cust_fd5e567b",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciated the indulgence of the Ice Cream Sundae, though it wasn\u2019t fully aligned with my plant-based, low-sodium needs. A dairy-free, gluten-conscious option would elevate the experience for someone with my dietary preferences.",
+        "date": "2025-06-18 18:47:14",
+        "ordered_item": "Ice Cream Sundae"
+      },
+      {
+        "review_id": "rev_7de9ff63",
+        "user_id": "cust_11a90512",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated the plant-based pasta option which suited my vegan and low sodium needs well. The flavors were fresh and satisfying, though I wished for a bit more seasoning to enhance the dish without compromising healthiness.",
+        "date": "2025-06-18 18:47:22",
+        "ordered_item": "Pasta"
+      },
+      {
+        "review_id": "rev_0f04c0a4",
+        "user_id": "cust_d4ae1679",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I enjoyed the Sushi Platter as a comforting meal that felt fresh and light. It suited my need for low sugar and was easy on my blood pressure, though I wished for a bit more variety in the rolls to enhance the comfort food aspect.",
+        "date": "2025-06-18 18:47:31",
+        "ordered_item": "Sushi Platter"
+      },
+      {
+        "review_id": "rev_e56c452f",
+        "user_id": "cust_394318b0",
+        "business_id": "B",
+        "stars": 4.0,
+        "text": "I appreciated the Mushroom Risotto's rich international flavors and its surprisingly low sugar content, which suited my diabetic diet well. It hit the mark taste-wise, though I wished it had a bit more variety in spices to elevate the dish further.",
+        "date": "2025-06-18 18:47:41",
+        "ordered_item": "Mushroom Risotto"
       }
     ],
-    "revenue": 29
+    "revenue": 995
   }
 }

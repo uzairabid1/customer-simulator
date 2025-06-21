@@ -62,12 +62,13 @@ class LLMInterface:
         - Likes: {customer['taste']} food
         - Health: {customer['health']}/{customer['dietary_restriction']}
         Ordered: {ordered_item}
+        Restaurant: {'A (shows highest rated reviews first - higher expectations)' if business_id == 'A' else 'B (shows most recent reviews first)'}
 
         Rules:
         1. Star rating (1-5) reflects how well the meal matched their preferences
-        2. Mention how item fits their taste/diet
-        3. Keep tone personality-appropriate
-        4. Keep sentences in first-person
+        2. Be slightly more critical if restaurant is A (higher expectations)
+        3. Mention how item fits their taste/diet
+        4. Keep tone personality-appropriate
         5. Include specific reason for the rating
 
         Format:
@@ -91,6 +92,7 @@ class LLMInterface:
         
         return review
     
+    # llm.py - modify the make_decision method
     def make_decision(self, customer: Dict, a_reviews: List[Dict], b_reviews: List[Dict], 
                     a_menu: Dict, b_menu: Dict, a_rating: float, a_count: int,
                     b_rating: float, b_count: int) -> Dict:
@@ -102,33 +104,32 @@ class LLMInterface:
         - Health/Diet: {customer['health']}{' ('+customer['dietary_restriction']+')' if customer['dietary_restriction'] != 'None' else ''}
         - Personality: {customer['personality']}
 
-        Restaurant A:
-        - Overall Rating: {a_rating:.1f} stars ({a_count} reviews)
+        Restaurant A (shows highest rated reviews first):
+        - Overall Rating: {a_rating:.1f} stars from {a_count} reviews
         - Menu Items: {', '.join(a_menu.keys())}
 
-        Restaurant B:
-        - Overall Rating: {b_rating:.1f} stars ({b_count} reviews)
+        Restaurant B (shows most recent reviews first):
+        - Overall Rating: {b_rating:.1f} stars from {b_count} reviews
         - Menu Items: {', '.join(b_menu.keys())}
 
-        Restaurant A Sample Reviews:
+        Restaurant A Sample Reviews (sorted by highest rating):
         {self._format_reviews(a_reviews[:5])}
 
-        Restaurant B Sample Reviews:
+        Restaurant B Sample Reviews (sorted by most recent):
         {self._format_reviews(b_reviews[:5])}
 
         Consider:
-        1. Overall ratings and number of reviews
-        2. Menu items matching your taste
-        3. Price range suitability
-        4. Review ratings and content
+        1. Overall ratings and number of reviews (higher count = more reliable)
+        2. Restaurant A shows best reviews first - may set higher expectations
+        3. Menu items matching your taste
+        4. Price range suitability
         5. Your dietary restrictions
         6. Whether reviews seem trustworthy (diverse ratings, recent)
-        7. Whether the reviews reflect reality (not too good or too bad)
 
         Return JSON with:
         {{
             "decision": "A" or "B",
-            "reason": "Detailed explanation considering all factors including overall ratings"
+            "reason": "Detailed explanation considering all factors including overall ratings and review count"
         }}"""
             
         return self._call_llm(prompt)
