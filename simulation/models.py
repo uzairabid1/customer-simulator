@@ -54,6 +54,7 @@ class Restaurant:
         }
         self.reviews: List[Review] = []
         self.revenue = 0
+        self.initial_reviews: List[Review] = [] 
     
     def get_sorted_reviews(self) -> List[Review]:
         if self.review_policy == "highest_rating":
@@ -61,12 +62,13 @@ class Restaurant:
         return sorted(self.reviews, key=lambda x: x.date, reverse=True)[:10]
     
     def get_overall_rating(self) -> float:
-        if not self.reviews:
+        all_reviews = self.get_all_reviews()
+        if not all_reviews:
             return 0.0
-        return sum(r.stars for r in self.reviews) / len(self.reviews)
+        return sum(r.stars for r in all_reviews) / len(all_reviews)
 
     def get_review_count(self) -> int:
-        return len(self.reviews)
+        return len(self.get_all_reviews())
 
     def get_reviews_by_rating(self, stars: int, limit: int = 5) -> List[Review]:
         return sorted(
@@ -77,3 +79,7 @@ class Restaurant:
 
     def get_recent_reviews(self, limit: int = 5) -> List[Review]:
         return sorted(self.reviews, key=lambda x: x.date, reverse=True)[:limit]
+    
+    def get_all_reviews(self) -> List[Review]:
+        """Returns combined list of initial and new reviews"""
+        return self.initial_reviews + self.reviews

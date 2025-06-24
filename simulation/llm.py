@@ -97,7 +97,7 @@ class LLMInterface:
                     a_menu: Dict, b_menu: Dict, a_rating: float, a_count: int,
                     b_rating: float, b_count: int) -> Dict:
         prompt = f"""Act as {customer['name']} and choose between Restaurant A or B based on:
-        
+
         Customer Profile:
         - Budget: {customer['income']}
         - Food Preferences: {customer['taste']}
@@ -105,11 +105,11 @@ class LLMInterface:
         - Personality: {customer['personality']}
 
         Restaurant A (shows highest rated reviews first):
-        - Overall Rating: {a_rating:.1f} stars from {a_count} reviews
+        - TOTAL Rating: {a_rating:.1f} stars from {a_count} combined reviews (initial + new)
         - Menu Items: {', '.join(a_menu.keys())}
 
         Restaurant B (shows most recent reviews first):
-        - Overall Rating: {b_rating:.1f} stars from {b_count} reviews
+        - TOTAL Rating: {b_rating:.1f} stars from {b_count} combined reviews (initial + new)
         - Menu Items: {', '.join(b_menu.keys())}
 
         Restaurant A Sample Reviews (sorted by highest rating):
@@ -119,7 +119,7 @@ class LLMInterface:
         {self._format_reviews(b_reviews[:5])}
 
         Consider:
-        1. Overall ratings and number of reviews (higher count = more reliable)
+        1. Overall ratings and total number of reviews (displayed above)
         2. Restaurant A shows best reviews first - may set higher expectations
         3. Menu items matching your taste
         4. Price range suitability
@@ -129,7 +129,7 @@ class LLMInterface:
         Return JSON with:
         {{
             "decision": "A" or "B",
-            "reason": "Detailed explanation considering all factors including overall ratings and review count"
+            "reason": "Detailed explanation considering all factors including overall ratings and total review count"
         }}"""
             
         return self._call_llm(prompt)

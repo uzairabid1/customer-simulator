@@ -45,18 +45,21 @@ class RestaurantSimulation:
         return list(unique_reviews.values())[:5]  # Return up to 5 additional reviews
 
     def _get_combined_reviews(self, restaurant: Restaurant) -> List[Dict]:
-        all_reviews = self.shared_reviews + restaurant.reviews
+        all_reviews = restaurant.initial_reviews + restaurant.reviews
         if restaurant.review_policy == "highest_rating":
             sorted_reviews = sorted(all_reviews, key=lambda x: x.stars, reverse=True)
         else:
             sorted_reviews = sorted(all_reviews, key=lambda x: x.date, reverse=True)
-        return [r.__dict__ for r in sorted_reviews]
+        return [r.__dict__ for r in sorted_reviews]  # Convert to dict
 
     def __init__(self):
         self.llm = LLMInterface()
         self.logger = SimulationLogger(Config.LOG_DIR)
         self.restaurant_a = Restaurant("A", "highest_rating")
         self.restaurant_b = Restaurant("B", "latest")
+        # Give logger access to restaurants
+        self.logger.restaurant_a = self.restaurant_a
+        self.logger.restaurant_b = self.restaurant_b
         self.shared_reviews = self._load_shared_reviews()
         self.current_day = 0
         self.customers = []
@@ -64,7 +67,8 @@ class RestaurantSimulation:
     def _load_shared_reviews(self) -> List[Review]:
         try:
             with open("data/inputs/initial_reviews.json") as f:
-                return [
+                initial_data = json.load(f)
+                reviews = [
                     Review(
                         review_id=r["review_id"],
                         user_id=r["user_id"],
@@ -74,9 +78,19 @@ class RestaurantSimulation:
                         date=r["date"],
                         ordered_item="(initial)"
                     ) 
-                    for r in json.load(f)
+                    for r in initial_data
                 ]
+                
+                # Assign to both restaurants
+                self.restaurant_a.initial_reviews = reviews.copy()
+                self.restaurant_b.initial_reviews = reviews.copy()
+                
+                # Return the loaded reviews for shared_reviews
+                return reviews
         except FileNotFoundError:
+            # Initialize empty lists if file not found
+            self.restaurant_a.initial_reviews = []
+            self.restaurant_b.initial_reviews = []
             return []
 
     def _generate_customer(self) -> Customer:
@@ -116,6 +130,12 @@ class RestaurantSimulation:
                 # Prepare initial review sets (5 each)
                 a_reviews_shown = a_reviews[:5]
                 b_reviews_shown = b_reviews[:5]
+
+                # Get TOTAL ratings and counts (initial + new)
+                a_total_rating = self.restaurant_a.get_overall_rating()
+                a_total_count = self.restaurant_a.get_review_count()
+                b_total_rating = self.restaurant_b.get_overall_rating()
+                b_total_count = self.restaurant_b.get_review_count()
                 
                 # Log initial reviews seen
                 self.logger.log_reviews_seen(
@@ -153,12 +173,6 @@ class RestaurantSimulation:
                         "B", b_additional_reviews, is_additional=True
                     )
                 
-                # Get overall ratings and counts
-                a_rating = self.restaurant_a.get_overall_rating()
-                a_count = self.restaurant_a.get_review_count()
-                b_rating = self.restaurant_b.get_overall_rating()
-                b_count = self.restaurant_b.get_review_count()
-                
                 decision = self.llm.make_decision(
                     {
                         "name": customer.name,
@@ -173,10 +187,10 @@ class RestaurantSimulation:
                     b_reviews_shown,
                     self.restaurant_a.menu,
                     self.restaurant_b.menu,
-                    self.restaurant_a.get_overall_rating(),
-                    self.restaurant_a.get_review_count(),
-                    self.restaurant_b.get_overall_rating(),
-                    self.restaurant_b.get_review_count()
+                    a_total_rating,  # Using total rating
+                    a_total_count,   # Using total count
+                    b_total_rating,  # Using total rating
+                    b_total_count 
                 )
 
                 self.logger.log_decision_details(

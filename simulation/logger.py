@@ -9,6 +9,8 @@ class SimulationLogger:
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.log_entries: List[Dict] = []
+        self.restaurant_a = None  # Will be set by engine
+        self.restaurant_b = None  # Will be set by engine
          # Initialize review exposure log file with empty array
         review_log_path = self.log_dir / "review_exposure.json"
         if not review_log_path.exists():
@@ -72,27 +74,38 @@ class SimulationLogger:
             json.dump(self.log_entries, f, indent=2)
 
     def log_decision_details(self, customer_id: str, name: str, 
-                           a_reviews_shown: List[Dict], b_reviews_shown: List[Dict], 
-                           decision: str, reason: str, day: int):
-        """Logs which reviews were shown during decision-making"""
+                       a_reviews_shown: List[Dict], b_reviews_shown: List[Dict], 
+                       decision: str, reason: str, day: int):
+        """Logs which reviews were shown during decision-making along with TOTAL stats"""
         log_entry = {
             "timestamp": datetime.now().isoformat(),
             "type": "decision_details",
             "day": day,
             "customer_id": customer_id,
             "name": name,
-            "restaurant_a_reviews_shown": [
-                {"stars": r["stars"], "text": r["text"][:100] + "..."}  # Truncate for readability
-                for r in a_reviews_shown
-            ],
-            "restaurant_b_reviews_shown": [
-                {"stars": r["stars"], "text": r["text"][:100] + "..."}
-                for r in b_reviews_shown
-            ],
+            "restaurant_a_info": {
+                # Use get_overall_rating() and get_review_count() for TOTAL stats
+                "overall_rating": round(self.restaurant_a.get_overall_rating(), 1),
+                "total_reviews": self.restaurant_a.get_review_count(),
+                "reviews_shown_count": len(a_reviews_shown),  # Number actually shown
+                "reviews_shown": [
+                    {"stars": r["stars"], "text": r["text"][:100] + "..."}
+                    for r in a_reviews_shown
+                ]
+            },
+            "restaurant_b_info": {
+                "overall_rating": round(self.restaurant_b.get_overall_rating(), 1),
+                "total_reviews": self.restaurant_b.get_review_count(), 
+                "reviews_shown_count": len(b_reviews_shown),
+                "reviews_shown": [
+                    {"stars": r["stars"], "text": r["text"][:100] + "..."}
+                    for r in b_reviews_shown
+                ]
+            },
             "decision": decision,
             "reason": reason
         }
-        
+                
         # Save to a separate file
         decision_log_path = self.log_dir / "decision_details.json"
         try:
