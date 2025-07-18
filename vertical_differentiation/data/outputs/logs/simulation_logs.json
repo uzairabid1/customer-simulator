@@ -1,0 +1,354 @@
+[
+  {
+    "timestamp": "2025-07-15T20:12:00.332274",
+    "type": "customer_arrival",
+    "customer_id": "cust_9a61391d",
+    "name": "Customer_7876",
+    "details": {
+      "income": "$6K-7.9K(Poor)",
+      "taste": "Vegetarian dishes",
+      "health": "High blood pressure",
+      "dietary_restriction": "Low sodium",
+      "personality": "Strict"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T20:12:08.563723",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_9a61391d",
+    "name": "Customer_7876",
+    "decision": "B",
+    "reason": "Given my budget of $6K-7.9K, which is considered poor, affordability is a key factor. Both restaurants offer similar menu items, including vegetarian dishes like Salad, Vegetable Stir Fry, Mushroom Risotto, and Vegetable Curry, which align with my dietary preference. However, I have high blood pressure and require low sodium options, so I would need to be cautious regardless. Restaurant A is a high-end establishment with a quality rating of 90/100 but has a lower overall star rating (3.9) from a small number of reviews and is significantly more expensive ($$$$, average $11.6 per item). The reviews indicate that while the food is high quality, the portions are small and the ambiance may feel pretentious, which does not suit my strict personality and preference for straightforward dining. Restaurant B, although lower in quality rating (60/100) and star rating (3.4), offers affordable pricing ($, average $11.6), reliable and straightforward food, and friendly service. The quality difference does not justify the much higher price and potentially less suitable atmosphere of Restaurant A for me. Therefore, I choose Restaurant B to maintain budget control, meet my dietary needs with available vegetarian options, and enjoy a no-nonsense dining experience."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:08.563729",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_9a61391d",
+    "name": "Customer_7876",
+    "restaurant_id": "B",
+    "item": "Mushroom Risotto",
+    "price": 16
+  },
+  {
+    "timestamp": "2025-07-15T20:12:12.188930",
+    "type": "review",
+    "review_id": "rev_266b83d5",
+    "customer_id": "cust_9a61391d",
+    "restaurant_id": "B",
+    "stars": 2.0,
+    "text": "I found the Mushroom Risotto at this local diner lacking in flavor and seasoning, which was a relief given my low sodium needs. However, the portion felt small and overpriced considering my budget constraints and the restaurant's modest quality.",
+    "item": "Mushroom Risotto",
+    "reason": "With a quality rating of 60/100, the diner met basic expectations but fell short on value and taste for a strict vegetarian with high blood pressure, especially given my limited budget.",
+    "expectation_level": "normal"
+  },
+  {
+    "timestamp": "2025-07-15T20:12:12.188960",
+    "type": "customer_arrival",
+    "customer_id": "cust_7adfbeb3",
+    "name": "Customer_1677",
+    "details": {
+      "income": "$6K-7.9K(Poor)",
+      "taste": "Baked goods",
+      "health": "Gluten sensitivity",
+      "dietary_restriction": "Gluten-free",
+      "personality": "Strict"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T20:12:15.065756",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_7adfbeb3",
+    "name": "Customer_1677",
+    "decision": "B",
+    "reason": "Considering the customer\u2019s low budget ($6K-7.9K, categorized as poor) and strict personality, Restaurant B is the better choice. Although Restaurant A has a higher objective quality rating (90 vs. 60), it carries a much higher price range ($$$$) which does not align with the customer's budget constraints. Both restaurants offer similar menu items, but neither explicitly highlights gluten-free baked goods, which is a concern given the customer's gluten sensitivity. However, the local diner (Restaurant B) offers affordable prices and reliable basic fare, which suits a strict personality focused on practicality and budget. The quality difference does not justify the significant price difference for this customer, especially since Restaurant A\u2019s menu and reviews do not emphasize gluten-free baked goods either. Therefore, Restaurant B is the more sensible and compatible option."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:15.065765",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_7adfbeb3",
+    "name": "Customer_1677",
+    "restaurant_id": "B",
+    "item": "Vegetable Stir Fry",
+    "price": 13
+  },
+  {
+    "timestamp": "2025-07-15T20:12:18.617378",
+    "type": "review",
+    "review_id": "rev_4b366e36",
+    "customer_id": "cust_7adfbeb3",
+    "restaurant_id": "B",
+    "stars": 2.0,
+    "text": "I found the Vegetable Stir Fry at this local diner somewhat disappointing. While the restaurant's quality is average, the dish did not cater to my gluten sensitivity and lacked the baked goods I prefer. Considering my tight budget, the value felt low.",
+    "item": "Vegetable Stir Fry",
+    "reason": "Given the restaurant's moderate 60/100 quality rating and my strict gluten-free preference along with a budget below $8K, the dish failed to meet expectations both in health accommodation and value.",
+    "expectation_level": "normal"
+  },
+  {
+    "timestamp": "2025-07-15T20:12:18.617403",
+    "type": "customer_arrival",
+    "customer_id": "cust_3236273f",
+    "name": "Customer_5011",
+    "details": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Grilled dishes",
+      "health": "Diabetic",
+      "dietary_restriction": "Gluten-free",
+      "personality": "Artistic"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T20:12:22.401162",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_3236273f",
+    "name": "Customer_5011",
+    "decision": "A",
+    "reason": "Given my affluent budget ($12K-$14.8K), the higher price range of Restaurant A ($$$$ with average item price $11.6) is well within my means and does not pose a constraint. Restaurant A has a significantly better quality rating (90/100) compared to Restaurant B (60/100), indicating a superior dining experience. The menu at both restaurants is the same, but Restaurant A\u2019s Michelin-level status and higher quality reviews suggest better food preparation and presentation. Considering my dietary needs as a diabetic requiring gluten-free options, as well as my preference for grilled dishes, Restaurant A offers grilled salmon, which is a suitable and healthy choice. Additionally, the artistic personality I possess aligns well with the refined and creative ambiance of a high-end restaurant, which can provide a more inspiring and enjoyable dining experience. While Restaurant B is more affordable and has some positive reviews, its lower quality rating and average diner atmosphere do not align as well with my preferences and expectations. Therefore, the quality difference justifies the price difference, making Restaurant A the better choice for me."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:22.401170",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_3236273f",
+    "name": "Customer_5011",
+    "restaurant_id": "A",
+    "item": "Onion Rings",
+    "price": 6
+  },
+  {
+    "timestamp": "2025-07-15T20:12:25.558225",
+    "type": "review",
+    "review_id": "rev_5bc08645",
+    "customer_id": "cust_3236273f",
+    "restaurant_id": "A",
+    "stars": 4.0,
+    "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet mindful of my gluten-free needs. While the dish dazzled my artistic palate, the price felt a tad steep even within my affluent budget.",
+    "item": "Onion Rings",
+    "reason": "Given the restaurant's high 90/100 quality rating and my dietary preferences, the grilled dish adaptation was impressive, but the premium price slightly tempered the overall value perception.",
+    "expectation_level": "high"
+  },
+  {
+    "timestamp": "2025-07-15T20:12:25.558250",
+    "type": "customer_arrival",
+    "customer_id": "cust_8b39c230",
+    "name": "Customer_7499",
+    "details": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Simple dishes",
+      "health": "High blood pressure",
+      "dietary_restriction": "Low cholesterol",
+      "personality": "Shy"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T20:12:32.740264",
+    "type": "decision",
+    "day": 1,
+    "customer_id": "cust_8b39c230",
+    "name": "Customer_7499",
+    "decision": "B",
+    "reason": "Given my affluent budget, I can afford Restaurant A's higher prices, but my preference for simple dishes and a low-cholesterol diet due to high blood pressure makes the local diner more appealing. Restaurant B offers straightforward, familiar foods like burgers, salads, and grilled items that fit my dietary needs better without the risk of rich or heavy fare that might be common at a high-end restaurant like A. Additionally, as a shy person, the casual, unpretentious atmosphere of Restaurant B suits me better than the potentially pretentious ambiance of Restaurant A. While Restaurant A has a significantly higher quality rating (90 vs 60), the moderate total star rating (3.9/5) and reviews indicate that some dishes are expensive and portion sizes small, which might detract from the overall experience. Restaurant B's food is reliable and affordable, and despite its lower quality rating, it aligns better with my health considerations, personality, and desire for simple food, making it the better overall choice."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:32.740273",
+    "type": "order",
+    "day": 1,
+    "customer_id": "cust_8b39c230",
+    "name": "Customer_7499",
+    "restaurant_id": "B",
+    "item": "Caesar Salad",
+    "price": 9
+  },
+  {
+    "timestamp": "2025-07-15T20:12:36.625698",
+    "type": "review",
+    "review_id": "rev_8217ffe9",
+    "customer_id": "cust_8b39c230",
+    "restaurant_id": "B",
+    "stars": 3.0,
+    "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality felt average, matching the restaurant's rating. Considering my budget, I expected better value for the price.",
+    "item": "Caesar Salad",
+    "reason": "The restaurant's moderate quality (60/100) met my preference for simple dishes but fell short on value given my affluent budget and health considerations.",
+    "expectation_level": "normal"
+  },
+  {
+    "timestamp": "2025-07-15T20:12:36.625876",
+    "type": "customer_arrival",
+    "customer_id": "cust_40347210",
+    "name": "Customer_5372",
+    "details": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Mexican food",
+      "health": "Gluten sensitivity",
+      "dietary_restriction": "Gluten-free",
+      "personality": "Ambitious"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T20:12:43.042320",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_40347210",
+    "name": "Customer_5372",
+    "decision": "A",
+    "reason": "As an affluent customer with a budget of $12K-$14.8K and an ambitious personality, I prioritize high quality and exceptional dining experiences. Restaurant A, despite its higher price point, offers a superior overall quality rating (90 vs 60) and Michelin-level refinement that aligns with my standards. Although both restaurants share similar menus, Restaurant A\u2019s higher quality and attention to detail, including gluten-free options like perfectly crafted onion rings, better suits my gluten sensitivity. The slightly pretentious ambiance and smaller portions are acceptable trade-offs for the elevated culinary experience and exclusivity I seek. Meanwhile, Restaurant B, while affordable and reliable, lacks the quality, sophistication, and special consideration for dietary needs that I expect. Given my budget comfortably accommodates Restaurant A\u2019s price range and my preference for Mexican food can be met there (tacos available), I find Restaurant A\u2019s quality and prestige justify the cost and better align with my personality and dining expectations."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:43.042328",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_40347210",
+    "name": "Customer_5372",
+    "restaurant_id": "A",
+    "item": "Fish and Chips",
+    "price": 14
+  },
+  {
+    "timestamp": "2025-07-15T20:12:47.740529",
+    "type": "review",
+    "review_id": "rev_dd0b0599",
+    "customer_id": "cust_40347210",
+    "restaurant_id": "A",
+    "stars": 3.0,
+    "text": "I appreciate the Michelin-level effort at Restaurant A, but the Fish and Chips didn\u2019t quite satisfy my craving for authentic Mexican flavors or accommodate my gluten sensitivity fully. Given my affluent budget, I expected a better tailored, gluten-free experience.",
+    "item": "Fish and Chips",
+    "reason": "Despite the restaurant's high quality rating of 90/100, the meal lacked alignment with my Mexican food preference and gluten-free needs, which diminished the value for my budget and expectations from a Michelin-level establishment.",
+    "expectation_level": "high"
+  },
+  {
+    "timestamp": "2025-07-15T20:12:47.740555",
+    "type": "customer_arrival",
+    "customer_id": "cust_5a955aa6",
+    "name": "Customer_3911",
+    "details": {
+      "income": "$8K-11.9K(Middle Class)",
+      "taste": "International cuisine",
+      "health": "Vegan",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Meticulous"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T20:12:52.354327",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_5a955aa6",
+    "name": "Customer_3911",
+    "decision": "B",
+    "reason": "Although Restaurant A boasts a significantly higher quality rating (90 vs 60) and Michelin-level prestige, several factors make Restaurant B more suitable for me. Firstly, my budget is middle-class ($8K-$11.9K), and Restaurant A's average price of $11.6 per item is at the top end or slightly above what I am comfortable paying, especially given the mixed reviews (3.8 stars from 7 reviews) and small portion sizes noted by some guests. Secondly, as a meticulous vegan who avoids dairy, the menu at both restaurants appears similar, but neither explicitly highlights vegan or dairy-free options, creating uncertainty about the suitability of Restaurant A's high-end dishes for my diet. Meanwhile, Restaurant B, being a local diner with a lower price point (also averaging $11.6 but with generally more affordable offerings) and a straightforward menu, may offer more flexibility and less risk of dietary mismatch. Additionally, my meticulous personality values consistency and reliability, which aligns better with the straightforward, friendly service and solid food quality at Restaurant B, despite its lower overall rating (60 vs 90). The quality difference does not convincingly justify the higher price and potential dietary challenges at Restaurant A. Therefore, Restaurant B offers a better balance of affordability, dietary safety, and dependable dining experience fitting my profile."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:52.354336",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_5a955aa6",
+    "name": "Customer_3911",
+    "restaurant_id": "B",
+    "item": "French Fries",
+    "price": 5
+  },
+  {
+    "timestamp": "2025-07-15T20:12:55.201607",
+    "type": "review",
+    "review_id": "rev_82c39bca",
+    "customer_id": "cust_5a955aa6",
+    "restaurant_id": "B",
+    "stars": 3.0,
+    "text": "I found the French Fries decent but somewhat underwhelming given my expectations for international cuisine. The diner\u2019s quality felt average, and while the dish met my vegan and dairy-free needs, the value seemed just fair within my budget.",
+    "item": "French Fries",
+    "reason": "With a quality rating of 60/100, the diner delivered moderately on quality and dietary needs, but it lacked the refined taste I seek as a meticulous customer who enjoys international vegan options, making it an average experience overall.",
+    "expectation_level": "normal"
+  },
+  {
+    "timestamp": "2025-07-15T20:12:55.201632",
+    "type": "customer_arrival",
+    "customer_id": "cust_4d2d7667",
+    "name": "Customer_9004",
+    "details": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Local comfort foods",
+      "health": "Overweight",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Thoughtful"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T20:12:59.777592",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_4d2d7667",
+    "name": "Customer_9004",
+    "decision": "B",
+    "reason": "As an affluent customer with a budget of $12K-$14.8K and a preference for local comfort foods, I value thoughtful dining experiences that cater to my dairy-free dietary needs and health considerations. Although Restaurant A offers a higher quality rating (90/100) and a Michelin-level experience, its total rating is only moderately better (3.8 stars) compared to Restaurant B's 3.0 stars. The price at Restaurant A is significantly higher ($$$$), with average dish prices around $11.6 but with generally small portions and some dishes containing dairy, which is a concern due to my dietary restrictions. Meanwhile, Restaurant B, a local diner, has a much more affordable price point ($), comparable menu items, and several positive reviews highlighting comfort food favorites like burgers, fries, and milkshakes, which align better with my taste for local comfort foods. Although the quality rating is lower at 60/100, the diner\u2019s offerings are straightforward, reliable, and more consistent with my thoughtful personality and desire for a less pretentious, more relaxed dining environment. Considering that the quality difference does not sufficiently justify the high price and potential dietary challenges at Restaurant A, I choose Restaurant B."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:59.777601",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_4d2d7667",
+    "name": "Customer_9004",
+    "restaurant_id": "B",
+    "item": "Vegetable Curry",
+    "price": 12
+  },
+  {
+    "timestamp": "2025-07-15T20:13:08.255598",
+    "type": "review",
+    "review_id": "rev_1aa7f146",
+    "customer_id": "cust_4d2d7667",
+    "restaurant_id": "B",
+    "stars": 3.0,
+    "text": "I appreciated the local comfort of the vegetable curry, which aligned well with my dairy-free needs. However, given the restaurant's modest quality rating and my affluent budget, the experience felt average rather than exceptional.",
+    "item": "Vegetable Curry",
+    "reason": "With a 60/100 quality rating, the diner met basic expectations but didn't fully satisfy my preference for refined local comfort foods, especially at a higher budget level.",
+    "expectation_level": "normal"
+  },
+  {
+    "timestamp": "2025-07-15T20:13:08.255624",
+    "type": "customer_arrival",
+    "customer_id": "cust_905b685c",
+    "name": "Customer_7900",
+    "details": {
+      "income": "$5K-5.8K(Very Poor)",
+      "taste": "Caribbean cuisine",
+      "health": "Overweight",
+      "dietary_restriction": "None",
+      "personality": "Sociable"
+    }
+  },
+  {
+    "timestamp": "2025-07-15T20:13:13.635989",
+    "type": "decision",
+    "day": 2,
+    "customer_id": "cust_905b685c",
+    "name": "Customer_7900",
+    "decision": "B",
+    "reason": "Given my very limited budget ($5K-$5.8K), the high price range of Restaurant A ($$$$) makes it an impractical choice despite its higher quality rating (90/100). While Restaurant A offers a higher objective quality and Michelin-level experience, the food items do not specifically cater to Caribbean cuisine, and with my overweight health status, the richer, heavier dishes at a high-end restaurant may not be ideal. Restaurant B, although rated lower (60/100), offers a similar menu at a much more affordable price, which fits my budget constraints. The local diner environment aligns well with my sociable personality, offering friendly and quick service that supports social dining without the pressure or formality of a high-end setting. The menu items available at Restaurant B are the same as A but at a more reasonable price, allowing me to enjoy my meal without financial stress. Therefore, Restaurant B is the better choice balancing budget, health, social preferences, and food options."
+  },
+  {
+    "timestamp": "2025-07-15T20:13:13.636001",
+    "type": "order",
+    "day": 2,
+    "customer_id": "cust_905b685c",
+    "name": "Customer_7900",
+    "restaurant_id": "B",
+    "item": "Cheesecake",
+    "price": 7
+  },
+  {
+    "timestamp": "2025-07-15T20:13:17.094147",
+    "type": "review",
+    "review_id": "rev_464f2376",
+    "customer_id": "cust_905b685c",
+    "restaurant_id": "B",
+    "stars": 2.0,
+    "text": "I was hoping for a cozy spot to enjoy some Caribbean flavors, but the cheesecake was just okay and didn't quite match my taste or expectations. Given my tight budget, I felt the value wasn\u2019t there for the quality offered.",
+    "item": "Cheesecake",
+    "reason": "With a quality rating of 60/100, the diner fell short of satisfying my Caribbean cuisine cravings; the cheesecake lacked the richness I anticipated, making it a less than ideal match for my preferences and budget constraints.",
+    "expectation_level": "normal"
+  }
+]

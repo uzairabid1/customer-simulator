@@ -1,0 +1,84 @@
+{
+  "A": {
+    "reviews": [
+      {
+        "review_id": "rev_5bc08645",
+        "user_id": "cust_3236273f",
+        "business_id": "A",
+        "stars": 4.0,
+        "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet mindful of my gluten-free needs. While the dish dazzled my artistic palate, the price felt a tad steep even within my affluent budget.",
+        "date": "2025-07-15 20:12:25",
+        "ordered_item": "Onion Rings"
+      },
+      {
+        "review_id": "rev_dd0b0599",
+        "user_id": "cust_40347210",
+        "business_id": "A",
+        "stars": 3.0,
+        "text": "I appreciate the Michelin-level effort at Restaurant A, but the Fish and Chips didn\u2019t quite satisfy my craving for authentic Mexican flavors or accommodate my gluten sensitivity fully. Given my affluent budget, I expected a better tailored, gluten-free experience.",
+        "date": "2025-07-15 20:12:47",
+        "ordered_item": "Fish and Chips"
+      }
+    ],
+    "revenue": 20
+  },
+  "B": {
+    "reviews": [
+      {
+        "review_id": "rev_266b83d5",
+        "user_id": "cust_9a61391d",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I found the Mushroom Risotto at this local diner lacking in flavor and seasoning, which was a relief given my low sodium needs. However, the portion felt small and overpriced considering my budget constraints and the restaurant's modest quality.",
+        "date": "2025-07-15 20:12:12",
+        "ordered_item": "Mushroom Risotto"
+      },
+      {
+        "review_id": "rev_4b366e36",
+        "user_id": "cust_7adfbeb3",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I found the Vegetable Stir Fry at this local diner somewhat disappointing. While the restaurant's quality is average, the dish did not cater to my gluten sensitivity and lacked the baked goods I prefer. Considering my tight budget, the value felt low.",
+        "date": "2025-07-15 20:12:18",
+        "ordered_item": "Vegetable Stir Fry"
+      },
+      {
+        "review_id": "rev_8217ffe9",
+        "user_id": "cust_8b39c230",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality felt average, matching the restaurant's rating. Considering my budget, I expected better value for the price.",
+        "date": "2025-07-15 20:12:36",
+        "ordered_item": "Caesar Salad"
+      },
+      {
+        "review_id": "rev_82c39bca",
+        "user_id": "cust_5a955aa6",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the French Fries decent but somewhat underwhelming given my expectations for international cuisine. The diner\u2019s quality felt average, and while the dish met my vegan and dairy-free needs, the value seemed just fair within my budget.",
+        "date": "2025-07-15 20:12:55",
+        "ordered_item": "French Fries"
+      },
+      {
+        "review_id": "rev_1aa7f146",
+        "user_id": "cust_4d2d7667",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciated the local comfort of the vegetable curry, which aligned well with my dairy-free needs. However, given the restaurant's modest quality rating and my affluent budget, the experience felt average rather than exceptional.",
+        "date": "2025-07-15 20:13:08",
+        "ordered_item": "Vegetable Curry"
+      },
+      {
+        "review_id": "rev_464f2376",
+        "user_id": "cust_905b685c",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I was hoping for a cozy spot to enjoy some Caribbean flavors, but the cheesecake was just okay and didn't quite match my taste or expectations. Given my tight budget, I felt the value wasn\u2019t there for the quality offered.",
+        "date": "2025-07-15 20:13:17",
+        "ordered_item": "Cheesecake"
+      }
+    ],
+    "revenue": 62
+  }
+}

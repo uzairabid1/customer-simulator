@@ -1,0 +1,90 @@
+[
+  {
+    "customer_id": "cust_9a61391d",
+    "name": "Customer_7876",
+    "role_desc": {
+      "income": "$6K-7.9K(Poor)",
+      "taste": "Vegetarian dishes",
+      "health": "High blood pressure",
+      "dietary_restriction": "Low sodium",
+      "personality": "Strict"
+    }
+  },
+  {
+    "customer_id": "cust_7adfbeb3",
+    "name": "Customer_1677",
+    "role_desc": {
+      "income": "$6K-7.9K(Poor)",
+      "taste": "Baked goods",
+      "health": "Gluten sensitivity",
+      "dietary_restriction": "Gluten-free",
+      "personality": "Strict"
+    }
+  },
+  {
+    "customer_id": "cust_3236273f",
+    "name": "Customer_5011",
+    "role_desc": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Grilled dishes",
+      "health": "Diabetic",
+      "dietary_restriction": "Gluten-free",
+      "personality": "Artistic"
+    }
+  },
+  {
+    "customer_id": "cust_8b39c230",
+    "name": "Customer_7499",
+    "role_desc": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Simple dishes",
+      "health": "High blood pressure",
+      "dietary_restriction": "Low cholesterol",
+      "personality": "Shy"
+    }
+  },
+  {
+    "customer_id": "cust_40347210",
+    "name": "Customer_5372",
+    "role_desc": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Mexican food",
+      "health": "Gluten sensitivity",
+      "dietary_restriction": "Gluten-free",
+      "personality": "Ambitious"
+    }
+  },
+  {
+    "customer_id": "cust_5a955aa6",
+    "name": "Customer_3911",
+    "role_desc": {
+      "income": "$8K-11.9K(Middle Class)",
+      "taste": "International cuisine",
+      "health": "Vegan",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Meticulous"
+    }
+  },
+  {
+    "customer_id": "cust_4d2d7667",
+    "name": "Customer_9004",
+    "role_desc": {
+      "income": "$12K-14.8K(Affluent)",
+      "taste": "Local comfort foods",
+      "health": "Overweight",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Thoughtful"
+    }
+  },
+  {
+    "customer_id": "cust_905b685c",
+    "name": "Customer_7900",
+    "role_desc": {
+      "income": "$5K-5.8K(Very Poor)",
+      "taste": "Caribbean cuisine",
+      "health": "Overweight",
+      "dietary_restriction": "None",
+      "personality": "Sociable"
+    }
+  }
+]

@@ -1,0 +1,643 @@
+[
+  {
+    "timestamp": "2025-07-15T20:12:08.562912",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_9a61391d",
+    "name": "Customer_7876",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.9,
+      "total_reviews": 5,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairi...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the qual...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pr...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flav...",
+          "date": "2023-08-05 18:45:00"
+        },
+        {
+          "stars": 2.5,
+          "text": "Expected more for these prices. The duck was overcooked and the service was slow despite the restaur...",
+          "date": "2023-10-08 19:30:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 60,
+      "overall_rating": 3.4,
+      "total_reviews": 5,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 4.5,
+          "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what ...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and af...",
+          "date": "2023-07-15 08:45:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good....",
+          "date": "2023-10-18 14:00:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "The grilled cheese was soggy and the tomato soup tasted canned. Disappointing even for diner standar...",
+          "date": "2023-08-22 13:15:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my budget of $6K-7.9K, which is considered poor, affordability is a key factor. Both restaurants offer similar menu items, including vegetarian dishes like Salad, Vegetable Stir Fry, Mushroom Risotto, and Vegetable Curry, which align with my dietary preference. However, I have high blood pressure and require low sodium options, so I would need to be cautious regardless. Restaurant A is a high-end establishment with a quality rating of 90/100 but has a lower overall star rating (3.9) from a small number of reviews and is significantly more expensive ($$$$, average $11.6 per item). The reviews indicate that while the food is high quality, the portions are small and the ambiance may feel pretentious, which does not suit my strict personality and preference for straightforward dining. Restaurant B, although lower in quality rating (60/100) and star rating (3.4), offers affordable pricing ($, average $11.6), reliable and straightforward food, and friendly service. The quality difference does not justify the much higher price and potentially less suitable atmosphere of Restaurant A for me. Therefore, I choose Restaurant B to maintain budget control, meet my dietary needs with available vegetarian options, and enjoy a no-nonsense dining experience."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:15.055511",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_7adfbeb3",
+    "name": "Customer_1677",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.9,
+      "total_reviews": 5,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairi...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the qual...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pr...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flav...",
+          "date": "2023-08-05 18:45:00"
+        },
+        {
+          "stars": 2.5,
+          "text": "Expected more for these prices. The duck was overcooked and the service was slow despite the restaur...",
+          "date": "2023-10-08 19:30:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 60,
+      "overall_rating": 3.2,
+      "total_reviews": 6,
+      "reviews_shown_count": 6,
+      "reviews_shown": [
+        {
+          "stars": 4.5,
+          "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what ...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and af...",
+          "date": "2023-07-15 08:45:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good....",
+          "date": "2023-10-18 14:00:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "The grilled cheese was soggy and the tomato soup tasted canned. Disappointing even for diner standar...",
+          "date": "2023-08-22 13:15:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Mushroom Risotto at this local diner lacking in flavor and seasoning, which was a relief...",
+          "date": "2025-07-15 20:12:12"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Considering the customer\u2019s low budget ($6K-7.9K, categorized as poor) and strict personality, Restaurant B is the better choice. Although Restaurant A has a higher objective quality rating (90 vs. 60), it carries a much higher price range ($$$$) which does not align with the customer's budget constraints. Both restaurants offer similar menu items, but neither explicitly highlights gluten-free baked goods, which is a concern given the customer's gluten sensitivity. However, the local diner (Restaurant B) offers affordable prices and reliable basic fare, which suits a strict personality focused on practicality and budget. The quality difference does not justify the significant price difference for this customer, especially since Restaurant A\u2019s menu and reviews do not emphasize gluten-free baked goods either. Therefore, Restaurant B is the more sensible and compatible option."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:22.391484",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_3236273f",
+    "name": "Customer_5011",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.9,
+      "total_reviews": 5,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairi...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the qual...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pr...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flav...",
+          "date": "2023-08-05 18:45:00"
+        },
+        {
+          "stars": 2.5,
+          "text": "Expected more for these prices. The duck was overcooked and the service was slow despite the restaur...",
+          "date": "2023-10-08 19:30:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 60,
+      "overall_rating": 3.0,
+      "total_reviews": 7,
+      "reviews_shown_count": 7,
+      "reviews_shown": [
+        {
+          "stars": 4.5,
+          "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what ...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and af...",
+          "date": "2023-07-15 08:45:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good....",
+          "date": "2023-10-18 14:00:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "The grilled cheese was soggy and the tomato soup tasted canned. Disappointing even for diner standar...",
+          "date": "2023-08-22 13:15:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Vegetable Stir Fry at this local diner somewhat disappointing. While the restaurant's qu...",
+          "date": "2025-07-15 20:12:18"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Mushroom Risotto at this local diner lacking in flavor and seasoning, which was a relief...",
+          "date": "2025-07-15 20:12:12"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my affluent budget ($12K-$14.8K), the higher price range of Restaurant A ($$$$ with average item price $11.6) is well within my means and does not pose a constraint. Restaurant A has a significantly better quality rating (90/100) compared to Restaurant B (60/100), indicating a superior dining experience. The menu at both restaurants is the same, but Restaurant A\u2019s Michelin-level status and higher quality reviews suggest better food preparation and presentation. Considering my dietary needs as a diabetic requiring gluten-free options, as well as my preference for grilled dishes, Restaurant A offers grilled salmon, which is a suitable and healthy choice. Additionally, the artistic personality I possess aligns well with the refined and creative ambiance of a high-end restaurant, which can provide a more inspiring and enjoyable dining experience. While Restaurant B is more affordable and has some positive reviews, its lower quality rating and average diner atmosphere do not align as well with my preferences and expectations. Therefore, the quality difference justifies the price difference, making Restaurant A the better choice for me."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:32.730222",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_8b39c230",
+    "name": "Customer_7499",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.9,
+      "total_reviews": 6,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairi...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the qual...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pr...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet min...",
+          "date": "2025-07-15 20:12:25"
+        },
+        {
+          "stars": 3.5,
+          "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flav...",
+          "date": "2023-08-05 18:45:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 60,
+      "overall_rating": 3.0,
+      "total_reviews": 7,
+      "reviews_shown_count": 7,
+      "reviews_shown": [
+        {
+          "stars": 4.5,
+          "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what ...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and af...",
+          "date": "2023-07-15 08:45:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good....",
+          "date": "2023-10-18 14:00:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "The grilled cheese was soggy and the tomato soup tasted canned. Disappointing even for diner standar...",
+          "date": "2023-08-22 13:15:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Vegetable Stir Fry at this local diner somewhat disappointing. While the restaurant's qu...",
+          "date": "2025-07-15 20:12:18"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Mushroom Risotto at this local diner lacking in flavor and seasoning, which was a relief...",
+          "date": "2025-07-15 20:12:12"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my affluent budget, I can afford Restaurant A's higher prices, but my preference for simple dishes and a low-cholesterol diet due to high blood pressure makes the local diner more appealing. Restaurant B offers straightforward, familiar foods like burgers, salads, and grilled items that fit my dietary needs better without the risk of rich or heavy fare that might be common at a high-end restaurant like A. Additionally, as a shy person, the casual, unpretentious atmosphere of Restaurant B suits me better than the potentially pretentious ambiance of Restaurant A. While Restaurant A has a significantly higher quality rating (90 vs 60), the moderate total star rating (3.9/5) and reviews indicate that some dishes are expensive and portion sizes small, which might detract from the overall experience. Restaurant B's food is reliable and affordable, and despite its lower quality rating, it aligns better with my health considerations, personality, and desire for simple food, making it the better overall choice."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:43.032552",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_40347210",
+    "name": "Customer_5372",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.9,
+      "total_reviews": 6,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairi...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the qual...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pr...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet min...",
+          "date": "2025-07-15 20:12:25"
+        },
+        {
+          "stars": 3.5,
+          "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flav...",
+          "date": "2023-08-05 18:45:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 60,
+      "overall_rating": 3.0,
+      "total_reviews": 8,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 4.5,
+          "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what ...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and af...",
+          "date": "2023-07-15 08:45:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good....",
+          "date": "2023-10-18 14:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality f...",
+          "date": "2025-07-15 20:12:36"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "As an affluent customer with a budget of $12K-$14.8K and an ambitious personality, I prioritize high quality and exceptional dining experiences. Restaurant A, despite its higher price point, offers a superior overall quality rating (90 vs 60) and Michelin-level refinement that aligns with my standards. Although both restaurants share similar menus, Restaurant A\u2019s higher quality and attention to detail, including gluten-free options like perfectly crafted onion rings, better suits my gluten sensitivity. The slightly pretentious ambiance and smaller portions are acceptable trade-offs for the elevated culinary experience and exclusivity I seek. Meanwhile, Restaurant B, while affordable and reliable, lacks the quality, sophistication, and special consideration for dietary needs that I expect. Given my budget comfortably accommodates Restaurant A\u2019s price range and my preference for Mexican food can be met there (tacos available), I find Restaurant A\u2019s quality and prestige justify the cost and better align with my personality and dining expectations."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:52.343828",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_5a955aa6",
+    "name": "Customer_3911",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 7,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairi...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the qual...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pr...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet min...",
+          "date": "2025-07-15 20:12:25"
+        },
+        {
+          "stars": 3.5,
+          "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flav...",
+          "date": "2023-08-05 18:45:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 60,
+      "overall_rating": 3.0,
+      "total_reviews": 8,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 4.5,
+          "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what ...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and af...",
+          "date": "2023-07-15 08:45:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good....",
+          "date": "2023-10-18 14:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality f...",
+          "date": "2025-07-15 20:12:36"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A boasts a significantly higher quality rating (90 vs 60) and Michelin-level prestige, several factors make Restaurant B more suitable for me. Firstly, my budget is middle-class ($8K-$11.9K), and Restaurant A's average price of $11.6 per item is at the top end or slightly above what I am comfortable paying, especially given the mixed reviews (3.8 stars from 7 reviews) and small portion sizes noted by some guests. Secondly, as a meticulous vegan who avoids dairy, the menu at both restaurants appears similar, but neither explicitly highlights vegan or dairy-free options, creating uncertainty about the suitability of Restaurant A's high-end dishes for my diet. Meanwhile, Restaurant B, being a local diner with a lower price point (also averaging $11.6 but with generally more affordable offerings) and a straightforward menu, may offer more flexibility and less risk of dietary mismatch. Additionally, my meticulous personality values consistency and reliability, which aligns better with the straightforward, friendly service and solid food quality at Restaurant B, despite its lower overall rating (60 vs 90). The quality difference does not convincingly justify the higher price and potential dietary challenges at Restaurant A. Therefore, Restaurant B offers a better balance of affordability, dietary safety, and dependable dining experience fitting my profile."
+  },
+  {
+    "timestamp": "2025-07-15T20:12:59.767571",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_4d2d7667",
+    "name": "Customer_9004",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 7,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairi...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the qual...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pr...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet min...",
+          "date": "2025-07-15 20:12:25"
+        },
+        {
+          "stars": 3.5,
+          "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flav...",
+          "date": "2023-08-05 18:45:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 60,
+      "overall_rating": 3.0,
+      "total_reviews": 9,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 4.5,
+          "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what ...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and af...",
+          "date": "2023-07-15 08:45:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good....",
+          "date": "2023-10-18 14:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality f...",
+          "date": "2025-07-15 20:12:36"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "As an affluent customer with a budget of $12K-$14.8K and a preference for local comfort foods, I value thoughtful dining experiences that cater to my dairy-free dietary needs and health considerations. Although Restaurant A offers a higher quality rating (90/100) and a Michelin-level experience, its total rating is only moderately better (3.8 stars) compared to Restaurant B's 3.0 stars. The price at Restaurant A is significantly higher ($$$$), with average dish prices around $11.6 but with generally small portions and some dishes containing dairy, which is a concern due to my dietary restrictions. Meanwhile, Restaurant B, a local diner, has a much more affordable price point ($), comparable menu items, and several positive reviews highlighting comfort food favorites like burgers, fries, and milkshakes, which align better with my taste for local comfort foods. Although the quality rating is lower at 60/100, the diner\u2019s offerings are straightforward, reliable, and more consistent with my thoughtful personality and desire for a less pretentious, more relaxed dining environment. Considering that the quality difference does not sufficiently justify the high price and potential dietary challenges at Restaurant A, I choose Restaurant B."
+  },
+  {
+    "timestamp": "2025-07-15T20:13:13.624820",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_905b685c",
+    "name": "Customer_7900",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 7,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairi...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the qual...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pr...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet min...",
+          "date": "2025-07-15 20:12:25"
+        },
+        {
+          "stars": 3.5,
+          "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flav...",
+          "date": "2023-08-05 18:45:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 60,
+      "overall_rating": 3.0,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 4.5,
+          "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what ...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 3.5,
+          "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and af...",
+          "date": "2023-07-15 08:45:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good....",
+          "date": "2023-10-18 14:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality f...",
+          "date": "2025-07-15 20:12:36"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my very limited budget ($5K-$5.8K), the high price range of Restaurant A ($$$$) makes it an impractical choice despite its higher quality rating (90/100). While Restaurant A offers a higher objective quality and Michelin-level experience, the food items do not specifically cater to Caribbean cuisine, and with my overweight health status, the richer, heavier dishes at a high-end restaurant may not be ideal. Restaurant B, although rated lower (60/100), offers a similar menu at a much more affordable price, which fits my budget constraints. The local diner environment aligns well with my sociable personality, offering friendly and quick service that supports social dining without the pressure or formality of a high-end setting. The menu items available at Restaurant B are the same as A but at a more reasonable price, allowing me to enjoy my meal without financial stress. Therefore, Restaurant B is the better choice balancing budget, health, social preferences, and food options."
+  }
+]
