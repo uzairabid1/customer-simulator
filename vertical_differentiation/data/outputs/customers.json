@@ -1,90 +1,90 @@
 [
   {
-    "customer_id": "cust_9a61391d",
-    "name": "Customer_7876",
+    "customer_id": "cust_dfb16559",
+    "name": "Customer_5434",
     "role_desc": {
-      "income": "$6K-7.9K(Poor)",
-      "taste": "Vegetarian dishes",
-      "health": "High blood pressure",
-      "dietary_restriction": "Low sodium",
-      "personality": "Strict"
+      "income": "$8K-11.9K(Middle Class)",
+      "taste": "Caribbean cuisine",
+      "health": "Healthy",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Ambitious"
     }
   },
   {
-    "customer_id": "cust_7adfbeb3",
-    "name": "Customer_1677",
-    "role_desc": {
-      "income": "$6K-7.9K(Poor)",
-      "taste": "Baked goods",
-      "health": "Gluten sensitivity",
-      "dietary_restriction": "Gluten-free",
-      "personality": "Strict"
-    }
-  },
-  {
-    "customer_id": "cust_3236273f",
-    "name": "Customer_5011",
+    "customer_id": "cust_993f26c0",
+    "name": "Customer_3718",
     "role_desc": {
       "income": "$12K-14.8K(Affluent)",
-      "taste": "Grilled dishes",
-      "health": "Diabetic",
-      "dietary_restriction": "Gluten-free",
+      "taste": "French cuisine",
+      "health": "High blood pressure",
+      "dietary_restriction": "Low sodium",
       "personality": "Artistic"
     }
   },
   {
-    "customer_id": "cust_8b39c230",
-    "name": "Customer_7499",
+    "customer_id": "cust_bb2c2a71",
+    "name": "Customer_5360",
     "role_desc": {
-      "income": "$12K-14.8K(Affluent)",
-      "taste": "Simple dishes",
-      "health": "High blood pressure",
-      "dietary_restriction": "Low cholesterol",
-      "personality": "Shy"
+      "income": "$8K-11.9K(Middle Class)",
+      "taste": "Baked goods",
+      "health": "High cholesterol",
+      "dietary_restriction": "Low fat",
+      "personality": "Relaxed"
     }
   },
   {
-    "customer_id": "cust_40347210",
-    "name": "Customer_5372",
+    "customer_id": "cust_66d35b72",
+    "name": "Customer_5606",
     "role_desc": {
-      "income": "$12K-14.8K(Affluent)",
-      "taste": "Mexican food",
-      "health": "Gluten sensitivity",
+      "income": "$5K-5.8K(Very Poor)",
+      "taste": "Fried food",
+      "health": "No concerns",
       "dietary_restriction": "Gluten-free",
       "personality": "Ambitious"
     }
   },
   {
-    "customer_id": "cust_5a955aa6",
-    "name": "Customer_3911",
+    "customer_id": "cust_cb2a1771",
+    "name": "Customer_9270",
     "role_desc": {
       "income": "$8K-11.9K(Middle Class)",
-      "taste": "International cuisine",
-      "health": "Vegan",
-      "dietary_restriction": "Dairy-free",
-      "personality": "Meticulous"
+      "taste": "Chocolate and sweets",
+      "health": "Gluten intolerance",
+      "dietary_restriction": "Low fat",
+      "personality": "Discerning"
     }
   },
   {
-    "customer_id": "cust_4d2d7667",
-    "name": "Customer_9004",
+    "customer_id": "cust_0bb69b5a",
+    "name": "Customer_8839",
     "role_desc": {
       "income": "$12K-14.8K(Affluent)",
       "taste": "Local comfort foods",
-      "health": "Overweight",
-      "dietary_restriction": "Dairy-free",
-      "personality": "Thoughtful"
+      "health": "Gluten intolerance",
+      "dietary_restriction": "Low cholesterol",
+      "personality": "Friendly"
     }
   },
   {
-    "customer_id": "cust_905b685c",
-    "name": "Customer_7900",
+    "customer_id": "cust_9096d5c4",
+    "name": "Customer_6280",
     "role_desc": {
-      "income": "$5K-5.8K(Very Poor)",
-      "taste": "Caribbean cuisine",
-      "health": "Overweight",
-      "dietary_restriction": "None",
-      "personality": "Sociable"
+      "income": "$8K-11.9K(Middle Class)",
+      "taste": "Vegan options",
+      "health": "Allergies",
+      "dietary_restriction": "Dairy-free",
+      "personality": "Intellectual"
+    }
+  },
+  {
+    "customer_id": "cust_bffd8367",
+    "name": "Customer_9215",
+    "role_desc": {
+      "income": "$6K-7.9K(Poor)",
+      "taste": "Mexican food",
+      "health": "High cholesterol",
+      "dietary_restriction": "Low fat",
+      "personality": "Leader"
     }
   }
 ]

@@ -1,760 +1,980 @@
 [
   {
-    "timestamp": "2025-07-15T20:12:00.332317",
+    "timestamp": "2025-07-26T08:46:15.656978",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_9a61391d",
-    "name": "Customer_7876",
+    "customer_id": "cust_dfb16559",
+    "name": "Customer_5434",
     "restaurant_id": "A",
     "is_additional": false,
     "reviews": [
       {
         "stars": 5.0,
-        "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairing was impeccable. Worth every penny.",
-        "date": "2023-07-20 20:15:00",
-        "review_id": "A2"
-      },
-      {
-        "stars": 4.5,
-        "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the quality justified the price for this special occasion.",
+        "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.",
         "date": "2023-06-15 19:30:00",
         "review_id": "A1"
       },
       {
+        "stars": 5.0,
+        "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
         "stars": 4.0,
-        "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pretentious for my taste.",
+        "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.",
         "date": "2023-09-12 21:00:00",
         "review_id": "A4"
-      },
-      {
-        "stars": 3.5,
-        "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flavorful but I left still hungry.",
-        "date": "2023-08-05 18:45:00",
-        "review_id": "A3"
-      },
-      {
-        "stars": 2.5,
-        "text": "Expected more for these prices. The duck was overcooked and the service was slow despite the restaurant being half-empty.",
-        "date": "2023-10-08 19:30:00",
-        "review_id": "A5"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:00.332902",
+    "timestamp": "2025-07-26T08:46:15.657535",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_9a61391d",
-    "name": "Customer_7876",
+    "customer_id": "cust_dfb16559",
+    "name": "Customer_5434",
     "restaurant_id": "B",
     "is_additional": false,
     "reviews": [
       {
+        "stars": 5.0,
+        "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
         "stars": 4.5,
-        "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround.",
+        "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too.",
         "date": "2023-09-05 11:30:00",
         "review_id": "B4"
       },
       {
         "stars": 4.0,
-        "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what I expected from a good diner.",
+        "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
         "date": "2023-06-10 12:30:00",
         "review_id": "B1"
       },
       {
-        "stars": 3.5,
-        "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and affordable.",
-        "date": "2023-07-15 08:45:00",
-        "review_id": "B2"
+        "stars": 4.0,
+        "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
       },
       {
-        "stars": 3.0,
-        "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good.",
-        "date": "2023-10-18 14:00:00",
-        "review_id": "B5"
-      },
-      {
-        "stars": 2.0,
-        "text": "The grilled cheese was soggy and the tomato soup tasted canned. Disappointing even for diner standards.",
-        "date": "2023-08-22 13:15:00",
-        "review_id": "B3"
+        "stars": 4.0,
+        "text": "The $5 apple pie \u00e0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:00.343993",
+    "timestamp": "2025-07-26T08:46:15.669405",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_9a61391d",
-    "name": "Customer_7876",
+    "customer_id": "cust_dfb16559",
+    "name": "Customer_5434",
     "restaurant_id": "A",
     "is_additional": true,
     "reviews": []
   },
   {
-    "timestamp": "2025-07-15T20:12:00.352266",
+    "timestamp": "2025-07-26T08:46:15.677999",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_9a61391d",
-    "name": "Customer_7876",
+    "customer_id": "cust_dfb16559",
+    "name": "Customer_5434",
     "restaurant_id": "B",
     "is_additional": true,
     "reviews": []
   },
   {
-    "timestamp": "2025-07-15T20:12:12.188978",
+    "timestamp": "2025-07-26T08:46:28.095137",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_7adfbeb3",
-    "name": "Customer_1677",
+    "customer_id": "cust_993f26c0",
+    "name": "Customer_3718",
     "restaurant_id": "A",
     "is_additional": false,
     "reviews": [
       {
         "stars": 5.0,
-        "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairing was impeccable. Worth every penny.",
-        "date": "2023-07-20 20:15:00",
-        "review_id": "A2"
-      },
-      {
-        "stars": 4.5,
-        "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the quality justified the price for this special occasion.",
+        "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.",
         "date": "2023-06-15 19:30:00",
         "review_id": "A1"
       },
       {
+        "stars": 5.0,
+        "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
         "stars": 4.0,
-        "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pretentious for my taste.",
+        "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.",
         "date": "2023-09-12 21:00:00",
         "review_id": "A4"
-      },
-      {
-        "stars": 3.5,
-        "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flavorful but I left still hungry.",
-        "date": "2023-08-05 18:45:00",
-        "review_id": "A3"
-      },
-      {
-        "stars": 2.5,
-        "text": "Expected more for these prices. The duck was overcooked and the service was slow despite the restaurant being half-empty.",
-        "date": "2023-10-08 19:30:00",
-        "review_id": "A5"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:12.198417",
+    "timestamp": "2025-07-26T08:46:28.103786",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_7adfbeb3",
-    "name": "Customer_1677",
+    "customer_id": "cust_993f26c0",
+    "name": "Customer_3718",
     "restaurant_id": "B",
     "is_additional": false,
     "reviews": [
       {
+        "stars": 5.0,
+        "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
         "stars": 4.5,
-        "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround.",
+        "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too.",
         "date": "2023-09-05 11:30:00",
         "review_id": "B4"
       },
       {
         "stars": 4.0,
-        "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what I expected from a good diner.",
+        "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
         "date": "2023-06-10 12:30:00",
         "review_id": "B1"
       },
       {
-        "stars": 3.5,
-        "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and affordable.",
-        "date": "2023-07-15 08:45:00",
-        "review_id": "B2"
+        "stars": 4.0,
+        "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
       },
       {
-        "stars": 3.0,
-        "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good.",
-        "date": "2023-10-18 14:00:00",
-        "review_id": "B5"
-      },
-      {
-        "stars": 2.0,
-        "text": "The grilled cheese was soggy and the tomato soup tasted canned. Disappointing even for diner standards.",
-        "date": "2023-08-22 13:15:00",
-        "review_id": "B3"
+        "stars": 4.0,
+        "text": "The $5 apple pie \u00e0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:12.206124",
+    "timestamp": "2025-07-26T08:46:28.110763",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_7adfbeb3",
-    "name": "Customer_1677",
+    "customer_id": "cust_993f26c0",
+    "name": "Customer_3718",
     "restaurant_id": "A",
     "is_additional": true,
     "reviews": []
   },
   {
-    "timestamp": "2025-07-15T20:12:12.213763",
+    "timestamp": "2025-07-26T08:46:28.118374",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_7adfbeb3",
-    "name": "Customer_1677",
+    "customer_id": "cust_993f26c0",
+    "name": "Customer_3718",
     "restaurant_id": "B",
     "is_additional": true,
     "reviews": [
       {
         "stars": 2.0,
-        "text": "I found the Mushroom Risotto at this local diner lacking in flavor and seasoning, which was a relief given my low sodium needs. However, the portion felt small and overpriced considering my budget con...",
-        "date": "2025-07-15 20:12:12",
-        "review_id": "rev_266b83d5"
+        "text": "I was eager to try Caribbean flavors at this local diner, but the grilled cheese fell short of my healthy, dairy-free expectations. While the price was fair for my budget, the quality didn't match wha...",
+        "date": "2025-07-26 08:46:28",
+        "review_id": "rev_2d33c8ef"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:18.617421",
+    "timestamp": "2025-07-26T08:46:33.849136",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_3236273f",
-    "name": "Customer_5011",
+    "customer_id": "cust_bb2c2a71",
+    "name": "Customer_5360",
     "restaurant_id": "A",
     "is_additional": false,
     "reviews": [
       {
         "stars": 5.0,
-        "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairing was impeccable. Worth every penny.",
-        "date": "2023-07-20 20:15:00",
-        "review_id": "A2"
-      },
-      {
-        "stars": 4.5,
-        "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the quality justified the price for this special occasion.",
+        "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.",
         "date": "2023-06-15 19:30:00",
         "review_id": "A1"
       },
       {
-        "stars": 4.0,
-        "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pretentious for my taste.",
-        "date": "2023-09-12 21:00:00",
-        "review_id": "A4"
+        "stars": 5.0,
+        "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
       },
       {
-        "stars": 3.5,
-        "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flavorful but I left still hungry.",
-        "date": "2023-08-05 18:45:00",
-        "review_id": "A3"
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
       },
-      {
-        "stars": 2.5,
-        "text": "Expected more for these prices. The duck was overcooked and the service was slow despite the restaurant being half-empty.",
-        "date": "2023-10-08 19:30:00",
-        "review_id": "A5"
-      }
-    ]
-  },
-  {
-    "timestamp": "2025-07-15T20:12:18.629113",
-    "type": "reviews_seen",
-    "day": 1,
-    "customer_id": "cust_3236273f",
-    "name": "Customer_5011",
-    "restaurant_id": "B",
-    "is_additional": false,
-    "reviews": [
       {
         "stars": 4.5,
-        "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround.",
-        "date": "2023-09-05 11:30:00",
-        "review_id": "B4"
+        "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
       },
       {
         "stars": 4.0,
-        "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what I expected from a good diner.",
-        "date": "2023-06-10 12:30:00",
-        "review_id": "B1"
-      },
-      {
-        "stars": 3.5,
-        "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and affordable.",
-        "date": "2023-07-15 08:45:00",
-        "review_id": "B2"
-      },
-      {
-        "stars": 3.0,
-        "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good.",
-        "date": "2023-10-18 14:00:00",
-        "review_id": "B5"
-      },
-      {
-        "stars": 2.0,
-        "text": "The grilled cheese was soggy and the tomato soup tasted canned. Disappointing even for diner standards.",
-        "date": "2023-08-22 13:15:00",
-        "review_id": "B3"
+        "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:18.637598",
+    "timestamp": "2025-07-26T08:46:33.858188",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_3236273f",
-    "name": "Customer_5011",
-    "restaurant_id": "A",
-    "is_additional": true,
-    "reviews": []
-  },
-  {
-    "timestamp": "2025-07-15T20:12:18.644983",
-    "type": "reviews_seen",
-    "day": 1,
-    "customer_id": "cust_3236273f",
-    "name": "Customer_5011",
+    "customer_id": "cust_bb2c2a71",
+    "name": "Customer_5360",
     "restaurant_id": "B",
-    "is_additional": true,
-    "reviews": [
-      {
-        "stars": 2.0,
-        "text": "I found the Vegetable Stir Fry at this local diner somewhat disappointing. While the restaurant's quality is average, the dish did not cater to my gluten sensitivity and lacked the baked goods I prefe...",
-        "date": "2025-07-15 20:12:18",
-        "review_id": "rev_4b366e36"
-      },
-      {
-        "stars": 2.0,
-        "text": "I found the Mushroom Risotto at this local diner lacking in flavor and seasoning, which was a relief given my low sodium needs. However, the portion felt small and overpriced considering my budget con...",
-        "date": "2025-07-15 20:12:12",
-        "review_id": "rev_266b83d5"
-      }
-    ]
-  },
-  {
-    "timestamp": "2025-07-15T20:12:25.558267",
-    "type": "reviews_seen",
-    "day": 1,
-    "customer_id": "cust_8b39c230",
-    "name": "Customer_7499",
-    "restaurant_id": "A",
     "is_additional": false,
     "reviews": [
       {
         "stars": 5.0,
-        "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairing was impeccable. Worth every penny.",
-        "date": "2023-07-20 20:15:00",
-        "review_id": "A2"
+        "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
       },
       {
         "stars": 4.5,
-        "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the quality justified the price for this special occasion.",
-        "date": "2023-06-15 19:30:00",
-        "review_id": "A1"
-      },
-      {
-        "stars": 4.0,
-        "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pretentious for my taste.",
-        "date": "2023-09-12 21:00:00",
-        "review_id": "A4"
-      },
-      {
-        "stars": 4.0,
-        "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet mindful of my gluten-free needs. While the dish dazzled my artistic palate, the price felt a tad steep ...",
-        "date": "2025-07-15 20:12:25",
-        "review_id": "rev_5bc08645"
-      },
-      {
-        "stars": 3.5,
-        "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flavorful but I left still hungry.",
-        "date": "2023-08-05 18:45:00",
-        "review_id": "A3"
-      }
-    ]
-  },
-  {
-    "timestamp": "2025-07-15T20:12:25.568357",
-    "type": "reviews_seen",
-    "day": 1,
-    "customer_id": "cust_8b39c230",
-    "name": "Customer_7499",
-    "restaurant_id": "B",
-    "is_additional": false,
-    "reviews": [
-      {
-        "stars": 4.5,
-        "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround.",
+        "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too.",
         "date": "2023-09-05 11:30:00",
         "review_id": "B4"
       },
       {
         "stars": 4.0,
-        "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what I expected from a good diner.",
+        "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
         "date": "2023-06-10 12:30:00",
         "review_id": "B1"
       },
       {
-        "stars": 3.5,
-        "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and affordable.",
-        "date": "2023-07-15 08:45:00",
-        "review_id": "B2"
+        "stars": 4.0,
+        "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
       },
       {
-        "stars": 3.0,
-        "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good.",
-        "date": "2023-10-18 14:00:00",
-        "review_id": "B5"
-      },
-      {
-        "stars": 2.0,
-        "text": "The grilled cheese was soggy and the tomato soup tasted canned. Disappointing even for diner standards.",
-        "date": "2023-08-22 13:15:00",
-        "review_id": "B3"
+        "stars": 4.0,
+        "text": "The $5 apple pie \u00e0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:25.576433",
+    "timestamp": "2025-07-26T08:46:33.865386",
     "type": "reviews_seen",
     "day": 1,
-    "customer_id": "cust_8b39c230",
-    "name": "Customer_7499",
+    "customer_id": "cust_bb2c2a71",
+    "name": "Customer_5360",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I appreciated the exquisite French flavors and delicate preparation of the Veal Chop, perfectly suited to my artistic palate. The low-sodium approach was thoughtful, though a touch more seasoning coul...",
+        "date": "2025-07-26 08:46:33",
+        "review_id": "rev_1a64bd7e"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:46:33.872559",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_bb2c2a71",
+    "name": "Customer_5360",
     "restaurant_id": "B",
     "is_additional": true,
     "reviews": [
       {
         "stars": 2.0,
-        "text": "I found the Vegetable Stir Fry at this local diner somewhat disappointing. While the restaurant's quality is average, the dish did not cater to my gluten sensitivity and lacked the baked goods I prefe...",
-        "date": "2025-07-15 20:12:18",
-        "review_id": "rev_4b366e36"
+        "text": "I was eager to try Caribbean flavors at this local diner, but the grilled cheese fell short of my healthy, dairy-free expectations. While the price was fair for my budget, the quality didn't match wha...",
+        "date": "2025-07-26 08:46:28",
+        "review_id": "rev_2d33c8ef"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:46:41.514774",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_66d35b72",
+    "name": "Customer_5606",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:46:41.523912",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_66d35b72",
+    "name": "Customer_5606",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $5 apple pie \u00e0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:46:41.531585",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_66d35b72",
+    "name": "Customer_5606",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I appreciated the exquisite French flavors and delicate preparation of the Veal Chop, perfectly suited to my artistic palate. The low-sodium approach was thoughtful, though a touch more seasoning coul...",
+        "date": "2025-07-26 08:46:33",
+        "review_id": "rev_1a64bd7e"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:46:41.539602",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_66d35b72",
+    "name": "Customer_5606",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the apple pie at this local diner; it was comforting and hit the spot for a baked good craving. Though the quality was average, the price felt fair within my budget, especially considering m...",
+        "date": "2025-07-26 08:46:41",
+        "review_id": "rev_01b4ee0e"
       },
       {
         "stars": 2.0,
-        "text": "I found the Mushroom Risotto at this local diner lacking in flavor and seasoning, which was a relief given my low sodium needs. However, the portion felt small and overpriced considering my budget con...",
-        "date": "2025-07-15 20:12:12",
-        "review_id": "rev_266b83d5"
+        "text": "I was eager to try Caribbean flavors at this local diner, but the grilled cheese fell short of my healthy, dairy-free expectations. While the price was fair for my budget, the quality didn't match wha...",
+        "date": "2025-07-26 08:46:28",
+        "review_id": "rev_2d33c8ef"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:36.625897",
+    "timestamp": "2025-07-26T08:46:47.074795",
     "type": "reviews_seen",
     "day": 2,
-    "customer_id": "cust_40347210",
-    "name": "Customer_5372",
+    "customer_id": "cust_cb2a1771",
+    "name": "Customer_9270",
     "restaurant_id": "A",
     "is_additional": false,
     "reviews": [
       {
         "stars": 5.0,
-        "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairing was impeccable. Worth every penny.",
-        "date": "2023-07-20 20:15:00",
-        "review_id": "A2"
-      },
-      {
-        "stars": 4.5,
-        "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the quality justified the price for this special occasion.",
+        "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.",
         "date": "2023-06-15 19:30:00",
         "review_id": "A1"
       },
       {
+        "stars": 5.0,
+        "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
         "stars": 4.0,
-        "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pretentious for my taste.",
+        "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.",
         "date": "2023-09-12 21:00:00",
         "review_id": "A4"
-      },
-      {
-        "stars": 4.0,
-        "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet mindful of my gluten-free needs. While the dish dazzled my artistic palate, the price felt a tad steep ...",
-        "date": "2025-07-15 20:12:25",
-        "review_id": "rev_5bc08645"
-      },
-      {
-        "stars": 3.5,
-        "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flavorful but I left still hungry.",
-        "date": "2023-08-05 18:45:00",
-        "review_id": "A3"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:36.636530",
+    "timestamp": "2025-07-26T08:46:47.085711",
     "type": "reviews_seen",
     "day": 2,
-    "customer_id": "cust_40347210",
-    "name": "Customer_5372",
+    "customer_id": "cust_cb2a1771",
+    "name": "Customer_9270",
     "restaurant_id": "B",
     "is_additional": false,
     "reviews": [
       {
+        "stars": 5.0,
+        "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
         "stars": 4.5,
-        "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround.",
+        "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too.",
         "date": "2023-09-05 11:30:00",
         "review_id": "B4"
       },
       {
         "stars": 4.0,
-        "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what I expected from a good diner.",
+        "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
         "date": "2023-06-10 12:30:00",
         "review_id": "B1"
       },
       {
-        "stars": 3.5,
-        "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and affordable.",
-        "date": "2023-07-15 08:45:00",
-        "review_id": "B2"
+        "stars": 4.0,
+        "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
       },
       {
-        "stars": 3.0,
-        "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good.",
-        "date": "2023-10-18 14:00:00",
-        "review_id": "B5"
-      },
-      {
-        "stars": 3.0,
-        "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality felt average, matching the restaurant's rating. Considering my budget, I expected better value for th...",
-        "date": "2025-07-15 20:12:36",
-        "review_id": "rev_8217ffe9"
+        "stars": 4.0,
+        "text": "The $5 apple pie \u00e0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:47.740573",
+    "timestamp": "2025-07-26T08:46:47.095075",
     "type": "reviews_seen",
     "day": 2,
-    "customer_id": "cust_5a955aa6",
-    "name": "Customer_3911",
+    "customer_id": "cust_cb2a1771",
+    "name": "Customer_9270",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I appreciated the exquisite French flavors and delicate preparation of the Veal Chop, perfectly suited to my artistic palate. The low-sodium approach was thoughtful, though a touch more seasoning coul...",
+        "date": "2025-07-26 08:46:33",
+        "review_id": "rev_1a64bd7e"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:46:47.105223",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_cb2a1771",
+    "name": "Customer_9270",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the grilled cheese as a simple fried comfort food option, but the quality felt a bit average compared to what I hoped. It matched my craving but didn\u2019t fully impress given the restaurant\u2019s m...",
+        "date": "2025-07-26 08:46:47",
+        "review_id": "rev_a6b13778"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the apple pie at this local diner; it was comforting and hit the spot for a baked good craving. Though the quality was average, the price felt fair within my budget, especially considering m...",
+        "date": "2025-07-26 08:46:41",
+        "review_id": "rev_01b4ee0e"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was eager to try Caribbean flavors at this local diner, but the grilled cheese fell short of my healthy, dairy-free expectations. While the price was fair for my budget, the quality didn't match wha...",
+        "date": "2025-07-26 08:46:28",
+        "review_id": "rev_2d33c8ef"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:46:55.002434",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_0bb69b5a",
+    "name": "Customer_8839",
     "restaurant_id": "A",
     "is_additional": false,
     "reviews": [
       {
         "stars": 5.0,
-        "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairing was impeccable. Worth every penny.",
-        "date": "2023-07-20 20:15:00",
-        "review_id": "A2"
-      },
-      {
-        "stars": 4.5,
-        "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the quality justified the price for this special occasion.",
+        "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.",
         "date": "2023-06-15 19:30:00",
         "review_id": "A1"
       },
       {
+        "stars": 5.0,
+        "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
         "stars": 4.0,
-        "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pretentious for my taste.",
+        "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.",
         "date": "2023-09-12 21:00:00",
         "review_id": "A4"
-      },
-      {
-        "stars": 4.0,
-        "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet mindful of my gluten-free needs. While the dish dazzled my artistic palate, the price felt a tad steep ...",
-        "date": "2025-07-15 20:12:25",
-        "review_id": "rev_5bc08645"
-      },
-      {
-        "stars": 3.5,
-        "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flavorful but I left still hungry.",
-        "date": "2023-08-05 18:45:00",
-        "review_id": "A3"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:47.751438",
+    "timestamp": "2025-07-26T08:46:55.012098",
     "type": "reviews_seen",
     "day": 2,
-    "customer_id": "cust_5a955aa6",
-    "name": "Customer_3911",
+    "customer_id": "cust_0bb69b5a",
+    "name": "Customer_8839",
     "restaurant_id": "B",
     "is_additional": false,
     "reviews": [
       {
+        "stars": 5.0,
+        "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
         "stars": 4.5,
-        "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround.",
+        "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too.",
         "date": "2023-09-05 11:30:00",
         "review_id": "B4"
       },
       {
         "stars": 4.0,
-        "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what I expected from a good diner.",
+        "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
         "date": "2023-06-10 12:30:00",
         "review_id": "B1"
       },
       {
-        "stars": 3.5,
-        "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and affordable.",
-        "date": "2023-07-15 08:45:00",
-        "review_id": "B2"
+        "stars": 4.0,
+        "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
       },
       {
-        "stars": 3.0,
-        "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good.",
-        "date": "2023-10-18 14:00:00",
-        "review_id": "B5"
-      },
-      {
-        "stars": 3.0,
-        "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality felt average, matching the restaurant's rating. Considering my budget, I expected better value for th...",
-        "date": "2025-07-15 20:12:36",
-        "review_id": "rev_8217ffe9"
+        "stars": 4.0,
+        "text": "The $5 apple pie \u00e0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:55.201650",
+    "timestamp": "2025-07-26T08:46:55.019669",
     "type": "reviews_seen",
     "day": 2,
-    "customer_id": "cust_4d2d7667",
-    "name": "Customer_9004",
+    "customer_id": "cust_0bb69b5a",
+    "name": "Customer_8839",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I appreciated the exquisite French flavors and delicate preparation of the Veal Chop, perfectly suited to my artistic palate. The low-sodium approach was thoughtful, though a touch more seasoning coul...",
+        "date": "2025-07-26 08:46:33",
+        "review_id": "rev_1a64bd7e"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:46:55.027823",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_0bb69b5a",
+    "name": "Customer_8839",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a satisfying gluten-free, low-fat option alongside my sweet tooth cravings, but the grilled cheese fell short in both taste and dietary accommodation at this local diner.",
+        "date": "2025-07-26 08:46:55",
+        "review_id": "rev_a92e43eb"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the grilled cheese as a simple fried comfort food option, but the quality felt a bit average compared to what I hoped. It matched my craving but didn\u2019t fully impress given the restaurant\u2019s m...",
+        "date": "2025-07-26 08:46:47",
+        "review_id": "rev_a6b13778"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the apple pie at this local diner; it was comforting and hit the spot for a baked good craving. Though the quality was average, the price felt fair within my budget, especially considering m...",
+        "date": "2025-07-26 08:46:41",
+        "review_id": "rev_01b4ee0e"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was eager to try Caribbean flavors at this local diner, but the grilled cheese fell short of my healthy, dairy-free expectations. While the price was fair for my budget, the quality didn't match wha...",
+        "date": "2025-07-26 08:46:28",
+        "review_id": "rev_2d33c8ef"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:47:02.220954",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_9096d5c4",
+    "name": "Customer_6280",
     "restaurant_id": "A",
     "is_additional": false,
     "reviews": [
       {
         "stars": 5.0,
-        "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairing was impeccable. Worth every penny.",
-        "date": "2023-07-20 20:15:00",
-        "review_id": "A2"
-      },
-      {
-        "stars": 4.5,
-        "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the quality justified the price for this special occasion.",
+        "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.",
         "date": "2023-06-15 19:30:00",
         "review_id": "A1"
       },
       {
+        "stars": 5.0,
+        "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
         "stars": 4.0,
-        "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pretentious for my taste.",
+        "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.",
         "date": "2023-09-12 21:00:00",
         "review_id": "A4"
-      },
-      {
-        "stars": 4.0,
-        "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet mindful of my gluten-free needs. While the dish dazzled my artistic palate, the price felt a tad steep ...",
-        "date": "2025-07-15 20:12:25",
-        "review_id": "rev_5bc08645"
-      },
-      {
-        "stars": 3.5,
-        "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flavorful but I left still hungry.",
-        "date": "2023-08-05 18:45:00",
-        "review_id": "A3"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:12:55.211734",
+    "timestamp": "2025-07-26T08:47:02.231200",
     "type": "reviews_seen",
     "day": 2,
-    "customer_id": "cust_4d2d7667",
-    "name": "Customer_9004",
+    "customer_id": "cust_9096d5c4",
+    "name": "Customer_6280",
     "restaurant_id": "B",
     "is_additional": false,
     "reviews": [
       {
+        "stars": 5.0,
+        "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
         "stars": 4.5,
-        "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround.",
+        "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too.",
         "date": "2023-09-05 11:30:00",
         "review_id": "B4"
       },
       {
         "stars": 4.0,
-        "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what I expected from a good diner.",
+        "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
         "date": "2023-06-10 12:30:00",
         "review_id": "B1"
       },
       {
-        "stars": 3.5,
-        "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and affordable.",
-        "date": "2023-07-15 08:45:00",
-        "review_id": "B2"
+        "stars": 4.0,
+        "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
       },
       {
-        "stars": 3.0,
-        "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good.",
-        "date": "2023-10-18 14:00:00",
-        "review_id": "B5"
-      },
-      {
-        "stars": 3.0,
-        "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality felt average, matching the restaurant's rating. Considering my budget, I expected better value for th...",
-        "date": "2025-07-15 20:12:36",
-        "review_id": "rev_8217ffe9"
+        "stars": 4.0,
+        "text": "The $5 apple pie \u00e0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:13:08.255642",
+    "timestamp": "2025-07-26T08:47:02.241046",
     "type": "reviews_seen",
     "day": 2,
-    "customer_id": "cust_905b685c",
-    "name": "Customer_7900",
+    "customer_id": "cust_9096d5c4",
+    "name": "Customer_6280",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I appreciated the exquisite French flavors and delicate preparation of the Veal Chop, perfectly suited to my artistic palate. The low-sodium approach was thoughtful, though a touch more seasoning coul...",
+        "date": "2025-07-26 08:46:33",
+        "review_id": "rev_1a64bd7e"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:47:02.251373",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_9096d5c4",
+    "name": "Customer_6280",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the classic milkshake at this local diner, which offered a comforting taste. However, with a quality rating of 60/100 and my gluten intolerance in mind, the experience was decent but not exc...",
+        "date": "2025-07-26 08:47:02",
+        "review_id": "rev_ec514251"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a satisfying gluten-free, low-fat option alongside my sweet tooth cravings, but the grilled cheese fell short in both taste and dietary accommodation at this local diner.",
+        "date": "2025-07-26 08:46:55",
+        "review_id": "rev_a92e43eb"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the grilled cheese as a simple fried comfort food option, but the quality felt a bit average compared to what I hoped. It matched my craving but didn\u2019t fully impress given the restaurant\u2019s m...",
+        "date": "2025-07-26 08:46:47",
+        "review_id": "rev_a6b13778"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was eager to try Caribbean flavors at this local diner, but the grilled cheese fell short of my healthy, dairy-free expectations. While the price was fair for my budget, the quality didn't match wha...",
+        "date": "2025-07-26 08:46:28",
+        "review_id": "rev_2d33c8ef"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:47:08.588541",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_bffd8367",
+    "name": "Customer_9215",
     "restaurant_id": "A",
     "is_additional": false,
     "reviews": [
       {
         "stars": 5.0,
-        "text": "An unforgettable dining experience! The Lobster Thermidor was divine, and the sommelier's wine pairing was impeccable. Worth every penny.",
-        "date": "2023-07-20 20:15:00",
-        "review_id": "A2"
-      },
-      {
-        "stars": 4.5,
-        "text": "The Wagyu Beef was exquisite - perfectly marbled and cooked to perfection. While expensive, the quality justified the price for this special occasion.",
+        "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.",
         "date": "2023-06-15 19:30:00",
         "review_id": "A1"
       },
       {
+        "stars": 5.0,
+        "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
         "stars": 4.0,
-        "text": "Impeccable service and presentation. The foie gras was sublime, though the ambiance felt slightly pretentious for my taste.",
+        "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.",
         "date": "2023-09-12 21:00:00",
         "review_id": "A4"
-      },
-      {
-        "stars": 4.0,
-        "text": "I appreciated the expertly crafted onion rings at this Michelin-level spot, perfectly crispy yet mindful of my gluten-free needs. While the dish dazzled my artistic palate, the price felt a tad steep ...",
-        "date": "2025-07-15 20:12:25",
-        "review_id": "rev_5bc08645"
-      },
-      {
-        "stars": 3.5,
-        "text": "The food was excellent but the portions were quite small for the price. The truffle risotto was flavorful but I left still hungry.",
-        "date": "2023-08-05 18:45:00",
-        "review_id": "A3"
       }
     ]
   },
   {
-    "timestamp": "2025-07-15T20:13:08.265762",
+    "timestamp": "2025-07-26T08:47:08.600090",
     "type": "reviews_seen",
     "day": 2,
-    "customer_id": "cust_905b685c",
-    "name": "Customer_7900",
+    "customer_id": "cust_bffd8367",
+    "name": "Customer_9215",
     "restaurant_id": "B",
     "is_additional": false,
     "reviews": [
       {
+        "stars": 5.0,
+        "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
         "stars": 4.5,
-        "text": "Best milkshake in town! The BLT was loaded with crispy bacon. Friendly service and quick turnaround.",
+        "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too.",
         "date": "2023-09-05 11:30:00",
         "review_id": "B4"
       },
       {
         "stars": 4.0,
-        "text": "Great value for money! The cheeseburger was juicy and the fries were perfectly crispy. Exactly what I expected from a good diner.",
+        "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
         "date": "2023-06-10 12:30:00",
         "review_id": "B1"
       },
       {
-        "stars": 3.5,
-        "text": "Solid diner food. The pancakes were fluffy and the coffee was hot. Nothing fancy but reliable and affordable.",
-        "date": "2023-07-15 08:45:00",
-        "review_id": "B2"
+        "stars": 4.0,
+        "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $5 apple pie \u00e0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:47:08.609521",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_bffd8367",
+    "name": "Customer_9215",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 4.0,
+        "text": "I appreciated the exquisite French flavors and delicate preparation of the Veal Chop, perfectly suited to my artistic palate. The low-sodium approach was thoughtful, though a touch more seasoning coul...",
+        "date": "2025-07-26 08:46:33",
+        "review_id": "rev_1a64bd7e"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-07-26T08:47:08.619180",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_bffd8367",
+    "name": "Customer_9215",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I appreciate the local diner vibe at Restaurant B, though their grilled cheese lacked vegan and dairy-free accommodations that suit my needs. Given my budget, the price felt a bit steep for the qualit...",
+        "date": "2025-07-26 08:47:08",
+        "review_id": "rev_28062912"
       },
       {
         "stars": 3.0,
-        "text": "Decent diner food. The hot dog was standard fare but the onion rings were surprisingly good.",
-        "date": "2023-10-18 14:00:00",
-        "review_id": "B5"
+        "text": "I enjoyed the classic milkshake at this local diner, which offered a comforting taste. However, with a quality rating of 60/100 and my gluten intolerance in mind, the experience was decent but not exc...",
+        "date": "2025-07-26 08:47:02",
+        "review_id": "rev_ec514251"
       },
       {
-        "stars": 3.0,
-        "text": "I appreciated the simplicity of the Caesar Salad, which suited my taste well. However, the quality felt average, matching the restaurant's rating. Considering my budget, I expected better value for th...",
-        "date": "2025-07-15 20:12:36",
-        "review_id": "rev_8217ffe9"
+        "stars": 2.0,
+        "text": "I was hoping for a satisfying gluten-free, low-fat option alongside my sweet tooth cravings, but the grilled cheese fell short in both taste and dietary accommodation at this local diner.",
+        "date": "2025-07-26 08:46:55",
+        "review_id": "rev_a92e43eb"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was eager to try Caribbean flavors at this local diner, but the grilled cheese fell short of my healthy, dairy-free expectations. While the price was fair for my budget, the quality didn't match wha...",
+        "date": "2025-07-26 08:46:28",
+        "review_id": "rev_2d33c8ef"
       }
     ]
   }

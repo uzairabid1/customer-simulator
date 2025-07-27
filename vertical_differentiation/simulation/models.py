@@ -29,30 +29,32 @@ class Restaurant:
     def __init__(self, restaurant_id: str):  # Removed review_policy parameter
         self.restaurant_id = restaurant_id
         self.quality_rating = Config.RESTAURANT_A_RATING if restaurant_id == "A" else Config.RESTAURANT_B_RATING
-        self.menu = {
-            "Burger": 10,
-            "Pizza": 12,
-            "Salad": 8,
-            "Pasta": 11,
-            "Steak": 18,
-            "Sushi Platter": 22,
-            "Chicken Wings": 9,
-            "Vegetable Stir Fry": 13,
-            "Ramen": 14,
-            "Tacos": 10,
-            "Caesar Salad": 9,
-            "Grilled Salmon": 20,
-            "Margherita Pizza": 15,
-            "Cheesecake": 7,
-            "Ice Cream Sundae": 6,
-            "Club Sandwich": 11,
-            "French Fries": 5,
-            "Onion Rings": 6,
-            "Mushroom Risotto": 16,
-            "Chocolate Cake": 8,
-            "Fish and Chips": 14,
-            "Vegetable Curry": 12
-        }
+        if restaurant_id == "A":
+            self.menu = {
+                "Wagyu Beef Steak": 95,
+                "Truffle Risotto": 65,
+                "Lobster Thermidor": 85,
+                "Foie Gras": 55,
+                "Caviar Blini": 120,
+                "Duck Confit": 75,
+                "Saffron Seafood Paella": 80,
+                "Veal Chop": 90,
+                "Chocolate Soufflé": 35,
+                "Sommelier Wine Pairing": 150
+            }
+        else:
+            self.menu = {
+                "Cheeseburger": 18,
+                "BLT Sandwich": 17,
+                "Pancakes": 16,
+                "Grilled Cheese": 15,
+                "Chicken Noodle Soup": 14,
+                "Milkshake": 15,
+                "Hot Dog": 14,
+                "French Fries": 13,
+                "Onion Rings": 14,
+                "Apple Pie": 15
+            }
         self.reviews: List[Review] = []
         self.revenue = 0
         self.initial_reviews: List[Review] = [] 
