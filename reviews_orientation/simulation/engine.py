@@ -52,9 +52,15 @@ class RestaurantSimulation:
             sorted_reviews = sorted(all_reviews, key=lambda x: x.date, reverse=True)
         return [r.__dict__ for r in sorted_reviews]  # Convert to dict
 
-    def __init__(self):
+    def __init__(self, output_folder=None):
+        # Set up output directory
+        if output_folder:
+            self.output_dir = f"data/outputs/{output_folder}"
+        else:
+            self.output_dir = "data/outputs"
+        
         self.llm = LLMInterface()
-        self.logger = SimulationLogger(Config.LOG_DIR)
+        self.logger = SimulationLogger(f"{self.output_dir}/logs")
         self.restaurant_a = Restaurant("A", "highest_rating")
         self.restaurant_b = Restaurant("B", "latest")
         # Give logger access to restaurants
@@ -267,9 +273,13 @@ class RestaurantSimulation:
         print("Simulation complete!")
 
     def _save_results(self):
+        # Ensure output directory exists
+        import os
+        os.makedirs(self.output_dir, exist_ok=True)
+        
         self.logger.save_logs()
         
-        with open("data/outputs/customers.json", "w") as f:
+        with open(f"{self.output_dir}/customers.json", "w") as f:
             json.dump([
                 {
                     "customer_id": c.customer_id,
@@ -279,7 +289,7 @@ class RestaurantSimulation:
                 for c in self.customers
             ], f, indent=2)
         
-        with open("data/outputs/restaurants.json", "w") as f:
+        with open(f"{self.output_dir}/restaurants.json", "w") as f:
             json.dump({
                 "A": {
                     "reviews": [r.__dict__ for r in self.restaurant_a.reviews],

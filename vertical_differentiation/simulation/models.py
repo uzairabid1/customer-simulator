@@ -30,30 +30,28 @@ class Restaurant:
         self.restaurant_id = restaurant_id
         self.quality_rating = Config.RESTAURANT_A_RATING if restaurant_id == "A" else Config.RESTAURANT_B_RATING
         if restaurant_id == "A":
+            # Italian/French fine dining with premium pricing
             self.menu = {
-                "Wagyu Beef Steak": 95,
-                "Truffle Risotto": 65,
-                "Lobster Thermidor": 85,
-                "Foie Gras": 55,
-                "Caviar Blini": 120,
-                "Duck Confit": 75,
-                "Saffron Seafood Paella": 80,
-                "Veal Chop": 90,
-                "Chocolate Soufflé": 35,
-                "Sommelier Wine Pairing": 150
+                "Truffle Risotto": 85,
+                "Duck Confit": 95,
+                "Lobster Thermidor": 110,
+                "Veal Marsala": 90,
+                "Coq au Vin": 80,
+                "Beef Bourguignon": 100,
+                "Crème Brûlée": 25,
+                "Wine Flight": 120
             }
         else:
+            # Asian fusion with similar average pricing
             self.menu = {
-                "Cheeseburger": 18,
-                "BLT Sandwich": 17,
-                "Pancakes": 16,
-                "Grilled Cheese": 15,
-                "Chicken Noodle Soup": 14,
-                "Milkshake": 15,
-                "Hot Dog": 14,
-                "French Fries": 13,
-                "Onion Rings": 14,
-                "Apple Pie": 15
+                "Sushi Platter": 85,
+                "Peking Duck": 95,
+                "Lobster Pad Thai": 110,
+                "Teriyaki Salmon": 90,
+                "Kung Pao Chicken": 80,
+                "Beef Bulgogi": 100,
+                "Mochi Ice Cream": 25,
+                "Sake Tasting": 120
             }
         self.reviews: List[Review] = []
         self.revenue = 0

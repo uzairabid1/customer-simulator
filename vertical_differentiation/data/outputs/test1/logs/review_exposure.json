@@ -1,0 +1,2179 @@
+[
+  {
+    "timestamp": "2025-08-05T11:47:00.043385",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_d21ac698",
+    "name": "Customer_4894",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:00.043385",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_d21ac698",
+    "name": "Customer_4894",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:00.054476",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_d21ac698",
+    "name": "Customer_4894",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:00.060574",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_d21ac698",
+    "name": "Customer_4894",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:07.180432",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_ca42fdbe",
+    "name": "Customer_9796",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:07.187558",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_ca42fdbe",
+    "name": "Customer_9796",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:07.193871",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_ca42fdbe",
+    "name": "Customer_9796",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:07.200444",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_ca42fdbe",
+    "name": "Customer_9796",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I enjoyed trying the risotto here, which was decent for a local diner, but it lacked the depth and excitement I hoped for as an adventurous vegan with gluten intolerance. The price felt a bit high for...",
+        "date": "2025-08-05 11:47:07",
+        "review_id": "rev_f6200a32"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:14.946359",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_05d3ad17",
+    "name": "Customer_3062",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:14.954437",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_05d3ad17",
+    "name": "Customer_3062",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:14.961219",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_05d3ad17",
+    "name": "Customer_3062",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:14.967043",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_05d3ad17",
+    "name": "Customer_3062",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me who prefers vegan and low-sugar options. It didn\u2019t quite meet my health needs or taste expectations.",
+        "date": "2025-08-05 11:47:14",
+        "review_id": "rev_b7cc71a0"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed trying the risotto here, which was decent for a local diner, but it lacked the depth and excitement I hoped for as an adventurous vegan with gluten intolerance. The price felt a bit high for...",
+        "date": "2025-08-05 11:47:07",
+        "review_id": "rev_f6200a32"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:22.259982",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_56d163f2",
+    "name": "Customer_3581",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:22.269120",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_56d163f2",
+    "name": "Customer_3581",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:22.303957",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_56d163f2",
+    "name": "Customer_3581",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:22.310189",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_56d163f2",
+    "name": "Customer_3581",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian cuisine and need for dairy-free options. The quality felt average, and at my very limited budget, t...",
+        "date": "2025-08-05 11:47:22",
+        "review_id": "rev_2629bb22"
+      },
+      {
+        "stars": 2.0,
+        "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me who prefers vegan and low-sugar options. It didn\u2019t quite meet my health needs or taste expectations.",
+        "date": "2025-08-05 11:47:14",
+        "review_id": "rev_b7cc71a0"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed trying the risotto here, which was decent for a local diner, but it lacked the depth and excitement I hoped for as an adventurous vegan with gluten intolerance. The price felt a bit high for...",
+        "date": "2025-08-05 11:47:07",
+        "review_id": "rev_f6200a32"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:28.816172",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_56e38fa2",
+    "name": "Customer_7777",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:28.824262",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_56e38fa2",
+    "name": "Customer_7777",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:28.831346",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_56e38fa2",
+    "name": "Customer_7777",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:28.838351",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_56e38fa2",
+    "name": "Customer_7777",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I appreciate the local vibe and the duck breast was decent, but it didn\u2019t quite hit the mark for my street food cravings or gluten sensitivity. For the price, I expected a bit more flavor and care in ...",
+        "date": "2025-08-05 11:47:28",
+        "review_id": "rev_597b64eb"
+      },
+      {
+        "stars": 2.0,
+        "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian cuisine and need for dairy-free options. The quality felt average, and at my very limited budget, t...",
+        "date": "2025-08-05 11:47:22",
+        "review_id": "rev_2629bb22"
+      },
+      {
+        "stars": 2.0,
+        "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me who prefers vegan and low-sugar options. It didn\u2019t quite meet my health needs or taste expectations.",
+        "date": "2025-08-05 11:47:14",
+        "review_id": "rev_b7cc71a0"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:35.298828",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_2c8ed05b",
+    "name": "Customer_1721",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:35.308206",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_2c8ed05b",
+    "name": "Customer_1721",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:35.315818",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_2c8ed05b",
+    "name": "Customer_1721",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:35.322680",
+    "type": "reviews_seen",
+    "day": 1,
+    "customer_id": "cust_2c8ed05b",
+    "name": "Customer_1721",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the lobster dish at this local diner, which offered decent Caribbean flavors and was dairy-free, fitting my needs well. However, the overall quality felt average, reflecting the restaurant\u2019s...",
+        "date": "2025-08-05 11:47:35",
+        "review_id": "rev_01d549e2"
+      },
+      {
+        "stars": 3.0,
+        "text": "I appreciate the local vibe and the duck breast was decent, but it didn\u2019t quite hit the mark for my street food cravings or gluten sensitivity. For the price, I expected a bit more flavor and care in ...",
+        "date": "2025-08-05 11:47:28",
+        "review_id": "rev_597b64eb"
+      },
+      {
+        "stars": 2.0,
+        "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian cuisine and need for dairy-free options. The quality felt average, and at my very limited budget, t...",
+        "date": "2025-08-05 11:47:22",
+        "review_id": "rev_2629bb22"
+      },
+      {
+        "stars": 2.0,
+        "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me who prefers vegan and low-sugar options. It didn\u2019t quite meet my health needs or taste expectations.",
+        "date": "2025-08-05 11:47:14",
+        "review_id": "rev_b7cc71a0"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:42.349854",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_aa2a734b",
+    "name": "Customer_9281",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:42.358860",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_aa2a734b",
+    "name": "Customer_9281",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:42.368008",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_aa2a734b",
+    "name": "Customer_9281",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:42.375679",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_aa2a734b",
+    "name": "Customer_9281",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was disappointed ordering Veal Cutlet at this local diner. The quality felt average, and as a vegan with high blood pressure, it wasn\u2019t a great fit. Also, the price felt steep given my limited budge...",
+        "date": "2025-08-05 11:47:42",
+        "review_id": "rev_216b5329"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the lobster dish at this local diner, which offered decent Caribbean flavors and was dairy-free, fitting my needs well. However, the overall quality felt average, reflecting the restaurant\u2019s...",
+        "date": "2025-08-05 11:47:35",
+        "review_id": "rev_01d549e2"
+      },
+      {
+        "stars": 3.0,
+        "text": "I appreciate the local vibe and the duck breast was decent, but it didn\u2019t quite hit the mark for my street food cravings or gluten sensitivity. For the price, I expected a bit more flavor and care in ...",
+        "date": "2025-08-05 11:47:28",
+        "review_id": "rev_597b64eb"
+      },
+      {
+        "stars": 2.0,
+        "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian cuisine and need for dairy-free options. The quality felt average, and at my very limited budget, t...",
+        "date": "2025-08-05 11:47:22",
+        "review_id": "rev_2629bb22"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:50.614722",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_b9db561e",
+    "name": "Customer_6192",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:50.624556",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_b9db561e",
+    "name": "Customer_6192",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:50.632758",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_b9db561e",
+    "name": "Customer_6192",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:50.639269",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_b9db561e",
+    "name": "Customer_6192",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta and pizza. Considering the modest quality and my limited budget, it didn\u2019t feel like good value.",
+        "date": "2025-08-05 11:47:50",
+        "review_id": "rev_8d8dabcf"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was disappointed ordering Veal Cutlet at this local diner. The quality felt average, and as a vegan with high blood pressure, it wasn\u2019t a great fit. Also, the price felt steep given my limited budge...",
+        "date": "2025-08-05 11:47:42",
+        "review_id": "rev_216b5329"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the lobster dish at this local diner, which offered decent Caribbean flavors and was dairy-free, fitting my needs well. However, the overall quality felt average, reflecting the restaurant\u2019s...",
+        "date": "2025-08-05 11:47:35",
+        "review_id": "rev_01d549e2"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:58.167150",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_1854e2bf",
+    "name": "Customer_3808",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:58.170150",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_1854e2bf",
+    "name": "Customer_3808",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:47:58.179495",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_1854e2bf",
+    "name": "Customer_3808",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:47:58.188409",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_1854e2bf",
+    "name": "Customer_3808",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I appreciate the cozy atmosphere of this local diner, though the chocolate dessert felt average and didn\u2019t fully satisfy my preference for more refined flavors. The pricing was reasonable within my bu...",
+        "date": "2025-08-05 11:47:58",
+        "review_id": "rev_a9e41a6c"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta and pizza. Considering the modest quality and my limited budget, it didn\u2019t feel like good value.",
+        "date": "2025-08-05 11:47:50",
+        "review_id": "rev_8d8dabcf"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was disappointed ordering Veal Cutlet at this local diner. The quality felt average, and as a vegan with high blood pressure, it wasn\u2019t a great fit. Also, the price felt steep given my limited budge...",
+        "date": "2025-08-05 11:47:42",
+        "review_id": "rev_216b5329"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:05.748791",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_e7ebe196",
+    "name": "Customer_4293",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:05.758962",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_e7ebe196",
+    "name": "Customer_4293",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:05.767639",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_e7ebe196",
+    "name": "Customer_4293",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:48:05.776761",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_e7ebe196",
+    "name": "Customer_4293",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and didn't quite satisfy my gourmet burger cravings. Considering my tight budget, the value felt lacking ...",
+        "date": "2025-08-05 11:48:05",
+        "review_id": "rev_bbeccd6b"
+      },
+      {
+        "stars": 3.0,
+        "text": "I appreciate the cozy atmosphere of this local diner, though the chocolate dessert felt average and didn\u2019t fully satisfy my preference for more refined flavors. The pricing was reasonable within my bu...",
+        "date": "2025-08-05 11:47:58",
+        "review_id": "rev_a9e41a6c"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta and pizza. Considering the modest quality and my limited budget, it didn\u2019t feel like good value.",
+        "date": "2025-08-05 11:47:50",
+        "review_id": "rev_8d8dabcf"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:18.565256",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_abaeba95",
+    "name": "Customer_8304",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:18.568611",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_abaeba95",
+    "name": "Customer_8304",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:18.579910",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_abaeba95",
+    "name": "Customer_8304",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:48:18.588498",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_abaeba95",
+    "name": "Customer_8304",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I found the Veal Cutlet at this local diner to be decent but not quite matching my expectations for healthy street food. The quality was average, and given my tight budget, the value felt justifiable ...",
+        "date": "2025-08-05 11:48:18",
+        "review_id": "rev_da41ea39"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and didn't quite satisfy my gourmet burger cravings. Considering my tight budget, the value felt lacking ...",
+        "date": "2025-08-05 11:48:05",
+        "review_id": "rev_bbeccd6b"
+      },
+      {
+        "stars": 3.0,
+        "text": "I appreciate the cozy atmosphere of this local diner, though the chocolate dessert felt average and didn\u2019t fully satisfy my preference for more refined flavors. The pricing was reasonable within my bu...",
+        "date": "2025-08-05 11:47:58",
+        "review_id": "rev_a9e41a6c"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta and pizza. Considering the modest quality and my limited budget, it didn\u2019t feel like good value.",
+        "date": "2025-08-05 11:47:50",
+        "review_id": "rev_8d8dabcf"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:25.383839",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_3ebdf518",
+    "name": "Customer_2960",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:25.394982",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_3ebdf518",
+    "name": "Customer_2960",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:25.404263",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_3ebdf518",
+    "name": "Customer_2960",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:48:25.412907",
+    "type": "reviews_seen",
+    "day": 2,
+    "customer_id": "cust_3ebdf518",
+    "name": "Customer_2960",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I found the Beef Steak decent but not exceptional, which aligns with the diner's moderate quality. For my budget, it felt slightly overpriced given the simplicity and lack of gourmet flair I prefer, e...",
+        "date": "2025-08-05 11:48:25",
+        "review_id": "rev_dd24a1f0"
+      },
+      {
+        "stars": 3.0,
+        "text": "I found the Veal Cutlet at this local diner to be decent but not quite matching my expectations for healthy street food. The quality was average, and given my tight budget, the value felt justifiable ...",
+        "date": "2025-08-05 11:48:18",
+        "review_id": "rev_da41ea39"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and didn't quite satisfy my gourmet burger cravings. Considering my tight budget, the value felt lacking ...",
+        "date": "2025-08-05 11:48:05",
+        "review_id": "rev_bbeccd6b"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta and pizza. Considering the modest quality and my limited budget, it didn\u2019t feel like good value.",
+        "date": "2025-08-05 11:47:50",
+        "review_id": "rev_8d8dabcf"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:30.136754",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_77da787b",
+    "name": "Customer_7414",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:30.148873",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_77da787b",
+    "name": "Customer_7414",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:30.158995",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_77da787b",
+    "name": "Customer_7414",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:48:30.168896",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_77da787b",
+    "name": "Customer_7414",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I expected a bit more zest and exotic flair given my tastes, but the veal cutlet at this local diner fell flat, especially with my dairy-free needs. Quality was average, and for my tight budget, it di...",
+        "date": "2025-08-05 11:48:30",
+        "review_id": "rev_c2075d68"
+      },
+      {
+        "stars": 3.0,
+        "text": "I found the Beef Steak decent but not exceptional, which aligns with the diner's moderate quality. For my budget, it felt slightly overpriced given the simplicity and lack of gourmet flair I prefer, e...",
+        "date": "2025-08-05 11:48:25",
+        "review_id": "rev_dd24a1f0"
+      },
+      {
+        "stars": 3.0,
+        "text": "I found the Veal Cutlet at this local diner to be decent but not quite matching my expectations for healthy street food. The quality was average, and given my tight budget, the value felt justifiable ...",
+        "date": "2025-08-05 11:48:18",
+        "review_id": "rev_da41ea39"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and didn't quite satisfy my gourmet burger cravings. Considering my tight budget, the value felt lacking ...",
+        "date": "2025-08-05 11:48:05",
+        "review_id": "rev_bbeccd6b"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:36.725778",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_36ab9be7",
+    "name": "Customer_5886",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:36.738244",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_36ab9be7",
+    "name": "Customer_5886",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:36.747415",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_36ab9be7",
+    "name": "Customer_5886",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:48:36.756621",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_36ab9be7",
+    "name": "Customer_5886",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the risotto's comforting flavors, which suited my energetic vibe, but it didn't fully cater to my gluten intolerance or low sugar needs. Considering the modest quality rating and my tight bu...",
+        "date": "2025-08-05 11:48:36",
+        "review_id": "rev_1bb38402"
+      },
+      {
+        "stars": 2.0,
+        "text": "I expected a bit more zest and exotic flair given my tastes, but the veal cutlet at this local diner fell flat, especially with my dairy-free needs. Quality was average, and for my tight budget, it di...",
+        "date": "2025-08-05 11:48:30",
+        "review_id": "rev_c2075d68"
+      },
+      {
+        "stars": 3.0,
+        "text": "I found the Beef Steak decent but not exceptional, which aligns with the diner's moderate quality. For my budget, it felt slightly overpriced given the simplicity and lack of gourmet flair I prefer, e...",
+        "date": "2025-08-05 11:48:25",
+        "review_id": "rev_dd24a1f0"
+      },
+      {
+        "stars": 2.0,
+        "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and didn't quite satisfy my gourmet burger cravings. Considering my tight budget, the value felt lacking ...",
+        "date": "2025-08-05 11:48:05",
+        "review_id": "rev_bbeccd6b"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:43.873476",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_4b250cc7",
+    "name": "Customer_6294",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:43.884153",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_4b250cc7",
+    "name": "Customer_6294",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:43.893885",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_4b250cc7",
+    "name": "Customer_6294",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:48:43.904018",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_4b250cc7",
+    "name": "Customer_6294",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I expected better vegan options at this local diner, but the risotto was mediocre and didn\u2019t cater well to my low sugar needs. For my very limited budget, the value just wasn\u2019t there given the quality...",
+        "date": "2025-08-05 11:48:43",
+        "review_id": "rev_cbb725bb"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the risotto's comforting flavors, which suited my energetic vibe, but it didn't fully cater to my gluten intolerance or low sugar needs. Considering the modest quality rating and my tight bu...",
+        "date": "2025-08-05 11:48:36",
+        "review_id": "rev_1bb38402"
+      },
+      {
+        "stars": 2.0,
+        "text": "I expected a bit more zest and exotic flair given my tastes, but the veal cutlet at this local diner fell flat, especially with my dairy-free needs. Quality was average, and for my tight budget, it di...",
+        "date": "2025-08-05 11:48:30",
+        "review_id": "rev_c2075d68"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:50.103176",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_bcf8743e",
+    "name": "Customer_9821",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:50.115286",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_bcf8743e",
+    "name": "Customer_9821",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:50.124438",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_bcf8743e",
+    "name": "Customer_9821",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:48:50.133566",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_bcf8743e",
+    "name": "Customer_9821",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I found the risotto at this local diner underwhelming and not quite worth the price, especially given my sweet tooth and low sugar needs. The quality felt average and didn\u2019t satisfy my cravings for so...",
+        "date": "2025-08-05 11:48:50",
+        "review_id": "rev_9f4d57bd"
+      },
+      {
+        "stars": 2.0,
+        "text": "I expected better vegan options at this local diner, but the risotto was mediocre and didn\u2019t cater well to my low sugar needs. For my very limited budget, the value just wasn\u2019t there given the quality...",
+        "date": "2025-08-05 11:48:43",
+        "review_id": "rev_cbb725bb"
+      },
+      {
+        "stars": 3.0,
+        "text": "I enjoyed the risotto's comforting flavors, which suited my energetic vibe, but it didn't fully cater to my gluten intolerance or low sugar needs. Considering the modest quality rating and my tight bu...",
+        "date": "2025-08-05 11:48:36",
+        "review_id": "rev_1bb38402"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:57.014659",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_e8cefa81",
+    "name": "Customer_9634",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:57.027348",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_e8cefa81",
+    "name": "Customer_9634",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:48:57.036529",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_e8cefa81",
+    "name": "Customer_9634",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:48:57.046551",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_e8cefa81",
+    "name": "Customer_9634",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 2.0,
+        "text": "I expected more from this local diner, especially given my preference for healthy, low-fat breakfast foods. The risotto was mediocre at best and didn\u2019t align with my dietary needs. For the price, it f...",
+        "date": "2025-08-05 11:48:57",
+        "review_id": "rev_4ac675ea"
+      },
+      {
+        "stars": 2.0,
+        "text": "I found the risotto at this local diner underwhelming and not quite worth the price, especially given my sweet tooth and low sugar needs. The quality felt average and didn\u2019t satisfy my cravings for so...",
+        "date": "2025-08-05 11:48:50",
+        "review_id": "rev_9f4d57bd"
+      },
+      {
+        "stars": 2.0,
+        "text": "I expected better vegan options at this local diner, but the risotto was mediocre and didn\u2019t cater well to my low sugar needs. For my very limited budget, the value just wasn\u2019t there given the quality...",
+        "date": "2025-08-05 11:48:43",
+        "review_id": "rev_cbb725bb"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:49:02.600548",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_f448bd11",
+    "name": "Customer_1352",
+    "restaurant_id": "A",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $180 for this culinary masterpiece.",
+        "date": "2023-06-15 19:30:00",
+        "review_id": "A1"
+      },
+      {
+        "stars": 5.0,
+        "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a-lifetime experience.",
+        "date": "2023-11-14 20:00:00",
+        "review_id": "A6"
+      },
+      {
+        "stars": 5.0,
+        "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for the experience.",
+        "date": "2024-02-14 21:30:00",
+        "review_id": "A9"
+      },
+      {
+        "stars": 4.5,
+        "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the exceptional quality and presentation.",
+        "date": "2023-07-20 20:15:00",
+        "review_id": "A2"
+      },
+      {
+        "stars": 4.0,
+        "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the portion size for $140.",
+        "date": "2023-09-12 21:00:00",
+        "review_id": "A4"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:49:02.613516",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_f448bd11",
+    "name": "Customer_1352",
+    "restaurant_id": "B",
+    "is_additional": false,
+    "reviews": [
+      {
+        "stars": 5.0,
+        "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a cold day.",
+        "date": "2023-11-22 12:45:00",
+        "review_id": "B6"
+      },
+      {
+        "stars": 4.5,
+        "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too.",
+        "date": "2023-09-05 11:30:00",
+        "review_id": "B4"
+      },
+      {
+        "stars": 4.0,
+        "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exactly what I want from a diner.",
+        "date": "2023-06-10 12:30:00",
+        "review_id": "B1"
+      },
+      {
+        "stars": 4.0,
+        "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills never stopped coming.",
+        "date": "2023-12-10 09:30:00",
+        "review_id": "B7"
+      },
+      {
+        "stars": 4.0,
+        "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast.",
+        "date": "2024-02-05 15:30:00",
+        "review_id": "B9"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-05T11:49:02.624105",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_f448bd11",
+    "name": "Customer_1352",
+    "restaurant_id": "A",
+    "is_additional": true,
+    "reviews": []
+  },
+  {
+    "timestamp": "2025-08-05T11:49:02.634263",
+    "type": "reviews_seen",
+    "day": 3,
+    "customer_id": "cust_f448bd11",
+    "name": "Customer_1352",
+    "restaurant_id": "B",
+    "is_additional": true,
+    "reviews": [
+      {
+        "stars": 3.0,
+        "text": "I was excited to try the lobster dish at this local diner, but it felt just okay. The quality was average and not quite worth the price given my budget. Desserts would have been better for me, conside...",
+        "date": "2025-08-05 11:49:02",
+        "review_id": "rev_dcfc850c"
+      },
+      {
+        "stars": 2.0,
+        "text": "I expected more from this local diner, especially given my preference for healthy, low-fat breakfast foods. The risotto was mediocre at best and didn\u2019t align with my dietary needs. For the price, it f...",
+        "date": "2025-08-05 11:48:57",
+        "review_id": "rev_4ac675ea"
+      },
+      {
+        "stars": 2.0,
+        "text": "I found the risotto at this local diner underwhelming and not quite worth the price, especially given my sweet tooth and low sugar needs. The quality felt average and didn\u2019t satisfy my cravings for so...",
+        "date": "2025-08-05 11:48:50",
+        "review_id": "rev_9f4d57bd"
+      }
+    ]
+  }
+]

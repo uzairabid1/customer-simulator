@@ -1,0 +1,1658 @@
+[
+  {
+    "timestamp": "2025-08-05T11:47:03.163340",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_d21ac698",
+    "name": "Customer_4894",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.5,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A boasts a significantly higher quality rating (90/100 vs 60/100), it does not offer menu items that align with my vegan, gluten-intolerant diet, nor does it feature rice or noodle dishes, which I prefer. Additionally, the price range at Restaurant A (average $145.6 per meal) far exceeds my middle-class budget of $8K-11.9K for dining, making it less practical. Restaurant B, while lower in overall quality rating and reviews, offers rice and risotto dishes at very affordable prices ($12-$18), which better suits both my food preferences and dietary restrictions. Its menu items and pricing are more accessible, and the friendly, casual diner environment fits my adventurous personality by allowing me to explore flavorful but budget-conscious vegan options. The minor quality difference does not justify the substantial price difference, especially when dietary needs and personal preferences are prioritized."
+  },
+  {
+    "timestamp": "2025-08-05T11:47:11.332630",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_ca42fdbe",
+    "name": "Customer_9796",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.5,
+      "total_reviews": 11,
+      "reviews_shown_count": 6,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed trying the risotto here, which was decent for a local diner, but it lacked the depth and e...",
+          "date": "2025-08-05 11:47:07"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my very limited budget of $5K-$5.8K (very poor), the high-end Restaurant A with an average price of $145.6 per meal is financially out of reach. Additionally, neither restaurant offers vegan dishes, which are essential for my dietary preferences. However, Restaurant B is much more affordable with an average price of $14.6, making it feasible for me to dine there within my budget. While Restaurant B has a lower quality rating (60 vs 90), the difference in quality does not justify the steep price difference for me, especially when I cannot eat most of the menu items at either place due to my vegan and diabetic requirements. Furthermore, as an easy-going person, I prefer a relaxed, affordable dining experience without stressing over high costs or complicated dishes. Therefore, Restaurant B is the more practical and suitable choice despite its slightly lower rating."
+  },
+  {
+    "timestamp": "2025-08-05T11:47:19.245582",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_05d3ad17",
+    "name": "Customer_3062",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.3,
+      "total_reviews": 12,
+      "reviews_shown_count": 7,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me wh...",
+          "date": "2025-08-05 11:47:14"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed trying the risotto here, which was decent for a local diner, but it lacked the depth and e...",
+          "date": "2025-08-05 11:47:07"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A has a significantly higher quality rating (90/100) compared to Restaurant B (60/100), the very poor budget of $5K-$5.8K (likely a typo meaning $5-$5.8 or very limited budget) makes Restaurant A's average price of $145.6 per meal completely unaffordable. Additionally, neither restaurant offers Indian cuisine or clearly dairy-free options suitable for a diabetic, but Restaurant B's local diner setting with lower prices and more affordable dishes is a more practical choice. The vibrant personality of the customer aligns better with a casual, friendly diner atmosphere rather than a high-end, formal Michelin-level restaurant. Given the large price difference and the limited budget, the quality difference does not justify the cost. Therefore, Restaurant B is the better fit."
+  },
+  {
+    "timestamp": "2025-08-05T11:47:26.042199",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_56d163f2",
+    "name": "Customer_3581",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.2,
+      "total_reviews": 13,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian...",
+          "date": "2025-08-05 11:47:22"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me wh...",
+          "date": "2025-08-05 11:47:14"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed trying the risotto here, which was decent for a local diner, but it lacked the depth and e...",
+          "date": "2025-08-05 11:47:07"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "While Restaurant A boasts a significantly higher quality rating (90 vs 60) and offers a refined Michelin-level experience, its price point (average $145.6 per dish) far exceeds my budget of $6K-7.9K overall, which is considered poor. Additionally, Restaurant A's menu items are high-end dishes that are less aligned with my preference for street food and my gluten sensitivity, as such dishes often contain gluten and high sugar components, which I must avoid. On the other hand, Restaurant B, despite a lower quality rating (60) and fewer accolades, fits my budget comfortably with average prices around $14.6, offers familiar comfort food with options likely more adaptable to my dietary restrictions, and aligns better with my preference for street-style, casual dining. Given my discerning personality, I value a balance of quality and practicality; Restaurant B provides decent quality and flavor at a price that respects my limited budget, making it the more sensible and enjoyable choice."
+  },
+  {
+    "timestamp": "2025-08-05T11:47:33.040018",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_56e38fa2",
+    "name": "Customer_7777",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.2,
+      "total_reviews": 14,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciate the local vibe and the duck breast was decent, but it didn\u2019t quite hit the mark for my ...",
+          "date": "2025-08-05 11:47:28"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian...",
+          "date": "2025-08-05 11:47:22"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me wh...",
+          "date": "2025-08-05 11:47:14"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my middle-class budget of $8K-$11.9K and the significant price difference between the two restaurants, Restaurant B offers much better value. Although Restaurant A has a higher objective quality rating (90 vs 60) and more refined dishes, the total rating from customers is only moderately better (3.8 vs 3.2 stars), and the prices are extremely high (average $145.6 per dish) compared to the local diner\u2019s affordable $14.6 average. My preference for Caribbean cuisine and dairy-free options is not specifically addressed by either menu, but Restaurant B's menu items overlap with Restaurant A's and have positive reviews for flavor and portion size at a fraction of the cost. As a resourceful person, I prioritize maximizing value without unnecessary overspending, and Restaurant B\u2019s friendly service, decent quality, and affordability better match my personality and budget. The quality difference does not justify the steep price increase, especially when both menus offer similar dishes. Therefore, Restaurant B is the practical and sensible choice."
+  },
+  {
+    "timestamp": "2025-08-05T11:47:38.787054",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_2c8ed05b",
+    "name": "Customer_1721",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.2,
+      "total_reviews": 15,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed the lobster dish at this local diner, which offered decent Caribbean flavors and was dairy...",
+          "date": "2025-08-05 11:47:35"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciate the local vibe and the duck breast was decent, but it didn\u2019t quite hit the mark for my ...",
+          "date": "2025-08-05 11:47:28"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian...",
+          "date": "2025-08-05 11:47:22"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me wh...",
+          "date": "2025-08-05 11:47:14"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Considering my budget is poor ($6K-$7.9K) and the average price per meal at Restaurant A is around $145.6, dining there would be financially unfeasible. Although Restaurant A has a higher quality rating (90/100) compared to Restaurant B (60/100), the significant price difference does not justify the expense given my limited budget. Additionally, my dietary restrictions as a vegan with high blood pressure exclude most of the meat-heavy and seafood dishes at both restaurants, and neither menu explicitly highlights vegan options, but Restaurant B's lower prices allow for more flexibility to potentially customize or find vegan-friendly dishes. Since I have a lively personality and enjoy desserts, the affordable and well-reviewed $4.50 chocolate dessert at Restaurant B is appealing and fits my preferences without straining my finances. Overall, Restaurant B offers a better balance of affordability, dessert options, and accommodates my dietary needs better within my budget constraints, making it the more suitable choice."
+  },
+  {
+    "timestamp": "2025-08-05T11:47:46.219942",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_aa2a734b",
+    "name": "Customer_9281",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 16,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was disappointed ordering Veal Cutlet at this local diner. The quality felt average, and as a vega...",
+          "date": "2025-08-05 11:47:42"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed the lobster dish at this local diner, which offered decent Caribbean flavors and was dairy...",
+          "date": "2025-08-05 11:47:35"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciate the local vibe and the duck breast was decent, but it didn\u2019t quite hit the mark for my ...",
+          "date": "2025-08-05 11:47:28"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian...",
+          "date": "2025-08-05 11:47:22"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A has a significantly higher objective quality rating (90 vs 60), its menu does not offer any pasta or pizza options, which are my preferred foods. Additionally, Restaurant A's pricing is extremely high (average $145.6) and well beyond my very limited budget of $5K-$5.8K, making it impractical. Moreover, Restaurant A's menu is heavily focused on meat and seafood dishes, which conflicts with my vegan diet and high cholesterol concerns. Restaurant B, while having a lower quality rating (60) and fewer reviews, is much more affordable (average $14.6), fits well within my budget, and is more accessible. Although its menu still lacks explicit pasta or pizza, the prices and portion sizes are reasonable, and the diner atmosphere aligns better with my thoughtful personality and budget constraints. Given that the quality difference does not justify the vast price difference and dietary mismatch, I choose Restaurant B."
+  },
+  {
+    "timestamp": "2025-08-05T11:47:54.505734",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_b9db561e",
+    "name": "Customer_6192",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 17,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta ...",
+          "date": "2025-08-05 11:47:50"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was disappointed ordering Veal Cutlet at this local diner. The quality felt average, and as a vega...",
+          "date": "2025-08-05 11:47:42"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed the lobster dish at this local diner, which offered decent Caribbean flavors and was dairy...",
+          "date": "2025-08-05 11:47:35"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "While Restaurant A boasts a significantly higher quality rating (90/100) compared to Restaurant B (60/100), the price difference is substantial, with an average meal around $145.6 versus $14.6 respectively. Given my middle-class budget of $8K-11.9K, frequent dining at Restaurant A would be financially impractical. Additionally, my preference for rice and noodle dishes is not directly met by either restaurant, but Restaurant B offers more affordable and hearty options like risotto and duck breast at reasonable prices that align with my tastes. As an intellectual personality, I appreciate good quality and value; the marginal improvement in quality at Restaurant A does not justify the steep price increase, especially since the total star rating and number of reviews indicate mixed feedback for the high-end option. Therefore, Restaurant B provides a sensible balance of decent quality, affordability, and menu variety suitable for my preferences and budget."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:02.933938",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_1854e2bf",
+    "name": "Customer_3808",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 18,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciate the cozy atmosphere of this local diner, though the chocolate dessert felt average and ...",
+          "date": "2025-08-05 11:47:58"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta ...",
+          "date": "2025-08-05 11:47:50"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was disappointed ordering Veal Cutlet at this local diner. The quality felt average, and as a vega...",
+          "date": "2025-08-05 11:47:42"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A has a significantly higher quality rating (90 vs 60) and offers a refined Michelin-level dining experience, it does not serve gourmet burgers, which is my preferred food choice. Additionally, the menu at Restaurant A is very expensive, averaging around $145.6 per dish, which is well beyond my poor budget of $6K-7.9K when considering multiple meals or visits. The price difference is substantial and not justified by the limited menu overlap or my dietary needs. Given that I require gluten-free options and am overweight, the local diner (Restaurant B) provides affordable meals closer to my budget (average $14.6), and although it lacks gourmet burgers as well, it offers more flexibility and better value for daily dining. My leader personality values practicality and making sound, budget-conscious decisions. Therefore, despite the lower overall quality rating (60), Restaurant B is the better fit considering budget constraints, dietary needs, and personal preferences."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:09.625368",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_e7ebe196",
+    "name": "Customer_4293",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.0,
+      "total_reviews": 19,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and d...",
+          "date": "2025-08-05 11:48:05"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciate the cozy atmosphere of this local diner, though the chocolate dessert felt average and ...",
+          "date": "2025-08-05 11:47:58"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta ...",
+          "date": "2025-08-05 11:47:50"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my budget of $6K-$7.9K which categorizes me as poor, the high prices at Restaurant A (average $145.6 per dish) are not financially feasible, as a single meal could consume a significant portion of my budget. Although Restaurant A has a higher quality rating (90 vs 60) and better reviews, the overall rating of 3.8 stars from only 10 reviews suggests some inconsistency. Restaurant B, while lower rated (60 quality, 3.0 stars from 19 reviews), offers menu items similar to Restaurant A but at a fraction of the cost (average $14.6), making it more budget-friendly. Considering my preference for street food and a healthy low-fat diet, Restaurant B's diner-style dishes like risotto and duck breast with reasonable portion sizes and friendly service are more aligned with my practical, analytical personality. The quality difference does not justify the substantial price gap for my financial situation, so Restaurant B is the more rational and sustainable choice."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:21.554793",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_abaeba95",
+    "name": "Customer_8304",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.0,
+      "total_reviews": 20,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Veal Cutlet at this local diner to be decent but not quite matching my expectations for ...",
+          "date": "2025-08-05 11:48:18"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and d...",
+          "date": "2025-08-05 11:48:05"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciate the cozy atmosphere of this local diner, though the chocolate dessert felt average and ...",
+          "date": "2025-08-05 11:47:58"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta ...",
+          "date": "2025-08-05 11:47:50"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "While Restaurant A boasts a significantly higher quality rating (90 vs 60) and Michelin-level prestige, its price range ($120-$200 per dish) far exceeds my middle-class budget of $8K-11.9K and does not offer gourmet burgers, which are my preferred food choice. Additionally, Restaurant A's menu items are rich and potentially high in cholesterol, which is a concern given my high blood pressure and need for a low-cholesterol diet. Restaurant B, although rated lower (60/100) and less prestigious, offers affordable pricing ($4.50-$20 per item) well within my budget, with menu items that could be adapted to my dietary needs. Despite not listing gourmet burgers explicitly, the local diner atmosphere, friendly service, and reasonable portion sizes align better with my meticulous personality and practical approach to dining. The quality difference does not justify the very high price difference for my preferences and health considerations. Therefore, Restaurant B is the more suitable choice."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:27.986919",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_3ebdf518",
+    "name": "Customer_2960",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.0,
+      "total_reviews": 21,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Beef Steak decent but not exceptional, which aligns with the diner's moderate quality. F...",
+          "date": "2025-08-05 11:48:25"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Veal Cutlet at this local diner to be decent but not quite matching my expectations for ...",
+          "date": "2025-08-05 11:48:18"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and d...",
+          "date": "2025-08-05 11:48:05"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta ...",
+          "date": "2025-08-05 11:47:50"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my very limited budget ($5K-5.8K, classified as very poor), Restaurant A's average price of $145.6 per item is completely out of reach, especially since it lacks exotic fruit menu options that I prefer. Although Restaurant A has a significantly higher quality rating (90 vs 60) and more refined dishes, none of the sample menu items cater to my preference for exotic fruits or my need for dairy-free options due to high blood pressure. On the other hand, Restaurant B, while having a lower overall quality rating of 60, offers very affordable prices (average $14.6) that fit my budget and allows me to enjoy a meal without financial stress. The local diner also offers familiar dishes that can likely be customized for dairy-free needs. As an outspoken customer, I value good value and straightforwardness, and Restaurant B's approachable atmosphere and reasonable prices align better with my personality and financial constraints. The quality difference does not justify the huge price gap for me, especially without menu options matching my taste and dietary restrictions."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:34.478543",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_77da787b",
+    "name": "Customer_7414",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.0,
+      "total_reviews": 22,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a bit more zest and exotic flair given my tastes, but the veal cutlet at this local diner...",
+          "date": "2025-08-05 11:48:30"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Beef Steak decent but not exceptional, which aligns with the diner's moderate quality. F...",
+          "date": "2025-08-05 11:48:25"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Veal Cutlet at this local diner to be decent but not quite matching my expectations for ...",
+          "date": "2025-08-05 11:48:18"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and d...",
+          "date": "2025-08-05 11:48:05"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A has a significantly higher quality rating (90/100) compared to Restaurant B (60/100), the price difference is substantial, with an average cost of around $145.6 per meal versus $14.6 at Restaurant B. Given my poor budget of $6K-7.9K (which I interpret as a strict limitation or low disposable income), Restaurant A's high-end pricing is not feasible. Additionally, my food preferences lean towards comfort food, which aligns better with the local diner atmosphere and menu offerings at Restaurant B. Both restaurants offer similar menu items, but Restaurant B provides these at affordable prices and with positive reviews highlighting satisfying comfort food experiences. Considering my gluten intolerance and preference for low sugar, the diner\u2019s simpler, straightforward dishes are likely easier to customize or avoid gluten-heavy options than complex gourmet dishes that may contain hidden gluten or sugars. Finally, my energetic personality suggests I would appreciate the friendly, fast service and lively environment of the local diner rather than a formal, high-end setting. Overall, the quality difference does not justify the large price gap, and Restaurant B better meets my budget, dietary needs, and dining style."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:39.406704",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_36ab9be7",
+    "name": "Customer_5886",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.0,
+      "total_reviews": 23,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed the risotto's comforting flavors, which suited my energetic vibe, but it didn't fully cate...",
+          "date": "2025-08-05 11:48:36"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a bit more zest and exotic flair given my tastes, but the veal cutlet at this local diner...",
+          "date": "2025-08-05 11:48:30"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Beef Steak decent but not exceptional, which aligns with the diner's moderate quality. F...",
+          "date": "2025-08-05 11:48:25"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and d...",
+          "date": "2025-08-05 11:48:05"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my very limited budget of $5K-5.8K (interpreted as very low income), the high prices at Restaurant A (average $145.6 per dish) are completely out of reach. Additionally, neither Restaurant A nor B's menus list vegan dishes, which is a key requirement for me due to my food preferences. However, Restaurant B offers affordable prices (average $14.6) and a more casual, local diner atmosphere, which aligns better with my outspoken personality and desire for straightforward dining without pretension. Although Restaurant A has a higher objective quality rating (90 vs 60), the marginal quality difference does not justify the vast price difference, especially when the menu does not cater to my vegan and low sugar dietary needs. Therefore, Restaurant B is the more practical and suitable choice despite its lower rating and less gourmet appeal."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:46.535321",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_4b250cc7",
+    "name": "Customer_6294",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 2.9,
+      "total_reviews": 24,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected better vegan options at this local diner, but the risotto was mediocre and didn\u2019t cater w...",
+          "date": "2025-08-05 11:48:43"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed the risotto's comforting flavors, which suited my energetic vibe, but it didn't fully cate...",
+          "date": "2025-08-05 11:48:36"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a bit more zest and exotic flair given my tastes, but the veal cutlet at this local diner...",
+          "date": "2025-08-05 11:48:30"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my limited budget of $6K-7.9K (poor), Restaurant A's average price of $145.6 per dish is far beyond my financial means, making it an impractical choice despite its higher quality rating of 90 versus 60 for Restaurant B. While Restaurant A offers a high-end chocolate dessert, the overall cost and portion sizes do not align with my budget constraints. Restaurant B, with its affordable prices averaging $14.6 and a chocolate dessert priced at just $4.50, fits well within my budget and satisfies my preference for sweets. Additionally, considering my health condition (overweight with a need for low sugar), the local diner is more likely to offer manageable portions and simpler dishes that I can control better. Despite the lower overall quality rating and mixed reviews, the vibrant and friendly atmosphere of Restaurant B aligns with my vibrant personality, making it a more enjoyable and realistic experience. Therefore, the modest quality difference does not justify the large price gap, and Restaurant B is the better choice."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:53.053791",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_bcf8743e",
+    "name": "Customer_9821",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 2.9,
+      "total_reviews": 25,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the risotto at this local diner underwhelming and not quite worth the price, especially give...",
+          "date": "2025-08-05 11:48:50"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected better vegan options at this local diner, but the risotto was mediocre and didn\u2019t cater w...",
+          "date": "2025-08-05 11:48:43"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed the risotto's comforting flavors, which suited my energetic vibe, but it didn't fully cate...",
+          "date": "2025-08-05 11:48:36"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A boasts a superior quality rating (90/100) and exquisite high-end dishes, its menu is focused on rich, high-fat items like beef steak, veal cutlet, duck breast, and seafood paella, none of which align well with my preference for breakfast foods or my low-fat, healthy diet. Additionally, the very high prices ($120-$200 per dish) far exceed what is reasonable for my dining goals, despite my affluent budget. Restaurant B, while having a lower quality rating (60/100) and more modest reviews, offers familiar dishes at a much more affordable price point (average $14.6), allowing me to enjoy comfort food in a casual setting without compromising my health focus. The local diner also seems more aligned with an outspoken personality who might appreciate straightforward, no-nonsense dining rather than a highly formal and pricey experience. The quality difference does not justify spending 10x more, especially given the limited healthy or breakfast-specific options at Restaurant A. Therefore, I choose Restaurant B."
+  },
+  {
+    "timestamp": "2025-08-05T11:48:59.168830",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_e8cefa81",
+    "name": "Customer_9634",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 2.8,
+      "total_reviews": 26,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected more from this local diner, especially given my preference for healthy, low-fat breakfast...",
+          "date": "2025-08-05 11:48:57"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the risotto at this local diner underwhelming and not quite worth the price, especially give...",
+          "date": "2025-08-05 11:48:50"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected better vegan options at this local diner, but the risotto was mediocre and didn\u2019t cater w...",
+          "date": "2025-08-05 11:48:43"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Given my budget of $6K-7.9K categorizing as poor, Restaurant A's average price of $145.6 per dish is prohibitively expensive and would quickly exceed my budget. Although Restaurant A has a significantly higher quality rating (90/100) and superior reviews, its offerings do not clearly cater to my gluten sensitivity and low cholesterol needs, as the menu is heavy on rich meats and seafood, which may not align with my dietary restrictions. I prioritize desserts, and while both restaurants offer chocolate dessert, Restaurant B provides it at an affordable $4.50 with positive feedback. Moreover, Restaurant B's menu is similarly diverse but far more budget-friendly, and the diner atmosphere aligns better with my energetic personality, offering comfort food and friendly service. Despite its lower quality rating (60/100) and mixed reviews, the price-to-quality ratio favors Restaurant B, making it a more practical and enjoyable choice considering my health needs, dessert preference, personality, and financial constraints."
+  },
+  {
+    "timestamp": "2025-08-05T11:49:07.199768",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_f448bd11",
+    "name": "Customer_1352",
+    "restaurant_a_info": {
+      "quality_rating": 95,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Beef Steak was absolute perfection - like butter melting in my mouth. Worth every penny of the $...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Veal Cutlet was worth every cent of $170 - the perfect balance of tenderness and flavor. A once-in-a...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course was a masterpiece. The $200 wine pairing was worth it for t...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Risotto with perfect texture and flavor balance. The $120 price tag reflects the except...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Duck Breast was sublime - perfectly cooked with a delightful sauce. My only complaint was the po...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 2.9,
+      "total_reviews": 27,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4.50 chocolate dessert was exactly what I needed - rich and flavorful. Perfect comfort food on a co...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $14 duck breast in town! Loaded with flavor and the sauce was great. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $18 beef steak was decent and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner wine pairing done right. $20 for a decent glass of wine hit the spot. Coffee refills n...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $12 risotto was hearty - good portion and perfect filling. Service was friendly and fast....",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I was excited to try the lobster dish at this local diner, but it felt just okay. The quality was av...",
+          "date": "2025-08-05 11:49:02"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected more from this local diner, especially given my preference for healthy, low-fat breakfast...",
+          "date": "2025-08-05 11:48:57"
+        },
+        {
+          "stars": 2.0,
+          "text": "I found the risotto at this local diner underwhelming and not quite worth the price, especially give...",
+          "date": "2025-08-05 11:48:50"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A has a significantly higher quality rating (90/100 vs 60/100), its menu and price range are not aligned with my budget or dietary preferences. With a very limited budget of $5K-$5.8K (very poor), spending an average of $145.6 per meal at Restaurant A is unrealistic and unaffordable. Additionally, Restaurant A's menu lacks soups or stews, which are my preferred food types, and many dishes likely contain dairy, which I must avoid due to being overweight and dairy-free. On the other hand, Restaurant B, while rated lower overall and with some mixed reviews, offers an affordable price range averaging $14.6 per dish, making it practical for my budget. Although the menu items listed are the same, the sample reviews suggest that the diner offers hearty and comforting dishes like risotto and duck breast, which may be more adaptable to my dietary needs, and the friendly service suits my outgoing personality. Given the large price difference and my dietary and budget constraints, Restaurant B is the more sensible and enjoyable choice despite the lower quality rating."
+  }
+]
