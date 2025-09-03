@@ -1,0 +1,1888 @@
+[
+  {
+    "timestamp": "2025-09-03T13:56:51.545550",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_491647bb",
+    "name": "Customer_3327",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.5,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my middle-class budget of $8K-11.9K, I can comfortably afford the average meal price of $88.1 at Restaurant A. The significant 45-point higher quality rating (90 vs 45) at Restaurant A represents a major improvement in dining experience, which aligns well with my optimistic personality that appreciates premium and exceptional experiences. Although Restaurant A's menu leans more towards rich, classic French dishes rather than rice and noodle dishes, the superior quality and expert preparation suggest that I could find healthy, dairy-free options or request modifications. Moreover, the $0.0 price difference compared to Restaurant B means I get vastly better value for the same cost. Therefore, I choose Restaurant A for its premium quality, exceptional service, and overall superior dining experience."
+  },
+  {
+    "timestamp": "2025-09-03T13:57:01.400391",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_404fb7f0",
+    "name": "Customer_6936",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 11,
+      "reviews_shown_count": 6,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I thoroughly enjoyed the Duck Confit at Restaurant A; the flavors were rich and well-executed, fitti...",
+          "date": "2025-09-03 13:56:56"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.5,
+      "total_reviews": 10,
+      "reviews_shown_count": 5,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A offers a significantly higher quality rating (90 vs 45) for the same average meal price, my budget is classified as poor ($6K-$7.9K annual income), making the $88.10 per person average meal price a substantial expense. Additionally, neither restaurant explicitly lists vegan options, but Restaurant A\u2019s menu is heavily centered on rich animal-based dishes (duck, veal, foie gras, lobster), which are not compatible with my vegan preference and high cholesterol diet. Restaurant B's menu, while also not explicitly vegan, features some potentially lighter and more diverse Asian-inspired dishes (such as sushi and vegetable-based sides) that could be more adaptable to vegan needs. The casual atmosphere at Restaurant B better fits my adventurous yet budget-conscious personality, offering comfort and quicker service without the pressure of a formal setting. Given the lack of clear vegan offerings at either restaurant and the importance of managing my health condition and budget, I choose Restaurant B as the more practical and suitable option despite its lower quality rating."
+  },
+  {
+    "timestamp": "2025-09-03T13:57:09.864433",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_57d9fa5e",
+    "name": "Customer_4483",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 11,
+      "reviews_shown_count": 6,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I thoroughly enjoyed the Duck Confit at Restaurant A; the flavors were rich and well-executed, fitti...",
+          "date": "2025-09-03 13:56:56"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.4,
+      "total_reviews": 11,
+      "reviews_shown_count": 6,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the Mochi Ice Cream at this local diner. While the vegan option was a nice touch, the overal...",
+          "date": "2025-09-03 13:57:06"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Restaurant A offers an exceptional quality rating of 90/100, which is 45 points higher than Restaurant B's 45/100, at the same average meal price of $88.1 per person. Given my middle-class budget of $8K-11.9K, I can comfortably afford Restaurant A's pricing. Although Restaurant A's menu does not explicitly list barbecue items, its premium ingredients and expert chefs suggest the possibility of accommodating my barbecue preference or offering similarly satisfying dishes of exceptional quality. Additionally, the elegant atmosphere and exceptional service align well with my energetic personality by providing an engaging and memorable dining experience. The low sodium allergy concern can be managed by communicating dietary restrictions to the expert chefs at Restaurant A, who are more likely to accommodate such needs. Considering the significant quality improvement for no additional cost, Restaurant A represents the best value and overall dining experience for me."
+  },
+  {
+    "timestamp": "2025-09-03T13:57:21.300588",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_a55200fb",
+    "name": "Customer_3710",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 12,
+      "reviews_shown_count": 7,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I loved the rich flavors of the Duck Confit, perfectly smoky and tender! As a barbecue fan with low ...",
+          "date": "2025-09-03 13:57:15"
+        },
+        {
+          "stars": 4.0,
+          "text": "I thoroughly enjoyed the Duck Confit at Restaurant A; the flavors were rich and well-executed, fitti...",
+          "date": "2025-09-03 13:56:56"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.4,
+      "total_reviews": 11,
+      "reviews_shown_count": 6,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the Mochi Ice Cream at this local diner. While the vegan option was a nice touch, the overal...",
+          "date": "2025-09-03 13:57:06"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my affluent budget of $12K-14.8K, the average meal price of $88.1 at Restaurant A is well within my means. The 45-point higher quality rating at Restaurant A is a significant factor, especially since it comes at no additional cost compared to Restaurant B. Although Restaurant A's menu does not explicitly feature baked goods, its premium dining experience with expertly crafted desserts like Cr\u00e8me Br\u00fbl\u00e9e aligns better with my high standards and health considerations, especially given my need for low sodium options due to high cholesterol. The elegant atmosphere and exceptional service at Restaurant A also suit my outspoken personality, where I expect a refined environment that matches my discerning tastes. Therefore, the substantial quality improvement and superior overall experience make Restaurant A the clear choice."
+  },
+  {
+    "timestamp": "2025-09-03T13:57:28.020927",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_7e60dbe1",
+    "name": "Customer_7078",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 13,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I expected absolute perfection from a Michelin-level spot like this, and while the Truffle Risotto w...",
+          "date": "2025-09-03 13:57:23"
+        },
+        {
+          "stars": 4.0,
+          "text": "I loved the rich flavors of the Duck Confit, perfectly smoky and tender! As a barbecue fan with low ...",
+          "date": "2025-09-03 13:57:15"
+        },
+        {
+          "stars": 4.0,
+          "text": "I thoroughly enjoyed the Duck Confit at Restaurant A; the flavors were rich and well-executed, fitti...",
+          "date": "2025-09-03 13:56:56"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.4,
+      "total_reviews": 11,
+      "reviews_shown_count": 6,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the Mochi Ice Cream at this local diner. While the vegan option was a nice touch, the overal...",
+          "date": "2025-09-03 13:57:06"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A offers a significantly higher quality rating (90 vs 45) for the same average price per meal ($88.1), multiple factors make Restaurant B a better fit. First, given my poor budget ($6K-7.9K annual income), spending nearly $90 per meal is not realistically affordable for me, especially for frequent dining. Second, my food preferences prioritize breakfast foods, yet neither restaurant specifically highlights breakfast items; however, Restaurant B's casual diner menu includes classic breakfast options like pancakes and coffee, which aligns better with my taste. Third, as a diabetic vegan, neither menu clearly supports my dietary needs, but Restaurant high-end Restaurant A's offerings (mostly meat and rich dishes) are less accommodating, while Restaurant B's casual, customizable diner atmosphere might better allow for vegan substitutions. Lastly, my outgoing personality and preference for casual, friendly social settings align more with Restaurant B's casual and quick service environment rather than the formal, premium experience in Restaurant A. Considering these factors, despite the quality gap, Restaurant B is the more practical and personally suitable choice."
+  },
+  {
+    "timestamp": "2025-09-03T13:57:36.306632",
+    "type": "decision_details",
+    "day": 1,
+    "customer_id": "cust_410d48d7",
+    "name": "Customer_9971",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 13,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I expected absolute perfection from a Michelin-level spot like this, and while the Truffle Risotto w...",
+          "date": "2025-09-03 13:57:23"
+        },
+        {
+          "stars": 4.0,
+          "text": "I loved the rich flavors of the Duck Confit, perfectly smoky and tender! As a barbecue fan with low ...",
+          "date": "2025-09-03 13:57:15"
+        },
+        {
+          "stars": 4.0,
+          "text": "I thoroughly enjoyed the Duck Confit at Restaurant A; the flavors were rich and well-executed, fitti...",
+          "date": "2025-09-03 13:56:56"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.2,
+      "total_reviews": 12,
+      "reviews_shown_count": 7,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the Mochi Ice Cream at this local diner. While the vegan option was a nice touch, the overal...",
+          "date": "2025-09-03 13:57:06"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my middle-class budget of $8K-11.9K, the average meal price of $88.1 per person at Restaurant A is affordable. Restaurant A offers a significantly higher quality rating (90/100) compared to Restaurant B's 45/100, which is a major factor in my decision. Although both restaurants have the same average meal price, Restaurant A provides a premium dining experience with exceptional ingredients and expert chefs, which aligns well with my bold personality seeking a memorable and upscale meal. While the menu at Restaurant A does not explicitly list breakfast foods, the overall quality and exclusivity outweigh this, and I can likely find suitable gluten-free, diabetic-friendly options with the expert chefs' accommodations. Therefore, Restaurant A offers better value for the same price, matching my health needs, food preferences, and personality."
+  },
+  {
+    "timestamp": "2025-09-03T13:57:42.987130",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_356971df",
+    "name": "Customer_1981",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 14,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I was excited to try the Truffle Risotto at this Michelin-level spot, but it didn\u2019t quite meet my hi...",
+          "date": "2025-09-03 13:57:39"
+        },
+        {
+          "stars": 4.0,
+          "text": "I expected absolute perfection from a Michelin-level spot like this, and while the Truffle Risotto w...",
+          "date": "2025-09-03 13:57:23"
+        },
+        {
+          "stars": 4.0,
+          "text": "I loved the rich flavors of the Duck Confit, perfectly smoky and tender! As a barbecue fan with low ...",
+          "date": "2025-09-03 13:57:15"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.2,
+      "total_reviews": 12,
+      "reviews_shown_count": 7,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the Mochi Ice Cream at this local diner. While the vegan option was a nice touch, the overal...",
+          "date": "2025-09-03 13:57:06"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A offers a significantly higher quality rating (90 vs. 45) at the same average meal price, the menu and dining style do not align well with my food preferences and dietary needs. As someone who prefers street food and requires low-fat options due to allergies, the rich, heavy dishes at Restaurant A (e.g., Duck Confit, Lobster Thermidor, Foie Gras) are less suitable for me. Restaurant B, despite its lower quality rating, offers menu items that are closer to street food styles such as Sushi Platter, Peking Duck, and Lobster Pad Thai, which better match my taste preferences. Additionally, the casual atmosphere and affordable comfort food of Restaurant B better suit my intellectual personality, which values a relaxed, approachable setting over formal premium dining. Given that the price is the same for both, I prioritize food compatibility and personal comfort, leading me to choose Restaurant B."
+  },
+  {
+    "timestamp": "2025-09-03T13:57:50.558003",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_729f2516",
+    "name": "Customer_3926",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 14,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I was excited to try the Truffle Risotto at this Michelin-level spot, but it didn\u2019t quite meet my hi...",
+          "date": "2025-09-03 13:57:39"
+        },
+        {
+          "stars": 4.0,
+          "text": "I expected absolute perfection from a Michelin-level spot like this, and while the Truffle Risotto w...",
+          "date": "2025-09-03 13:57:23"
+        },
+        {
+          "stars": 4.0,
+          "text": "I loved the rich flavors of the Duck Confit, perfectly smoky and tender! As a barbecue fan with low ...",
+          "date": "2025-09-03 13:57:15"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.2,
+      "total_reviews": 13,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated B's mochi ice cream as a modest treat within a local diner setting. It met my expectat...",
+          "date": "2025-09-03 13:57:46"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the Mochi Ice Cream at this local diner. While the vegan option was a nice touch, the overal...",
+          "date": "2025-09-03 13:57:06"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A offers a significantly higher quality rating (90 vs. 45) at no additional cost per meal, my budget is listed as very poor ($5K-5.8K), making the average meal price of $88.1 per person quite expensive relative to my financial situation. Additionally, neither restaurant offers Indian cuisine, which is my preferred food type, but Restaurant B's casual and affordable atmosphere better suits my easygoing personality and limited budget. Given the mismatch in cuisine and the cost considerations, I prioritize budget compatibility and personality match over the quality difference. Therefore, I choose Restaurant B for its more casual vibe and affordability despite the lower quality rating."
+  },
+  {
+    "timestamp": "2025-09-03T13:57:57.426302",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_dbb9f58d",
+    "name": "Customer_7328",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 14,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I was excited to try the Truffle Risotto at this Michelin-level spot, but it didn\u2019t quite meet my hi...",
+          "date": "2025-09-03 13:57:39"
+        },
+        {
+          "stars": 4.0,
+          "text": "I expected absolute perfection from a Michelin-level spot like this, and while the Truffle Risotto w...",
+          "date": "2025-09-03 13:57:23"
+        },
+        {
+          "stars": 4.0,
+          "text": "I loved the rich flavors of the Duck Confit, perfectly smoky and tender! As a barbecue fan with low ...",
+          "date": "2025-09-03 13:57:15"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.2,
+      "total_reviews": 14,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated B's mochi ice cream as a modest treat within a local diner setting. It met my expectat...",
+          "date": "2025-09-03 13:57:46"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the Mochi Ice Cream at this local diner. While the vegan option was a nice touch, the overal...",
+          "date": "2025-09-03 13:57:06"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A offers a significantly higher quality rating (90 vs. 45) and the same average meal price ($88.1), it does not align well with my profile. I have a very limited budget ($5K-$5.8K annual income, classified as very poor), making even $88.1 per meal a stretch, especially since the premium dining experience likely involves additional costs (wine pairings, tips, etc.). Moreover, neither restaurant's menu caters to my preference for Mexican food, but Restaurant A's upscale French-inspired menu is less adaptable to my diabetic gluten-free diet compared to the casual diner setting, where I might find or request simpler, safer options. As a spirited personality, I prefer a casual, lively atmosphere where I can be comfortable and not overly restricted by strict dining etiquette. Given these factors, despite the quality advantage of Restaurant A, Restaurant B's casual and affordable nature, even with its basic quality, better fits my budget constraints, dietary needs, and personality."
+  },
+  {
+    "timestamp": "2025-09-03T13:58:05.908867",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_cfae892a",
+    "name": "Customer_1325",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.8,
+      "total_reviews": 14,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I was excited to try the Truffle Risotto at this Michelin-level spot, but it didn\u2019t quite meet my hi...",
+          "date": "2025-09-03 13:57:39"
+        },
+        {
+          "stars": 4.0,
+          "text": "I expected absolute perfection from a Michelin-level spot like this, and while the Truffle Risotto w...",
+          "date": "2025-09-03 13:57:23"
+        },
+        {
+          "stars": 4.0,
+          "text": "I loved the rich flavors of the Duck Confit, perfectly smoky and tender! As a barbecue fan with low ...",
+          "date": "2025-09-03 13:57:15"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 15,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated B's mochi ice cream as a modest treat within a local diner setting. It met my expectat...",
+          "date": "2025-09-03 13:57:46"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Despite the limited budget classified as poor ($6K-7.9K annual income), the average meal price of $88.1 per person is the same for both restaurants, so affordability is equal. Restaurant A offers a significantly higher quality rating (90/100 vs. 45/100), which is a major factor. Although the menu at Restaurant A does not explicitly list exotic fruits or clearly vegan/gluten-free options, the premium and expert chefs likely can accommodate dietary restrictions such as vegan and gluten-free. The elegant and premium dining experience aligns well with an ambitious personality seeking aspirational experiences. Given the $0 price difference and the substantial quality improvement, Restaurant A is the better choice for Customer_1325 who values quality and an elevated atmosphere despite budget constraints."
+  },
+  {
+    "timestamp": "2025-09-03T13:58:14.310277",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_8a4df223",
+    "name": "Customer_9441",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.7,
+      "total_reviews": 15,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a stellar experience at this Michelin-level spot, but the Veal Marsala was disappointing ...",
+          "date": "2025-09-03 13:58:09"
+        },
+        {
+          "stars": 3.0,
+          "text": "I was excited to try the Truffle Risotto at this Michelin-level spot, but it didn\u2019t quite meet my hi...",
+          "date": "2025-09-03 13:57:39"
+        },
+        {
+          "stars": 4.0,
+          "text": "I expected absolute perfection from a Michelin-level spot like this, and while the Truffle Risotto w...",
+          "date": "2025-09-03 13:57:23"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 15,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated B's mochi ice cream as a modest treat within a local diner setting. It met my expectat...",
+          "date": "2025-09-03 13:57:46"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "Although Restaurant A offers a significantly higher quality rating (90 vs. 45) for the same average meal price, its menu does not align with my strong preference for sushi and Japanese cuisine. Restaurant A's offerings focus on French and European fine dining dishes such as Truffle Risotto, Duck Confit, and Lobster Thermidor, which are not suitable for my taste or diabetic, low-cholesterol dietary needs. On the other hand, Restaurant B offers sushi and Japanese cuisine options like Sushi Platter, Teriyaki Salmon, and Mochi Ice Cream, which better match my food preferences. Given my diabetic condition, I need to make careful food choices, and Restaurant B's menu provides more appropriate options. Although Restaurant B has a lower quality rating (45/100) and a slightly less elegant atmosphere, its casual and friendly environment suits my outgoing personality by allowing a relaxed social experience without the formality of premium dining. Budget is not a constraint, but matching my food preferences and dietary needs is paramount. Therefore, despite Restaurant A's superior quality and premium experience, I choose Restaurant B to meet my specific cuisine preference, health considerations, and personality."
+  },
+  {
+    "timestamp": "2025-09-03T13:58:20.757081",
+    "type": "decision_details",
+    "day": 2,
+    "customer_id": "cust_c6c57179",
+    "name": "Customer_5288",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.7,
+      "total_reviews": 15,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a stellar experience at this Michelin-level spot, but the Veal Marsala was disappointing ...",
+          "date": "2025-09-03 13:58:09"
+        },
+        {
+          "stars": 3.0,
+          "text": "I was excited to try the Truffle Risotto at this Michelin-level spot, but it didn\u2019t quite meet my hi...",
+          "date": "2025-09-03 13:57:39"
+        },
+        {
+          "stars": 4.0,
+          "text": "I expected absolute perfection from a Michelin-level spot like this, and while the Truffle Risotto w...",
+          "date": "2025-09-03 13:57:23"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 16,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the Teriyaki Salmon at this local diner; it was decent and met my expectations given t...",
+          "date": "2025-09-03 13:58:17"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my middle-class budget of $8K-11.9K, the average meal price of $88.1 at Restaurant A is affordable. The 45-point higher quality rating of Restaurant A compared to Restaurant B is a major factor, especially since the price is the same. Although Restaurant A's menu is more focused on premium French dishes like Truffle Risotto and Duck Confit, which might not directly align with my preference for rice and noodle dishes, the elegant atmosphere, exceptional service, and exquisite dining experience better match my elegant personality. Additionally, I have a dairy allergy, and while Restaurant A features some dairy-based items, its premium service likely accommodates dietary restrictions better than the casual diner. Overall, the superior quality, elegant experience, and ability to meet my budget make Restaurant A the better choice."
+  },
+  {
+    "timestamp": "2025-09-03T13:58:29.096161",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_1b36a6f4",
+    "name": "Customer_9311",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.7,
+      "total_reviews": 16,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I found the Truffle Risotto to be exquisitely prepared, aligning well with the high standards of a M...",
+          "date": "2025-09-03 13:58:24"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a stellar experience at this Michelin-level spot, but the Veal Marsala was disappointing ...",
+          "date": "2025-09-03 13:58:09"
+        },
+        {
+          "stars": 3.0,
+          "text": "I was excited to try the Truffle Risotto at this Michelin-level spot, but it didn\u2019t quite meet my hi...",
+          "date": "2025-09-03 13:57:39"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 16,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the Teriyaki Salmon at this local diner; it was decent and met my expectations given t...",
+          "date": "2025-09-03 13:58:17"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my middle-class budget of $8K-11.9K, the average meal price of $88.1 at Restaurant A is affordable and within my means. Restaurant A offers a significantly higher quality rating (90/100) compared to Restaurant B (45/100), which is a major factor in my decision. As a bold personality who enjoys international cuisine, the premium, expertly crafted dishes like Truffle Risotto and Lobster Thermidor at Restaurant A align well with my preferences and desire for a memorable, upscale dining experience. Additionally, the low cholesterol dietary requirement can be better managed in a high-end setting where ingredient quality and preparation methods are more controlled. Given there is no price difference between the two options, the exceptional quality and refined atmosphere of Restaurant A make it the clear choice."
+  },
+  {
+    "timestamp": "2025-09-03T13:58:35.517270",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_f174d462",
+    "name": "Customer_3529",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.7,
+      "total_reviews": 17,
+      "reviews_shown_count": 8,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I appreciated the sophisticated flavors of the Veal Marsala at Restaurant A. The dish was well-prepa...",
+          "date": "2025-09-03 13:58:32"
+        },
+        {
+          "stars": 4.0,
+          "text": "I found the Truffle Risotto to be exquisitely prepared, aligning well with the high standards of a M...",
+          "date": "2025-09-03 13:58:24"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a stellar experience at this Michelin-level spot, but the Veal Marsala was disappointing ...",
+          "date": "2025-09-03 13:58:09"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 16,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the Teriyaki Salmon at this local diner; it was decent and met my expectations given t...",
+          "date": "2025-09-03 13:58:17"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Although both restaurants have the same average meal price of $88.1, Restaurant A offers a significantly higher quality rating (90/100) compared to Restaurant B (45/100), which is a major factor given my preference for high-quality food experiences. My budget of $8K-11.9K comfortably accommodates the price at Restaurant A. While my food preference is comfort food, Restaurant A\u2019s menu of refined dishes such as Duck Confit and Beef Bourguignon can be considered elevated comfort food, and the premium dining experience aligns well with my adventurous personality, offering a chance to explore gourmet dishes in an elegant atmosphere. Additionally, the gluten intolerance and low cholesterol diet can be managed better with expert chefs at Restaurant A who are likely more accommodating. Given the zero price difference but a substantial quality improvement, Restaurant A is the clear choice."
+  },
+  {
+    "timestamp": "2025-09-03T13:58:43.578515",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_bd783e03",
+    "name": "Customer_6818",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.7,
+      "total_reviews": 18,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "I enjoyed the Cr\u00e8me Br\u00fbl\u00e9e at Restaurant A; it delivered rich comfort food flavors while respecting ...",
+          "date": "2025-09-03 13:58:38"
+        },
+        {
+          "stars": 4.0,
+          "text": "I appreciated the sophisticated flavors of the Veal Marsala at Restaurant A. The dish was well-prepa...",
+          "date": "2025-09-03 13:58:32"
+        },
+        {
+          "stars": 4.0,
+          "text": "I found the Truffle Risotto to be exquisitely prepared, aligning well with the high standards of a M...",
+          "date": "2025-09-03 13:58:24"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a stellar experience at this Michelin-level spot, but the Veal Marsala was disappointing ...",
+          "date": "2025-09-03 13:58:09"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 16,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the Teriyaki Salmon at this local diner; it was decent and met my expectations given t...",
+          "date": "2025-09-03 13:58:17"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my affluent budget of $12K-$14.8K, I can comfortably afford the average meal price of $88.1 at Restaurant A. Although Restaurant A does not specialize in Chinese cuisine, its exceptionally high quality rating (90/100) compared to Restaurant B's basic quality (45/100) is a major factor. The premium dining experience with expert chefs and exceptional service aligns well with my warm personality, as I appreciate an elegant atmosphere for a comfortable and memorable meal. Additionally, Restaurant A's menu, while not Chinese, offers sophisticated dishes that can likely accommodate my diabetic and dairy-free dietary needs better than the casual diner options. Since both restaurants charge the same average price, the 45-point quality improvement at Restaurant A provides significantly better value and an elevated experience, making it the clear choice."
+  },
+  {
+    "timestamp": "2025-09-03T13:58:50.298405",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_727f8a40",
+    "name": "Customer_1422",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.7,
+      "total_reviews": 19,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I expected an exceptional experience at this Michelin-level restaurant, but the Truffle Risotto fell...",
+          "date": "2025-09-03 13:58:46"
+        },
+        {
+          "stars": 4.0,
+          "text": "I enjoyed the Cr\u00e8me Br\u00fbl\u00e9e at Restaurant A; it delivered rich comfort food flavors while respecting ...",
+          "date": "2025-09-03 13:58:38"
+        },
+        {
+          "stars": 4.0,
+          "text": "I appreciated the sophisticated flavors of the Veal Marsala at Restaurant A. The dish was well-prepa...",
+          "date": "2025-09-03 13:58:32"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a stellar experience at this Michelin-level spot, but the Veal Marsala was disappointing ...",
+          "date": "2025-09-03 13:58:09"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 16,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the Teriyaki Salmon at this local diner; it was decent and met my expectations given t...",
+          "date": "2025-09-03 13:58:17"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my middle-class budget of $8K-$11.9K, the average meal price of $88.1 at Restaurant A is affordable. Restaurant A offers a significantly higher quality rating (90/100 vs 45/100) for the same price as Restaurant B, which is a major factor in my decision. Although Restaurant A's menu does not specifically highlight breakfast foods, the premium dining experience and exceptional quality outweigh this, and I can likely find suitable gluten-free and dairy-free options with their expert chefs. The elegant atmosphere and exceptional service fit well with my easy-going personality, offering a relaxed yet refined experience. Therefore, the substantial quality improvement and equivalently priced meals make Restaurant A the better choice."
+  },
+  {
+    "timestamp": "2025-09-03T13:58:57.466069",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_380d6451",
+    "name": "Customer_2446",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.6,
+      "total_reviews": 20,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed the Truffle Risotto at Restaurant A, but as someone who loves breakfast foods and needs gl...",
+          "date": "2025-09-03 13:58:54"
+        },
+        {
+          "stars": 3.0,
+          "text": "I expected an exceptional experience at this Michelin-level restaurant, but the Truffle Risotto fell...",
+          "date": "2025-09-03 13:58:46"
+        },
+        {
+          "stars": 4.0,
+          "text": "I enjoyed the Cr\u00e8me Br\u00fbl\u00e9e at Restaurant A; it delivered rich comfort food flavors while respecting ...",
+          "date": "2025-09-03 13:58:38"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a stellar experience at this Michelin-level spot, but the Veal Marsala was disappointing ...",
+          "date": "2025-09-03 13:58:09"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 16,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the Teriyaki Salmon at this local diner; it was decent and met my expectations given t...",
+          "date": "2025-09-03 13:58:17"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "A",
+    "reason": "Given my affluent budget of $12K-14.8K, the average meal price of $88.1 at Restaurant A is well within my means. Although neither menu specifically features Mexican cuisine, Restaurant A offers a significantly higher quality experience with a 90/100 rating compared to Restaurant B's 45/100, which is a major consideration for me. As a reserved personality, I value an elegant atmosphere and exceptional service that Restaurant A provides, which aligns well with my dining preferences. Additionally, the premium ingredients and expert chefs at Restaurant A give me confidence that gluten-free options can be accommodated carefully, supporting my health needs. The fact that this high-quality experience comes at no additional cost compared to Restaurant B further reinforces my choice. Therefore, despite the lack of Mexican dishes, Restaurant A's superior quality, ambiance, and service make it the better fit for my preferences and lifestyle."
+  },
+  {
+    "timestamp": "2025-09-03T13:59:05.198626",
+    "type": "decision_details",
+    "day": 3,
+    "customer_id": "cust_1b20bad9",
+    "name": "Customer_4618",
+    "restaurant_a_info": {
+      "quality_rating": 90,
+      "overall_rating": 3.6,
+      "total_reviews": 21,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine...",
+          "date": "2023-06-15 19:30:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. ...",
+          "date": "2023-11-14 20:00:00"
+        },
+        {
+          "stars": 5.0,
+          "text": "Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The...",
+          "date": "2024-02-14 21:30:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right f...",
+          "date": "2023-07-20 20:15:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was ...",
+          "date": "2023-09-12 21:00:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I had high hopes for Restaurant A given its Michelin-level status, but the Beef Bourguignon didn\u2019t a...",
+          "date": "2025-09-03 13:59:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I enjoyed the Truffle Risotto at Restaurant A, but as someone who loves breakfast foods and needs gl...",
+          "date": "2025-09-03 13:58:54"
+        },
+        {
+          "stars": 3.0,
+          "text": "I expected an exceptional experience at this Michelin-level restaurant, but the Truffle Risotto fell...",
+          "date": "2025-09-03 13:58:46"
+        },
+        {
+          "stars": 2.0,
+          "text": "I expected a stellar experience at this Michelin-level spot, but the Veal Marsala was disappointing ...",
+          "date": "2025-09-03 13:58:09"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "restaurant_b_info": {
+      "quality_rating": 45,
+      "overall_rating": 3.1,
+      "total_reviews": 16,
+      "reviews_shown_count": 9,
+      "reviews_shown": [
+        {
+          "stars": 5.0,
+          "text": "$4 chicken noodle soup was exactly what I needed - hearty and flavorful. Perfect comfort food on a c...",
+          "date": "2023-11-22 12:45:00"
+        },
+        {
+          "stars": 4.5,
+          "text": "Best $5 milkshake in town! The $7 BLT was loaded with crispy bacon. Friendly service too....",
+          "date": "2023-09-05 11:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Great value! The $8 cheeseburger was juicy and cooked just right. Fries were perfectly crispy. Exact...",
+          "date": "2023-06-10 12:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "Classic diner breakfast done right. $6 pancakes with crispy bacon hit the spot. Coffee refills never...",
+          "date": "2023-12-10 09:30:00"
+        },
+        {
+          "stars": 4.0,
+          "text": "The $5 apple pie \u00c3\u00a0 la mode was heavenly - flaky crust and perfect filling. Service was friendly and...",
+          "date": "2024-02-05 15:30:00"
+        },
+        {
+          "stars": 3.0,
+          "text": "I appreciated the Teriyaki Salmon at this local diner; it was decent and met my expectations given t...",
+          "date": "2025-09-03 13:58:17"
+        },
+        {
+          "stars": 2.0,
+          "text": "I was hoping for a decent treat within my tight budget, but the mochi ice cream was just okay. For a...",
+          "date": "2025-09-03 13:58:01"
+        },
+        {
+          "stars": 3.0,
+          "text": "I found the Kung Pao Chicken at this local diner decent enough given its modest quality rating. It w...",
+          "date": "2025-09-03 13:57:53"
+        },
+        {
+          "stars": 2.0,
+          "text": "I tried the sushi platter at this local diner hoping for a decent meal, but it didn\u2019t quite meet my ...",
+          "date": "2025-09-03 13:57:33"
+        }
+      ],
+      "sort_method": "highest_rating"
+    },
+    "decision": "B",
+    "reason": "While Restaurant A offers a significantly higher quality rating (90 vs. 45) and a premium dining experience, its menu does not align well with my Chinese cuisine preference or my gluten intolerance and low sodium dietary needs. The menu items at Restaurant A are primarily French and Italian-inspired dishes, which are less likely to accommodate gluten-free and low sodium requirements without significant modifications. In contrast, Restaurant B, although lower in quality rating, offers Chinese cuisine options such as Peking Duck, Kung Pao Chicken, and Lobster Pad Thai that better match my food preferences. Given my middle-class budget of $8K-11.9K and the same average meal price of $88.1 at both restaurants, affordability is not a deciding factor. However, the creative personality I have values a dining experience that feels authentic and culturally relevant, which Restaurant B provides through its casual, comfort food atmosphere. Despite the lower quality rating, Restaurant B's menu and vibe better suit my dietary restrictions and creative food interests, making it the more suitable choice."
+  }
+]

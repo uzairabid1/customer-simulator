@@ -36,6 +36,12 @@ def get_output_folder_name():
 def main():
     print("Starting restaurant simulation...")
     
+    # Display current review policy settings from config
+    print(f"Review policies from config:")
+    print(f"- Restaurant A (High-end): {Config.RESTAURANT_A_REVIEW_POLICY}")
+    print(f"- Restaurant B (Basic diner): {Config.RESTAURANT_B_REVIEW_POLICY}")
+    print()
+    
     # Get output folder name from user
     output_folder = get_output_folder_name()
     print(f"Output will be saved to: data/outputs/{output_folder}")
