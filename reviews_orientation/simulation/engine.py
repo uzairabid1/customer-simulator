@@ -279,6 +279,9 @@ class RestaurantSimulation:
         
         self.logger.save_logs()
         
+        # Save simulation metadata
+        self._save_metadata()
+        
         with open(f"{self.output_dir}/customers.json", "w") as f:
             json.dump([
                 {
@@ -300,3 +303,53 @@ class RestaurantSimulation:
                     "revenue": self.restaurant_b.revenue
                 }
             }, f, indent=2)
+
+    def _save_metadata(self):
+        """Save simulation metadata including configurations and setup details"""
+        metadata = {
+            "simulation_info": {
+                "simulation_type": "reviews_orientation",
+                "timestamp": datetime.now().isoformat(),
+                "output_folder": self.output_dir.split('/')[-1]
+            },
+            "configuration": {
+                "days": Config.DAYS,
+                "customers_per_day": Config.CUSTOMERS_PER_DAY,
+                "model": Config.MODEL,
+                "log_dir": Config.LOG_DIR
+            },
+            "restaurant_setup": {
+                "restaurant_a": {
+                    "id": "A",
+                    "review_policy": "highest_rating",
+                    "menu": self.restaurant_a.menu,
+                    "initial_reviews_count": len(self.restaurant_a.initial_reviews),
+                    "initial_avg_rating": sum(r.stars for r in self.restaurant_a.initial_reviews) / len(self.restaurant_a.initial_reviews) if self.restaurant_a.initial_reviews else 0
+                },
+                "restaurant_b": {
+                    "id": "B", 
+                    "review_policy": "latest",
+                    "menu": self.restaurant_b.menu,
+                    "initial_reviews_count": len(self.restaurant_b.initial_reviews),
+                    "initial_avg_rating": sum(r.stars for r in self.restaurant_b.initial_reviews) / len(self.restaurant_b.initial_reviews) if self.restaurant_b.initial_reviews else 0
+                }
+            },
+            "simulation_results": {
+                "total_customers": len(self.customers),
+                "final_ratings": {
+                    "restaurant_a": self.restaurant_a.get_overall_rating(),
+                    "restaurant_b": self.restaurant_b.get_overall_rating()
+                },
+                "final_review_counts": {
+                    "restaurant_a": self.restaurant_a.get_review_count(),
+                    "restaurant_b": self.restaurant_b.get_review_count()
+                },
+                "total_revenue": {
+                    "restaurant_a": self.restaurant_a.revenue,
+                    "restaurant_b": self.restaurant_b.revenue
+                }
+            }
+        }
+        
+        with open(f"{self.output_dir}/simulation_metadata.json", "w") as f:
+            json.dump(metadata, f, indent=2)

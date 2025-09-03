@@ -28,30 +28,9 @@ class Restaurant:
     def __init__(self, restaurant_id: str, review_policy: str):
         self.restaurant_id = restaurant_id
         self.review_policy = review_policy
-        self.menu = {
-            "Burger": 10,
-            "Pizza": 12,
-            "Salad": 8,
-            "Pasta": 11,
-            "Steak": 18,
-            "Sushi Platter": 22,
-            "Chicken Wings": 9,
-            "Vegetable Stir Fry": 13,
-            "Ramen": 14,
-            "Tacos": 10,
-            "Caesar Salad": 9,
-            "Grilled Salmon": 20,
-            "Margherita Pizza": 15,
-            "Cheesecake": 7,
-            "Ice Cream Sundae": 6,
-            "Club Sandwich": 11,
-            "French Fries": 5,
-            "Onion Rings": 6,
-            "Mushroom Risotto": 16,
-            "Chocolate Cake": 8,
-            "Fish and Chips": 14,
-            "Vegetable Curry": 12
-        }
+        # Use menu from config
+        from config import Config
+        self.menu = Config.RESTAURANT_MENU.copy()
         self.reviews: List[Review] = []
         self.revenue = 0
         self.initial_reviews: List[Review] = [] 
