@@ -209,7 +209,31 @@ class RestaurantSimulation:
                     self.current_day)
                 
                 restaurant = self.restaurant_a if decision["decision"] == "A" else self.restaurant_b
-                ordered_item = random.choice(list(restaurant.menu.keys()))
+                
+                # Let customer choose menu item based on their profile
+                menu_choice = self.llm.choose_menu_item(
+                    {
+                        "name": customer.name,
+                        "income": customer.role_desc["income"],
+                        "taste": customer.role_desc["taste"],
+                        "health": customer.role_desc["health"],
+                        "dietary_restriction": customer.role_desc["dietary_restriction"],
+                        "personality": customer.role_desc["personality"],
+                        "customer_id": customer.customer_id
+                    },
+                    restaurant.restaurant_id,
+                    restaurant.menu
+                )
+                
+                # Validate the chosen item exists in menu, fallback to random if not
+                ordered_item = menu_choice.get("chosen_item", "")
+                if ordered_item not in restaurant.menu:
+                    print(f"Warning: Customer chose '{ordered_item}' which is not on menu. Falling back to random selection.")
+                    ordered_item = random.choice(list(restaurant.menu.keys()))
+                    menu_reason = "Fallback to random selection due to invalid choice"
+                else:
+                    menu_reason = menu_choice.get("reason", "No reason provided")
+                
                 price = restaurant.menu[ordered_item]
                 restaurant.revenue += price
                 
@@ -227,7 +251,8 @@ class RestaurantSimulation:
                     restaurant.restaurant_id,
                     ordered_item,
                     price,
-                    self.current_day
+                    self.current_day,
+                    menu_reason  # Add menu selection reason to logging
                 )
                 
                 review_data = self.llm.generate_review(

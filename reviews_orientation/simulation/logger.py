@@ -43,7 +43,7 @@ class SimulationLogger:
             "reason": reason
         })
     
-    def log_order(self, customer_id: str, name: str, restaurant_id: str, item: str, price: float, day: int):
+    def log_order(self, customer_id: str, name: str, restaurant_id: str, item: str, price: float, day: int, menu_reason: str = ""):
         self.log_entries.append({
             "timestamp": datetime.now().isoformat(),
             "type": "order",
@@ -52,7 +52,8 @@ class SimulationLogger:
             "name": name,
             "restaurant_id": restaurant_id,
             "item": item,
-            "price": price
+            "price": price,
+            "menu_selection_reason": menu_reason
         })
     
     def log_review(self, review: Dict, reason: str):
