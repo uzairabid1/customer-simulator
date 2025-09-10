@@ -6,7 +6,7 @@ load_dotenv()
 class Config:
     API_KEY = os.getenv("OPENAI_API_KEY", "your-api-key-here")
     MODEL = "gpt-4.1-mini"
-    DAYS = 3  # Increased simulation duration
+    DAYS = 2  # Increased simulation duration
     CUSTOMERS_PER_DAY = 6  # More customers per day
     LOG_DIR = "data/outputs/logs"
     # Vertical differentiation ratings

@@ -187,12 +187,46 @@ class LLMInterface:
                 "dietary_restriction": "None",
                 "personality": "Neutral"
             }
+        elif "choose what to order" in prompt:
+            return {
+                "chosen_item": "Burger",
+                "reason": "Fallback selection due to system error"
+            }
         else:
             return {
                 "decision": random.choice(["A", "B"]),
                 "reason": "I randomly chose this restaurant due to system error"
             }
         
+    def choose_menu_item(self, customer: Dict, restaurant_id: str, menu: Dict) -> Dict:
+        """Let customer choose menu item based on their profile"""
+        restaurant_type = "High-end restaurant" if restaurant_id == "A" else "Basic diner"
+        prompt = f"""Act as {customer['name']} and choose what to order from the {restaurant_type} menu based on:
+
+        Customer Profile:
+        - Budget: {customer['income']}
+        - Food Preferences: {customer['taste']}
+        - Health/Diet: {customer['health']}{' ('+customer['dietary_restriction']+')' if customer['dietary_restriction'] != 'None' else ''}
+        - Personality: {customer['personality']}
+
+        Restaurant {restaurant_id} ({restaurant_type}) Menu:
+        {chr(10).join(f"- {item}: ${price}" for item, price in menu.items())}
+
+        Consider:
+        1. Which menu item best matches your taste preferences
+        2. Price affordability based on your income level
+        3. Dietary restrictions and health considerations
+        4. Your personality traits (adventurous vs conservative, etc.)
+        5. The restaurant type and expected quality level
+
+        Return JSON with:
+        {{
+            "chosen_item": "[exact menu item name]",
+            "reason": "Brief explanation of why this item appeals to you"
+        }}"""
+        
+        return self._call_llm(prompt)
+
     def _format_reviews(self, reviews: List[Dict]) -> str:
         return "\n".join(
             f"{r['stars']}⭐: {r['text']}"
