@@ -10,24 +10,94 @@ from .llm import LLMInterface
 from .logger import SimulationLogger
 
 class RestaurantSimulation:
-    def _should_investigate_further(self, reviews: List[Dict]) -> bool:
-        """Determine if reviews appear too positive or outdated"""
+    def _assess_skepticism(self, customer: Customer, reviews: List[Dict], restaurant_id: str) -> Dict:
+        """
+        Dynamic skepticism assessment based on customer personality and review patterns.
+        Returns skepticism level and specific concerns.
+        """
         if not reviews:
-            return False
+            return {"level": "none", "concerns": [], "will_investigate": False, "confidence_impact": 0}
         
-        # Check if mostly 5-star reviews (more than 80%)
+        concerns = []
+        skepticism_score = 0
+        
+        # 1. Pattern Analysis
         five_star_count = sum(1 for r in reviews if r['stars'] == 5)
-        if five_star_count / len(reviews) > 0.8:
-            return True
-        
-        # Check if reviews are outdated (all older than 1 year)
+        five_star_ratio = five_star_count / len(reviews)
+        if five_star_ratio > 0.8:
+            concerns.append("too_many_perfect_ratings")
+            skepticism_score += 2
+        elif five_star_ratio > 0.9:
+            concerns.append("suspiciously_perfect_ratings")
+            skepticism_score += 3
+            
+        # 2. Recency Analysis
         current_date = datetime.now()
+        six_months_ago = current_date.replace(month=current_date.month-6 if current_date.month > 6 else current_date.month+6, year=current_date.year-1 if current_date.month <= 6 else current_date.year)
         one_year_ago = current_date.replace(year=current_date.year-1)
-        most_recent_date = max(datetime.strptime(r['date'], "%Y-%m-%d %H:%M:%S") for r in reviews)
-        if most_recent_date < one_year_ago:
-            return True
         
-        return False
+        try:
+            most_recent_date = max(datetime.strptime(r['date'], "%Y-%m-%d %H:%M:%S") for r in reviews)
+            if most_recent_date < one_year_ago:
+                concerns.append("very_outdated_reviews")
+                skepticism_score += 3
+            elif most_recent_date < six_months_ago:
+                concerns.append("outdated_reviews")
+                skepticism_score += 1
+        except ValueError:
+            concerns.append("date_parsing_issues")
+            skepticism_score += 1
+            
+        # 3. Sample Size Analysis
+        if len(reviews) < 3:
+            concerns.append("too_few_reviews")
+            skepticism_score += 1
+            
+        # 4. Rating Diversity Analysis
+        unique_ratings = set(r['stars'] for r in reviews)
+        if len(unique_ratings) == 1:
+            concerns.append("no_rating_diversity")
+            skepticism_score += 2
+            
+        # 5. Personality-Based Skepticism Modifier
+        personality = customer.role_desc.get("personality", "").lower()
+        skeptical_personalities = ["analytical", "meticulous", "discerning", "strict", "picky", "reserved", "thoughtful"]
+        trusting_personalities = ["easy-going", "easygoing", "relaxed", "carefree", "cheerful", "optimistic", "friendly", "outgoing"]
+        
+        personality_modifier = 0
+        if any(trait in personality for trait in skeptical_personalities):
+            personality_modifier = 2  # More skeptical
+        elif any(trait in personality for trait in trusting_personalities):
+            personality_modifier = -1  # Less skeptical
+            
+        final_score = max(0, skepticism_score + personality_modifier)
+        
+        # Determine skepticism level and behavior
+        if final_score >= 5:
+            level = "high"
+            will_investigate = random.random() < 0.8  # 80% chance to investigate
+            confidence_impact = -0.3  # Significant negative impact on confidence
+        elif final_score >= 3:
+            level = "medium" 
+            will_investigate = random.random() < 0.6  # 60% chance to investigate
+            confidence_impact = -0.15  # Moderate negative impact
+        elif final_score >= 1:
+            level = "low"
+            will_investigate = random.random() < 0.3  # 30% chance to investigate
+            confidence_impact = -0.05  # Minor negative impact
+        else:
+            level = "none"
+            will_investigate = False
+            confidence_impact = 0
+            
+        return {
+            "level": level,
+            "concerns": concerns,
+            "will_investigate": will_investigate,
+            "confidence_impact": confidence_impact,
+            "score": final_score,
+            "personality_modifier": personality_modifier
+        }
 
     def _get_additional_reviews(self, restaurant: Restaurant) -> List[Dict]:
         """Get additional reviews if initial set seems biased"""
@@ -43,6 +113,98 @@ class RestaurantSimulation:
         # Remove duplicates and limit total
         unique_reviews = {r['review_id']: r for r in additional}
         return list(unique_reviews.values())[:5]  # Return up to 5 additional reviews
+
+    def _assess_post_investigation_effects(self, customer: Customer, initial_skepticism: Dict, 
+                                         additional_reviews: List[Dict], restaurant_id: str) -> Dict:
+        """
+        Assess how additional reviews affect customer skepticism and confidence.
+        Some customers remain doubtful even after investigation.
+        """
+        if not additional_reviews:
+            return {
+                "resolved": False,
+                "confidence_change": initial_skepticism["confidence_impact"],
+                "ongoing_doubt": True,
+                "reason": "no_additional_reviews_found"
+            }
+        
+        # Analyze additional reviews
+        additional_avg_rating = sum(r['stars'] for r in additional_reviews) / len(additional_reviews)
+        has_negative_reviews = any(r['stars'] <= 2 for r in additional_reviews)
+        has_recent_reviews = True  # We specifically fetch recent ones
+        
+        personality = customer.role_desc.get("personality", "").lower()
+        
+        # Personality affects how they interpret additional evidence
+        if "analytical" in personality or "meticulous" in personality:
+            # Analytical customers are thorough but can be convinced by data
+            if has_negative_reviews and additional_avg_rating < 3.5:
+                return {
+                    "resolved": True,
+                    "confidence_change": -0.2,  # Confirmed concerns
+                    "ongoing_doubt": False,
+                    "reason": "analytical_confirmed_concerns"
+                }
+            elif additional_avg_rating >= 4.0:
+                return {
+                    "resolved": True,
+                    "confidence_change": 0.1,  # Concerns alleviated
+                    "ongoing_doubt": False,
+                    "reason": "analytical_concerns_resolved"
+                }
+        
+        elif "picky" in personality or "strict" in personality:
+            # Picky customers often remain unsatisfied
+            return {
+                "resolved": False,
+                "confidence_change": initial_skepticism["confidence_impact"] - 0.1,  # Even more doubtful
+                "ongoing_doubt": True,
+                "reason": "picky_never_satisfied"
+            }
+            
+        elif "discerning" in personality:
+            # Discerning customers need high quality evidence
+            if additional_avg_rating >= 4.5:
+                return {
+                    "resolved": True,
+                    "confidence_change": 0.05,
+                    "ongoing_doubt": False,
+                    "reason": "discerning_quality_confirmed"
+                }
+            else:
+                return {
+                    "resolved": False,
+                    "confidence_change": initial_skepticism["confidence_impact"],
+                    "ongoing_doubt": True,
+                    "reason": "discerning_quality_insufficient"
+                }
+        
+        elif any(trait in personality for trait in ["shy", "reserved", "thoughtful"]):
+            # Shy/reserved customers often remain worried regardless
+            doubt_persists = random.random() < 0.7  # 70% chance doubt persists
+            if doubt_persists:
+                return {
+                    "resolved": False,
+                    "confidence_change": initial_skepticism["confidence_impact"] - 0.05,
+                    "ongoing_doubt": True,
+                    "reason": "anxious_persistent_worry"
+                }
+        
+        # Default case - most customers are somewhat reassured
+        if additional_avg_rating >= 3.5:
+            return {
+                "resolved": True,
+                "confidence_change": max(0, initial_skepticism["confidence_impact"] + 0.15),
+                "ongoing_doubt": False,
+                "reason": "general_concerns_addressed"
+            }
+        else:
+            return {
+                "resolved": False,
+                "confidence_change": initial_skepticism["confidence_impact"] - 0.1,
+                "ongoing_doubt": True,
+                "reason": "additional_reviews_concerning"
+            }
 
     def _get_combined_reviews(self, restaurant: Restaurant) -> List[Dict]:
         all_reviews = restaurant.initial_reviews + restaurant.reviews
@@ -206,30 +368,54 @@ class RestaurantSimulation:
                     "B", b_reviews_shown
                 )
                 
-                # Check if we need additional reviews
+                # Assess skepticism for both restaurants
+                a_skepticism = self._assess_skepticism(customer, a_reviews_shown, "A")
+                b_skepticism = self._assess_skepticism(customer, b_reviews_shown, "B")
+                
+                # Handle investigation behavior
                 a_additional_reviews = []
                 b_additional_reviews = []
+                a_post_investigation = None
+                b_post_investigation = None
                 
-                if self._should_investigate_further(a_reviews_shown):
+                if a_skepticism["will_investigate"]:
                     a_additional_reviews = self._get_additional_reviews(self.restaurant_a)
                     a_reviews_shown.extend(a_additional_reviews)
                     a_reviews_shown = a_reviews_shown[:10]  # Limit to 10 total
                     
-                    # Log additional reviews seen
+                    # Assess post-investigation effects
+                    a_post_investigation = self._assess_post_investigation_effects(
+                        customer, a_skepticism, a_additional_reviews, "A"
+                    )
+                    
+                    # Log additional reviews seen and skepticism details
                     self.logger.log_reviews_seen(
                         customer.customer_id, customer.name, self.current_day,
                         "A", a_additional_reviews, is_additional=True
                     )
+                    self.logger.log_skepticism_assessment(
+                        customer.customer_id, customer.name, self.current_day,
+                        "A", a_skepticism, a_post_investigation
+                    )
                 
-                if self._should_investigate_further(b_reviews_shown):
+                if b_skepticism["will_investigate"]:
                     b_additional_reviews = self._get_additional_reviews(self.restaurant_b)
                     b_reviews_shown.extend(b_additional_reviews)
                     b_reviews_shown = b_reviews_shown[:10]  # Limit to 10 total
                     
-                    # Log additional reviews seen
+                    # Assess post-investigation effects
+                    b_post_investigation = self._assess_post_investigation_effects(
+                        customer, b_skepticism, b_additional_reviews, "B"
+                    )
+                    
+                    # Log additional reviews seen and skepticism details
                     self.logger.log_reviews_seen(
                         customer.customer_id, customer.name, self.current_day,
                         "B", b_additional_reviews, is_additional=True
+                    )
+                    self.logger.log_skepticism_assessment(
+                        customer.customer_id, customer.name, self.current_day,
+                        "B", b_skepticism, b_post_investigation
                     )
                 
                 decision = self.llm.make_decision(
@@ -249,7 +435,11 @@ class RestaurantSimulation:
                     a_total_rating,  # Using total rating
                     a_total_count,   # Using total count
                     b_total_rating,  # Using total rating
-                    b_total_count 
+                    b_total_count,   # Using total count
+                    a_skepticism,      # Pass skepticism data A
+                    b_skepticism,      # Pass skepticism data B
+                    a_post_investigation,  # Pass post-investigation A
+                    b_post_investigation   # Pass post-investigation B
                 )
 
                 self.logger.log_decision_details(

@@ -181,3 +181,22 @@ class SimulationLogger:
                 json.dump(existing_data, f, indent=2)
         except Exception as e:
             print(f"Error saving review exposure logs: {e}")
+
+    def log_skepticism_assessment(self, customer_id: str, name: str, day: int,
+                                restaurant_id: str, skepticism: Dict, post_investigation: Dict = None):
+        """Log customer skepticism assessment and investigation results"""
+        self.log_entries.append({
+            "timestamp": datetime.now().isoformat(),
+            "type": "skepticism_assessment",
+            "day": day,
+            "customer_id": customer_id,
+            "name": name,
+            "restaurant_id": restaurant_id,
+            "skepticism_level": skepticism["level"],
+            "concerns": skepticism["concerns"],
+            "investigated": skepticism["will_investigate"],
+            "initial_confidence_impact": skepticism["confidence_impact"],
+            "skepticism_score": skepticism["score"],
+            "personality_modifier": skepticism["personality_modifier"],
+            "post_investigation": post_investigation
+        })

@@ -99,7 +99,8 @@ class LLMInterface:
 # llm.py - update make_decision prompt
     def make_decision(self, customer: Dict, a_reviews: List[Dict], b_reviews: List[Dict], 
                     a_menu: Dict, b_menu: Dict, a_rating: float, a_count: int,
-                    b_rating: float, b_count: int) -> Dict:
+                    b_rating: float, b_count: int, a_skepticism: Dict = None, b_skepticism: Dict = None,
+                    a_post_investigation: Dict = None, b_post_investigation: Dict = None) -> Dict:
         prompt = f"""Act as {customer['name']} and choose between Restaurant A (high-end) or B (local diner) based on:
 
         Customer Profile:
@@ -130,6 +131,9 @@ class LLMInterface:
         Restaurant B Sample Reviews (Highest Rated):
         {self._format_reviews(b_reviews[:5])}
 
+        {self._format_skepticism_context(a_skepticism, a_post_investigation, "A")}
+        {self._format_skepticism_context(b_skepticism, b_post_investigation, "B")}
+
         PRICE COMPARISON SUMMARY:
         - Restaurant A: ${sum(a_menu.values())/len(a_menu):.1f} average meal price
         - Restaurant B: ${sum(b_menu.values())/len(b_menu):.1f} average meal price
@@ -138,9 +142,10 @@ class LLMInterface:
         DECISION CRITERIA (in order of importance):
         1. **Quality Difference**: Restaurant A has {Config.RESTAURANT_A_RATING - Config.RESTAURANT_B_RATING} points higher quality rating - this is a MAJOR difference
         2. **Budget Compatibility**: Can you afford Restaurant A's prices (${sum(a_menu.values())/len(a_menu):.1f} avg) given your income level?
-        3. **Food Preferences**: Do the menu items match your taste preferences?
-        4. **Personality Match**: Does the dining experience align with your personality?
-        5. **Value Assessment**: Is the quality improvement worth the ${sum(a_menu.values())/len(a_menu) - sum(b_menu.values())/len(b_menu):.1f} price difference for you?
+        3. **Review Trustworthiness**: How confident are you in the reviews for each restaurant?
+        4. **Food Preferences**: Do the menu items match your taste preferences?
+        5. **Personality Match**: Does the dining experience align with your personality?
+        6. **Value Assessment**: Is the quality improvement worth the ${sum(a_menu.values())/len(a_menu) - sum(b_menu.values())/len(b_menu):.1f} price difference for you?
 
         IMPORTANT: Restaurant A offers {Config.RESTAURANT_A_RATING - Config.RESTAURANT_B_RATING} points higher quality for ${sum(a_menu.values())/len(a_menu) - sum(b_menu.values())/len(b_menu):.1f} more per meal. This is a significant quality improvement that should heavily influence your decision if budget allows.
 
@@ -232,3 +237,43 @@ class LLMInterface:
             f"{r['stars']}⭐: {r['text']}"
             for r in reviews
         )
+
+    def _format_skepticism_context(self, skepticism: Dict, post_investigation: Dict, restaurant_id: str) -> str:
+        """Format skepticism information for the LLM prompt"""
+        if not skepticism:
+            return ""
+        
+        context = f"\nYour feelings about Restaurant {restaurant_id}:\n"
+        
+        if skepticism["level"] == "none":
+            context += "- You feel confident about the reviews shown\n"
+        else:
+            level_descriptions = {
+                "low": "slightly suspicious",
+                "medium": "moderately skeptical", 
+                "high": "very skeptical"
+            }
+            context += f"- You feel {level_descriptions.get(skepticism['level'], 'uncertain')} about the reviews\n"
+            
+            if skepticism["concerns"]:
+                concern_descriptions = {
+                    "too_many_perfect_ratings": "too many 5-star reviews seem suspicious",
+                    "suspiciously_perfect_ratings": "the perfect ratings look fake",
+                    "very_outdated_reviews": "all reviews are very old",
+                    "outdated_reviews": "reviews seem somewhat outdated",
+                    "too_few_reviews": "not enough reviews to be confident",
+                    "no_rating_diversity": "all reviews have the same rating (suspicious)"
+                }
+                context += "- Your concerns: " + ", ".join(
+                    concern_descriptions.get(concern, concern) for concern in skepticism["concerns"]
+                ) + "\n"
+        
+        if post_investigation:
+            if post_investigation["resolved"]:
+                context += f"- After investigating more reviews, your concerns were {post_investigation['reason'].replace('_', ' ')}\n"
+            else:
+                context += f"- Even after seeing more reviews, you still feel doubtful because {post_investigation['reason'].replace('_', ' ')}\n"
+                if post_investigation["ongoing_doubt"]:
+                    context += "- You remain somewhat uncertain about this restaurant\n"
+        
+        return context

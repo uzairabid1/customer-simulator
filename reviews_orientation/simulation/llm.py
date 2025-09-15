@@ -95,7 +95,9 @@ class LLMInterface:
     # llm.py - modify the make_decision method
     def make_decision(self, customer: Dict, a_reviews: List[Dict], b_reviews: List[Dict], 
                     a_menu: Dict, b_menu: Dict, a_rating: float, a_count: int,
-                    b_rating: float, b_count: int, a_policy: str = "highest_rating", b_policy: str = "latest") -> Dict:
+                    b_rating: float, b_count: int, a_policy: str = "highest_rating", b_policy: str = "latest",
+                    a_skepticism: Dict = None, b_skepticism: Dict = None,
+                    a_post_investigation: Dict = None, b_post_investigation: Dict = None) -> Dict:
         prompt = f"""Act as {customer['name']} and choose between Restaurant A or B based on:
 
         Customer Profile:
@@ -118,6 +120,9 @@ class LLMInterface:
         Restaurant B Sample Reviews (sorted by {b_policy.replace('_', ' ')}):
         {self._format_reviews(b_reviews[:5])}
 
+        {self._format_skepticism_context(a_skepticism, a_post_investigation, "A")}
+        {self._format_skepticism_context(b_skepticism, b_post_investigation, "B")}
+
         Consider:
         1. Overall ratings and total number of reviews (displayed above)
         2. Restaurant A {self._get_policy_description(a_policy)}
@@ -126,6 +131,7 @@ class LLMInterface:
         5. Price range suitability
         6. Your dietary restrictions
         7. Whether reviews seem trustworthy (diverse ratings, recent)
+        8. Your personal skepticism and confidence levels about each restaurant
 
         Return JSON with:
         {{
@@ -143,6 +149,46 @@ class LLMInterface:
             "recent_quality_boost": "shows recent quality boosted reviews first - recent reviews (≤30 days) get +0.5 star boost, semi-recent (31-90 days) get +0.25 boost"
         }
         return descriptions.get(policy, "shows reviews in default order")
+
+    def _format_skepticism_context(self, skepticism: Dict, post_investigation: Dict, restaurant_id: str) -> str:
+        """Format skepticism information for the LLM prompt"""
+        if not skepticism:
+            return ""
+        
+        context = f"\nYour feelings about Restaurant {restaurant_id}:\n"
+        
+        if skepticism["level"] == "none":
+            context += "- You feel confident about the reviews shown\n"
+        else:
+            level_descriptions = {
+                "low": "slightly suspicious",
+                "medium": "moderately skeptical", 
+                "high": "very skeptical"
+            }
+            context += f"- You feel {level_descriptions.get(skepticism['level'], 'uncertain')} about the reviews\n"
+            
+            if skepticism["concerns"]:
+                concern_descriptions = {
+                    "too_many_perfect_ratings": "too many 5-star reviews seem suspicious",
+                    "suspiciously_perfect_ratings": "the perfect ratings look fake",
+                    "very_outdated_reviews": "all reviews are very old",
+                    "outdated_reviews": "reviews seem somewhat outdated",
+                    "too_few_reviews": "not enough reviews to be confident",
+                    "no_rating_diversity": "all reviews have the same rating (suspicious)"
+                }
+                context += "- Your concerns: " + ", ".join(
+                    concern_descriptions.get(concern, concern) for concern in skepticism["concerns"]
+                ) + "\n"
+        
+        if post_investigation:
+            if post_investigation["resolved"]:
+                context += f"- After investigating more reviews, your concerns were {post_investigation['reason'].replace('_', ' ')}\n"
+            else:
+                context += f"- Even after seeing more reviews, you still feel doubtful because {post_investigation['reason'].replace('_', ' ')}\n"
+                if post_investigation["ongoing_doubt"]:
+                    context += "- You remain somewhat uncertain about this restaurant\n"
+        
+        return context
 
     def _call_llm(self, prompt: str) -> Dict:
         try:
