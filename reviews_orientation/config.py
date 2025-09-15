@@ -10,6 +10,11 @@ class Config:
     CUSTOMERS_PER_DAY = 4
     LOG_DIR = "data/outputs/logs"
     
+    # Review policies - can be "highest_rating", "latest", or "recent_quality_boost"
+    RESTAURANT_A_REVIEW_POLICY = "highest_rating"  # Default: show highest rated reviews first
+    RESTAURANT_B_REVIEW_POLICY = "latest"  # Default: show most recent reviews first
+    # To test the new algorithm, change RESTAURANT_B_REVIEW_POLICY to "recent_quality_boost"
+    
     # Menu configuration - both restaurants use the same menu in reviews_orientation
     RESTAURANT_MENU = {
         "Burger": 10,

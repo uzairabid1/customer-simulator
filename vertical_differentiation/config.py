@@ -12,9 +12,9 @@ class Config:
     # Vertical differentiation ratings
     RESTAURANT_A_RATING = 90  # High-end restaurant
     RESTAURANT_B_RATING = 45  # Basic diner
-    # Review policies - can be "highest_rating" or "latest"
+    # Review policies - can be "highest_rating", "latest", or "recent_quality_boost"
     RESTAURANT_A_REVIEW_POLICY = "highest_rating"  # Default: show highest rated reviews first
-    RESTAURANT_B_REVIEW_POLICY = "highest_rating"  # Default: show highest rated reviews first
+    RESTAURANT_B_REVIEW_POLICY = "recent_quality_boost"  # New: boost recent reviews, then sort by boosted rating
     
     # Menu configurations
     # Restaurant A - High-end Italian/French fine dining with premium pricing

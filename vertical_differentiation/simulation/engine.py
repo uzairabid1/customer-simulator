@@ -48,9 +48,47 @@ class RestaurantSimulation:
         all_reviews = restaurant.initial_reviews + restaurant.reviews
         if restaurant.review_policy == "highest_rating":
             sorted_reviews = sorted(all_reviews, key=lambda x: x.stars, reverse=True)
-        else:  # "latest"
+        elif restaurant.review_policy == "latest":
+            sorted_reviews = sorted(all_reviews, key=lambda x: x.date, reverse=True)
+        elif restaurant.review_policy == "recent_quality_boost":
+            sorted_reviews = self._get_recent_quality_boost_combined_reviews(all_reviews)
+        else:
             sorted_reviews = sorted(all_reviews, key=lambda x: x.date, reverse=True)
         return [r.__dict__ for r in sorted_reviews]
+
+    def _get_recent_quality_boost_combined_reviews(self, all_reviews: List) -> List:
+        """Apply recent quality boost algorithm to combined reviews (initial + new)"""
+        from datetime import datetime, timedelta
+        
+        current_date = datetime.now()
+        thirty_days_ago = current_date - timedelta(days=30)
+        ninety_days_ago = current_date - timedelta(days=90)
+        
+        boosted_reviews = []
+        for review in all_reviews:
+            try:
+                review_date = datetime.strptime(review.date, "%Y-%m-%d %H:%M:%S")
+                boosted_rating = review.stars
+                
+                # Apply boost based on recency
+                if review_date >= thirty_days_ago:
+                    boosted_rating += 0.5  # Recent reviews get +0.5 boost
+                elif review_date >= ninety_days_ago:
+                    boosted_rating += 0.25  # Semi-recent reviews get +0.25 boost
+                # Older reviews get no boost
+                
+                # Cap at 5 stars maximum
+                boosted_rating = min(boosted_rating, 5.0)
+                
+                boosted_reviews.append((review, boosted_rating))
+            except ValueError:
+                # If date parsing fails, treat as old review (no boost)
+                boosted_reviews.append((review, review.stars))
+        
+        # Sort by boosted rating (descending), then by date (descending) for ties
+        boosted_reviews.sort(key=lambda x: (x[1], x[0].date), reverse=True)
+        
+        return [review for review, _ in boosted_reviews]
 
     def __init__(self, output_folder=None):
         # Set up output directory

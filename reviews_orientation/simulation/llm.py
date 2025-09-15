@@ -62,7 +62,7 @@ class LLMInterface:
         - Likes: {customer['taste']} food
         - Health: {customer['health']}/{customer['dietary_restriction']}
         Ordered: {ordered_item}
-        Restaurant: {'A (shows highest rated reviews first - higher expectations)' if business_id == 'A' else 'B (shows most recent reviews first)'}
+        Restaurant: {business_id}
 
         Rules:
         1. Star rating (1-5) reflects how well the meal matched their preferences
@@ -95,7 +95,7 @@ class LLMInterface:
     # llm.py - modify the make_decision method
     def make_decision(self, customer: Dict, a_reviews: List[Dict], b_reviews: List[Dict], 
                     a_menu: Dict, b_menu: Dict, a_rating: float, a_count: int,
-                    b_rating: float, b_count: int) -> Dict:
+                    b_rating: float, b_count: int, a_policy: str = "highest_rating", b_policy: str = "latest") -> Dict:
         prompt = f"""Act as {customer['name']} and choose between Restaurant A or B based on:
 
         Customer Profile:
@@ -104,27 +104,28 @@ class LLMInterface:
         - Health/Diet: {customer['health']}{' ('+customer['dietary_restriction']+')' if customer['dietary_restriction'] != 'None' else ''}
         - Personality: {customer['personality']}
 
-        Restaurant A (shows highest rated reviews first):
+        Restaurant A ({self._get_policy_description(a_policy)}):
         - TOTAL Rating: {a_rating:.1f} stars from {a_count} combined reviews (initial + new)
         - Menu Items: {', '.join(a_menu.keys())}
 
-        Restaurant B (shows most recent reviews first):
+        Restaurant B ({self._get_policy_description(b_policy)}):
         - TOTAL Rating: {b_rating:.1f} stars from {b_count} combined reviews (initial + new)
         - Menu Items: {', '.join(b_menu.keys())}
 
-        Restaurant A Sample Reviews (sorted by highest rating):
+        Restaurant A Sample Reviews (sorted by {a_policy.replace('_', ' ')}):
         {self._format_reviews(a_reviews[:5])}
 
-        Restaurant B Sample Reviews (sorted by most recent):
+        Restaurant B Sample Reviews (sorted by {b_policy.replace('_', ' ')}):
         {self._format_reviews(b_reviews[:5])}
 
         Consider:
         1. Overall ratings and total number of reviews (displayed above)
-        2. Restaurant A shows best reviews first - may set higher expectations
-        3. Menu items matching your taste
-        4. Price range suitability
-        5. Your dietary restrictions
-        6. Whether reviews seem trustworthy (diverse ratings, recent)
+        2. Restaurant A {self._get_policy_description(a_policy)}
+        3. Restaurant B {self._get_policy_description(b_policy)}
+        4. Menu items matching your taste
+        5. Price range suitability
+        6. Your dietary restrictions
+        7. Whether reviews seem trustworthy (diverse ratings, recent)
 
         Return JSON with:
         {{
@@ -133,6 +134,15 @@ class LLMInterface:
         }}"""
             
         return self._call_llm(prompt)
+
+    def _get_policy_description(self, policy: str) -> str:
+        """Get human-readable description of review policy"""
+        descriptions = {
+            "highest_rating": "shows highest rated reviews first",
+            "latest": "shows most recent reviews first", 
+            "recent_quality_boost": "shows recent quality boosted reviews first - recent reviews (≤30 days) get +0.5 star boost, semi-recent (31-90 days) get +0.25 boost"
+        }
+        return descriptions.get(policy, "shows reviews in default order")
 
     def _call_llm(self, prompt: str) -> Dict:
         try:

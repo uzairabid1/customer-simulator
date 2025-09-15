@@ -38,7 +38,12 @@ class Restaurant:
     def get_sorted_reviews(self) -> List[Review]:
         if self.review_policy == "highest_rating":
             return sorted(self.reviews, key=lambda x: x.stars, reverse=True)[:10]
-        return sorted(self.reviews, key=lambda x: x.date, reverse=True)[:10]
+        elif self.review_policy == "latest":
+            return sorted(self.reviews, key=lambda x: x.date, reverse=True)[:10]
+        elif self.review_policy == "recent_quality_boost":
+            return self._get_recent_quality_boost_reviews()[:10]
+        else:
+            return sorted(self.reviews, key=lambda x: x.date, reverse=True)[:10]
     
     def get_overall_rating(self) -> float:
         all_reviews = self.get_all_reviews()
@@ -62,3 +67,43 @@ class Restaurant:
     def get_all_reviews(self) -> List[Review]:
         """Returns combined list of initial and new reviews"""
         return self.initial_reviews + self.reviews
+    
+    def _get_recent_quality_boost_reviews(self) -> List[Review]:
+        """
+        Recent Quality Boost Algorithm:
+        - Reviews from last 30 days: +0.5 star boost
+        - Reviews from last 90 days: +0.25 star boost  
+        - Reviews older than 90 days: no boost
+        - Sort by boosted rating (descending)
+        """
+        from datetime import datetime, timedelta
+        
+        current_date = datetime.now()
+        thirty_days_ago = current_date - timedelta(days=30)
+        ninety_days_ago = current_date - timedelta(days=90)
+        
+        boosted_reviews = []
+        for review in self.reviews:
+            try:
+                review_date = datetime.strptime(review.date, "%Y-%m-%d %H:%M:%S")
+                boosted_rating = review.stars
+                
+                # Apply boost based on recency
+                if review_date >= thirty_days_ago:
+                    boosted_rating += 0.5  # Recent reviews get +0.5 boost
+                elif review_date >= ninety_days_ago:
+                    boosted_rating += 0.25  # Semi-recent reviews get +0.25 boost
+                # Older reviews get no boost
+                
+                # Cap at 5 stars maximum
+                boosted_rating = min(boosted_rating, 5.0)
+                
+                boosted_reviews.append((review, boosted_rating))
+            except ValueError:
+                # If date parsing fails, treat as old review (no boost)
+                boosted_reviews.append((review, review.stars))
+        
+        # Sort by boosted rating (descending), then by date (descending) for ties
+        boosted_reviews.sort(key=lambda x: (x[1], x[0].date), reverse=True)
+        
+        return [review for review, _ in boosted_reviews]
