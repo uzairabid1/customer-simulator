@@ -55,8 +55,15 @@ class LLMInterface:
             ])
         }
 
-    def generate_review(self, customer: Dict, business_id: str, ordered_item: str) -> Dict:
-        quality_level = f"Michelin-level ({Config.RESTAURANT_A_RATING}/100)" if business_id == "A" else f"local diner ({Config.RESTAURANT_B_RATING}/100)"
+    def generate_review(self, customer: Dict, business_id: str, ordered_item: str, restaurant=None) -> Dict:
+        # Use dynamic quality rating if restaurant object is provided
+        if restaurant:
+            quality_rating = restaurant.get_quality_rating()
+            quality_level = f"quality rating: {quality_rating}/100"
+        else:
+            # Fallback to static values if no restaurant object
+            quality_rating = Config.RESTAURANT_A_RATING if business_id == "A" else Config.RESTAURANT_B_RATING
+            quality_level = f"Michelin-level ({Config.RESTAURANT_A_RATING}/100)" if business_id == "A" else f"local diner ({Config.RESTAURANT_B_RATING}/100)"
         prompt = f"""Write a restaurant review in JSON based on:
         
         Customer: {customer['name']} ({customer['personality']})
@@ -64,11 +71,11 @@ class LLMInterface:
         - Health: {customer['health']}/{customer['dietary_restriction']}
         - Budget: {customer['income']}
         Ordered: {ordered_item}
-        Restaurant: {'A (Michelin-level, quality rating: ' + str(Config.RESTAURANT_A_RATING) + '/100)' if business_id == 'A' else 'B (Local diner, quality rating: ' + str(Config.RESTAURANT_B_RATING) + '/100)'}
+        Restaurant: {business_id} ({quality_level})
 
         Rules:
         1. Star rating (1-5) should reflect both the restaurant's quality level AND how well it matched expectations
-        2. Restaurant A ({Config.RESTAURANT_A_RATING}/100 quality) should be held to MUCH higher standards than Restaurant B ({Config.RESTAURANT_B_RATING}/100 quality)
+        2. Higher quality ratings should be held to higher standards - expectations should match the quality level
         3. Mention price/value perception based on customer's budget
         4. Keep tone personality-appropriate
         5. Include specific reason for the rating
@@ -99,9 +106,14 @@ class LLMInterface:
 # llm.py - update make_decision prompt
     def make_decision(self, customer: Dict, a_reviews: List[Dict], b_reviews: List[Dict], 
                     a_menu: Dict, b_menu: Dict, a_rating: float, a_count: int,
-                    b_rating: float, b_count: int, a_skepticism: Dict = None, b_skepticism: Dict = None,
+                    b_rating: float, b_count: int, restaurant_a=None, restaurant_b=None, 
+                    a_skepticism: Dict = None, b_skepticism: Dict = None,
                     a_post_investigation: Dict = None, b_post_investigation: Dict = None) -> Dict:
-        prompt = f"""Act as {customer['name']} and choose between Restaurant A (high-end) or B (local diner) based on:
+        # Get dynamic quality ratings
+        a_quality = restaurant_a.get_quality_rating() if restaurant_a else Config.RESTAURANT_A_RATING
+        b_quality = restaurant_b.get_quality_rating() if restaurant_b else Config.RESTAURANT_B_RATING
+        
+        prompt = f"""Act as {customer['name']} and choose between Restaurant A or B based on:
 
         Customer Profile:
         - Budget: {customer['income']}
@@ -109,21 +121,19 @@ class LLMInterface:
         - Health/Diet: {customer['health']}{' ('+customer['dietary_restriction']+')' if customer['dietary_restriction'] != 'None' else ''}
         - Personality: {customer['personality']}
 
-        Restaurant A - PREMIUM DINING EXPERIENCE:
-        - Quality Rating: {Config.RESTAURANT_A_RATING}/100 (EXCEPTIONAL quality)
+        Restaurant A:
+        - Quality Rating: {a_quality}/100 (based on average of all reviews)
         - TOTAL Rating: {a_rating:.1f} stars from {a_count} combined reviews
         - Average Meal Price: ${sum(a_menu.values())/len(a_menu):.1f} per person
         - Price Range: $$$$ (${min(a_menu.values())} - ${max(a_menu.values())})
         - Menu Items: {', '.join(a_menu.keys())}
-        - Value Proposition: Premium ingredients, expert chefs, elegant atmosphere, exceptional service
 
-        Restaurant B - CASUAL DINING:
-        - Quality Rating: {Config.RESTAURANT_B_RATING}/100 (BASIC quality)
+        Restaurant B:
+        - Quality Rating: {b_quality}/100 (based on average of all reviews)
         - TOTAL Rating: {b_rating:.1f} stars from {b_count} combined reviews
         - Average Meal Price: ${sum(b_menu.values())/len(b_menu):.1f} per person
         - Price Range: $ (${min(b_menu.values())} - ${max(b_menu.values())})
-        - Menu Items: {', '.join(b_menu.keys())}
-        - Value Proposition: Affordable prices, quick service, casual atmosphere, comfort food
+        - Menu Items: {', '.join(b_menu.keys())}"""
 
         Restaurant A Sample Reviews (Highest Rated):
         {self._format_reviews(a_reviews[:5])}
@@ -140,14 +150,14 @@ class LLMInterface:
         - Price Difference: ${sum(a_menu.values())/len(a_menu) - sum(b_menu.values())/len(b_menu):.1f} more for Restaurant A
 
         DECISION CRITERIA (in order of importance):
-        1. **Quality Difference**: Restaurant A has {Config.RESTAURANT_A_RATING - Config.RESTAURANT_B_RATING} points higher quality rating - this is a MAJOR difference
+        1. **Quality Difference**: Restaurant A has {a_quality - b_quality:.1f} points higher quality rating (based on actual reviews)
         2. **Budget Compatibility**: Can you afford Restaurant A's prices (${sum(a_menu.values())/len(a_menu):.1f} avg) given your income level?
         3. **Review Trustworthiness**: How confident are you in the reviews for each restaurant?
         4. **Food Preferences**: Do the menu items match your taste preferences?
         5. **Personality Match**: Does the dining experience align with your personality?
         6. **Value Assessment**: Is the quality improvement worth the ${sum(a_menu.values())/len(a_menu) - sum(b_menu.values())/len(b_menu):.1f} price difference for you?
 
-        IMPORTANT: Restaurant A offers {Config.RESTAURANT_A_RATING - Config.RESTAURANT_B_RATING} points higher quality for ${sum(a_menu.values())/len(a_menu) - sum(b_menu.values())/len(b_menu):.1f} more per meal. This is a significant quality improvement that should heavily influence your decision if budget allows.
+        IMPORTANT: Restaurant A offers {a_quality - b_quality:.1f} points higher quality (based on review averages) for ${sum(a_menu.values())/len(a_menu) - sum(b_menu.values())/len(b_menu):.1f} more per meal. Consider if this quality difference justifies the price difference.
 
         Return JSON with:
         {{

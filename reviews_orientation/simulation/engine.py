@@ -519,6 +519,9 @@ class RestaurantSimulation:
             except Exception as e:
                 print(f"Error processing customer: {str(e)}")
                 continue
+        
+        # Log review bias analysis at the end of each day
+        self.logger.log_review_bias_analysis(self.current_day)
 
     def run_simulation(self):
         print(f"Starting simulation for {Config.DAYS} days")
@@ -602,6 +605,10 @@ class RestaurantSimulation:
                 "total_revenue": {
                     "restaurant_a": self.restaurant_a.revenue,
                     "restaurant_b": self.restaurant_b.revenue
+                },
+                "final_review_bias_analysis": {
+                    "restaurant_a": self.restaurant_a.get_review_bias_analysis(),
+                    "restaurant_b": self.restaurant_b.get_review_bias_analysis()
                 }
             }
         }

@@ -201,3 +201,25 @@ class SimulationLogger:
             "personality_modifier": skepticism["personality_modifier"],
             "post_investigation": post_investigation
         })
+
+    def log_review_bias_analysis(self, day: int):
+        """Log the difference between partial reviews (what customers see) vs all reviews (reality)"""
+        if self.restaurant_a and self.restaurant_b:
+            a_bias = self.restaurant_a.get_review_bias_analysis()
+            b_bias = self.restaurant_b.get_review_bias_analysis()
+            
+            self.log_entries.append({
+                "timestamp": datetime.now().isoformat(),
+                "type": "review_bias_analysis",
+                "day": day,
+                "restaurant_a_bias": a_bias,
+                "restaurant_b_bias": b_bias,
+                "bias_comparison": {
+                    "a_vs_b_partial_difference": round(a_bias["partial_reviews_avg"] - b_bias["partial_reviews_avg"], 2),
+                    "a_vs_b_reality_difference": round(a_bias["all_reviews_avg"] - b_bias["all_reviews_avg"], 2),
+                    "perception_vs_reality_gap": {
+                        "restaurant_a": a_bias["bias_difference"],
+                        "restaurant_b": b_bias["bias_difference"]
+                    }
+                }
+            })

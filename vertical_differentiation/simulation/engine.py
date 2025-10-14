@@ -436,6 +436,8 @@ class RestaurantSimulation:
                     a_total_count,   # Using total count
                     b_total_rating,  # Using total rating
                     b_total_count,   # Using total count
+                    self.restaurant_a,     # Pass restaurant A object
+                    self.restaurant_b,     # Pass restaurant B object
                     a_skepticism,      # Pass skepticism data A
                     b_skepticism,      # Pass skepticism data B
                     a_post_investigation,  # Pass post-investigation A
@@ -509,7 +511,8 @@ class RestaurantSimulation:
                         "personality": customer.role_desc["personality"]
                     },
                     restaurant.restaurant_id,
-                    ordered_item
+                    ordered_item,
+                    restaurant  # Pass restaurant object for dynamic quality rating
                 )
                 
                 rating_reason = review_data.get("rating_reason")
@@ -532,6 +535,9 @@ class RestaurantSimulation:
             except Exception as e:
                 print(f"Error processing customer: {str(e)}")
                 continue
+        
+        # Log review bias analysis at the end of each day
+        self.logger.log_review_bias_analysis(self.current_day)
 
     def run_simulation(self):
         print(f"Starting simulation for {Config.DAYS} days")
@@ -594,7 +600,7 @@ class RestaurantSimulation:
                 "restaurant_a": {
                     "id": "A",
                     "type": "High-end restaurant",
-                    "quality_rating": Config.RESTAURANT_A_RATING,
+                    "quality_rating": self.restaurant_a.get_quality_rating(),  # Dynamic quality rating
                     "review_policy": self.restaurant_a.review_policy,
                     "menu": self.restaurant_a.menu,
                     "average_price": sum(self.restaurant_a.menu.values()) / len(self.restaurant_a.menu),
@@ -604,7 +610,7 @@ class RestaurantSimulation:
                 "restaurant_b": {
                     "id": "B",
                     "type": "Basic diner",
-                    "quality_rating": Config.RESTAURANT_B_RATING,
+                    "quality_rating": self.restaurant_b.get_quality_rating(),  # Dynamic quality rating
                     "review_policy": self.restaurant_b.review_policy,
                     "menu": self.restaurant_b.menu,
                     "average_price": sum(self.restaurant_b.menu.values()) / len(self.restaurant_b.menu),
@@ -625,6 +631,10 @@ class RestaurantSimulation:
                 "total_revenue": {
                     "restaurant_a": self.restaurant_a.revenue,
                     "restaurant_b": self.restaurant_b.revenue
+                },
+                "final_review_bias_analysis": {
+                    "restaurant_a": self.restaurant_a.get_review_bias_analysis(),
+                    "restaurant_b": self.restaurant_b.get_review_bias_analysis()
                 }
             }
         }
