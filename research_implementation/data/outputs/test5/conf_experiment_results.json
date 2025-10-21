@@ -1,0 +1,3094 @@
+{
+  "experiment_type": "cost_of_newest_first_single_restaurant",
+  "description": "Single restaurant tested with two review policies",
+  "config": {
+    "true_quality": 0.7,
+    "fixed_price": 50.0,
+    "num_customers_per_policy": 100,
+    "limited_attention": 3,
+    "skeptical_reviews": 3,
+    "prior_alpha": 1.0,
+    "prior_beta": 1.0,
+    "theta_mean": 0.0,
+    "theta_std": 20.0
+  },
+  "newest_first_results": {
+    "restaurant_id": "newest_first",
+    "policy": "newest_first",
+    "revenue": 1750.0,
+    "purchases": 35,
+    "customers": 100,
+    "customer_decisions": [
+      {
+        "customer_id": "newest_first_0",
+        "theta": -6.324879016274819,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 33.67512098372518,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_1",
+        "theta": 14.960445431024635,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 54.96044543102464,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_2",
+        "theta": -9.887536390985739,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 30.112463609014263,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_3",
+        "theta": 5.896316480125272,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 45.89631648012527,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_4",
+        "theta": -5.066248279803127,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 34.933751720196874,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_5",
+        "theta": 8.361580329246145,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 48.361580329246145,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_6",
+        "theta": 0.6682370054031197,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 40.66823700540312,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_7",
+        "theta": -21.970786509249155,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 18.029213490750845,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_8",
+        "theta": 43.2497797820447,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": 80.7497797820447,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_9",
+        "theta": -3.008539349534793,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 36.99146065046521,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_10",
+        "theta": 0.9160930118930412,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 40.91609301189304,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_11",
+        "theta": 4.7595801216163265,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 44.759580121616324,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_12",
+        "theta": -16.370198745015614,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 23.629801254984386,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_13",
+        "theta": 27.895268674070035,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 67.89526867407004,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_14",
+        "theta": -34.29482639545033,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": 3.205173604549671,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_15",
+        "theta": 16.806616211363398,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 56.8066162113634,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_16",
+        "theta": -64.08714556403939,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": -26.58714556403939,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_17",
+        "theta": -9.409087763305587,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 30.590912236694415,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_18",
+        "theta": 8.893167332154924,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 48.893167332154924,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_19",
+        "theta": -17.881533421685546,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 22.118466578314454,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_20",
+        "theta": -17.070213351566245,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 22.929786648433755,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_21",
+        "theta": -4.843522744493224,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 35.15647725550678,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_22",
+        "theta": 11.087226487599395,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 51.087226487599395,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_23",
+        "theta": -37.74186319317822,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": -0.2418631931782187,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_24",
+        "theta": 11.023682336876558,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 51.02368233687656,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_25",
+        "theta": 10.995222071745406,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 50.9952220717454,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_26",
+        "theta": -3.0115616349669954,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 36.988438365033005,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_27",
+        "theta": -34.093700498340006,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": 3.406299501659994,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_28",
+        "theta": -39.253994770704246,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": -1.7539947707042458,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_29",
+        "theta": 2.7803445656835217,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 42.78034456568352,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_30",
+        "theta": -19.008570238603696,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 20.991429761396304,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_31",
+        "theta": -0.4571297027908839,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 39.54287029720911,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_32",
+        "theta": 12.912711197860604,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 52.9127111978606,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_33",
+        "theta": -2.983495717148159,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 37.01650428285184,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_34",
+        "theta": 6.9586946717365405,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 46.95869467173654,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_35",
+        "theta": 7.583432196934883,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 47.58343219693488,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_36",
+        "theta": -0.2576079702996542,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 39.74239202970035,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_37",
+        "theta": 1.0818713513334897,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 41.08187135133349,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_38",
+        "theta": -27.256709916928603,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 12.743290083071397,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_39",
+        "theta": 0.17881506092983818,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 40.178815060929836,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_40",
+        "theta": -9.455385522728797,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 30.544614477271203,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_41",
+        "theta": -9.688358801096905,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 30.311641198903096,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_42",
+        "theta": -16.85581393458826,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 23.14418606541174,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_43",
+        "theta": 17.245459702581755,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 57.245459702581755,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_44",
+        "theta": -18.844150563081588,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 21.155849436918412,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_45",
+        "theta": 29.746229805100022,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 69.74622980510003,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_46",
+        "theta": 25.684472914209433,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 65.68447291420944,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_47",
+        "theta": 11.856624497648303,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 51.856624497648305,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_48",
+        "theta": 20.949965687847737,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 60.94996568784774,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_49",
+        "theta": -6.401618001690502,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 33.5983819983095,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_50",
+        "theta": 18.48755938404979,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 58.48755938404979,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_51",
+        "theta": 7.941053345197705,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 47.9410533451977,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_52",
+        "theta": -5.437991298752761,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 34.56200870124724,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_53",
+        "theta": -28.067050479125882,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 11.932949520874118,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_54",
+        "theta": 7.116369125348334,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 47.116369125348335,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_55",
+        "theta": -37.325102879696594,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": 0.17489712030340598,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_56",
+        "theta": -15.86833116164402,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 24.131668838355978,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_57",
+        "theta": 23.02558514773615,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 63.02558514773615,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_58",
+        "theta": 29.69906916162816,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 69.69906916162816,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_59",
+        "theta": 10.963822172206495,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 50.96382217220649,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_60",
+        "theta": 5.642154042039519,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 45.64215404203952,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_61",
+        "theta": -16.077765530964967,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 23.922234469035033,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_62",
+        "theta": 15.38173525812687,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 55.38173525812687,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_63",
+        "theta": 20.214460363290986,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 32.71446036329098,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_64",
+        "theta": -11.164719181760663,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 1.3352808182393368,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_65",
+        "theta": 9.30923495934436,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 21.80923495934436,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_66",
+        "theta": 35.123834214616274,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 47.623834214616274,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_67",
+        "theta": 8.765148813442028,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 21.26514881344203,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_68",
+        "theta": -9.750591836337193,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 2.7494081636628067,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_69",
+        "theta": 30.0919943889166,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 42.5919943889166,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_70",
+        "theta": -0.2875464067556388,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 12.212453593244362,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_71",
+        "theta": -1.4608952730458857,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 11.039104726954115,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_72",
+        "theta": -2.5485226818244913,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 9.95147731817551,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_73",
+        "theta": -26.796652148382005,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": -14.296652148382005,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_74",
+        "theta": 38.00387143593368,
+        "reviews_seen": 6,
+        "positive_reviews": 0,
+        "mu_estimate": 0.125,
+        "valuation_estimate": 50.50387143593368,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_75",
+        "theta": 28.284369982363447,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 68.28436998236344,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_76",
+        "theta": -10.603858591220607,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 49.39614140877939,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_77",
+        "theta": -5.418975127052878,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 54.581024872947125,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_78",
+        "theta": -1.5211935896780018,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 58.478806410322,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_79",
+        "theta": 15.094447272619782,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 75.09444727261979,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_80",
+        "theta": -18.61280081911503,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 41.38719918088497,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_81",
+        "theta": -6.162771963109316,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 53.837228036890686,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_82",
+        "theta": -28.951247810522247,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 31.048752189477753,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_83",
+        "theta": 34.41637214113794,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 96.91637214113794,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_84",
+        "theta": -8.616877310914154,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 51.383122689085845,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_85",
+        "theta": -14.475778302112978,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 45.52422169788702,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_86",
+        "theta": -13.387656160067696,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 46.61234383993231,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_87",
+        "theta": -31.510144557970122,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 30.989855442029878,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_88",
+        "theta": -17.21690558336916,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 42.78309441663084,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_89",
+        "theta": 43.71761608361304,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 106.21761608361304,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_90",
+        "theta": -8.107036531604672,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 51.89296346839533,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_91",
+        "theta": -16.766547290069482,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 43.23345270993052,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_92",
+        "theta": -8.666776229925595,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 51.333223770074405,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_93",
+        "theta": -13.68598767537835,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 46.31401232462165,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_94",
+        "theta": 1.8116865404687201,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 61.81168654046872,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_95",
+        "theta": 32.12310210580469,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 94.62310210580469,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "newest_first_96",
+        "theta": 14.366184504090157,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 74.36618450409016,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_97",
+        "theta": 19.567247971405493,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 79.5672479714055,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_98",
+        "theta": 25.564318930941397,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 85.5643189309414,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "newest_first_99",
+        "theta": -9.358065753305015,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 50.64193424669499,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      }
+    ],
+    "purchase_rate": 0.35,
+    "avg_revenue_per_customer": 17.5,
+    "final_metrics": {
+      "total_reviews": 65,
+      "positive_ratio": 0.6923076923076923,
+      "persistence_score": 0.2,
+      "recent_negative_count": 1,
+      "policy": "newest_first"
+    },
+    "final_reviews": [
+      {
+        "stars": 5.0,
+        "date": "2023-06-15 19:30:00",
+        "customer_id": "U1"
+      },
+      {
+        "stars": 4.5,
+        "date": "2023-07-20 20:15:00",
+        "customer_id": "U2"
+      },
+      {
+        "stars": 3.5,
+        "date": "2023-08-05 18:45:00",
+        "customer_id": "U3"
+      },
+      {
+        "stars": 4.0,
+        "date": "2023-09-12 21:00:00",
+        "customer_id": "U4"
+      },
+      {
+        "stars": 2.5,
+        "date": "2023-10-08 19:30:00",
+        "customer_id": "U5"
+      },
+      {
+        "stars": 5.0,
+        "date": "2023-11-14 20:00:00",
+        "customer_id": "U6"
+      },
+      {
+        "stars": 4.0,
+        "date": "2023-12-03 19:15:00",
+        "customer_id": "U7"
+      },
+      {
+        "stars": 3.0,
+        "date": "2024-01-10 18:30:00",
+        "customer_id": "U8"
+      },
+      {
+        "stars": 5.0,
+        "date": "2024-02-14 21:30:00",
+        "customer_id": "U9"
+      },
+      {
+        "stars": 1.5,
+        "date": "2024-03-05 20:45:00",
+        "customer_id": "U10"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_0"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_1"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_2"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_3"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_4"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_5"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_6"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_7"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_8"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_9"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_10"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_11"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_12"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_13"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_14"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_15"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_16"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_17"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_18"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "init_A_19"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_1"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_8"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_13"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_15"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_22"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_24"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_25"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_32"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_43"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_45"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_46"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_47"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_48"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_50"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_57"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_58"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:33",
+        "customer_id": "newest_first_59"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_62"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_74"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_75"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_77"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_78"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_79"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_81"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_83"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_84"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_89"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_90"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_92"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_94"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_95"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_96"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_97"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_98"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "newest_first_99"
+      }
+    ]
+  },
+  "random_results": {
+    "restaurant_id": "random",
+    "policy": "random",
+    "revenue": 3550.0,
+    "purchases": 71,
+    "customers": 100,
+    "customer_decisions": [
+      {
+        "customer_id": "random_0",
+        "theta": 29.64005342440617,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 92.14005342440618,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_1",
+        "theta": 2.7362620934324973,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 62.7362620934325,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_2",
+        "theta": -51.599658824469515,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 10.900341175530485,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_3",
+        "theta": 48.75620619290774,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 123.75620619290774,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_4",
+        "theta": -11.243471238756769,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 63.75652876124323,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_5",
+        "theta": 4.889858196678623,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 79.88985819667862,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_6",
+        "theta": 19.653597554286023,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 94.65359755428602,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_7",
+        "theta": -36.92088162105853,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 25.579118378941473,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_8",
+        "theta": 17.727110577579378,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 77.72711057757938,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_9",
+        "theta": -6.8595238433007815,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 53.14047615669922,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_10",
+        "theta": -10.560472699022451,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 49.439527300977545,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_11",
+        "theta": -22.34471971640923,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 65.15528028359077,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_12",
+        "theta": 38.48838869241844,
+        "reviews_seen": 6,
+        "positive_reviews": 3,
+        "mu_estimate": 0.5,
+        "valuation_estimate": 88.48838869241844,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_13",
+        "theta": -24.650757211530816,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 35.34924278846918,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_14",
+        "theta": 15.4659516997649,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 55.4659516997649,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_15",
+        "theta": -30.07303732117569,
+        "reviews_seen": 6,
+        "positive_reviews": 3,
+        "mu_estimate": 0.5,
+        "valuation_estimate": 19.92696267882431,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_16",
+        "theta": -18.23992823129163,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 41.76007176870837,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_17",
+        "theta": 4.245272467127395,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 64.24527246712739,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_18",
+        "theta": 31.415362304610266,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 106.41536230461027,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_19",
+        "theta": -17.70764949303325,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 22.29235050696675,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_20",
+        "theta": 6.0005571783693865,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 66.00055717836939,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_21",
+        "theta": 37.118151191328955,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 99.61815119132896,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_22",
+        "theta": 4.300222148835379,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 91.80022214883537,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_23",
+        "theta": 17.561768819575914,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 77.56176881957592,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_24",
+        "theta": -28.671048800901005,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 31.328951199098995,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_25",
+        "theta": -14.886839368707873,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 45.113160631292125,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_26",
+        "theta": -32.287686082459295,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 42.712313917540705,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_27",
+        "theta": 37.20341751986992,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 124.70341751986993,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_28",
+        "theta": -11.851093785002169,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 28.14890621499783,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_29",
+        "theta": 13.247262084443864,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 73.24726208444386,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_30",
+        "theta": 11.167498928947317,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 71.16749892894731,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_31",
+        "theta": -20.341832717002468,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 67.15816728299754,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_32",
+        "theta": -34.04637946717027,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 40.95362053282973,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_33",
+        "theta": -10.021861718305352,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": 27.478138281694648,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_34",
+        "theta": 31.20474048175837,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 93.70474048175836,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_35",
+        "theta": 9.051705523361695,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 69.05170552336169,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_36",
+        "theta": -23.7445896955482,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 51.2554103044518,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_37",
+        "theta": -27.68694600961232,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 34.81305399038768,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_38",
+        "theta": 23.685226060643085,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 83.68522606064309,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_39",
+        "theta": -2.401267553400063,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 57.59873244659994,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_40",
+        "theta": 1.3276341921312889,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": 38.82763419213129,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_41",
+        "theta": -12.75626451496411,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 47.24373548503589,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_42",
+        "theta": 30.382177010132516,
+        "reviews_seen": 6,
+        "positive_reviews": 3,
+        "mu_estimate": 0.5,
+        "valuation_estimate": 80.38217701013252,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_43",
+        "theta": -4.322885162953587,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 35.67711483704641,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_44",
+        "theta": 17.977972762159443,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 57.97797276215944,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_45",
+        "theta": 4.702832338960144,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 79.70283233896015,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_46",
+        "theta": -4.167427769752154,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 70.83257223024785,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_47",
+        "theta": -28.20960444706101,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 46.79039555293899,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_48",
+        "theta": -10.740696924410285,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 76.75930307558971,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_49",
+        "theta": -13.317740923592416,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 74.18225907640759,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_50",
+        "theta": -20.252283544847938,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 54.74771645515206,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_51",
+        "theta": -11.921715858362976,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 50.57828414163703,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_52",
+        "theta": 35.13921508123431,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 97.63921508123431,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_53",
+        "theta": -11.343343410311233,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 51.156656589688765,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_54",
+        "theta": -10.70957053257092,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 49.29042946742908,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_55",
+        "theta": -21.625994880223146,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 53.374005119776854,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_56",
+        "theta": 27.451693401814147,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 114.95169340181414,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_57",
+        "theta": 10.879860011284823,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 98.37986001128482,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_58",
+        "theta": 2.7188404599453007,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 90.2188404599453,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_59",
+        "theta": 30.513525286082228,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 105.51352528608223,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_60",
+        "theta": -26.09286157257353,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 13.90713842742647,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_61",
+        "theta": 22.151778318416476,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 82.15177831841648,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_62",
+        "theta": -14.577202654539365,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 60.42279734546064,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_63",
+        "theta": -11.569477490638619,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 75.93052250936138,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_64",
+        "theta": 9.933657369087506,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 97.43365736908751,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_65",
+        "theta": 5.963630362718417,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 65.96363036271842,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_66",
+        "theta": 25.80235620666741,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 85.80235620666741,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_67",
+        "theta": 6.074865762767163,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 81.07486576276716,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_68",
+        "theta": -9.513631492513214,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 52.98636850748679,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_69",
+        "theta": -12.902847710191674,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 27.097152289808328,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_70",
+        "theta": -11.750766988708659,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 50.74923301129134,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_71",
+        "theta": -1.5927947005865064,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 38.40720529941349,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_72",
+        "theta": 38.16061585628353,
+        "reviews_seen": 6,
+        "positive_reviews": 3,
+        "mu_estimate": 0.5,
+        "valuation_estimate": 88.16061585628353,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_73",
+        "theta": 14.195373241279812,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 54.19537324127981,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_74",
+        "theta": 4.159915284431498,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 64.15991528443149,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_75",
+        "theta": 3.160064972050012,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 63.16006497205001,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_76",
+        "theta": 11.853445632356136,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 86.85344563235614,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_77",
+        "theta": -0.802471506638472,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 59.19752849336153,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_78",
+        "theta": 6.534807657077819,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 69.03480765707782,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_79",
+        "theta": -35.210973796187155,
+        "reviews_seen": 6,
+        "positive_reviews": 2,
+        "mu_estimate": 0.375,
+        "valuation_estimate": 2.2890262038128455,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_80",
+        "theta": -16.599701440495487,
+        "reviews_seen": 3,
+        "positive_reviews": 1,
+        "mu_estimate": 0.4,
+        "valuation_estimate": 23.400298559504513,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_81",
+        "theta": 13.265700962364576,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 73.26570096236458,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_82",
+        "theta": 17.274600779523215,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 77.27460077952321,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_83",
+        "theta": 39.39959204433738,
+        "reviews_seen": 6,
+        "positive_reviews": 3,
+        "mu_estimate": 0.5,
+        "valuation_estimate": 89.39959204433738,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_84",
+        "theta": 13.455357985627337,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 73.45535798562733,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_85",
+        "theta": -13.831352382756222,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 46.16864761724378,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_86",
+        "theta": 44.55936862500862,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 107.05936862500862,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_87",
+        "theta": -34.487807457524774,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 53.012192542475226,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_88",
+        "theta": 21.300399253011317,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 83.80039925301132,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_89",
+        "theta": 14.514798266571143,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 74.51479826657115,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_90",
+        "theta": -16.862574228183462,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 43.13742577181654,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_91",
+        "theta": -0.49176099425419184,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 62.00823900574581,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_92",
+        "theta": 9.815872356217413,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 69.81587235621741,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_93",
+        "theta": -3.840623243124049,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 56.15937675687595,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_94",
+        "theta": -23.080592708792015,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 36.91940729120799,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_95",
+        "theta": 35.97834403409718,
+        "reviews_seen": 6,
+        "positive_reviews": 5,
+        "mu_estimate": 0.75,
+        "valuation_estimate": 110.97834403409718,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_96",
+        "theta": 2.4066770786935585,
+        "reviews_seen": 6,
+        "positive_reviews": 6,
+        "mu_estimate": 0.875,
+        "valuation_estimate": 89.90667707869356,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_97",
+        "theta": 19.174623754208305,
+        "reviews_seen": 6,
+        "positive_reviews": 3,
+        "mu_estimate": 0.5,
+        "valuation_estimate": 69.17462375420831,
+        "price": 50.0,
+        "will_purchase": true,
+        "is_skeptical": true
+      },
+      {
+        "customer_id": "random_98",
+        "theta": -14.176438616158315,
+        "reviews_seen": 3,
+        "positive_reviews": 2,
+        "mu_estimate": 0.6,
+        "valuation_estimate": 45.823561383841685,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": false
+      },
+      {
+        "customer_id": "random_99",
+        "theta": -14.115298582047267,
+        "reviews_seen": 6,
+        "positive_reviews": 4,
+        "mu_estimate": 0.625,
+        "valuation_estimate": 48.38470141795273,
+        "price": 50.0,
+        "will_purchase": false,
+        "is_skeptical": true
+      }
+    ],
+    "purchase_rate": 0.71,
+    "avg_revenue_per_customer": 35.5,
+    "final_metrics": {
+      "total_reviews": 101,
+      "positive_ratio": 0.6732673267326733,
+      "persistence_score": 0.2,
+      "recent_negative_count": 1,
+      "policy": "random"
+    },
+    "final_reviews": [
+      {
+        "stars": 5.0,
+        "date": "2023-06-15 19:30:00",
+        "customer_id": "U1"
+      },
+      {
+        "stars": 4.5,
+        "date": "2023-07-20 20:15:00",
+        "customer_id": "U2"
+      },
+      {
+        "stars": 3.5,
+        "date": "2023-08-05 18:45:00",
+        "customer_id": "U3"
+      },
+      {
+        "stars": 4.0,
+        "date": "2023-09-12 21:00:00",
+        "customer_id": "U4"
+      },
+      {
+        "stars": 2.5,
+        "date": "2023-10-08 19:30:00",
+        "customer_id": "U5"
+      },
+      {
+        "stars": 5.0,
+        "date": "2023-11-14 20:00:00",
+        "customer_id": "U6"
+      },
+      {
+        "stars": 4.0,
+        "date": "2023-12-03 19:15:00",
+        "customer_id": "U7"
+      },
+      {
+        "stars": 3.0,
+        "date": "2024-01-10 18:30:00",
+        "customer_id": "U8"
+      },
+      {
+        "stars": 5.0,
+        "date": "2024-02-14 21:30:00",
+        "customer_id": "U9"
+      },
+      {
+        "stars": 1.5,
+        "date": "2024-03-05 20:45:00",
+        "customer_id": "U10"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_0"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_1"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_2"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_3"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_4"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_5"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_6"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_7"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_8"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_9"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_10"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_11"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_12"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_13"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_14"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_15"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_16"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_17"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_18"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "init_A_19"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_0"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_1"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_3"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_4"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_5"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_6"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_8"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_9"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_11"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_12"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_14"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_17"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_18"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_20"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_21"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_22"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_23"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_27"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_29"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_30"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_31"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_34"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_35"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_36"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_38"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_39"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_42"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_44"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_45"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_46"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_48"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_49"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_50"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_51"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_52"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_53"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_55"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_56"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_57"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_58"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_59"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_61"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_62"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_63"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_64"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_65"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_66"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_67"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_68"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_70"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_72"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_73"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_74"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_75"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_76"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_77"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_78"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_81"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_82"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_83"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_84"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_86"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_87"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_88"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_89"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_91"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_92"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_93"
+      },
+      {
+        "stars": 1.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_95"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_96"
+      },
+      {
+        "stars": 5.0,
+        "date": "2025-10-21 17:05:34",
+        "customer_id": "random_97"
+      }
+    ]
+  },
+  "conf_analysis": {
+    "newest_first_revenue_per_customer": 17.5,
+    "random_revenue_per_customer": 35.5,
+    "conf_ratio": 2.0285714285714285,
+    "revenue_loss_percentage": 50.70422535211267,
+    "absolute_revenue_difference": 18.0,
+    "conf_detected": true
+  },
+  "timestamp": "2025-10-21T17:05:34.018633"
+}

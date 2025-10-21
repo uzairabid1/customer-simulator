@@ -1,0 +1,12 @@
+[
+    {"review_id":"A1","user_id":"U1","business_id":"A","stars":5.0,"text":"The Wagyu Beef Steak was absolute perfection - like butter melting in my mouth. The sommelier's wine pairing elevated the experience to new heights. Worth every penny of the $95.","date":"2023-06-15 19:30:00"},
+    {"review_id":"A2","user_id":"U2","business_id":"A","stars":4.5,"text":"An exquisite Lobster Thermidor with perfect texture and flavor balance. The portion was just right for such a rich dish. Service was impeccable throughout.","date":"2023-07-20 20:15:00"},
+    {"review_id":"A3","user_id":"U3","business_id":"A","stars":3.5,"text":"The Truffle Risotto was flavorful but I expected more truffle presence for $65. The ambiance and service were outstanding though.","date":"2023-08-05 18:45:00"},
+    {"review_id":"A4","user_id":"U4","business_id":"A","stars":4.0,"text":"The Foie Gras was sublime - perfectly seared with a delightful fruit compote. My only complaint was the tiny portion size for $55.","date":"2023-09-12 21:00:00"},
+    {"review_id":"A5","user_id":"U5","business_id":"A","stars":2.5,"text":"The Duck Confit was disappointingly dry, especially at $75. Expected more from a restaurant of this caliber.","date":"2023-10-08 19:30:00"},
+    {"review_id":"A6","user_id":"U6","business_id":"A","stars":5.0,"text":"Caviar Blini was worth every cent of $120 - the perfect balance of salty caviar and delicate blini. A once-in-a-lifetime experience.","date":"2023-11-14 20:00:00"},
+    {"review_id":"A7","user_id":"U7","business_id":"A","stars":4.0,"text":"The Saffron Seafood Paella was beautifully presented and delicious, though the seafood could have been slightly more generous for $80.","date":"2023-12-03 19:15:00"},
+    {"review_id":"A8","user_id":"U8","business_id":"A","stars":3.0,"text":"Veal Chop was good but not exceptional - at $90 I expected more flavor complexity. The chocolate soufflé dessert saved the meal.","date":"2024-01-10 18:30:00"},
+    {"review_id":"A9","user_id":"U9","business_id":"A","stars":5.0,"text":"Perfect anniversary dinner! Every course from the amuse-bouche to the dessert was a masterpiece. The $150 wine pairing was worth it.","date":"2024-02-14 21:30:00"},
+    {"review_id":"A10","user_id":"U10","business_id":"A","stars":1.5,"text":"$95 for a steak that was overcooked and $55 for a tiny slice of foie gras? This place is style over substance. Never again.","date":"2024-03-05 20:45:00"}
+]

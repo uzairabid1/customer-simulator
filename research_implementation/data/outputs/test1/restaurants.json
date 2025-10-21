@@ -1,0 +1,173 @@
+{
+  "A": {
+    "reviews": [],
+    "revenue": 0
+  },
+  "B": {
+    "reviews": [
+      {
+        "review_id": "rev_f6200a32",
+        "user_id": "cust_d21ac698",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed trying the risotto here, which was decent for a local diner, but it lacked the depth and excitement I hoped for as an adventurous vegan with gluten intolerance. The price felt a bit high for the quality offered.",
+        "date": "2025-08-05 11:47:07",
+        "ordered_item": "Risotto"
+      },
+      {
+        "review_id": "rev_b7cc71a0",
+        "user_id": "cust_ca42fdbe",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I found the Seafood Paella at this local diner okay but not great, especially for someone like me who prefers vegan and low-sugar options. It didn\u2019t quite meet my health needs or taste expectations.",
+        "date": "2025-08-05 11:47:14",
+        "ordered_item": "Seafood Paella"
+      },
+      {
+        "review_id": "rev_2629bb22",
+        "user_id": "cust_05d3ad17",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I found the veal cutlet at this local diner underwhelming, especially given my preference for Indian cuisine and need for dairy-free options. The quality felt average, and at my very limited budget, the value just wasn\u2019t there.",
+        "date": "2025-08-05 11:47:22",
+        "ordered_item": "Veal Cutlet"
+      },
+      {
+        "review_id": "rev_597b64eb",
+        "user_id": "cust_56d163f2",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the local vibe and the duck breast was decent, but it didn\u2019t quite hit the mark for my street food cravings or gluten sensitivity. For the price, I expected a bit more flavor and care in accommodating my dietary needs.",
+        "date": "2025-08-05 11:47:28",
+        "ordered_item": "Duck Breast"
+      },
+      {
+        "review_id": "rev_01d549e2",
+        "user_id": "cust_56e38fa2",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the lobster dish at this local diner, which offered decent Caribbean flavors and was dairy-free, fitting my needs well. However, the overall quality felt average, reflecting the restaurant\u2019s modest rating, and the price was a bit high for the experience.",
+        "date": "2025-08-05 11:47:35",
+        "ordered_item": "Lobster Dish"
+      },
+      {
+        "review_id": "rev_216b5329",
+        "user_id": "cust_2c8ed05b",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I was disappointed ordering Veal Cutlet at this local diner. The quality felt average, and as a vegan with high blood pressure, it wasn\u2019t a great fit. Also, the price felt steep given my limited budget and dietary needs.",
+        "date": "2025-08-05 11:47:42",
+        "ordered_item": "Veal Cutlet"
+      },
+      {
+        "review_id": "rev_8d8dabcf",
+        "user_id": "cust_aa2a734b",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I was hoping for a tasty meal but the beef steak was disappointing, especially since I prefer pasta and pizza. Considering the modest quality and my limited budget, it didn\u2019t feel like good value.",
+        "date": "2025-08-05 11:47:50",
+        "ordered_item": "Beef Steak"
+      },
+      {
+        "review_id": "rev_a9e41a6c",
+        "user_id": "cust_b9db561e",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I appreciate the cozy atmosphere of this local diner, though the chocolate dessert felt average and didn\u2019t fully satisfy my preference for more refined flavors. The pricing was reasonable within my budget, but quality aligned with the restaurant\u2019s modest rating.",
+        "date": "2025-08-05 11:47:58",
+        "ordered_item": "Chocolate Dessert"
+      },
+      {
+        "review_id": "rev_bbeccd6b",
+        "user_id": "cust_1854e2bf",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I was hoping for a tasty gluten-free meal but the risotto at this local diner was just average and didn't quite satisfy my gourmet burger cravings. Considering my tight budget, the value felt lacking given the quality.",
+        "date": "2025-08-05 11:48:05",
+        "ordered_item": "Risotto"
+      },
+      {
+        "review_id": "rev_da41ea39",
+        "user_id": "cust_e7ebe196",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the Veal Cutlet at this local diner to be decent but not quite matching my expectations for healthy street food. The quality was average, and given my tight budget, the value felt justifiable yet uninspiring.",
+        "date": "2025-08-05 11:48:18",
+        "ordered_item": "Veal Cutlet"
+      },
+      {
+        "review_id": "rev_dd24a1f0",
+        "user_id": "cust_abaeba95",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I found the Beef Steak decent but not exceptional, which aligns with the diner's moderate quality. For my budget, it felt slightly overpriced given the simplicity and lack of gourmet flair I prefer, especially with my health considerations.",
+        "date": "2025-08-05 11:48:25",
+        "ordered_item": "Beef Steak"
+      },
+      {
+        "review_id": "rev_c2075d68",
+        "user_id": "cust_3ebdf518",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I expected a bit more zest and exotic flair given my tastes, but the veal cutlet at this local diner fell flat, especially with my dairy-free needs. Quality was average, and for my tight budget, it didn't feel worth the price.",
+        "date": "2025-08-05 11:48:30",
+        "ordered_item": "Veal Cutlet"
+      },
+      {
+        "review_id": "rev_1bb38402",
+        "user_id": "cust_77da787b",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I enjoyed the risotto's comforting flavors, which suited my energetic vibe, but it didn't fully cater to my gluten intolerance or low sugar needs. Considering the modest quality rating and my tight budget, it felt okay but nothing special.",
+        "date": "2025-08-05 11:48:36",
+        "ordered_item": "Risotto"
+      },
+      {
+        "review_id": "rev_cbb725bb",
+        "user_id": "cust_36ab9be7",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I expected better vegan options at this local diner, but the risotto was mediocre and didn\u2019t cater well to my low sugar needs. For my very limited budget, the value just wasn\u2019t there given the quality rating.",
+        "date": "2025-08-05 11:48:43",
+        "ordered_item": "Risotto"
+      },
+      {
+        "review_id": "rev_9f4d57bd",
+        "user_id": "cust_4b250cc7",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I found the risotto at this local diner underwhelming and not quite worth the price, especially given my sweet tooth and low sugar needs. The quality felt average and didn\u2019t satisfy my cravings for something richer or healthier.",
+        "date": "2025-08-05 11:48:50",
+        "ordered_item": "Risotto"
+      },
+      {
+        "review_id": "rev_4ac675ea",
+        "user_id": "cust_bcf8743e",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I expected more from this local diner, especially given my preference for healthy, low-fat breakfast foods. The risotto was mediocre at best and didn\u2019t align with my dietary needs. For the price, it felt like a poor value considering my affluent budget.",
+        "date": "2025-08-05 11:48:57",
+        "ordered_item": "Risotto"
+      },
+      {
+        "review_id": "rev_dcfc850c",
+        "user_id": "cust_e8cefa81",
+        "business_id": "B",
+        "stars": 3.0,
+        "text": "I was excited to try the lobster dish at this local diner, but it felt just okay. The quality was average and not quite worth the price given my budget. Desserts would have been better for me, considering my gluten sensitivity.",
+        "date": "2025-08-05 11:49:02",
+        "ordered_item": "Lobster Dish"
+      },
+      {
+        "review_id": "rev_bd8ecfcc",
+        "user_id": "cust_f448bd11",
+        "business_id": "B",
+        "stars": 2.0,
+        "text": "I was hoping for a comforting meal, but the veal cutlet at this local diner didn\u2019t quite hit the mark. Given my preference for soups and stews and a tight budget, it felt a bit off and not the best value for me.",
+        "date": "2025-08-05 11:49:10",
+        "ordered_item": "Veal Cutlet"
+      }
+    ],
+    "revenue": 258.5
+  }
+}

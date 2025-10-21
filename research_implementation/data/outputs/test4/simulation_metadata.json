@@ -1,0 +1,72 @@
+{
+  "simulation_info": {
+    "simulation_type": "vertical_differentiation",
+    "timestamp": "2025-09-11T03:19:15.161355",
+    "output_folder": "test4"
+  },
+  "configuration": {
+    "days": 2,
+    "customers_per_day": 6,
+    "model": "gpt-4.1-mini",
+    "log_dir": "data/outputs/logs",
+    "restaurant_a_rating": 90,
+    "restaurant_b_rating": 45,
+    "restaurant_a_review_policy": "highest_rating",
+    "restaurant_b_review_policy": "highest_rating"
+  },
+  "restaurant_setup": {
+    "restaurant_a": {
+      "id": "A",
+      "type": "High-end restaurant",
+      "quality_rating": 90,
+      "review_policy": "highest_rating",
+      "menu": {
+        "Truffle Risotto": 85,
+        "Duck Confit": 95,
+        "Lobster Thermidor": 110,
+        "Veal Marsala": 90,
+        "Coq au Vin": 80,
+        "Beef Bourguignon": 100,
+        "Cr\u00e8me Br\u00fbl\u00e9e": 25,
+        "Wine Flight": 120
+      },
+      "average_price": 88.125,
+      "initial_reviews_count": 10,
+      "initial_avg_rating": 3.8
+    },
+    "restaurant_b": {
+      "id": "B",
+      "type": "Basic diner",
+      "quality_rating": 45,
+      "review_policy": "highest_rating",
+      "menu": {
+        "Sushi Platter": 85,
+        "Peking Duck": 95,
+        "Lobster Pad Thai": 110,
+        "Teriyaki Salmon": 90,
+        "Kung Pao Chicken": 80,
+        "Beef Bulgogi": 100,
+        "Mochi Ice Cream": 25,
+        "Sake Tasting": 120
+      },
+      "average_price": 88.125,
+      "initial_reviews_count": 10,
+      "initial_avg_rating": 3.5
+    }
+  },
+  "simulation_results": {
+    "total_customers": 12,
+    "final_ratings": {
+      "restaurant_a": 3.789473684210526,
+      "restaurant_b": 3.3076923076923075
+    },
+    "final_review_counts": {
+      "restaurant_a": 19,
+      "restaurant_b": 13
+    },
+    "total_revenue": {
+      "restaurant_a": 815,
+      "restaurant_b": 205
+    }
+  }
+}

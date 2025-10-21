@@ -1,0 +1,323 @@
+=== COMPETITIVE CoNF SIMULATION STARTED ===
+Timestamp: 2025-10-21T19:29:56.616660
+Total customers: 100 over 2 days
+Base customers per day: 50
+
+=== DAY 1 ===
+Customers today: 50
+  day1_customer_1: Chose Restaurant A (utility: -2.6 > -7.6)
+  Customer 1: NO PURCHASE at Restaurant A
+    → Valuation 82.4 <= Price $85
+  day1_customer_2: Chose Restaurant B (utility: 18.3 > -41.7)
+  Customer 2: PURCHASED Teriyaki Salmon at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day1_customer_3: Chose Restaurant A (utility: -12.9 > -17.9)
+  Customer 3: NO PURCHASE at Restaurant A
+    → Valuation 82.1 <= Price $95
+  day1_customer_4: Chose Restaurant B (utility: -9.4 > -19.4)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 75.6 <= Price $85
+  day1_customer_5: Chose Restaurant B (utility: 12.1 > -7.9)
+  Customer 5: PURCHASED Kung Pao Chicken at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day1_customer_6: Chose Restaurant A (utility: 48.2 > -1.8)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day1_customer_7: Chose Restaurant B (utility: 22.4 > 7.4)
+  Customer 7: PURCHASED Sushi Platter at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day1_customer_8: Chose Restaurant A (utility: 52.5 > 17.5)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+  day1_customer_9: Chose Restaurant B (utility: -17.0 > -37.0)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 83.0 <= Price $100
+  day1_customer_10: Chose Restaurant A (utility: 42.9 > 2.9)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day1_customer_11: Chose Restaurant B (utility: 67.1 > 57.1)
+  Customer 11: PURCHASED Peking Duck at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day1_customer_12: Chose Restaurant A (utility: 19.7 > -10.3)
+  Customer 12: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 2.0 stars
+  day1_customer_13: Chose Restaurant B (utility: 72.8 > 62.8)
+  Customer 13: PURCHASED Peking Duck at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day1_customer_14: Chose Restaurant B (utility: 45.2 > 30.2)
+  Customer 14: PURCHASED Teriyaki Salmon at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day1_customer_15: Chose Restaurant B (utility: 91.6 > -13.4)
+  Customer 15: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day1_customer_16: Chose Restaurant B (utility: 20.9 > 5.9)
+  Customer 16: PURCHASED Peking Duck at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day1_customer_17: Chose Restaurant B (utility: -25.5 > -56.5)
+  Customer 17: NO PURCHASE at Restaurant B
+    → Valuation 54.5 <= Price $80
+  day1_customer_18: Chose Restaurant B (utility: 73.2 > -21.8)
+  Customer 18: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day1_customer_19: Chose Restaurant B (utility: 39.5 > -0.5)
+  Customer 19: PURCHASED Beef Bulgogi at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day1_customer_20: Chose Restaurant B (utility: -78.7 > -78.7)
+  Customer 20: NO PURCHASE at Restaurant B
+    → Valuation 11.3 <= Price $90
+  day1_customer_21: Chose Restaurant B (utility: -5.4 > -40.4)
+  Customer 21: NO PURCHASE at Restaurant B
+    → Valuation 89.6 <= Price $95
+  day1_customer_22: Chose Restaurant A (utility: -35.3 > -45.3)
+  Customer 22: NO PURCHASE at Restaurant A
+    → Valuation 49.7 <= Price $85
+  day1_customer_23: Chose Restaurant A (utility: 5.9 > -43.1)
+  Customer 23: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day1_customer_24: Chose Restaurant B (utility: 62.4 > -14.6)
+  Customer 24: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day1_customer_25: Chose Restaurant A (utility: 61.1 > 26.1)
+  Customer 25: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day1_customer_26: Chose Restaurant A (utility: 9.0 > -6.0)
+  Customer 26: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day1_customer_27: Chose Restaurant B (utility: 35.8 > -11.2)
+  Customer 27: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day1_customer_28: Chose Restaurant A (utility: 91.6 > 71.6)
+  Customer 28: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day1_customer_29: Chose Restaurant B (utility: -3.6 > -8.6)
+  Customer 29: NO PURCHASE at Restaurant B
+    → Valuation 81.4 <= Price $85
+  day1_customer_30: Chose Restaurant B (utility: 13.0 > 13.0)
+  Customer 30: PURCHASED Teriyaki Salmon at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day1_customer_31: Chose Restaurant B (utility: 107.6 > 62.6)
+  Customer 31: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day1_customer_32: Chose Restaurant B (utility: 8.0 > -7.0)
+  Customer 32: PURCHASED Sushi Platter at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day1_customer_33: Chose Restaurant B (utility: 46.3 > 31.3)
+  Customer 33: PURCHASED Sushi Platter at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day1_customer_34: Chose Restaurant A (utility: -12.3 > -44.3)
+  Customer 34: NO PURCHASE at Restaurant A
+    → Valuation 67.7 <= Price $80
+  day1_customer_35: Chose Restaurant A (utility: -10.5 > -52.5)
+  Customer 35: NO PURCHASE at Restaurant A
+    → Valuation 89.5 <= Price $100
+  day1_customer_36: Chose Restaurant A (utility: 53.7 > 33.7)
+  Customer 36: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day1_customer_37: Chose Restaurant A (utility: 40.6 > -9.4)
+  Customer 37: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 5.0 stars
+  day1_customer_38: Chose Restaurant A (utility: 29.1 > 9.1)
+  Customer 38: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+  day1_customer_39: Chose Restaurant A (utility: 13.7 > -21.3)
+  Customer 39: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day1_customer_40: Chose Restaurant B (utility: 3.9 > 3.9)
+  Customer 40: PURCHASED Teriyaki Salmon at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day1_customer_41: Chose Restaurant A (utility: -66.4 > -84.4)
+  Customer 41: NO PURCHASE at Restaurant A
+    → Valuation 33.6 <= Price $100
+  day1_customer_42: Chose Restaurant B (utility: -7.6 > -17.6)
+  Customer 42: NO PURCHASE at Restaurant B
+    → Valuation 102.4 <= Price $110
+  day1_customer_43: Chose Restaurant B (utility: 7.8 > -7.2)
+  Customer 43: PURCHASED Peking Duck at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day1_customer_44: Chose Restaurant A (utility: 88.6 > 23.6)
+  Customer 44: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day1_customer_45: Chose Restaurant A (utility: -2.5 > -22.5)
+  Customer 45: NO PURCHASE at Restaurant A
+    → Valuation 97.5 <= Price $100
+  day1_customer_46: Chose Restaurant A (utility: 35.6 > 20.6)
+  Customer 46: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 2.0 stars
+  day1_customer_47: Chose Restaurant A (utility: -6.1 > -36.1)
+  Customer 47: NO PURCHASE at Restaurant A
+    → Valuation 73.9 <= Price $80
+  day1_customer_48: Chose Restaurant A (utility: 83.1 > 13.1)
+  Customer 48: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day1_customer_49: Chose Restaurant A (utility: 41.9 > 6.9)
+  Customer 49: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day1_customer_50: Chose Restaurant A (utility: 71.5 > 66.5)
+  Customer 50: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+
+--- Day 1 Summary ---
+Restaurant A: 25 visitors, 17 purchases, $1110.00 revenue
+Restaurant B: 25 visitors, 18 purchases, $1300.00 revenue
+
+=== DAY 2 ===
+Customers today: 50
+  day2_customer_1: Chose Restaurant B (utility: 47.2 > 9.2)
+  Customer 1: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day2_customer_2: Chose Restaurant A (utility: 37.7 > 27.7)
+  Customer 2: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day2_customer_3: Chose Restaurant A (utility: 51.9 > 26.9)
+  Customer 3: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 2.0 stars
+  day2_customer_4: Chose Restaurant B (utility: 34.8 > 34.8)
+  Customer 4: PURCHASED Peking Duck at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day2_customer_5: Chose Restaurant B (utility: 33.7 > -11.3)
+  Customer 5: PURCHASED Sushi Platter at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day2_customer_6: Chose Restaurant B (utility: 36.5 > 31.5)
+  Customer 6: PURCHASED Kung Pao Chicken at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day2_customer_7: Chose Restaurant A (utility: -37.9 > -63.9)
+  Customer 7: NO PURCHASE at Restaurant A
+    → Valuation 42.1 <= Price $80
+  day2_customer_8: Chose Restaurant A (utility: -22.3 > -55.3)
+  Customer 8: NO PURCHASE at Restaurant A
+    → Valuation 72.7 <= Price $95
+  day2_customer_9: Chose Restaurant B (utility: 24.2 > -0.8)
+  Customer 9: PURCHASED Sushi Platter at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day2_customer_10: Chose Restaurant B (utility: 98.0 > 38.0)
+  Customer 10: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day2_customer_11: Chose Restaurant B (utility: 39.8 > 9.8)
+  Customer 11: PURCHASED Kung Pao Chicken at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day2_customer_12: Chose Restaurant A (utility: -17.9 > -37.9)
+  Customer 12: NO PURCHASE at Restaurant A
+    → Valuation 72.1 <= Price $90
+  day2_customer_13: Chose Restaurant B (utility: 90.7 > 15.7)
+  Customer 13: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day2_customer_14: Chose Restaurant B (utility: 25.3 > 15.3)
+  Customer 14: PURCHASED Sushi Platter at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day2_customer_15: Chose Restaurant A (utility: 138.2 > 68.2)
+  Customer 15: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day2_customer_16: Chose Restaurant B (utility: 59.8 > 39.8)
+  Customer 16: PURCHASED Teriyaki Salmon at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day2_customer_17: Chose Restaurant A (utility: 93.3 > 38.3)
+  Customer 17: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day2_customer_18: Chose Restaurant B (utility: 6.9 > -36.1)
+  Customer 18: PURCHASED Teriyaki Salmon at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day2_customer_19: Chose Restaurant B (utility: 92.1 > 22.1)
+  Customer 19: PURCHASED Teriyaki Salmon at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day2_customer_20: Chose Restaurant B (utility: -58.1 > -79.1)
+  Customer 20: NO PURCHASE at Restaurant B
+    → Valuation 36.9 <= Price $95
+  day2_customer_21: Chose Restaurant B (utility: 71.3 > -18.7)
+  Customer 21: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day2_customer_22: Chose Restaurant A (utility: 54.8 > -10.2)
+  Customer 22: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day2_customer_23: Chose Restaurant B (utility: 63.5 > -53.5)
+  Customer 23: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day2_customer_24: Chose Restaurant B (utility: 23.6 > 18.6)
+  Customer 24: PURCHASED Sushi Platter at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day2_customer_25: Chose Restaurant A (utility: -16.7 > -67.7)
+  Customer 25: NO PURCHASE at Restaurant A
+    → Valuation 68.3 <= Price $85
+  day2_customer_26: Chose Restaurant A (utility: 49.9 > 1.9)
+  Customer 26: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day2_customer_27: Chose Restaurant B (utility: 30.4 > 15.4)
+  Customer 27: PURCHASED Kung Pao Chicken at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day2_customer_28: Chose Restaurant B (utility: -17.3 > -42.3)
+  Customer 28: NO PURCHASE at Restaurant B
+    → Valuation 77.7 <= Price $95
+  day2_customer_29: Chose Restaurant B (utility: 19.3 > 19.3)
+  Customer 29: PURCHASED Lobster Pad Thai at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day2_customer_30: Chose Restaurant B (utility: 139.0 > 74.0)
+  Customer 30: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day2_customer_31: Chose Restaurant A (utility: 90.6 > 20.6)
+  Customer 31: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day2_customer_32: Chose Restaurant B (utility: 27.4 > 27.4)
+  Customer 32: PURCHASED Lobster Pad Thai at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day2_customer_33: Chose Restaurant A (utility: -18.0 > -23.0)
+  Customer 33: NO PURCHASE at Restaurant A
+    → Valuation 77.0 <= Price $95
+  day2_customer_34: Chose Restaurant B (utility: 46.9 > 31.9)
+  Customer 34: PURCHASED Teriyaki Salmon at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day2_customer_35: Chose Restaurant A (utility: -14.3 > -44.3)
+  Customer 35: NO PURCHASE at Restaurant A
+    → Valuation 75.7 <= Price $90
+  day2_customer_36: Chose Restaurant A (utility: 31.0 > -45.0)
+  Customer 36: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day2_customer_37: Chose Restaurant B (utility: -29.0 > -44.0)
+  Customer 37: NO PURCHASE at Restaurant B
+    → Valuation 66.0 <= Price $95
+  day2_customer_38: Chose Restaurant A (utility: 23.6 > 3.6)
+  Customer 38: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day2_customer_39: Chose Restaurant B (utility: -35.6 > -72.6)
+  Customer 39: NO PURCHASE at Restaurant B
+    → Valuation 49.4 <= Price $85
+  day2_customer_40: Chose Restaurant B (utility: 1.9 > 1.9)
+  Customer 40: PURCHASED Sushi Platter at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day2_customer_41: Chose Restaurant B (utility: 16.7 > -22.3)
+  Customer 41: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day2_customer_42: Chose Restaurant B (utility: 7.6 > -2.4)
+  Customer 42: PURCHASED Beef Bulgogi at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day2_customer_43: Chose Restaurant B (utility: 37.1 > 7.1)
+  Customer 43: PURCHASED Kung Pao Chicken at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day2_customer_44: Chose Restaurant B (utility: 78.1 > -6.9)
+  Customer 44: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day2_customer_45: Chose Restaurant A (utility: 113.1 > 53.1)
+  Customer 45: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day2_customer_46: Chose Restaurant B (utility: 44.4 > 1.4)
+  Customer 46: PURCHASED Mochi Ice Cream at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day2_customer_47: Chose Restaurant A (utility: 71.4 > 46.4)
+  Customer 47: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day2_customer_48: Chose Restaurant A (utility: -33.2 > -53.2)
+  Customer 48: NO PURCHASE at Restaurant A
+    → Valuation 61.8 <= Price $95
+  day2_customer_49: Chose Restaurant B (utility: 11.0 > 6.0)
+  Customer 49: PURCHASED Kung Pao Chicken at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day2_customer_50: Chose Restaurant A (utility: 43.4 > -11.6)
+  Customer 50: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+
+--- Day 2 Summary ---
+Restaurant A: 19 visitors, 12 purchases, $615.00 revenue
+Restaurant B: 31 visitors, 27 purchases, $1825.00 revenue
+
+=== SIMULATION COMPLETED ===
+Total customers processed: 100
+Console log saved to: data/outputs/test11\simulation_console_log.txt
+
