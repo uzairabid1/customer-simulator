@@ -94,7 +94,7 @@ class SimulationLogger:
                     {"stars": r["stars"], "text": r["text"][:100] + "...", "date": r["date"]}
                     for r in a_reviews_shown
                 ],
-                "sort_method": "highest_rating"
+                "sort_method": self.restaurant_a.review_policy
             },
             "restaurant_b_info": {
                 "quality_rating": self.restaurant_b.quality_rating,
@@ -105,7 +105,7 @@ class SimulationLogger:
                     {"stars": r["stars"], "text": r["text"][:100] + "...", "date": r["date"]}
                     for r in b_reviews_shown
                 ],
-                "sort_method": "highest_rating"
+                "sort_method": self.restaurant_b.review_policy
             },
             "decision": decision,
             "reason": reason
