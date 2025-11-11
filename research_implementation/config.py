@@ -6,13 +6,13 @@ load_dotenv()
 class Config:
     API_KEY = os.getenv("OPENAI_API_KEY", "your-api-key-here")
     MODEL = "gpt-4.1-mini"
-    DAYS = 10  # Increased simulation duration
+    DAYS = 100  # Increased simulation duration
     CUSTOMERS_PER_DAY = 10  # More customers per day
     LOG_DIR = "data/outputs/logs"
     
     # === CoNF EXPERIMENT SETTINGS ===
     ENABLE_CONF_EXPERIMENT = True  # Enable Cost of Newest First experiment
-    CONF_NUM_CUSTOMERS = 100  # Number of customers for CoNF experiment
+    CONF_NUM_CUSTOMERS = 1000  # Number of customers for CoNF experiment
     CONF_TRUE_QUALITY_A = 0.7  # True product quality for Restaurant A (mu parameter)
     CONF_TRUE_QUALITY_B = 0.7  # True product quality for Restaurant B (mu parameter)
     CONF_USE_DYNAMIC_PRICING = True  # Use actual menu item prices instead of fixed price
