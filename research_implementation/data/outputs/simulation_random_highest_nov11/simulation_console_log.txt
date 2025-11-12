@@ -1,0 +1,3709 @@
+=== COMPETITIVE CoNF SIMULATION STARTED ===
+Timestamp: 2025-11-11T17:52:11.575961
+Total customers: 1000 over 100 days
+Base customers per day: 10
+
+=== DAY 1 ===
+Customers today: 10
+  day1_customer_1: Chose Restaurant B (utility: 108.4 > 107.4)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day1_customer_2: Chose Restaurant B (utility: 92.4 > 75.4)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day1_customer_3: Chose Restaurant A (utility: 66.4 > 63.4)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day1_customer_4: Chose Restaurant B (utility: 90.3 > 74.3)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day1_customer_5: Chose Restaurant B (utility: 77.7 > 41.7)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day1_customer_6: Chose Restaurant A (utility: 126.6 > 119.6)
+  Customer 6: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 5.0 stars
+  day1_customer_7: Chose Restaurant B (utility: 98.4 > 86.4)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day1_customer_8: Chose Restaurant A (utility: 129.2 > 120.2)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day1_customer_9: Chose Restaurant B (utility: 117.8 > 106.8)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day1_customer_10: Chose Restaurant B (utility: 144.7 > 124.7)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+
+--- Day 1 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $36.00 revenue
+Restaurant B: 7 visitors, 7 purchases, $141.00 revenue
+
+=== DAY 2 ===
+Customers today: 10
+  day2_customer_1: Chose Restaurant B (utility: 85.4 > 62.4)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day2_customer_2: Chose Restaurant B (utility: 91.2 > 77.2)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day2_customer_3: Chose Restaurant B (utility: 124.4 > 80.4)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day2_customer_4: Chose Restaurant B (utility: 102.9 > 97.9)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day2_customer_5: Chose Restaurant A (utility: 90.8 > 85.8)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant A ($23)
+    → Left review: 5.0 stars
+  day2_customer_6: Chose Restaurant B (utility: 111.2 > 107.2)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day2_customer_7: Chose Restaurant B (utility: 144.0 > 114.0)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day2_customer_8: Chose Restaurant B (utility: 131.0 > 97.0)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day2_customer_9: Chose Restaurant A (utility: 77.9 > 76.9)
+  Customer 9: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 5.0 stars
+  day2_customer_10: Chose Restaurant B (utility: 77.5 > 76.5)
+  Customer 10: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+
+--- Day 2 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $40.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $126.00 revenue
+
+=== DAY 3 ===
+Customers today: 10
+  day3_customer_1: Chose Restaurant B (utility: 97.4 > 97.4)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day3_customer_2: Chose Restaurant B (utility: 66.1 > 52.1)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day3_customer_3: Chose Restaurant A (utility: 171.3 > 167.3)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day3_customer_4: Chose Restaurant A (utility: 107.3 > 89.3)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day3_customer_5: Chose Restaurant A (utility: 65.0 > 47.0)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 2.0 stars
+  day3_customer_6: Chose Restaurant B (utility: 129.0 > 94.0)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day3_customer_7: Chose Restaurant B (utility: 70.0 > 61.0)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day3_customer_8: Chose Restaurant B (utility: 38.5 > 22.5)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day3_customer_9: Chose Restaurant B (utility: 104.1 > 71.1)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day3_customer_10: Chose Restaurant B (utility: 77.7 > 39.7)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 3 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $30.00 revenue
+Restaurant B: 7 visitors, 7 purchases, $112.00 revenue
+
+=== DAY 4 ===
+Customers today: 10
+  day4_customer_1: Chose Restaurant B (utility: 130.7 > 100.7)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day4_customer_2: Chose Restaurant B (utility: 58.1 > 26.1)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day4_customer_3: Chose Restaurant B (utility: 139.0 > 105.0)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day4_customer_4: Chose Restaurant B (utility: 82.0 > 67.0)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day4_customer_5: Chose Restaurant B (utility: 83.9 > 47.9)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day4_customer_6: Chose Restaurant B (utility: 103.3 > 103.3)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day4_customer_7: Chose Restaurant B (utility: 193.1 > 153.1)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day4_customer_8: Chose Restaurant B (utility: 142.3 > 138.3)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day4_customer_9: Chose Restaurant B (utility: 92.8 > 58.8)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day4_customer_10: Chose Restaurant B (utility: 106.9 > 78.9)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+
+--- Day 4 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $170.00 revenue
+
+=== DAY 5 ===
+Customers today: 10
+  day5_customer_1: Chose Restaurant B (utility: 135.4 > 121.4)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day5_customer_2: Chose Restaurant A (utility: 69.0 > 65.0)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 2.0 stars
+  day5_customer_3: Chose Restaurant B (utility: 115.2 > 109.2)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day5_customer_4: Chose Restaurant B (utility: 114.7 > 111.7)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day5_customer_5: Chose Restaurant A (utility: 93.1 > 83.1)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 5.0 stars
+  day5_customer_6: Chose Restaurant B (utility: 102.8 > 71.8)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day5_customer_7: Chose Restaurant A (utility: 138.8 > 124.8)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 2.0 stars
+  day5_customer_8: Chose Restaurant B (utility: 138.5 > 125.5)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day5_customer_9: Chose Restaurant A (utility: 114.2 > 106.2)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day5_customer_10: Chose Restaurant B (utility: 110.3 > 90.3)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+
+--- Day 5 Summary ---
+Restaurant A: 4 visitors, 4 purchases, $47.00 revenue
+Restaurant B: 6 visitors, 6 purchases, $93.00 revenue
+
+=== DAY 6 ===
+Customers today: 10
+  day6_customer_1: Chose Restaurant B (utility: 142.1 > 114.1)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day6_customer_2: Chose Restaurant B (utility: 102.9 > 61.9)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day6_customer_3: Chose Restaurant B (utility: 104.3 > 97.3)
+  Customer 3: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day6_customer_4: Chose Restaurant B (utility: 112.4 > 106.4)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day6_customer_5: Chose Restaurant B (utility: 111.4 > 106.4)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day6_customer_6: Chose Restaurant B (utility: 89.7 > 78.7)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day6_customer_7: Chose Restaurant B (utility: 108.0 > 78.0)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day6_customer_8: Chose Restaurant B (utility: 106.1 > 65.1)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day6_customer_9: Chose Restaurant B (utility: 82.1 > 77.1)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day6_customer_10: Chose Restaurant B (utility: 125.5 > 101.5)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 6 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $185.00 revenue
+
+=== DAY 7 ===
+Customers today: 10
+  day7_customer_1: Chose Restaurant B (utility: 97.1 > 87.1)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day7_customer_2: Chose Restaurant B (utility: 54.1 > 24.1)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day7_customer_3: Chose Restaurant B (utility: 76.9 > 70.9)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day7_customer_4: Chose Restaurant A (utility: 129.4 > 120.4)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day7_customer_5: Chose Restaurant B (utility: 74.5 > 71.5)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day7_customer_6: Chose Restaurant B (utility: 113.7 > 109.7)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day7_customer_7: Chose Restaurant B (utility: 49.5 > 31.5)
+  Customer 7: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day7_customer_8: Chose Restaurant B (utility: 87.8 > 64.8)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day7_customer_9: Chose Restaurant B (utility: 86.7 > 60.7)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day7_customer_10: Chose Restaurant B (utility: 109.6 > 99.6)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 7 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $143.00 revenue
+
+=== DAY 8 ===
+Customers today: 10
+  day8_customer_1: Chose Restaurant A (utility: 105.5 > 96.5)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day8_customer_2: Chose Restaurant B (utility: 109.9 > 98.9)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day8_customer_3: Chose Restaurant B (utility: 130.8 > 129.8)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day8_customer_4: Chose Restaurant B (utility: 160.0 > 131.0)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day8_customer_5: Chose Restaurant A (utility: 100.0 > 95.0)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day8_customer_6: Chose Restaurant B (utility: 71.9 > 39.9)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day8_customer_7: Chose Restaurant B (utility: 100.9 > 96.9)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day8_customer_8: Chose Restaurant B (utility: 85.1 > 65.1)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day8_customer_9: Chose Restaurant B (utility: 107.2 > 98.2)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day8_customer_10: Chose Restaurant B (utility: 114.2 > 103.2)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+
+--- Day 8 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $18.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $127.00 revenue
+
+=== DAY 9 ===
+Customers today: 10
+  day9_customer_1: Chose Restaurant B (utility: 81.1 > 74.1)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day9_customer_2: Chose Restaurant B (utility: 39.3 > 15.3)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day9_customer_3: Chose Restaurant B (utility: 131.8 > 97.8)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day9_customer_4: Chose Restaurant B (utility: 124.3 > 104.3)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day9_customer_5: Chose Restaurant B (utility: 73.9 > 21.9)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day9_customer_6: Chose Restaurant A (utility: 113.2 > 99.2)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 5.0 stars
+  day9_customer_7: Chose Restaurant B (utility: 85.1 > 70.1)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day9_customer_8: Chose Restaurant B (utility: 78.2 > 75.2)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day9_customer_9: Chose Restaurant B (utility: 104.8 > 103.8)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day9_customer_10: Chose Restaurant B (utility: 110.6 > 99.6)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 9 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $14.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $182.00 revenue
+
+=== DAY 10 ===
+Customers today: 10
+  day10_customer_1: Chose Restaurant B (utility: 69.4 > 56.4)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day10_customer_2: Chose Restaurant B (utility: 103.7 > 91.7)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day10_customer_3: Chose Restaurant B (utility: 94.1 > 46.1)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day10_customer_4: Chose Restaurant B (utility: 104.2 > 65.2)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day10_customer_5: Chose Restaurant B (utility: 111.4 > 101.4)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day10_customer_6: Chose Restaurant B (utility: 62.5 > 21.5)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day10_customer_7: Chose Restaurant B (utility: 76.0 > 68.0)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day10_customer_8: Chose Restaurant B (utility: 103.9 > 79.9)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day10_customer_9: Chose Restaurant B (utility: 145.7 > 111.7)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day10_customer_10: Chose Restaurant B (utility: 98.0 > 82.0)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+
+--- Day 10 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $144.00 revenue
+
+=== DAY 11 ===
+Customers today: 10
+  day11_customer_1: Chose Restaurant B (utility: 56.0 > 39.0)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day11_customer_2: Chose Restaurant B (utility: 62.6 > 44.6)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day11_customer_3: Chose Restaurant B (utility: 85.9 > 71.9)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day11_customer_4: Chose Restaurant B (utility: 92.7 > 88.7)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day11_customer_5: Chose Restaurant B (utility: 106.9 > 86.9)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day11_customer_6: Chose Restaurant A (utility: 114.8 > 110.8)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day11_customer_7: Chose Restaurant B (utility: 121.3 > 119.3)
+  Customer 7: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day11_customer_8: Chose Restaurant B (utility: 65.1 > 41.1)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day11_customer_9: Chose Restaurant B (utility: 127.3 > 111.3)
+  Customer 9: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day11_customer_10: Chose Restaurant B (utility: 94.0 > 65.0)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 11 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $178.00 revenue
+
+=== DAY 12 ===
+Customers today: 10
+  day12_customer_1: Chose Restaurant B (utility: 90.1 > 70.1)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day12_customer_2: Chose Restaurant B (utility: 54.1 > 20.1)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day12_customer_3: Chose Restaurant B (utility: 107.7 > 87.7)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day12_customer_4: Chose Restaurant B (utility: 103.0 > 87.0)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day12_customer_5: Chose Restaurant A (utility: 135.1 > 127.1)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day12_customer_6: Chose Restaurant B (utility: 150.5 > 145.5)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day12_customer_7: Chose Restaurant B (utility: 139.1 > 133.1)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day12_customer_8: Chose Restaurant B (utility: 79.9 > 66.9)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day12_customer_9: Chose Restaurant B (utility: 75.6 > 65.6)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day12_customer_10: Chose Restaurant B (utility: 142.7 > 112.7)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 12 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $165.00 revenue
+
+=== DAY 13 ===
+Customers today: 10
+  day13_customer_1: Chose Restaurant B (utility: 111.4 > 91.4)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day13_customer_2: Chose Restaurant B (utility: 147.6 > 109.6)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day13_customer_3: Chose Restaurant B (utility: 48.4 > 10.4)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day13_customer_4: Chose Restaurant B (utility: 107.9 > 103.9)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day13_customer_5: Chose Restaurant B (utility: 143.2 > 128.2)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day13_customer_6: Chose Restaurant B (utility: 66.8 > 44.8)
+  Customer 6: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day13_customer_7: Chose Restaurant B (utility: 66.5 > 48.5)
+  Customer 7: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day13_customer_8: Chose Restaurant B (utility: 75.8 > 61.8)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day13_customer_9: Chose Restaurant B (utility: 141.3 > 117.3)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day13_customer_10: Chose Restaurant B (utility: 111.3 > 86.3)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+
+--- Day 13 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $172.00 revenue
+
+=== DAY 14 ===
+Customers today: 10
+  day14_customer_1: Chose Restaurant B (utility: 92.8 > 88.8)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day14_customer_2: Chose Restaurant B (utility: 137.4 > 101.4)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day14_customer_3: Chose Restaurant B (utility: 86.3 > 71.3)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day14_customer_4: Chose Restaurant B (utility: 88.7 > 72.7)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day14_customer_5: Chose Restaurant B (utility: 72.2 > 42.2)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day14_customer_6: Chose Restaurant B (utility: 20.5 > 10.5)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day14_customer_7: Chose Restaurant B (utility: 76.2 > 40.2)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day14_customer_8: Chose Restaurant B (utility: 105.7 > 60.7)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day14_customer_9: Chose Restaurant B (utility: 66.5 > 50.5)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day14_customer_10: Chose Restaurant B (utility: 100.4 > 59.4)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 14 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $185.00 revenue
+
+=== DAY 15 ===
+Customers today: 10
+  day15_customer_1: Chose Restaurant A (utility: 92.4 > 78.4)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day15_customer_2: Chose Restaurant B (utility: 104.9 > 98.9)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day15_customer_3: Chose Restaurant B (utility: 92.2 > 76.2)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day15_customer_4: Chose Restaurant B (utility: 69.2 > 47.2)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day15_customer_5: Chose Restaurant B (utility: 115.5 > 91.5)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day15_customer_6: Chose Restaurant B (utility: 91.4 > 71.4)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day15_customer_7: Chose Restaurant B (utility: 54.5 > 31.5)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day15_customer_8: Chose Restaurant B (utility: 118.6 > 88.6)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day15_customer_9: Chose Restaurant B (utility: 160.2 > 129.2)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day15_customer_10: Chose Restaurant B (utility: 147.8 > 128.8)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 15 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $152.00 revenue
+
+=== DAY 16 ===
+Customers today: 10
+  day16_customer_1: Chose Restaurant B (utility: 95.6 > 75.6)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day16_customer_2: Chose Restaurant A (utility: 134.4 > 130.4)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 2.0 stars
+  day16_customer_3: Chose Restaurant B (utility: 101.4 > 82.4)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day16_customer_4: Chose Restaurant B (utility: 99.5 > 75.5)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day16_customer_5: Chose Restaurant B (utility: 148.0 > 138.0)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day16_customer_6: Chose Restaurant B (utility: 100.2 > 65.2)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day16_customer_7: Chose Restaurant B (utility: 142.5 > 101.5)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day16_customer_8: Chose Restaurant B (utility: 105.1 > 76.1)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day16_customer_9: Chose Restaurant B (utility: 76.3 > 56.3)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day16_customer_10: Chose Restaurant B (utility: 115.6 > 88.6)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 16 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $10.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $146.00 revenue
+
+=== DAY 17 ===
+Customers today: 10
+  day17_customer_1: Chose Restaurant B (utility: 68.2 > 64.2)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day17_customer_2: Chose Restaurant A (utility: 93.4 > 84.4)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day17_customer_3: Chose Restaurant B (utility: 126.7 > 97.7)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day17_customer_4: Chose Restaurant B (utility: 83.4 > 53.4)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day17_customer_5: Chose Restaurant B (utility: 81.2 > 47.2)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day17_customer_6: Chose Restaurant A (utility: 115.1 > 111.1)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day17_customer_7: Chose Restaurant B (utility: 77.8 > 36.8)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day17_customer_8: Chose Restaurant B (utility: 136.4 > 122.4)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day17_customer_9: Chose Restaurant B (utility: 111.9 > 101.9)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day17_customer_10: Chose Restaurant A (utility: 120.2 > 107.2)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+
+--- Day 17 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $28.00 revenue
+Restaurant B: 7 visitors, 7 purchases, $121.00 revenue
+
+=== DAY 18 ===
+Customers today: 10
+  day18_customer_1: Chose Restaurant B (utility: 98.3 > 47.3)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day18_customer_2: Chose Restaurant B (utility: 118.5 > 102.5)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day18_customer_3: Chose Restaurant B (utility: 70.5 > 51.5)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day18_customer_4: Chose Restaurant B (utility: 79.8 > 70.8)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day18_customer_5: Chose Restaurant B (utility: 111.0 > 72.0)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day18_customer_6: Chose Restaurant B (utility: 64.1 > 35.1)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day18_customer_7: Chose Restaurant B (utility: 126.9 > 106.9)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day18_customer_8: Chose Restaurant B (utility: 107.5 > 101.5)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day18_customer_9: Chose Restaurant B (utility: 66.5 > 57.5)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day18_customer_10: Chose Restaurant B (utility: 29.2 > 0.2)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 18 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $165.00 revenue
+
+=== DAY 19 ===
+Customers today: 10
+  day19_customer_1: Chose Restaurant B (utility: 83.3 > 79.3)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day19_customer_2: Chose Restaurant B (utility: 154.5 > 123.5)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day19_customer_3: Chose Restaurant B (utility: 114.2 > 81.2)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day19_customer_4: Chose Restaurant B (utility: 47.0 > 43.0)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day19_customer_5: Chose Restaurant B (utility: 142.6 > 137.6)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day19_customer_6: Chose Restaurant B (utility: 103.9 > 79.9)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day19_customer_7: Chose Restaurant B (utility: 113.5 > 103.5)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day19_customer_8: Chose Restaurant B (utility: 130.0 > 116.0)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day19_customer_9: Chose Restaurant B (utility: 135.9 > 119.9)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day19_customer_10: Chose Restaurant B (utility: 59.1 > 20.1)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 19 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $170.00 revenue
+
+=== DAY 20 ===
+Customers today: 10
+  day20_customer_1: Chose Restaurant B (utility: 113.4 > 78.4)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day20_customer_2: Chose Restaurant B (utility: 84.5 > 83.5)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day20_customer_3: Chose Restaurant B (utility: 79.4 > 64.4)
+  Customer 3: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day20_customer_4: Chose Restaurant B (utility: 55.7 > 55.7)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day20_customer_5: Chose Restaurant A (utility: 36.9 > 31.9)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day20_customer_6: Chose Restaurant B (utility: 104.6 > 93.6)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day20_customer_7: Chose Restaurant B (utility: 106.4 > 95.4)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day20_customer_8: Chose Restaurant B (utility: 128.4 > 113.4)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day20_customer_9: Chose Restaurant B (utility: 139.6 > 129.6)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day20_customer_10: Chose Restaurant B (utility: 103.5 > 55.5)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 20 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $135.00 revenue
+
+=== DAY 21 ===
+Customers today: 10
+  day21_customer_1: Chose Restaurant B (utility: 106.0 > 105.0)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day21_customer_2: Chose Restaurant B (utility: 45.4 > 13.4)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day21_customer_3: Chose Restaurant B (utility: 80.8 > 71.8)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day21_customer_4: Chose Restaurant B (utility: 90.0 > 76.0)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day21_customer_5: Chose Restaurant A (utility: 109.7 > 105.7)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 2.0 stars
+  day21_customer_6: Chose Restaurant A (utility: 122.0 > 119.0)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day21_customer_7: Chose Restaurant B (utility: 116.8 > 102.8)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day21_customer_8: Chose Restaurant B (utility: 88.5 > 80.5)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day21_customer_9: Chose Restaurant B (utility: 108.7 > 108.7)
+  Customer 9: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day21_customer_10: Chose Restaurant B (utility: 97.8 > 83.8)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+
+--- Day 21 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $24.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $131.00 revenue
+
+=== DAY 22 ===
+Customers today: 10
+  day22_customer_1: Chose Restaurant B (utility: 48.0 > 32.0)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day22_customer_2: Chose Restaurant B (utility: 107.6 > 103.6)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day22_customer_3: Chose Restaurant B (utility: 112.8 > 93.8)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day22_customer_4: Chose Restaurant B (utility: 121.5 > 110.5)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day22_customer_5: Chose Restaurant B (utility: 104.4 > 69.4)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day22_customer_6: Chose Restaurant B (utility: 121.2 > 101.2)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day22_customer_7: Chose Restaurant B (utility: 124.6 > 104.6)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day22_customer_8: Chose Restaurant A (utility: 97.3 > 93.3)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 2.0 stars
+  day22_customer_9: Chose Restaurant B (utility: 120.4 > 99.4)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day22_customer_10: Chose Restaurant A (utility: 148.7 > 147.7)
+  Customer 10: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 2.0 stars
+
+--- Day 22 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $27.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $145.00 revenue
+
+=== DAY 23 ===
+Customers today: 10
+  day23_customer_1: Chose Restaurant B (utility: 109.4 > 69.4)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day23_customer_2: Chose Restaurant B (utility: 81.1 > 56.1)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day23_customer_3: Chose Restaurant B (utility: 93.1 > 66.1)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day23_customer_4: Chose Restaurant B (utility: 87.7 > 61.7)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day23_customer_5: Chose Restaurant B (utility: 125.4 > 106.4)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day23_customer_6: Chose Restaurant B (utility: 43.5 > -1.5)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day23_customer_7: Chose Restaurant B (utility: 166.1 > 137.1)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day23_customer_8: Chose Restaurant B (utility: 125.3 > 102.3)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day23_customer_9: Chose Restaurant B (utility: 161.9 > 153.9)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day23_customer_10: Chose Restaurant B (utility: 118.6 > 106.6)
+  Customer 10: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+
+--- Day 23 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $152.00 revenue
+
+=== DAY 24 ===
+Customers today: 10
+  day24_customer_1: Chose Restaurant B (utility: 73.8 > 34.8)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day24_customer_2: Chose Restaurant B (utility: 65.5 > 36.5)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day24_customer_3: Chose Restaurant B (utility: 107.5 > 79.5)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day24_customer_4: Chose Restaurant B (utility: 128.8 > 121.8)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day24_customer_5: Chose Restaurant B (utility: 26.4 > 15.4)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day24_customer_6: Chose Restaurant B (utility: 114.6 > 69.6)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day24_customer_7: Chose Restaurant B (utility: 41.1 > 20.1)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day24_customer_8: Chose Restaurant B (utility: 79.5 > 48.5)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day24_customer_9: Chose Restaurant B (utility: 106.1 > 88.1)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day24_customer_10: Chose Restaurant B (utility: 95.9 > 66.9)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+
+--- Day 24 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $166.00 revenue
+
+=== DAY 25 ===
+Customers today: 10
+  day25_customer_1: Chose Restaurant B (utility: 122.6 > 89.6)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day25_customer_2: Chose Restaurant B (utility: 104.8 > 74.8)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day25_customer_3: Chose Restaurant B (utility: 133.1 > 128.1)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day25_customer_4: Chose Restaurant B (utility: 62.6 > 35.6)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day25_customer_5: Chose Restaurant B (utility: 154.0 > 140.0)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day25_customer_6: Chose Restaurant B (utility: 133.9 > 104.9)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day25_customer_7: Chose Restaurant A (utility: 78.8 > 69.8)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day25_customer_8: Chose Restaurant B (utility: 149.4 > 128.4)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day25_customer_9: Chose Restaurant B (utility: 102.5 > 78.5)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day25_customer_10: Chose Restaurant B (utility: 55.3 > 33.3)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+
+--- Day 25 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $155.00 revenue
+
+=== DAY 26 ===
+Customers today: 10
+  day26_customer_1: Chose Restaurant B (utility: 116.0 > 98.0)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day26_customer_2: Chose Restaurant B (utility: 127.7 > 72.7)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day26_customer_3: Chose Restaurant B (utility: 102.6 > 93.6)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day26_customer_4: Chose Restaurant B (utility: 80.5 > 77.5)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day26_customer_5: Chose Restaurant B (utility: 106.0 > 88.0)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day26_customer_6: Chose Restaurant B (utility: 117.7 > 93.7)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day26_customer_7: Chose Restaurant B (utility: 34.5 > -17.5)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day26_customer_8: Chose Restaurant A (utility: 155.1 > 148.1)
+  Customer 8: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 5.0 stars
+  day26_customer_9: Chose Restaurant B (utility: 82.5 > 63.5)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day26_customer_10: Chose Restaurant B (utility: 84.4 > 81.4)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 26 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $17.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $123.00 revenue
+
+=== DAY 27 ===
+Customers today: 10
+  day27_customer_1: Chose Restaurant B (utility: 133.6 > 103.6)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day27_customer_2: Chose Restaurant B (utility: 121.3 > 101.3)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day27_customer_3: Chose Restaurant B (utility: 108.5 > 74.5)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day27_customer_4: Chose Restaurant B (utility: 95.1 > 79.1)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day27_customer_5: Chose Restaurant B (utility: 123.0 > 120.0)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day27_customer_6: Chose Restaurant B (utility: 119.4 > 109.4)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day27_customer_7: Chose Restaurant B (utility: 107.5 > 93.5)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day27_customer_8: Chose Restaurant B (utility: 110.5 > 102.5)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day27_customer_9: Chose Restaurant B (utility: 29.0 > -4.0)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day27_customer_10: Chose Restaurant B (utility: 159.5 > 138.5)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 27 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $164.00 revenue
+
+=== DAY 28 ===
+Customers today: 10
+  day28_customer_1: Chose Restaurant B (utility: 129.4 > 106.4)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day28_customer_2: Chose Restaurant B (utility: 119.3 > 110.3)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day28_customer_3: Chose Restaurant B (utility: 151.3 > 141.3)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day28_customer_4: Chose Restaurant B (utility: 167.0 > 156.0)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day28_customer_5: Chose Restaurant B (utility: 146.2 > 131.2)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day28_customer_6: Chose Restaurant B (utility: 162.5 > 132.5)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day28_customer_7: Chose Restaurant B (utility: 111.4 > 79.4)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day28_customer_8: Chose Restaurant B (utility: 141.8 > 101.8)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day28_customer_9: Chose Restaurant B (utility: 107.2 > 95.2)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day28_customer_10: Chose Restaurant B (utility: 53.7 > 43.7)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+
+--- Day 28 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $173.00 revenue
+
+=== DAY 29 ===
+Customers today: 10
+  day29_customer_1: Chose Restaurant B (utility: 126.5 > 95.5)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day29_customer_2: Chose Restaurant B (utility: 103.2 > 97.2)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day29_customer_3: Chose Restaurant B (utility: 147.6 > 123.6)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day29_customer_4: Chose Restaurant B (utility: 85.8 > 65.8)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day29_customer_5: Chose Restaurant B (utility: 84.5 > 59.5)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day29_customer_6: Chose Restaurant B (utility: 92.6 > 66.6)
+  Customer 6: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day29_customer_7: Chose Restaurant B (utility: 167.7 > 141.7)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day29_customer_8: Chose Restaurant B (utility: 125.7 > 108.7)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day29_customer_9: Chose Restaurant B (utility: 146.8 > 139.8)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day29_customer_10: Chose Restaurant A (utility: 100.2 > 91.2)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+
+--- Day 29 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $150.00 revenue
+
+=== DAY 30 ===
+Customers today: 10
+  day30_customer_1: Chose Restaurant B (utility: 61.4 > 44.4)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day30_customer_2: Chose Restaurant B (utility: 91.3 > 60.3)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day30_customer_3: Chose Restaurant B (utility: 48.4 > 2.4)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day30_customer_4: Chose Restaurant B (utility: 91.3 > 67.3)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day30_customer_5: Chose Restaurant B (utility: 145.1 > 126.1)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day30_customer_6: Chose Restaurant B (utility: 73.7 > 57.7)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day30_customer_7: Chose Restaurant B (utility: 153.1 > 128.1)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day30_customer_8: Chose Restaurant A (utility: 97.6 > 94.6)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 5.0 stars
+  day30_customer_9: Chose Restaurant B (utility: 86.2 > 57.2)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day30_customer_10: Chose Restaurant B (utility: 84.8 > 79.8)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 30 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $14.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $172.00 revenue
+
+=== DAY 31 ===
+Customers today: 10
+  day31_customer_1: Chose Restaurant B (utility: 98.4 > 64.4)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day31_customer_2: Chose Restaurant B (utility: 116.1 > 112.1)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day31_customer_3: Chose Restaurant B (utility: 34.0 > 29.0)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day31_customer_4: Chose Restaurant B (utility: 106.0 > 79.0)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day31_customer_5: Chose Restaurant B (utility: 123.0 > 89.0)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day31_customer_6: Chose Restaurant B (utility: 108.3 > 74.3)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day31_customer_7: Chose Restaurant B (utility: 99.1 > 89.1)
+  Customer 7: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day31_customer_8: Chose Restaurant B (utility: 137.4 > 119.4)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day31_customer_9: Chose Restaurant B (utility: 76.3 > 55.3)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day31_customer_10: Chose Restaurant B (utility: 182.4 > 149.4)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 31 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $163.00 revenue
+
+=== DAY 32 ===
+Customers today: 10
+  day32_customer_1: Chose Restaurant B (utility: 100.5 > 83.5)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day32_customer_2: Chose Restaurant B (utility: 119.8 > 109.8)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day32_customer_3: Chose Restaurant B (utility: 51.3 > 33.3)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day32_customer_4: Chose Restaurant A (utility: 98.0 > 94.0)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 2.0 stars
+  day32_customer_5: Chose Restaurant B (utility: 141.2 > 125.2)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day32_customer_6: Chose Restaurant B (utility: 73.2 > 67.2)
+  Customer 6: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day32_customer_7: Chose Restaurant B (utility: 92.5 > 69.5)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day32_customer_8: Chose Restaurant A (utility: 167.5 > 166.5)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day32_customer_9: Chose Restaurant B (utility: 98.1 > 78.1)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day32_customer_10: Chose Restaurant B (utility: 156.8 > 143.8)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 32 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $19.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $157.00 revenue
+
+=== DAY 33 ===
+Customers today: 10
+  day33_customer_1: Chose Restaurant B (utility: 123.3 > 112.3)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day33_customer_2: Chose Restaurant B (utility: 123.0 > 99.0)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day33_customer_3: Chose Restaurant B (utility: 90.0 > 69.0)
+  Customer 3: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day33_customer_4: Chose Restaurant B (utility: 93.1 > 63.1)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day33_customer_5: Chose Restaurant B (utility: 88.5 > 82.5)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day33_customer_6: Chose Restaurant A (utility: 99.8 > 95.8)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 2.0 stars
+  day33_customer_7: Chose Restaurant A (utility: 99.4 > 94.4)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day33_customer_8: Chose Restaurant B (utility: 96.1 > 85.1)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day33_customer_9: Chose Restaurant B (utility: 136.4 > 87.4)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day33_customer_10: Chose Restaurant B (utility: 152.9 > 136.9)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+
+--- Day 33 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $23.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $141.00 revenue
+
+=== DAY 34 ===
+Customers today: 10
+  day34_customer_1: Chose Restaurant B (utility: 24.8 > -1.2)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day34_customer_2: Chose Restaurant B (utility: 127.9 > 108.9)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day34_customer_3: Chose Restaurant B (utility: 135.7 > 120.7)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day34_customer_4: Chose Restaurant B (utility: 56.2 > 47.2)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day34_customer_5: Chose Restaurant B (utility: 90.5 > 79.5)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day34_customer_6: Chose Restaurant B (utility: 108.5 > 96.5)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day34_customer_7: Chose Restaurant B (utility: 70.5 > 28.5)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day34_customer_8: Chose Restaurant B (utility: 113.6 > 98.6)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day34_customer_9: Chose Restaurant B (utility: 101.2 > 98.2)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day34_customer_10: Chose Restaurant A (utility: 86.7 > 85.7)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant A ($23)
+    → Left review: 2.0 stars
+
+--- Day 34 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $23.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $158.00 revenue
+
+=== DAY 35 ===
+Customers today: 10
+  day35_customer_1: Chose Restaurant B (utility: 119.9 > 95.9)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day35_customer_2: Chose Restaurant B (utility: 80.8 > 46.8)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day35_customer_3: Chose Restaurant B (utility: 42.8 > 25.8)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day35_customer_4: Chose Restaurant B (utility: 122.7 > 115.7)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day35_customer_5: Chose Restaurant B (utility: 97.3 > 94.3)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day35_customer_6: Chose Restaurant B (utility: 137.5 > 122.5)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day35_customer_7: Chose Restaurant B (utility: 63.9 > 25.9)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day35_customer_8: Chose Restaurant B (utility: 96.8 > 95.8)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day35_customer_9: Chose Restaurant B (utility: 103.9 > 83.9)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day35_customer_10: Chose Restaurant B (utility: 106.5 > 100.5)
+  Customer 10: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+
+--- Day 35 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $192.00 revenue
+
+=== DAY 36 ===
+Customers today: 10
+  day36_customer_1: Chose Restaurant B (utility: 95.8 > 65.8)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day36_customer_2: Chose Restaurant B (utility: 136.5 > 115.5)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day36_customer_3: Chose Restaurant B (utility: 88.2 > 58.2)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day36_customer_4: Chose Restaurant B (utility: 66.1 > 39.1)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day36_customer_5: Chose Restaurant B (utility: 20.9 > -3.1)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day36_customer_6: Chose Restaurant B (utility: 128.6 > 93.6)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day36_customer_7: Chose Restaurant B (utility: 62.0 > 58.0)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day36_customer_8: Chose Restaurant B (utility: 86.3 > 73.3)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day36_customer_9: Chose Restaurant B (utility: 62.7 > 38.7)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day36_customer_10: Chose Restaurant B (utility: 91.7 > 71.7)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+
+--- Day 36 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $213.00 revenue
+
+=== DAY 37 ===
+Customers today: 10
+  day37_customer_1: Chose Restaurant B (utility: 75.8 > 54.8)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day37_customer_2: Chose Restaurant B (utility: 87.2 > 47.2)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day37_customer_3: Chose Restaurant B (utility: 117.1 > 93.1)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day37_customer_4: Chose Restaurant B (utility: 106.3 > 93.3)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day37_customer_5: Chose Restaurant B (utility: 89.4 > 65.4)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day37_customer_6: Chose Restaurant B (utility: 105.1 > 100.1)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day37_customer_7: Chose Restaurant B (utility: 49.8 > 28.8)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day37_customer_8: Chose Restaurant B (utility: 85.0 > 70.0)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day37_customer_9: Chose Restaurant B (utility: 116.3 > 94.3)
+  Customer 9: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day37_customer_10: Chose Restaurant B (utility: 70.9 > 32.9)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 37 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $180.00 revenue
+
+=== DAY 38 ===
+Customers today: 10
+  day38_customer_1: Chose Restaurant B (utility: 101.6 > 82.6)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day38_customer_2: Chose Restaurant B (utility: 159.5 > 135.5)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day38_customer_3: Chose Restaurant B (utility: 122.9 > 106.9)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day38_customer_4: Chose Restaurant B (utility: 130.7 > 105.7)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day38_customer_5: Chose Restaurant B (utility: 122.1 > 89.1)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day38_customer_6: Chose Restaurant B (utility: 72.6 > 51.6)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day38_customer_7: Chose Restaurant B (utility: 86.7 > 70.7)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day38_customer_8: Chose Restaurant B (utility: 127.0 > 104.0)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day38_customer_9: Chose Restaurant B (utility: 90.6 > 49.6)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day38_customer_10: Chose Restaurant A (utility: 67.9 > 58.9)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+
+--- Day 38 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $162.00 revenue
+
+=== DAY 39 ===
+Customers today: 10
+  day39_customer_1: Chose Restaurant B (utility: 37.6 > 21.6)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day39_customer_2: Chose Restaurant B (utility: 116.8 > 96.8)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day39_customer_3: Chose Restaurant B (utility: 158.7 > 144.7)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day39_customer_4: Chose Restaurant B (utility: 34.4 > 24.4)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day39_customer_5: Chose Restaurant B (utility: 114.1 > 80.1)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day39_customer_6: Chose Restaurant B (utility: 104.0 > 40.0)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day39_customer_7: Chose Restaurant B (utility: 132.5 > 101.5)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day39_customer_8: Chose Restaurant B (utility: 121.3 > 101.3)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day39_customer_9: Chose Restaurant B (utility: 79.8 > 49.8)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day39_customer_10: Chose Restaurant B (utility: 93.2 > 49.2)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 39 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $173.00 revenue
+
+=== DAY 40 ===
+Customers today: 10
+  day40_customer_1: Chose Restaurant B (utility: 65.3 > 44.3)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day40_customer_2: Chose Restaurant B (utility: 88.5 > 54.5)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day40_customer_3: Chose Restaurant B (utility: 101.8 > 97.8)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day40_customer_4: Chose Restaurant B (utility: 127.0 > 116.0)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day40_customer_5: Chose Restaurant B (utility: 110.8 > 99.8)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day40_customer_6: Chose Restaurant B (utility: 92.2 > 52.2)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day40_customer_7: Chose Restaurant B (utility: 62.4 > 22.4)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day40_customer_8: Chose Restaurant B (utility: 111.3 > 91.3)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day40_customer_9: Chose Restaurant B (utility: 126.6 > 97.6)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day40_customer_10: Chose Restaurant B (utility: 149.2 > 135.2)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 40 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $185.00 revenue
+
+=== DAY 41 ===
+Customers today: 10
+  day41_customer_1: Chose Restaurant B (utility: 104.3 > 88.3)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day41_customer_2: Chose Restaurant B (utility: 90.8 > 56.8)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day41_customer_3: Chose Restaurant B (utility: 49.5 > 46.5)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day41_customer_4: Chose Restaurant B (utility: 51.4 > 5.4)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day41_customer_5: Chose Restaurant B (utility: 102.3 > 85.3)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day41_customer_6: Chose Restaurant B (utility: 102.8 > 86.8)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day41_customer_7: Chose Restaurant B (utility: 98.0 > 54.0)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day41_customer_8: Chose Restaurant B (utility: 109.4 > 83.4)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day41_customer_9: Chose Restaurant B (utility: 71.7 > 48.7)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day41_customer_10: Chose Restaurant B (utility: 154.6 > 125.6)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 41 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $175.00 revenue
+
+=== DAY 42 ===
+Customers today: 10
+  day42_customer_1: Chose Restaurant B (utility: 92.5 > 32.5)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day42_customer_2: Chose Restaurant A (utility: 84.3 > 80.3)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant A ($24)
+    → Left review: 5.0 stars
+  day42_customer_3: Chose Restaurant B (utility: 56.9 > 48.9)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day42_customer_4: Chose Restaurant B (utility: 122.1 > 107.1)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day42_customer_5: Chose Restaurant B (utility: 106.3 > 92.3)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day42_customer_6: Chose Restaurant B (utility: 108.0 > 84.0)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day42_customer_7: Chose Restaurant B (utility: 50.8 > 20.8)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day42_customer_8: Chose Restaurant B (utility: 99.8 > 59.8)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day42_customer_9: Chose Restaurant B (utility: 112.3 > 100.3)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day42_customer_10: Chose Restaurant B (utility: 115.9 > 111.9)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 42 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $24.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $180.00 revenue
+
+=== DAY 43 ===
+Customers today: 10
+  day43_customer_1: Chose Restaurant B (utility: 78.5 > 31.5)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day43_customer_2: Chose Restaurant B (utility: 42.1 > 42.1)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day43_customer_3: Chose Restaurant B (utility: 173.3 > 135.3)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day43_customer_4: Chose Restaurant B (utility: 125.4 > 97.4)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day43_customer_5: Chose Restaurant B (utility: 94.5 > 82.5)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day43_customer_6: Chose Restaurant B (utility: 101.9 > 72.9)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day43_customer_7: Chose Restaurant B (utility: 97.6 > 84.6)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day43_customer_8: Chose Restaurant B (utility: 55.7 > 36.7)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day43_customer_9: Chose Restaurant B (utility: 115.4 > 98.4)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day43_customer_10: Chose Restaurant B (utility: 89.7 > 67.7)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 43 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $138.00 revenue
+
+=== DAY 44 ===
+Customers today: 10
+  day44_customer_1: Chose Restaurant B (utility: 128.9 > 112.9)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day44_customer_2: Chose Restaurant B (utility: 52.2 > 35.2)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day44_customer_3: Chose Restaurant B (utility: 98.0 > 58.0)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day44_customer_4: Chose Restaurant B (utility: 127.1 > 110.1)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day44_customer_5: Chose Restaurant B (utility: 58.7 > 20.7)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day44_customer_6: Chose Restaurant B (utility: 97.9 > 75.9)
+  Customer 6: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day44_customer_7: Chose Restaurant A (utility: 130.1 > 121.1)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day44_customer_8: Chose Restaurant B (utility: 103.0 > 92.0)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day44_customer_9: Chose Restaurant B (utility: 155.8 > 130.8)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day44_customer_10: Chose Restaurant B (utility: 39.0 > 25.0)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 44 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $168.00 revenue
+
+=== DAY 45 ===
+Customers today: 10
+  day45_customer_1: Chose Restaurant B (utility: 143.4 > 132.4)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day45_customer_2: Chose Restaurant B (utility: 58.5 > 43.5)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day45_customer_3: Chose Restaurant B (utility: 123.3 > 89.3)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day45_customer_4: Chose Restaurant B (utility: 97.3 > 84.3)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day45_customer_5: Chose Restaurant B (utility: 85.6 > 55.6)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day45_customer_6: Chose Restaurant B (utility: 102.5 > 66.5)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day45_customer_7: Chose Restaurant B (utility: 82.6 > 49.6)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day45_customer_8: Chose Restaurant B (utility: 128.7 > 127.7)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day45_customer_9: Chose Restaurant B (utility: 173.5 > 150.5)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day45_customer_10: Chose Restaurant B (utility: 118.4 > 88.4)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 45 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $194.00 revenue
+
+=== DAY 46 ===
+Customers today: 10
+  day46_customer_1: Chose Restaurant B (utility: 148.9 > 115.9)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day46_customer_2: Chose Restaurant B (utility: 110.8 > 71.8)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day46_customer_3: Chose Restaurant B (utility: 118.9 > 107.9)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day46_customer_4: Chose Restaurant B (utility: 103.3 > 67.3)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day46_customer_5: Chose Restaurant B (utility: 80.3 > 31.3)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day46_customer_6: Chose Restaurant B (utility: 186.8 > 146.8)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day46_customer_7: Chose Restaurant B (utility: 98.0 > 72.0)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day46_customer_8: Chose Restaurant B (utility: 101.5 > 52.5)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day46_customer_9: Chose Restaurant B (utility: 148.0 > 114.0)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day46_customer_10: Chose Restaurant B (utility: 103.4 > 89.4)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+
+--- Day 46 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $148.00 revenue
+
+=== DAY 47 ===
+Customers today: 10
+  day47_customer_1: Chose Restaurant B (utility: 121.5 > 97.5)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day47_customer_2: Chose Restaurant B (utility: 121.2 > 94.2)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day47_customer_3: Chose Restaurant B (utility: 95.5 > 69.5)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day47_customer_4: Chose Restaurant B (utility: 94.5 > 84.5)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day47_customer_5: Chose Restaurant B (utility: 44.8 > 20.8)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day47_customer_6: Chose Restaurant B (utility: 103.4 > 90.4)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day47_customer_7: Chose Restaurant A (utility: 73.8 > 72.8)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day47_customer_8: Chose Restaurant B (utility: 125.6 > 92.6)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day47_customer_9: Chose Restaurant B (utility: 59.2 > 17.2)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day47_customer_10: Chose Restaurant B (utility: 114.1 > 85.1)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 47 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $150.00 revenue
+
+=== DAY 48 ===
+Customers today: 10
+  day48_customer_1: Chose Restaurant B (utility: 129.6 > 78.6)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day48_customer_2: Chose Restaurant B (utility: 80.0 > 66.0)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day48_customer_3: Chose Restaurant B (utility: 97.0 > 77.0)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day48_customer_4: Chose Restaurant B (utility: 75.3 > 58.3)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day48_customer_5: Chose Restaurant B (utility: 42.9 > 8.9)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day48_customer_6: Chose Restaurant B (utility: 88.6 > 52.6)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day48_customer_7: Chose Restaurant B (utility: 79.5 > 51.5)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day48_customer_8: Chose Restaurant B (utility: 93.3 > 58.3)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day48_customer_9: Chose Restaurant B (utility: 118.7 > 98.7)
+  Customer 9: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day48_customer_10: Chose Restaurant B (utility: 95.1 > 46.1)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 48 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $195.00 revenue
+
+=== DAY 49 ===
+Customers today: 10
+  day49_customer_1: Chose Restaurant B (utility: 101.3 > 80.3)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day49_customer_2: Chose Restaurant B (utility: 74.7 > 43.7)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day49_customer_3: Chose Restaurant B (utility: 86.6 > 84.6)
+  Customer 3: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day49_customer_4: Chose Restaurant B (utility: 54.7 > 28.7)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day49_customer_5: Chose Restaurant B (utility: 109.0 > 82.0)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day49_customer_6: Chose Restaurant B (utility: 26.2 > -12.8)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day49_customer_7: Chose Restaurant B (utility: 114.1 > 69.1)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day49_customer_8: Chose Restaurant A (utility: 53.6 > 46.6)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day49_customer_9: Chose Restaurant B (utility: 99.7 > 80.7)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day49_customer_10: Chose Restaurant B (utility: 110.4 > 95.4)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 49 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $10.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $138.00 revenue
+
+=== DAY 50 ===
+Customers today: 10
+  day50_customer_1: Chose Restaurant B (utility: 106.4 > 92.4)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day50_customer_2: Chose Restaurant B (utility: 138.3 > 100.3)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day50_customer_3: Chose Restaurant B (utility: 57.6 > 28.6)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day50_customer_4: Chose Restaurant B (utility: 85.4 > 61.4)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day50_customer_5: Chose Restaurant B (utility: 100.7 > 76.7)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day50_customer_6: Chose Restaurant B (utility: 131.6 > 110.6)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day50_customer_7: Chose Restaurant B (utility: 64.0 > 46.0)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day50_customer_8: Chose Restaurant B (utility: 108.9 > 98.9)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day50_customer_9: Chose Restaurant B (utility: 121.6 > 73.6)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day50_customer_10: Chose Restaurant B (utility: 80.7 > 60.7)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 50 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $151.00 revenue
+
+=== DAY 51 ===
+Customers today: 10
+  day51_customer_1: Chose Restaurant B (utility: 122.1 > 92.1)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day51_customer_2: Chose Restaurant B (utility: 72.0 > 37.0)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day51_customer_3: Chose Restaurant B (utility: 136.3 > 86.3)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day51_customer_4: Chose Restaurant B (utility: 129.4 > 117.4)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day51_customer_5: Chose Restaurant B (utility: 161.8 > 120.8)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day51_customer_6: Chose Restaurant B (utility: 86.7 > 66.7)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day51_customer_7: Chose Restaurant B (utility: 72.9 > 72.9)
+  Customer 7: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day51_customer_8: Chose Restaurant B (utility: 70.2 > 32.2)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day51_customer_9: Chose Restaurant B (utility: 104.8 > 80.8)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day51_customer_10: Chose Restaurant B (utility: 112.5 > 74.5)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 51 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $176.00 revenue
+
+=== DAY 52 ===
+Customers today: 10
+  day52_customer_1: Chose Restaurant B (utility: 84.4 > 78.4)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day52_customer_2: Chose Restaurant B (utility: 59.9 > 35.9)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day52_customer_3: Chose Restaurant B (utility: 141.8 > 136.8)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day52_customer_4: Chose Restaurant B (utility: 145.2 > 144.2)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day52_customer_5: Chose Restaurant B (utility: 89.8 > 51.8)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day52_customer_6: Chose Restaurant B (utility: 74.0 > 44.0)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day52_customer_7: Chose Restaurant B (utility: 141.3 > 131.3)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day52_customer_8: Chose Restaurant B (utility: 128.8 > 104.8)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day52_customer_9: Chose Restaurant B (utility: 101.1 > 86.1)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day52_customer_10: Chose Restaurant B (utility: 86.2 > 38.2)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 52 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $165.00 revenue
+
+=== DAY 53 ===
+Customers today: 10
+  day53_customer_1: Chose Restaurant B (utility: 65.4 > 49.4)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day53_customer_2: Chose Restaurant B (utility: 81.1 > 48.1)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day53_customer_3: Chose Restaurant B (utility: 159.9 > 135.9)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day53_customer_4: Chose Restaurant B (utility: 120.7 > 57.7)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day53_customer_5: Chose Restaurant B (utility: 178.1 > 143.1)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day53_customer_6: Chose Restaurant B (utility: 130.6 > 91.6)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day53_customer_7: Chose Restaurant B (utility: 110.5 > 80.5)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day53_customer_8: Chose Restaurant B (utility: 141.3 > 110.3)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day53_customer_9: Chose Restaurant B (utility: 89.5 > 83.5)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day53_customer_10: Chose Restaurant B (utility: 85.8 > 73.8)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+
+--- Day 53 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $159.00 revenue
+
+=== DAY 54 ===
+Customers today: 10
+  day54_customer_1: Chose Restaurant B (utility: 173.6 > 167.6)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day54_customer_2: Chose Restaurant B (utility: 150.5 > 130.5)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day54_customer_3: Chose Restaurant B (utility: 160.3 > 136.3)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day54_customer_4: Chose Restaurant B (utility: 142.6 > 122.6)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day54_customer_5: Chose Restaurant B (utility: 77.5 > 55.5)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day54_customer_6: Chose Restaurant B (utility: 81.3 > 56.3)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day54_customer_7: Chose Restaurant B (utility: 86.1 > 72.1)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day54_customer_8: Chose Restaurant B (utility: 65.0 > 27.0)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day54_customer_9: Chose Restaurant B (utility: 128.3 > 128.3)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day54_customer_10: Chose Restaurant B (utility: 77.3 > 59.3)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+
+--- Day 54 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $160.00 revenue
+
+=== DAY 55 ===
+Customers today: 10
+  day55_customer_1: Chose Restaurant B (utility: 115.9 > 91.9)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day55_customer_2: Chose Restaurant B (utility: 84.3 > 64.3)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day55_customer_3: Chose Restaurant B (utility: 117.4 > 115.4)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day55_customer_4: Chose Restaurant B (utility: 86.8 > 53.8)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day55_customer_5: Chose Restaurant B (utility: 110.0 > 86.0)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day55_customer_6: Chose Restaurant B (utility: 47.6 > 17.6)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day55_customer_7: Chose Restaurant B (utility: 167.8 > 136.8)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day55_customer_8: Chose Restaurant B (utility: 136.3 > 119.3)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day55_customer_9: Chose Restaurant B (utility: 121.3 > 77.3)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day55_customer_10: Chose Restaurant B (utility: 80.8 > 63.8)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 55 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $181.00 revenue
+
+=== DAY 56 ===
+Customers today: 10
+  day56_customer_1: Chose Restaurant B (utility: 151.1 > 118.1)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day56_customer_2: Chose Restaurant B (utility: 155.6 > 119.6)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day56_customer_3: Chose Restaurant B (utility: 92.8 > 78.8)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day56_customer_4: Chose Restaurant B (utility: 73.9 > 61.9)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day56_customer_5: Chose Restaurant B (utility: 79.5 > 59.5)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day56_customer_6: Chose Restaurant B (utility: 122.8 > 93.8)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day56_customer_7: Chose Restaurant B (utility: 76.3 > 39.3)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day56_customer_8: Chose Restaurant B (utility: 119.9 > 79.9)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day56_customer_9: Chose Restaurant B (utility: 95.0 > 67.0)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day56_customer_10: Chose Restaurant B (utility: 92.9 > 66.9)
+  Customer 10: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+
+--- Day 56 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $169.00 revenue
+
+=== DAY 57 ===
+Customers today: 10
+  day57_customer_1: Chose Restaurant B (utility: 86.7 > 70.7)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day57_customer_2: Chose Restaurant B (utility: 91.6 > 72.6)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day57_customer_3: Chose Restaurant B (utility: 73.9 > 73.9)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day57_customer_4: Chose Restaurant B (utility: 102.3 > 87.3)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day57_customer_5: Chose Restaurant B (utility: 89.9 > 62.9)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day57_customer_6: Chose Restaurant B (utility: 116.9 > 95.9)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day57_customer_7: Chose Restaurant B (utility: 123.7 > 107.7)
+  Customer 7: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day57_customer_8: Chose Restaurant B (utility: 107.3 > 79.3)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day57_customer_9: Chose Restaurant B (utility: 38.7 > 16.7)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day57_customer_10: Chose Restaurant B (utility: 100.6 > 71.6)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 57 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $201.00 revenue
+
+=== DAY 58 ===
+Customers today: 10
+  day58_customer_1: Chose Restaurant B (utility: 175.9 > 155.9)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day58_customer_2: Chose Restaurant B (utility: 134.3 > 113.3)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day58_customer_3: Chose Restaurant B (utility: 70.6 > 38.6)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day58_customer_4: Chose Restaurant B (utility: 100.5 > 52.5)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day58_customer_5: Chose Restaurant B (utility: 137.2 > 126.2)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day58_customer_6: Chose Restaurant B (utility: 108.9 > 103.9)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day58_customer_7: Chose Restaurant B (utility: 115.4 > 67.4)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day58_customer_8: Chose Restaurant B (utility: 78.8 > 42.8)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day58_customer_9: Chose Restaurant B (utility: 52.0 > 35.0)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day58_customer_10: Chose Restaurant B (utility: 73.4 > 9.4)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 58 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $137.00 revenue
+
+=== DAY 59 ===
+Customers today: 10
+  day59_customer_1: Chose Restaurant B (utility: 70.0 > 41.0)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day59_customer_2: Chose Restaurant B (utility: 118.3 > 96.3)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day59_customer_3: Chose Restaurant B (utility: 117.5 > 77.5)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day59_customer_4: Chose Restaurant B (utility: 102.6 > 91.6)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day59_customer_5: Chose Restaurant B (utility: 136.9 > 110.9)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day59_customer_6: Chose Restaurant B (utility: 155.4 > 144.4)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day59_customer_7: Chose Restaurant B (utility: 102.6 > 72.6)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day59_customer_8: Chose Restaurant B (utility: 164.5 > 145.5)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day59_customer_9: Chose Restaurant B (utility: 80.2 > 51.2)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day59_customer_10: Chose Restaurant B (utility: 111.3 > 82.3)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+
+--- Day 59 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $170.00 revenue
+
+=== DAY 60 ===
+Customers today: 10
+  day60_customer_1: Chose Restaurant A (utility: 143.4 > 135.4)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day60_customer_2: Chose Restaurant B (utility: 105.6 > 80.6)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day60_customer_3: Chose Restaurant B (utility: 61.1 > 17.1)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day60_customer_4: Chose Restaurant B (utility: 129.6 > 123.6)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day60_customer_5: Chose Restaurant B (utility: 123.9 > 102.9)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day60_customer_6: Chose Restaurant B (utility: 109.3 > 92.3)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day60_customer_7: Chose Restaurant B (utility: 132.4 > 132.4)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day60_customer_8: Chose Restaurant B (utility: 130.0 > 110.0)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day60_customer_9: Chose Restaurant B (utility: 132.0 > 92.0)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day60_customer_10: Chose Restaurant B (utility: 107.7 > 91.7)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 60 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $141.00 revenue
+
+=== DAY 61 ===
+Customers today: 10
+  day61_customer_1: Chose Restaurant B (utility: 87.2 > 60.2)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day61_customer_2: Chose Restaurant B (utility: 102.3 > 62.3)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day61_customer_3: Chose Restaurant B (utility: 127.7 > 93.7)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day61_customer_4: Chose Restaurant B (utility: 114.0 > 60.0)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day61_customer_5: Chose Restaurant B (utility: 189.2 > 148.2)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day61_customer_6: Chose Restaurant B (utility: 40.9 > 33.9)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day61_customer_7: Chose Restaurant B (utility: 113.7 > 82.7)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day61_customer_8: Chose Restaurant A (utility: 60.1 > 56.1)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 2.0 stars
+  day61_customer_9: Chose Restaurant B (utility: 137.2 > 116.2)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day61_customer_10: Chose Restaurant B (utility: 95.6 > 75.6)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 61 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $14.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $157.00 revenue
+
+=== DAY 62 ===
+Customers today: 10
+  day62_customer_1: Chose Restaurant B (utility: 93.3 > 71.3)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day62_customer_2: Chose Restaurant B (utility: 102.8 > 82.8)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day62_customer_3: Chose Restaurant B (utility: 102.4 > 89.4)
+  Customer 3: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day62_customer_4: Chose Restaurant B (utility: 137.3 > 111.3)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day62_customer_5: Chose Restaurant B (utility: 119.2 > 109.2)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day62_customer_6: Chose Restaurant B (utility: 113.0 > 93.0)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day62_customer_7: Chose Restaurant B (utility: 117.4 > 78.4)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day62_customer_8: Chose Restaurant B (utility: 57.2 > 43.2)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day62_customer_9: Chose Restaurant B (utility: 81.1 > 51.1)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day62_customer_10: Chose Restaurant B (utility: 109.9 > 85.9)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 62 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $171.00 revenue
+
+=== DAY 63 ===
+Customers today: 10
+  day63_customer_1: Chose Restaurant B (utility: 104.3 > 104.3)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day63_customer_2: Chose Restaurant B (utility: 155.9 > 147.9)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day63_customer_3: Chose Restaurant B (utility: 62.5 > 37.5)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day63_customer_4: Chose Restaurant B (utility: 88.2 > 82.2)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day63_customer_5: Chose Restaurant B (utility: 116.8 > 105.8)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day63_customer_6: Chose Restaurant B (utility: 189.4 > 183.4)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day63_customer_7: Chose Restaurant B (utility: 125.8 > 67.8)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day63_customer_8: Chose Restaurant B (utility: 79.9 > 61.9)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day63_customer_9: Chose Restaurant B (utility: 127.2 > 111.2)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day63_customer_10: Chose Restaurant B (utility: 68.7 > 22.7)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 63 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $149.00 revenue
+
+=== DAY 64 ===
+Customers today: 10
+  day64_customer_1: Chose Restaurant B (utility: 132.2 > 121.2)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day64_customer_2: Chose Restaurant B (utility: 92.1 > 79.1)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day64_customer_3: Chose Restaurant B (utility: 112.6 > 77.6)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day64_customer_4: Chose Restaurant B (utility: 129.2 > 114.2)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day64_customer_5: Chose Restaurant B (utility: 65.0 > 13.0)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day64_customer_6: Chose Restaurant B (utility: 137.0 > 123.0)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day64_customer_7: Chose Restaurant B (utility: 137.3 > 112.3)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day64_customer_8: Chose Restaurant B (utility: 95.7 > 44.7)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day64_customer_9: Chose Restaurant B (utility: 94.6 > 44.6)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day64_customer_10: Chose Restaurant B (utility: 93.4 > 65.4)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 64 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $196.00 revenue
+
+=== DAY 65 ===
+Customers today: 10
+  day65_customer_1: Chose Restaurant B (utility: 74.1 > 56.1)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day65_customer_2: Chose Restaurant B (utility: 26.7 > 9.7)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day65_customer_3: Chose Restaurant B (utility: 80.1 > 58.1)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day65_customer_4: Chose Restaurant B (utility: 64.1 > 48.1)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day65_customer_5: Chose Restaurant B (utility: 104.4 > 68.4)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day65_customer_6: Chose Restaurant B (utility: 178.0 > 137.0)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day65_customer_7: Chose Restaurant B (utility: 103.2 > 87.2)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day65_customer_8: Chose Restaurant A (utility: 118.7 > 109.7)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day65_customer_9: Chose Restaurant B (utility: 45.2 > 24.2)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day65_customer_10: Chose Restaurant B (utility: 74.0 > 67.0)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 65 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $171.00 revenue
+
+=== DAY 66 ===
+Customers today: 10
+  day66_customer_1: Chose Restaurant B (utility: 91.0 > 60.0)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day66_customer_2: Chose Restaurant B (utility: 133.1 > 127.1)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day66_customer_3: Chose Restaurant B (utility: 59.5 > 17.5)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day66_customer_4: Chose Restaurant B (utility: 117.0 > 97.0)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day66_customer_5: Chose Restaurant B (utility: 121.6 > 105.6)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day66_customer_6: Chose Restaurant B (utility: 101.2 > 73.2)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day66_customer_7: Chose Restaurant B (utility: 77.0 > 43.0)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day66_customer_8: Chose Restaurant B (utility: 157.8 > 156.8)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day66_customer_9: Chose Restaurant B (utility: 92.0 > 89.0)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day66_customer_10: Chose Restaurant B (utility: 116.2 > 66.2)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 66 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $179.00 revenue
+
+=== DAY 67 ===
+Customers today: 10
+  day67_customer_1: Chose Restaurant B (utility: 139.3 > 123.3)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day67_customer_2: Chose Restaurant B (utility: 103.8 > 89.8)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day67_customer_3: Chose Restaurant B (utility: 130.7 > 103.7)
+  Customer 3: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day67_customer_4: Chose Restaurant B (utility: 132.3 > 109.3)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day67_customer_5: Chose Restaurant B (utility: 134.5 > 133.5)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day67_customer_6: Chose Restaurant B (utility: 83.0 > 36.0)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day67_customer_7: Chose Restaurant B (utility: 43.2 > 6.2)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day67_customer_8: Chose Restaurant B (utility: 101.1 > 67.1)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day67_customer_9: Chose Restaurant B (utility: 150.0 > 118.0)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day67_customer_10: Chose Restaurant B (utility: 154.0 > 131.0)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 67 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $168.00 revenue
+
+=== DAY 68 ===
+Customers today: 10
+  day68_customer_1: Chose Restaurant B (utility: 104.7 > 64.7)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day68_customer_2: Chose Restaurant A (utility: 106.4 > 105.4)
+  Customer 2: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 5.0 stars
+  day68_customer_3: Chose Restaurant B (utility: 130.8 > 92.8)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day68_customer_4: Chose Restaurant B (utility: 121.9 > 77.9)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day68_customer_5: Chose Restaurant B (utility: 49.3 > 38.3)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day68_customer_6: Chose Restaurant B (utility: 161.0 > 130.0)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day68_customer_7: Chose Restaurant B (utility: 62.9 > 36.9)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day68_customer_8: Chose Restaurant B (utility: 120.0 > 116.0)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day68_customer_9: Chose Restaurant B (utility: 90.3 > 84.3)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day68_customer_10: Chose Restaurant B (utility: 65.7 > 53.7)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 68 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $17.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $156.00 revenue
+
+=== DAY 69 ===
+Customers today: 10
+  day69_customer_1: Chose Restaurant B (utility: 139.0 > 123.0)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day69_customer_2: Chose Restaurant B (utility: 121.4 > 101.4)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day69_customer_3: Chose Restaurant B (utility: 145.5 > 120.5)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day69_customer_4: Chose Restaurant B (utility: 122.1 > 93.1)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day69_customer_5: Chose Restaurant B (utility: 86.1 > 66.1)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day69_customer_6: Chose Restaurant B (utility: 107.6 > 106.6)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day69_customer_7: Chose Restaurant B (utility: 135.0 > 120.0)
+  Customer 7: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day69_customer_8: Chose Restaurant B (utility: 145.6 > 119.6)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day69_customer_9: Chose Restaurant B (utility: 39.0 > 12.0)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day69_customer_10: Chose Restaurant B (utility: 69.9 > 61.9)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 69 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $165.00 revenue
+
+=== DAY 70 ===
+Customers today: 10
+  day70_customer_1: Chose Restaurant B (utility: 38.7 > 38.7)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day70_customer_2: Chose Restaurant B (utility: 153.0 > 123.0)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day70_customer_3: Chose Restaurant B (utility: 138.8 > 112.8)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day70_customer_4: Chose Restaurant A (utility: 121.2 > 111.2)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 5.0 stars
+  day70_customer_5: Chose Restaurant B (utility: 142.4 > 122.4)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day70_customer_6: Chose Restaurant B (utility: 80.1 > 79.1)
+  Customer 6: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day70_customer_7: Chose Restaurant B (utility: 106.6 > 87.6)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day70_customer_8: Chose Restaurant A (utility: 111.3 > 103.3)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day70_customer_9: Chose Restaurant B (utility: 52.6 > 45.6)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day70_customer_10: Chose Restaurant B (utility: 119.4 > 109.4)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 70 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $24.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $164.00 revenue
+
+=== DAY 71 ===
+Customers today: 10
+  day71_customer_1: Chose Restaurant B (utility: 134.0 > 89.0)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day71_customer_2: Chose Restaurant B (utility: 100.6 > 64.6)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day71_customer_3: Chose Restaurant B (utility: 97.6 > 61.6)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day71_customer_4: Chose Restaurant B (utility: 108.7 > 70.7)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day71_customer_5: Chose Restaurant B (utility: 88.5 > 76.5)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day71_customer_6: Chose Restaurant B (utility: 89.2 > 74.2)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day71_customer_7: Chose Restaurant B (utility: 99.6 > 88.6)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day71_customer_8: Chose Restaurant B (utility: 139.7 > 133.7)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day71_customer_9: Chose Restaurant A (utility: 96.8 > 87.8)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day71_customer_10: Chose Restaurant B (utility: 174.6 > 150.6)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 71 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $167.00 revenue
+
+=== DAY 72 ===
+Customers today: 10
+  day72_customer_1: Chose Restaurant B (utility: 95.0 > 65.0)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day72_customer_2: Chose Restaurant B (utility: 114.9 > 89.9)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day72_customer_3: Chose Restaurant B (utility: 119.1 > 108.1)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day72_customer_4: Chose Restaurant B (utility: 55.4 > 17.4)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day72_customer_5: Chose Restaurant B (utility: 117.2 > 83.2)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day72_customer_6: Chose Restaurant A (utility: 109.1 > 100.1)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day72_customer_7: Chose Restaurant B (utility: 122.8 > 103.8)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day72_customer_8: Chose Restaurant B (utility: 93.4 > 59.4)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day72_customer_9: Chose Restaurant B (utility: 105.1 > 102.1)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day72_customer_10: Chose Restaurant B (utility: 60.2 > 52.2)
+  Customer 10: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+
+--- Day 72 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $173.00 revenue
+
+=== DAY 73 ===
+Customers today: 10
+  day73_customer_1: Chose Restaurant B (utility: 125.5 > 81.5)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day73_customer_2: Chose Restaurant B (utility: 142.9 > 112.9)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day73_customer_3: Chose Restaurant B (utility: 75.3 > 45.3)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day73_customer_4: Chose Restaurant B (utility: 105.0 > 99.0)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day73_customer_5: Chose Restaurant B (utility: 125.7 > 108.7)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day73_customer_6: Chose Restaurant B (utility: 67.0 > 49.0)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day73_customer_7: Chose Restaurant B (utility: 75.2 > 49.2)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day73_customer_8: Chose Restaurant B (utility: 65.6 > 47.6)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day73_customer_9: Chose Restaurant B (utility: 97.7 > 57.7)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day73_customer_10: Chose Restaurant B (utility: 133.8 > 103.8)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 73 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $200.00 revenue
+
+=== DAY 74 ===
+Customers today: 10
+  day74_customer_1: Chose Restaurant B (utility: 125.0 > 123.0)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day74_customer_2: Chose Restaurant A (utility: 102.5 > 97.5)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day74_customer_3: Chose Restaurant B (utility: 78.0 > 44.0)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day74_customer_4: Chose Restaurant B (utility: 127.7 > 123.7)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day74_customer_5: Chose Restaurant B (utility: 63.8 > 29.8)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day74_customer_6: Chose Restaurant B (utility: 89.7 > 72.7)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day74_customer_7: Chose Restaurant A (utility: 101.2 > 98.2)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day74_customer_8: Chose Restaurant B (utility: 95.5 > 75.5)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day74_customer_9: Chose Restaurant B (utility: 110.0 > 104.0)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day74_customer_10: Chose Restaurant B (utility: 138.1 > 109.1)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 74 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $19.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $153.00 revenue
+
+=== DAY 75 ===
+Customers today: 10
+  day75_customer_1: Chose Restaurant B (utility: 81.1 > 64.1)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day75_customer_2: Chose Restaurant B (utility: 122.0 > 89.0)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day75_customer_3: Chose Restaurant B (utility: 89.3 > 67.3)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day75_customer_4: Chose Restaurant B (utility: 190.8 > 161.8)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day75_customer_5: Chose Restaurant B (utility: 78.3 > 58.3)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day75_customer_6: Chose Restaurant B (utility: 127.3 > 113.3)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day75_customer_7: Chose Restaurant B (utility: 44.2 > 12.2)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day75_customer_8: Chose Restaurant B (utility: 89.6 > 74.6)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day75_customer_9: Chose Restaurant B (utility: 60.6 > 22.6)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day75_customer_10: Chose Restaurant B (utility: 107.1 > 70.1)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 75 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $148.00 revenue
+
+=== DAY 76 ===
+Customers today: 10
+  day76_customer_1: Chose Restaurant B (utility: 79.5 > 35.5)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day76_customer_2: Chose Restaurant B (utility: 63.1 > 25.1)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day76_customer_3: Chose Restaurant B (utility: 100.8 > 75.8)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day76_customer_4: Chose Restaurant B (utility: 64.3 > 27.3)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day76_customer_5: Chose Restaurant B (utility: 86.0 > 65.0)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day76_customer_6: Chose Restaurant B (utility: 139.5 > 104.5)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day76_customer_7: Chose Restaurant B (utility: 132.0 > 106.0)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day76_customer_8: Chose Restaurant B (utility: 100.3 > 98.3)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day76_customer_9: Chose Restaurant B (utility: 69.3 > 28.3)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day76_customer_10: Chose Restaurant B (utility: 102.7 > 78.7)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+
+--- Day 76 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $167.00 revenue
+
+=== DAY 77 ===
+Customers today: 10
+  day77_customer_1: Chose Restaurant B (utility: 81.6 > 45.6)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day77_customer_2: Chose Restaurant B (utility: 97.5 > 81.5)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day77_customer_3: Chose Restaurant B (utility: 95.2 > 55.2)
+  Customer 3: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day77_customer_4: Chose Restaurant B (utility: 73.2 > 36.2)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day77_customer_5: Chose Restaurant A (utility: 111.9 > 104.9)
+  Customer 5: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 2.0 stars
+  day77_customer_6: Chose Restaurant B (utility: 98.7 > 72.7)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day77_customer_7: Chose Restaurant B (utility: 111.7 > 96.7)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day77_customer_8: Chose Restaurant B (utility: 105.5 > 100.5)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day77_customer_9: Chose Restaurant B (utility: 93.2 > 34.2)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day77_customer_10: Chose Restaurant B (utility: 154.1 > 138.1)
+  Customer 10: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+
+--- Day 77 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $17.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $155.00 revenue
+
+=== DAY 78 ===
+Customers today: 10
+  day78_customer_1: Chose Restaurant B (utility: 112.3 > 82.3)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day78_customer_2: Chose Restaurant B (utility: 62.3 > 37.3)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day78_customer_3: Chose Restaurant B (utility: 97.2 > 76.2)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day78_customer_4: Chose Restaurant B (utility: 73.8 > 52.8)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day78_customer_5: Chose Restaurant B (utility: 99.1 > 60.1)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day78_customer_6: Chose Restaurant B (utility: 110.5 > 70.5)
+  Customer 6: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day78_customer_7: Chose Restaurant B (utility: 53.6 > 24.6)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day78_customer_8: Chose Restaurant B (utility: 36.6 > 7.6)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day78_customer_9: Chose Restaurant B (utility: 117.2 > 101.2)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day78_customer_10: Chose Restaurant B (utility: 99.2 > 74.2)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+
+--- Day 78 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $185.00 revenue
+
+=== DAY 79 ===
+Customers today: 10
+  day79_customer_1: Chose Restaurant B (utility: 122.1 > 106.1)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day79_customer_2: Chose Restaurant B (utility: 109.5 > 109.5)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day79_customer_3: Chose Restaurant B (utility: 100.9 > 91.9)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day79_customer_4: Chose Restaurant B (utility: 107.5 > 70.5)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day79_customer_5: Chose Restaurant B (utility: 54.5 > 50.5)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day79_customer_6: Chose Restaurant B (utility: 131.2 > 104.2)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day79_customer_7: Chose Restaurant B (utility: 18.8 > -5.2)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day79_customer_8: Chose Restaurant B (utility: 132.7 > 123.7)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day79_customer_9: Chose Restaurant B (utility: 80.5 > 57.5)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day79_customer_10: Chose Restaurant B (utility: 74.9 > 43.9)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+
+--- Day 79 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $183.00 revenue
+
+=== DAY 80 ===
+Customers today: 10
+  day80_customer_1: Chose Restaurant B (utility: 102.5 > 79.5)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day80_customer_2: Chose Restaurant B (utility: 102.9 > 77.9)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day80_customer_3: Chose Restaurant B (utility: 153.4 > 129.4)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day80_customer_4: Chose Restaurant B (utility: 71.0 > 57.0)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day80_customer_5: Chose Restaurant B (utility: 129.0 > 118.0)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day80_customer_6: Chose Restaurant B (utility: 76.5 > 60.5)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day80_customer_7: Chose Restaurant B (utility: 90.6 > 60.6)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day80_customer_8: Chose Restaurant B (utility: 118.9 > 88.9)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day80_customer_9: Chose Restaurant B (utility: 126.8 > 110.8)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day80_customer_10: Chose Restaurant B (utility: 144.8 > 101.8)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 80 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $197.00 revenue
+
+=== DAY 81 ===
+Customers today: 10
+  day81_customer_1: Chose Restaurant B (utility: 75.1 > 61.1)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day81_customer_2: Chose Restaurant B (utility: 94.4 > 76.4)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day81_customer_3: Chose Restaurant B (utility: 109.7 > 75.7)
+  Customer 3: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day81_customer_4: Chose Restaurant B (utility: 154.4 > 99.4)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day81_customer_5: Chose Restaurant B (utility: 144.8 > 101.8)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day81_customer_6: Chose Restaurant B (utility: 91.1 > 82.1)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day81_customer_7: Chose Restaurant B (utility: 66.2 > 51.2)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day81_customer_8: Chose Restaurant B (utility: 97.2 > 58.2)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day81_customer_9: Chose Restaurant B (utility: 141.1 > 106.1)
+  Customer 9: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day81_customer_10: Chose Restaurant B (utility: 80.0 > 66.0)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+
+--- Day 81 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $148.00 revenue
+
+=== DAY 82 ===
+Customers today: 10
+  day82_customer_1: Chose Restaurant B (utility: 126.8 > 119.8)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day82_customer_2: Chose Restaurant B (utility: 119.7 > 105.7)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day82_customer_3: Chose Restaurant B (utility: 129.5 > 89.5)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day82_customer_4: Chose Restaurant B (utility: 44.3 > 5.3)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day82_customer_5: Chose Restaurant B (utility: 76.6 > 65.6)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day82_customer_6: Chose Restaurant B (utility: 90.1 > 74.1)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day82_customer_7: Chose Restaurant B (utility: 56.0 > 40.0)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day82_customer_8: Chose Restaurant B (utility: 43.6 > 24.6)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day82_customer_9: Chose Restaurant B (utility: 137.5 > 127.5)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day82_customer_10: Chose Restaurant A (utility: 72.4 > 67.4)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant A ($18)
+    → Left review: 5.0 stars
+
+--- Day 82 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $18.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $192.00 revenue
+
+=== DAY 83 ===
+Customers today: 10
+  day83_customer_1: Chose Restaurant B (utility: 84.2 > 75.2)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day83_customer_2: Chose Restaurant B (utility: 113.1 > 96.1)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day83_customer_3: Chose Restaurant B (utility: 147.5 > 109.5)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day83_customer_4: Chose Restaurant B (utility: 71.0 > 18.0)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day83_customer_5: Chose Restaurant B (utility: 110.8 > 43.8)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day83_customer_6: Chose Restaurant B (utility: 135.6 > 101.6)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day83_customer_7: Chose Restaurant B (utility: 88.1 > 70.1)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day83_customer_8: Chose Restaurant B (utility: 74.4 > 58.4)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day83_customer_9: Chose Restaurant A (utility: 81.9 > 74.9)
+  Customer 9: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 5.0 stars
+  day83_customer_10: Chose Restaurant B (utility: 129.3 > 92.3)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 83 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $17.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $139.00 revenue
+
+=== DAY 84 ===
+Customers today: 10
+  day84_customer_1: Chose Restaurant B (utility: 63.9 > 25.9)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day84_customer_2: Chose Restaurant B (utility: 102.2 > 82.2)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day84_customer_3: Chose Restaurant B (utility: 112.1 > 82.1)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day84_customer_4: Chose Restaurant B (utility: 94.0 > 78.0)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day84_customer_5: Chose Restaurant B (utility: 108.2 > 102.2)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day84_customer_6: Chose Restaurant B (utility: 71.0 > 49.0)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day84_customer_7: Chose Restaurant B (utility: 102.7 > 78.7)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day84_customer_8: Chose Restaurant B (utility: 120.3 > 96.3)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day84_customer_9: Chose Restaurant B (utility: 83.0 > 64.0)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day84_customer_10: Chose Restaurant B (utility: 83.6 > 40.6)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 84 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $178.00 revenue
+
+=== DAY 85 ===
+Customers today: 10
+  day85_customer_1: Chose Restaurant B (utility: 89.7 > 77.7)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day85_customer_2: Chose Restaurant B (utility: 117.8 > 97.8)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day85_customer_3: Chose Restaurant B (utility: 117.2 > 112.2)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day85_customer_4: Chose Restaurant B (utility: 121.3 > 82.3)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day85_customer_5: Chose Restaurant B (utility: 56.2 > 41.2)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day85_customer_6: Chose Restaurant B (utility: 28.8 > 11.8)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day85_customer_7: Chose Restaurant B (utility: 87.9 > 51.9)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day85_customer_8: Chose Restaurant B (utility: 152.6 > 139.6)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day85_customer_9: Chose Restaurant B (utility: 121.7 > 101.7)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day85_customer_10: Chose Restaurant A (utility: 148.0 > 138.0)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant A ($18)
+    → Left review: 2.0 stars
+
+--- Day 85 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $18.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $169.00 revenue
+
+=== DAY 86 ===
+Customers today: 10
+  day86_customer_1: Chose Restaurant B (utility: 88.7 > 53.7)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day86_customer_2: Chose Restaurant B (utility: 108.1 > 96.1)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day86_customer_3: Chose Restaurant B (utility: 89.8 > 59.8)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day86_customer_4: Chose Restaurant B (utility: 109.7 > 79.7)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day86_customer_5: Chose Restaurant B (utility: 142.0 > 120.0)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day86_customer_6: Chose Restaurant B (utility: 65.8 > 18.8)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day86_customer_7: Chose Restaurant B (utility: 79.9 > 41.9)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day86_customer_8: Chose Restaurant B (utility: 106.5 > 90.5)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day86_customer_9: Chose Restaurant B (utility: 97.7 > 53.7)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day86_customer_10: Chose Restaurant B (utility: 88.6 > 76.6)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 86 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $176.00 revenue
+
+=== DAY 87 ===
+Customers today: 10
+  day87_customer_1: Chose Restaurant B (utility: 61.6 > 30.6)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day87_customer_2: Chose Restaurant B (utility: 34.4 > 17.4)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day87_customer_3: Chose Restaurant B (utility: 46.3 > 24.3)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day87_customer_4: Chose Restaurant B (utility: 84.3 > 37.3)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day87_customer_5: Chose Restaurant B (utility: 79.2 > 42.2)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day87_customer_6: Chose Restaurant B (utility: 116.7 > 86.7)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day87_customer_7: Chose Restaurant B (utility: 149.9 > 134.9)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day87_customer_8: Chose Restaurant B (utility: 83.5 > 42.5)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day87_customer_9: Chose Restaurant B (utility: 123.3 > 103.3)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day87_customer_10: Chose Restaurant B (utility: 136.9 > 82.9)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 87 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $174.00 revenue
+
+=== DAY 88 ===
+Customers today: 10
+  day88_customer_1: Chose Restaurant B (utility: 88.6 > 63.6)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day88_customer_2: Chose Restaurant B (utility: 97.9 > 51.9)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day88_customer_3: Chose Restaurant B (utility: 79.1 > 49.1)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day88_customer_4: Chose Restaurant B (utility: 94.6 > 59.6)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day88_customer_5: Chose Restaurant B (utility: 135.7 > 118.7)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day88_customer_6: Chose Restaurant B (utility: 157.5 > 122.5)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day88_customer_7: Chose Restaurant B (utility: 114.1 > 95.1)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day88_customer_8: Chose Restaurant B (utility: 85.0 > 66.0)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day88_customer_9: Chose Restaurant B (utility: 109.7 > 72.7)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day88_customer_10: Chose Restaurant B (utility: 119.7 > 90.7)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+
+--- Day 88 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $158.00 revenue
+
+=== DAY 89 ===
+Customers today: 10
+  day89_customer_1: Chose Restaurant A (utility: 74.2 > 66.2)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day89_customer_2: Chose Restaurant B (utility: 86.4 > 72.4)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day89_customer_3: Chose Restaurant B (utility: 121.8 > 101.8)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day89_customer_4: Chose Restaurant B (utility: 35.4 > 23.4)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day89_customer_5: Chose Restaurant B (utility: 69.5 > 63.5)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day89_customer_6: Chose Restaurant B (utility: 71.0 > 20.0)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day89_customer_7: Chose Restaurant A (utility: 98.6 > 94.6)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 2.0 stars
+  day89_customer_8: Chose Restaurant B (utility: 120.2 > 85.2)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day89_customer_9: Chose Restaurant B (utility: 158.6 > 139.6)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day89_customer_10: Chose Restaurant B (utility: 91.2 > 52.2)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 89 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $23.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $136.00 revenue
+
+=== DAY 90 ===
+Customers today: 10
+  day90_customer_1: Chose Restaurant B (utility: 85.8 > 79.8)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day90_customer_2: Chose Restaurant B (utility: 118.8 > 95.8)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day90_customer_3: Chose Restaurant B (utility: 108.0 > 90.0)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day90_customer_4: Chose Restaurant B (utility: 134.2 > 96.2)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day90_customer_5: Chose Restaurant B (utility: 74.4 > 27.4)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day90_customer_6: Chose Restaurant B (utility: 70.6 > 33.6)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day90_customer_7: Chose Restaurant B (utility: 103.5 > 64.5)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day90_customer_8: Chose Restaurant B (utility: 91.1 > 75.1)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day90_customer_9: Chose Restaurant B (utility: 147.7 > 145.7)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day90_customer_10: Chose Restaurant B (utility: 85.2 > 64.2)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+
+--- Day 90 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $162.00 revenue
+
+=== DAY 91 ===
+Customers today: 10
+  day91_customer_1: Chose Restaurant B (utility: 84.7 > 51.7)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day91_customer_2: Chose Restaurant B (utility: 118.8 > 91.8)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day91_customer_3: Chose Restaurant A (utility: 72.6 > 53.6)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day91_customer_4: Chose Restaurant B (utility: 77.9 > 59.9)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day91_customer_5: Chose Restaurant B (utility: 105.7 > 89.7)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day91_customer_6: Chose Restaurant B (utility: 118.2 > 77.2)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day91_customer_7: Chose Restaurant B (utility: 100.0 > 89.0)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day91_customer_8: Chose Restaurant B (utility: 41.7 > 14.7)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day91_customer_9: Chose Restaurant B (utility: 89.7 > 53.7)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day91_customer_10: Chose Restaurant B (utility: 134.5 > 114.5)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+
+--- Day 91 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $128.00 revenue
+
+=== DAY 92 ===
+Customers today: 10
+  day92_customer_1: Chose Restaurant B (utility: 106.3 > 63.3)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day92_customer_2: Chose Restaurant B (utility: 100.7 > 70.7)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day92_customer_3: Chose Restaurant A (utility: 131.1 > 128.1)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day92_customer_4: Chose Restaurant B (utility: 88.4 > 84.4)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day92_customer_5: Chose Restaurant B (utility: 121.9 > 102.9)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day92_customer_6: Chose Restaurant B (utility: 71.4 > 26.4)
+  Customer 6: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day92_customer_7: Chose Restaurant A (utility: 63.3 > 57.3)
+  Customer 7: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 5.0 stars
+  day92_customer_8: Chose Restaurant B (utility: 105.3 > 100.3)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day92_customer_9: Chose Restaurant B (utility: 50.0 > 11.0)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day92_customer_10: Chose Restaurant B (utility: 119.5 > 89.5)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+
+--- Day 92 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $27.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $141.00 revenue
+
+=== DAY 93 ===
+Customers today: 10
+  day93_customer_1: Chose Restaurant B (utility: 123.6 > 87.6)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day93_customer_2: Chose Restaurant B (utility: 122.1 > 112.1)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day93_customer_3: Chose Restaurant B (utility: 88.4 > 48.4)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day93_customer_4: Chose Restaurant B (utility: 128.8 > 98.8)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day93_customer_5: Chose Restaurant B (utility: 46.2 > 23.2)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day93_customer_6: Chose Restaurant B (utility: 94.6 > 77.6)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day93_customer_7: Chose Restaurant B (utility: 67.9 > 46.9)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day93_customer_8: Chose Restaurant B (utility: 112.1 > 89.1)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day93_customer_9: Chose Restaurant B (utility: 64.2 > 46.2)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day93_customer_10: Chose Restaurant B (utility: 179.3 > 173.3)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+
+--- Day 93 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $166.00 revenue
+
+=== DAY 94 ===
+Customers today: 10
+  day94_customer_1: Chose Restaurant B (utility: 71.8 > 34.8)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day94_customer_2: Chose Restaurant B (utility: 163.7 > 130.7)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day94_customer_3: Chose Restaurant B (utility: 94.0 > 53.0)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day94_customer_4: Chose Restaurant B (utility: 112.6 > 90.6)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day94_customer_5: Chose Restaurant B (utility: 102.7 > 71.7)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day94_customer_6: Chose Restaurant B (utility: 90.2 > 76.2)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day94_customer_7: Chose Restaurant B (utility: 73.3 > 52.3)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day94_customer_8: Chose Restaurant B (utility: 120.8 > 81.8)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day94_customer_9: Chose Restaurant B (utility: 115.5 > 85.5)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day94_customer_10: Chose Restaurant B (utility: 110.9 > 89.9)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 94 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $161.00 revenue
+
+=== DAY 95 ===
+Customers today: 10
+  day95_customer_1: Chose Restaurant B (utility: 136.3 > 111.3)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day95_customer_2: Chose Restaurant B (utility: 78.0 > 54.0)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day95_customer_3: Chose Restaurant B (utility: 150.4 > 120.4)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day95_customer_4: Chose Restaurant B (utility: 88.7 > 41.7)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day95_customer_5: Chose Restaurant B (utility: 128.6 > 122.6)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day95_customer_6: Chose Restaurant B (utility: 100.1 > 71.1)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day95_customer_7: Chose Restaurant B (utility: 98.8 > 77.8)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day95_customer_8: Chose Restaurant B (utility: 159.5 > 129.5)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day95_customer_9: Chose Restaurant B (utility: 53.6 > 32.6)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day95_customer_10: Chose Restaurant B (utility: 110.7 > 100.7)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+
+--- Day 95 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $161.00 revenue
+
+=== DAY 96 ===
+Customers today: 10
+  day96_customer_1: Chose Restaurant B (utility: 100.6 > 85.6)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day96_customer_2: Chose Restaurant B (utility: 131.7 > 121.7)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day96_customer_3: Chose Restaurant B (utility: 161.1 > 147.1)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day96_customer_4: Chose Restaurant B (utility: 95.1 > 94.1)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day96_customer_5: Chose Restaurant B (utility: 125.8 > 91.8)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day96_customer_6: Chose Restaurant B (utility: 89.0 > 84.0)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day96_customer_7: Chose Restaurant B (utility: 93.5 > 69.5)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day96_customer_8: Chose Restaurant B (utility: 90.6 > 85.6)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day96_customer_9: Chose Restaurant B (utility: 141.3 > 106.3)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day96_customer_10: Chose Restaurant B (utility: 119.2 > 94.2)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 96 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $165.00 revenue
+
+=== DAY 97 ===
+Customers today: 10
+  day97_customer_1: Chose Restaurant B (utility: 89.4 > 63.4)
+  Customer 1: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day97_customer_2: Chose Restaurant B (utility: 103.7 > 98.7)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day97_customer_3: Chose Restaurant B (utility: 35.0 > 13.0)
+  Customer 3: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day97_customer_4: Chose Restaurant B (utility: 97.7 > 96.7)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day97_customer_5: Chose Restaurant B (utility: 87.8 > 52.8)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day97_customer_6: Chose Restaurant B (utility: 127.8 > 102.8)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day97_customer_7: Chose Restaurant B (utility: 77.3 > 35.3)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day97_customer_8: Chose Restaurant B (utility: 133.7 > 113.7)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day97_customer_9: Chose Restaurant B (utility: 109.0 > 79.0)
+  Customer 9: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day97_customer_10: Chose Restaurant B (utility: 91.7 > 51.7)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 97 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $195.00 revenue
+
+=== DAY 98 ===
+Customers today: 10
+  day98_customer_1: Chose Restaurant B (utility: 101.9 > 80.9)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day98_customer_2: Chose Restaurant B (utility: 88.4 > 72.4)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day98_customer_3: Chose Restaurant B (utility: 99.1 > 56.1)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day98_customer_4: Chose Restaurant B (utility: 77.7 > 77.7)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day98_customer_5: Chose Restaurant B (utility: 121.5 > 91.5)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day98_customer_6: Chose Restaurant B (utility: 115.3 > 90.3)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day98_customer_7: Chose Restaurant B (utility: 144.5 > 130.5)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day98_customer_8: Chose Restaurant B (utility: 128.8 > 98.8)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day98_customer_9: Chose Restaurant B (utility: 98.3 > 78.3)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day98_customer_10: Chose Restaurant B (utility: 109.2 > 85.2)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 98 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $198.00 revenue
+
+=== DAY 99 ===
+Customers today: 10
+  day99_customer_1: Chose Restaurant B (utility: 112.0 > 83.0)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day99_customer_2: Chose Restaurant B (utility: 160.7 > 126.7)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day99_customer_3: Chose Restaurant B (utility: 93.2 > 89.2)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day99_customer_4: Chose Restaurant B (utility: 91.0 > 70.0)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day99_customer_5: Chose Restaurant B (utility: 100.9 > 79.9)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 2.0 stars
+  day99_customer_6: Chose Restaurant B (utility: 41.0 > 14.0)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day99_customer_7: Chose Restaurant B (utility: 61.3 > 37.3)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day99_customer_8: Chose Restaurant B (utility: 122.6 > 109.6)
+  Customer 8: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day99_customer_9: Chose Restaurant B (utility: 116.6 > 78.6)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day99_customer_10: Chose Restaurant B (utility: 85.6 > 75.6)
+  Customer 10: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+
+--- Day 99 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $193.00 revenue
+
+=== DAY 100 ===
+Customers today: 10
+  day100_customer_1: Chose Restaurant B (utility: 147.1 > 119.1)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day100_customer_2: Chose Restaurant B (utility: 97.2 > 68.2)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day100_customer_3: Chose Restaurant B (utility: 73.7 > 59.7)
+  Customer 3: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day100_customer_4: Chose Restaurant A (utility: 81.3 > 80.3)
+  Customer 4: PURCHASED Chicken Parmesan Pasta at Restaurant A ($23)
+    → Left review: 5.0 stars
+  day100_customer_5: Chose Restaurant A (utility: 116.6 > 107.6)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 5.0 stars
+  day100_customer_6: Chose Restaurant B (utility: 86.0 > 76.0)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day100_customer_7: Chose Restaurant B (utility: 97.8 > 83.8)
+  Customer 7: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day100_customer_8: Chose Restaurant B (utility: 82.0 > 76.0)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day100_customer_9: Chose Restaurant B (utility: 102.6 > 75.6)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day100_customer_10: Chose Restaurant B (utility: 123.3 > 93.3)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 100 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $37.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $142.00 revenue
+
+=== SIMULATION COMPLETED ===
+Total customers processed: 1000
+Console log saved to: data/outputs/simulation_random_highest_nov11/simulation_console_log.txt
+

@@ -1,0 +1,3709 @@
+=== COMPETITIVE CoNF SIMULATION STARTED ===
+Timestamp: 2025-11-06T21:58:09.486793
+Total customers: 1000 over 100 days
+Base customers per day: 10
+
+=== DAY 1 ===
+Customers today: 10
+  day1_customer_1: Chose Restaurant B (utility: -15.8 > -68.8)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 79.2 <= Price $95
+  day1_customer_2: Chose Restaurant B (utility: 22.2 > -32.8)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day1_customer_3: Chose Restaurant B (utility: 60.1 > 25.1)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day1_customer_4: Chose Restaurant B (utility: -34.5 > -82.5)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 50.5 <= Price $85
+  day1_customer_5: Chose Restaurant B (utility: 53.2 > 33.2)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day1_customer_6: Chose Restaurant B (utility: 63.0 > 8.0)
+  Customer 6: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day1_customer_7: Chose Restaurant B (utility: 101.6 > -8.4)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day1_customer_8: Chose Restaurant B (utility: 2.3 > -30.7)
+  Customer 8: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day1_customer_9: Chose Restaurant A (utility: 76.9 > 41.9)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day1_customer_10: Chose Restaurant B (utility: 59.5 > 9.5)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+
+--- Day 1 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $580.00 revenue
+
+=== DAY 2 ===
+Customers today: 10
+  day2_customer_1: Chose Restaurant B (utility: -10.3 > -58.3)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 79.7 <= Price $90
+  day2_customer_2: Chose Restaurant B (utility: 28.4 > -51.6)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day2_customer_3: Chose Restaurant B (utility: 84.2 > 34.2)
+  Customer 3: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day2_customer_4: Chose Restaurant B (utility: 51.7 > 11.7)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day2_customer_5: Chose Restaurant B (utility: 24.1 > -50.9)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day2_customer_6: Chose Restaurant A (utility: 62.8 > 47.8)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day2_customer_7: Chose Restaurant B (utility: -2.4 > -32.4)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 107.6 <= Price $110
+  day2_customer_8: Chose Restaurant B (utility: -13.3 > -43.3)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 106.7 <= Price $120
+  day2_customer_9: Chose Restaurant A (utility: -33.4 > -38.4)
+  Customer 9: NO PURCHASE at Restaurant A
+    → Valuation -8.4 <= Price $25
+  day2_customer_10: Chose Restaurant B (utility: 56.5 > -98.5)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+
+--- Day 2 Summary ---
+Restaurant A: 2 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 8 visitors, 5 purchases, $380.00 revenue
+
+=== DAY 3 ===
+Customers today: 10
+  day3_customer_1: Chose Restaurant B (utility: 77.3 > 12.3)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day3_customer_2: Chose Restaurant B (utility: 21.1 > -63.9)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day3_customer_3: Chose Restaurant B (utility: 41.1 > -18.9)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day3_customer_4: Chose Restaurant B (utility: 82.1 > 22.1)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day3_customer_5: Chose Restaurant B (utility: 68.9 > 28.9)
+  Customer 5: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day3_customer_6: Chose Restaurant B (utility: 2.9 > -42.1)
+  Customer 6: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day3_customer_7: Chose Restaurant B (utility: -24.6 > -64.6)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 85.4 <= Price $110
+  day3_customer_8: Chose Restaurant A (utility: 41.3 > 6.3)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day3_customer_9: Chose Restaurant B (utility: 65.7 > 65.7)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day3_customer_10: Chose Restaurant B (utility: 51.1 > 6.1)
+  Customer 10: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+
+--- Day 3 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 8 purchases, $770.00 revenue
+
+=== DAY 4 ===
+Customers today: 10
+  day4_customer_1: Chose Restaurant B (utility: 2.7 > -57.3)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day4_customer_2: Chose Restaurant B (utility: -18.9 > -78.9)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 71.1 <= Price $90
+  day4_customer_3: Chose Restaurant B (utility: -5.0 > -60.0)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 85.0 <= Price $90
+  day4_customer_4: Chose Restaurant B (utility: 8.6 > -31.4)
+  Customer 4: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day4_customer_5: Chose Restaurant B (utility: 13.5 > -31.5)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day4_customer_6: Chose Restaurant A (utility: 9.3 > -0.7)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day4_customer_7: Chose Restaurant B (utility: 47.7 > -32.3)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day4_customer_8: Chose Restaurant B (utility: 62.6 > 22.6)
+  Customer 8: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day4_customer_9: Chose Restaurant A (utility: 15.0 > -2.0)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day4_customer_10: Chose Restaurant A (utility: 38.4 > 23.4)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+
+--- Day 4 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $135.00 revenue
+Restaurant B: 7 visitors, 5 purchases, $510.00 revenue
+
+=== DAY 5 ===
+Customers today: 10
+  day5_customer_1: Chose Restaurant A (utility: 34.5 > 24.5)
+  Customer 1: PURCHASED Lobster Thermidor at Restaurant A ($110)
+    → Left review: 5.0 stars
+  day5_customer_2: Chose Restaurant B (utility: 23.3 > 3.3)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day5_customer_3: Chose Restaurant A (utility: 86.0 > -9.0)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day5_customer_4: Chose Restaurant B (utility: 64.8 > -0.2)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day5_customer_5: Chose Restaurant A (utility: -15.4 > -35.4)
+  Customer 5: NO PURCHASE at Restaurant A
+    → Valuation 74.6 <= Price $90
+  day5_customer_6: Chose Restaurant A (utility: 48.2 > 38.2)
+  Customer 6: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 2.0 stars
+  day5_customer_7: Chose Restaurant B (utility: 53.5 > 8.5)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day5_customer_8: Chose Restaurant A (utility: 37.3 > 27.3)
+  Customer 8: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 5.0 stars
+  day5_customer_9: Chose Restaurant A (utility: 100.7 > 35.7)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day5_customer_10: Chose Restaurant B (utility: 20.6 > -9.4)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+
+--- Day 5 Summary ---
+Restaurant A: 6 visitors, 5 purchases, $330.00 revenue
+Restaurant B: 4 visitors, 4 purchases, $300.00 revenue
+
+=== DAY 6 ===
+Customers today: 10
+  day6_customer_1: Chose Restaurant B (utility: -37.1 > -79.1)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 52.9 <= Price $90
+  day6_customer_2: Chose Restaurant B (utility: 74.9 > 34.9)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day6_customer_3: Chose Restaurant B (utility: 67.1 > -24.9)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day6_customer_4: Chose Restaurant B (utility: 26.8 > 1.8)
+  Customer 4: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day6_customer_5: Chose Restaurant B (utility: 3.3 > -36.7)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day6_customer_6: Chose Restaurant B (utility: 40.1 > 0.1)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day6_customer_7: Chose Restaurant B (utility: -7.7 > -17.7)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 102.3 <= Price $110
+  day6_customer_8: Chose Restaurant B (utility: -0.2 > -22.2)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 89.8 <= Price $90
+  day6_customer_9: Chose Restaurant B (utility: -33.0 > -45.0)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 67.0 <= Price $100
+  day6_customer_10: Chose Restaurant A (utility: 38.8 > 0.8)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+
+--- Day 6 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 5 purchases, $385.00 revenue
+
+=== DAY 7 ===
+Customers today: 10
+  day7_customer_1: Chose Restaurant A (utility: 136.0 > 76.0)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day7_customer_2: Chose Restaurant B (utility: 125.0 > 50.0)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day7_customer_3: Chose Restaurant B (utility: 31.5 > -3.5)
+  Customer 3: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day7_customer_4: Chose Restaurant B (utility: 31.0 > 21.0)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day7_customer_5: Chose Restaurant A (utility: 89.5 > 24.5)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day7_customer_6: Chose Restaurant B (utility: 55.7 > 30.7)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day7_customer_7: Chose Restaurant B (utility: 8.1 > -8.9)
+  Customer 7: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day7_customer_8: Chose Restaurant B (utility: 86.3 > 46.3)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day7_customer_9: Chose Restaurant B (utility: 7.7 > -2.3)
+  Customer 9: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day7_customer_10: Chose Restaurant A (utility: -16.2 > -29.2)
+  Customer 10: NO PURCHASE at Restaurant A
+    → Valuation 68.8 <= Price $85
+
+--- Day 7 Summary ---
+Restaurant A: 3 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 7 visitors, 7 purchases, $585.00 revenue
+
+=== DAY 8 ===
+Customers today: 10
+  day8_customer_1: Chose Restaurant B (utility: 29.9 > 4.9)
+  Customer 1: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day8_customer_2: Chose Restaurant B (utility: 41.0 > 11.0)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day8_customer_3: Chose Restaurant B (utility: 1.9 > -18.1)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day8_customer_4: Chose Restaurant A (utility: -69.3 > -72.3)
+  Customer 4: NO PURCHASE at Restaurant A
+    → Valuation 25.7 <= Price $95
+  day8_customer_5: Chose Restaurant B (utility: 0.2 > -9.8)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day8_customer_6: Chose Restaurant B (utility: 45.5 > 5.5)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day8_customer_7: Chose Restaurant B (utility: 49.3 > 34.3)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day8_customer_8: Chose Restaurant B (utility: 26.6 > -3.4)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day8_customer_9: Chose Restaurant B (utility: 46.9 > 11.9)
+  Customer 9: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day8_customer_10: Chose Restaurant B (utility: 44.9 > 34.9)
+  Customer 10: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+
+--- Day 8 Summary ---
+Restaurant A: 1 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $830.00 revenue
+
+=== DAY 9 ===
+Customers today: 10
+  day9_customer_1: Chose Restaurant A (utility: 38.3 > 5.3)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day9_customer_2: Chose Restaurant B (utility: 50.4 > 45.4)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day9_customer_3: Chose Restaurant B (utility: 116.6 > 1.6)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day9_customer_4: Chose Restaurant B (utility: 40.0 > -15.0)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day9_customer_5: Chose Restaurant B (utility: 114.1 > 39.1)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day9_customer_6: Chose Restaurant B (utility: 21.9 > -3.1)
+  Customer 6: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day9_customer_7: Chose Restaurant A (utility: 46.3 > 41.3)
+  Customer 7: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day9_customer_8: Chose Restaurant A (utility: 3.8 > -1.2)
+  Customer 8: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day9_customer_9: Chose Restaurant B (utility: 24.0 > -1.0)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day9_customer_10: Chose Restaurant A (utility: 109.9 > 24.9)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+
+--- Day 9 Summary ---
+Restaurant A: 4 visitors, 4 purchases, $240.00 revenue
+Restaurant B: 6 visitors, 6 purchases, $415.00 revenue
+
+=== DAY 10 ===
+Customers today: 10
+  day10_customer_1: Chose Restaurant B (utility: 121.4 > 46.4)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day10_customer_2: Chose Restaurant A (utility: 117.2 > 22.2)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day10_customer_3: Chose Restaurant B (utility: 35.5 > 25.5)
+  Customer 3: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day10_customer_4: Chose Restaurant B (utility: -46.4 > -101.4)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 38.6 <= Price $85
+  day10_customer_5: Chose Restaurant A (utility: 48.7 > 43.7)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day10_customer_6: Chose Restaurant B (utility: 39.1 > 19.1)
+  Customer 6: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day10_customer_7: Chose Restaurant B (utility: -56.4 > -68.4)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 63.6 <= Price $120
+  day10_customer_8: Chose Restaurant B (utility: 77.0 > -3.0)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day10_customer_9: Chose Restaurant B (utility: 47.0 > -13.0)
+  Customer 9: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day10_customer_10: Chose Restaurant A (utility: -18.6 > -26.6)
+  Customer 10: NO PURCHASE at Restaurant A
+    → Valuation 71.4 <= Price $90
+
+--- Day 10 Summary ---
+Restaurant A: 3 visitors, 2 purchases, $110.00 revenue
+Restaurant B: 7 visitors, 5 purchases, $335.00 revenue
+
+=== DAY 11 ===
+Customers today: 10
+  day11_customer_1: Chose Restaurant B (utility: 8.3 > -21.7)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day11_customer_2: Chose Restaurant B (utility: 134.1 > 44.1)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day11_customer_3: Chose Restaurant B (utility: -1.3 > -1.3)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 108.7 <= Price $110
+  day11_customer_4: Chose Restaurant B (utility: 52.1 > 22.1)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day11_customer_5: Chose Restaurant B (utility: 7.2 > -39.8)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day11_customer_6: Chose Restaurant B (utility: 46.1 > 26.1)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day11_customer_7: Chose Restaurant B (utility: 33.8 > 3.8)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day11_customer_8: Chose Restaurant B (utility: 14.1 > 14.1)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day11_customer_9: Chose Restaurant B (utility: -17.5 > -27.5)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 102.5 <= Price $120
+  day11_customer_10: Chose Restaurant A (utility: 25.3 > 20.3)
+  Customer 10: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+
+--- Day 11 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $95.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $585.00 revenue
+
+=== DAY 12 ===
+Customers today: 10
+  day12_customer_1: Chose Restaurant B (utility: 73.5 > 53.5)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day12_customer_2: Chose Restaurant B (utility: 37.9 > 37.9)
+  Customer 2: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day12_customer_3: Chose Restaurant B (utility: 134.1 > 44.1)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day12_customer_4: Chose Restaurant B (utility: 77.8 > 57.8)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day12_customer_5: Chose Restaurant B (utility: 64.7 > 59.7)
+  Customer 5: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day12_customer_6: Chose Restaurant B (utility: 104.9 > 14.9)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day12_customer_7: Chose Restaurant B (utility: -7.3 > -7.3)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 102.7 <= Price $110
+  day12_customer_8: Chose Restaurant B (utility: 96.9 > 21.9)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day12_customer_9: Chose Restaurant A (utility: 1.5 > -8.5)
+  Customer 9: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 2.0 stars
+  day12_customer_10: Chose Restaurant B (utility: 29.2 > 4.2)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 12 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $90.00 revenue
+Restaurant B: 9 visitors, 8 purchases, $490.00 revenue
+
+=== DAY 13 ===
+Customers today: 10
+  day13_customer_1: Chose Restaurant B (utility: -0.4 > -27.4)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 89.6 <= Price $90
+  day13_customer_2: Chose Restaurant B (utility: -0.3 > -10.3)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 119.7 <= Price $120
+  day13_customer_3: Chose Restaurant B (utility: 21.7 > 1.7)
+  Customer 3: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day13_customer_4: Chose Restaurant B (utility: 48.4 > 23.4)
+  Customer 4: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day13_customer_5: Chose Restaurant A (utility: 26.3 > 21.3)
+  Customer 5: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day13_customer_6: Chose Restaurant B (utility: 71.3 > 31.3)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day13_customer_7: Chose Restaurant B (utility: 35.4 > 35.4)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day13_customer_8: Chose Restaurant B (utility: 53.1 > -1.9)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day13_customer_9: Chose Restaurant B (utility: 3.1 > -16.9)
+  Customer 9: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day13_customer_10: Chose Restaurant B (utility: -10.6 > -20.6)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 109.4 <= Price $120
+
+--- Day 13 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $95.00 revenue
+Restaurant B: 9 visitors, 6 purchases, $570.00 revenue
+
+=== DAY 14 ===
+Customers today: 10
+  day14_customer_1: Chose Restaurant B (utility: 28.0 > 23.0)
+  Customer 1: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day14_customer_2: Chose Restaurant B (utility: -2.9 > -22.9)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 107.1 <= Price $110
+  day14_customer_3: Chose Restaurant A (utility: 80.5 > 40.5)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day14_customer_4: Chose Restaurant B (utility: -8.9 > -15.9)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 86.1 <= Price $95
+  day14_customer_5: Chose Restaurant B (utility: 44.1 > -15.9)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day14_customer_6: Chose Restaurant B (utility: 39.3 > 19.3)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day14_customer_7: Chose Restaurant B (utility: 42.0 > 32.0)
+  Customer 7: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day14_customer_8: Chose Restaurant B (utility: 66.3 > 41.3)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day14_customer_9: Chose Restaurant B (utility: -9.7 > -21.7)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 80.3 <= Price $90
+  day14_customer_10: Chose Restaurant B (utility: 8.5 > -21.5)
+  Customer 10: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+
+--- Day 14 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 6 purchases, $545.00 revenue
+
+=== DAY 15 ===
+Customers today: 10
+  day15_customer_1: Chose Restaurant B (utility: 67.1 > 17.1)
+  Customer 1: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day15_customer_2: Chose Restaurant B (utility: 4.5 > -27.5)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day15_customer_3: Chose Restaurant A (utility: 26.8 > 21.8)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+  day15_customer_4: Chose Restaurant B (utility: 54.2 > 44.2)
+  Customer 4: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day15_customer_5: Chose Restaurant B (utility: 71.6 > 49.6)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day15_customer_6: Chose Restaurant A (utility: 42.0 > 9.0)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day15_customer_7: Chose Restaurant B (utility: 37.5 > -2.5)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day15_customer_8: Chose Restaurant B (utility: -24.9 > -31.9)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 85.1 <= Price $110
+  day15_customer_9: Chose Restaurant B (utility: 45.4 > 10.4)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day15_customer_10: Chose Restaurant B (utility: -8.6 > -25.6)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 91.4 <= Price $100
+
+--- Day 15 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $110.00 revenue
+Restaurant B: 8 visitors, 6 purchases, $450.00 revenue
+
+=== DAY 16 ===
+Customers today: 10
+  day16_customer_1: Chose Restaurant B (utility: 22.7 > -12.3)
+  Customer 1: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day16_customer_2: Chose Restaurant B (utility: -37.3 > -49.3)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 72.7 <= Price $110
+  day16_customer_3: Chose Restaurant B (utility: 57.7 > 37.7)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day16_customer_4: Chose Restaurant B (utility: 23.8 > -11.2)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day16_customer_5: Chose Restaurant B (utility: 97.4 > 7.4)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day16_customer_6: Chose Restaurant A (utility: -17.8 > -25.8)
+  Customer 6: NO PURCHASE at Restaurant A
+    → Valuation 72.2 <= Price $90
+  day16_customer_7: Chose Restaurant B (utility: 22.6 > 7.6)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day16_customer_8: Chose Restaurant B (utility: 8.6 > -21.4)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day16_customer_9: Chose Restaurant B (utility: 10.4 > -4.6)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day16_customer_10: Chose Restaurant B (utility: 117.6 > 37.6)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+
+--- Day 16 Summary ---
+Restaurant A: 1 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 9 visitors, 8 purchases, $585.00 revenue
+
+=== DAY 17 ===
+Customers today: 10
+  day17_customer_1: Chose Restaurant B (utility: 7.7 > -2.3)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day17_customer_2: Chose Restaurant B (utility: 53.2 > 23.2)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day17_customer_3: Chose Restaurant B (utility: 41.2 > 36.2)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day17_customer_4: Chose Restaurant B (utility: 50.0 > 35.0)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day17_customer_5: Chose Restaurant B (utility: 59.5 > -27.5)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day17_customer_6: Chose Restaurant A (utility: 71.9 > -3.1)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day17_customer_7: Chose Restaurant B (utility: 28.2 > -26.8)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day17_customer_8: Chose Restaurant B (utility: 12.3 > -14.7)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day17_customer_9: Chose Restaurant B (utility: -29.5 > -41.5)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 90.5 <= Price $120
+  day17_customer_10: Chose Restaurant B (utility: 66.7 > 6.7)
+  Customer 10: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+
+--- Day 17 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 8 purchases, $640.00 revenue
+
+=== DAY 18 ===
+Customers today: 10
+  day18_customer_1: Chose Restaurant B (utility: 1.7 > -25.3)
+  Customer 1: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day18_customer_2: Chose Restaurant B (utility: 18.8 > 3.8)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day18_customer_3: Chose Restaurant B (utility: 5.4 > -39.6)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day18_customer_4: Chose Restaurant B (utility: 143.0 > 28.0)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day18_customer_5: Chose Restaurant A (utility: 22.2 > 12.2)
+  Customer 5: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 2.0 stars
+  day18_customer_6: Chose Restaurant B (utility: 76.3 > 56.3)
+  Customer 6: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day18_customer_7: Chose Restaurant B (utility: 67.8 > 52.8)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day18_customer_8: Chose Restaurant A (utility: 30.6 > 20.6)
+  Customer 8: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day18_customer_9: Chose Restaurant B (utility: 84.1 > 59.1)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day18_customer_10: Chose Restaurant B (utility: 31.6 > 6.6)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 18 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $170.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $690.00 revenue
+
+=== DAY 19 ===
+Customers today: 10
+  day19_customer_1: Chose Restaurant B (utility: 17.5 > 7.5)
+  Customer 1: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day19_customer_2: Chose Restaurant A (utility: 79.1 > 29.1)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day19_customer_3: Chose Restaurant B (utility: 11.4 > -8.6)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day19_customer_4: Chose Restaurant B (utility: 35.2 > 20.2)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day19_customer_5: Chose Restaurant A (utility: 44.5 > 39.5)
+  Customer 5: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day19_customer_6: Chose Restaurant A (utility: 81.7 > 66.7)
+  Customer 6: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day19_customer_7: Chose Restaurant B (utility: 127.9 > 32.9)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day19_customer_8: Chose Restaurant A (utility: -26.7 > -36.7)
+  Customer 8: NO PURCHASE at Restaurant A
+    → Valuation 73.3 <= Price $100
+  day19_customer_9: Chose Restaurant A (utility: 30.9 > -9.1)
+  Customer 9: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day19_customer_10: Chose Restaurant B (utility: 36.7 > -3.3)
+  Customer 10: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+
+--- Day 19 Summary ---
+Restaurant A: 5 visitors, 4 purchases, $280.00 revenue
+Restaurant B: 5 visitors, 5 purchases, $425.00 revenue
+
+=== DAY 20 ===
+Customers today: 10
+  day20_customer_1: Chose Restaurant A (utility: 109.6 > 44.6)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day20_customer_2: Chose Restaurant B (utility: -65.1 > -105.1)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 34.9 <= Price $100
+  day20_customer_3: Chose Restaurant B (utility: -2.1 > -12.1)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 107.9 <= Price $110
+  day20_customer_4: Chose Restaurant B (utility: -29.0 > -51.0)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 91.0 <= Price $120
+  day20_customer_5: Chose Restaurant B (utility: 16.9 > 1.9)
+  Customer 5: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day20_customer_6: Chose Restaurant A (utility: 84.9 > 49.9)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day20_customer_7: Chose Restaurant B (utility: 25.0 > -25.0)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day20_customer_8: Chose Restaurant B (utility: 29.2 > -25.8)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day20_customer_9: Chose Restaurant B (utility: 27.7 > 2.7)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day20_customer_10: Chose Restaurant A (utility: 1.8 > -3.2)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+
+--- Day 20 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $135.00 revenue
+Restaurant B: 7 visitors, 4 purchases, $345.00 revenue
+
+=== DAY 21 ===
+Customers today: 10
+  day21_customer_1: Chose Restaurant B (utility: 45.1 > -4.9)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day21_customer_2: Chose Restaurant B (utility: 39.4 > -15.6)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day21_customer_3: Chose Restaurant B (utility: 22.4 > -12.6)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day21_customer_4: Chose Restaurant B (utility: 88.1 > -16.9)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day21_customer_5: Chose Restaurant B (utility: 23.6 > -89.4)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day21_customer_6: Chose Restaurant A (utility: 71.9 > 51.9)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day21_customer_7: Chose Restaurant B (utility: 4.4 > -0.6)
+  Customer 7: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day21_customer_8: Chose Restaurant A (utility: 40.2 > 25.2)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day21_customer_9: Chose Restaurant B (utility: 11.8 > 6.8)
+  Customer 9: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day21_customer_10: Chose Restaurant B (utility: 45.5 > -14.5)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+
+--- Day 21 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $640.00 revenue
+
+=== DAY 22 ===
+Customers today: 10
+  day22_customer_1: Chose Restaurant B (utility: 80.7 > -14.3)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day22_customer_2: Chose Restaurant B (utility: 29.0 > -36.0)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day22_customer_3: Chose Restaurant B (utility: 16.8 > -23.2)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day22_customer_4: Chose Restaurant B (utility: -39.8 > -77.8)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 80.2 <= Price $120
+  day22_customer_5: Chose Restaurant B (utility: 10.6 > -9.4)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day22_customer_6: Chose Restaurant B (utility: -9.2 > -47.2)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 80.8 <= Price $90
+  day22_customer_7: Chose Restaurant B (utility: 50.5 > 30.5)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day22_customer_8: Chose Restaurant B (utility: 65.0 > -5.0)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day22_customer_9: Chose Restaurant B (utility: 63.6 > 3.6)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day22_customer_10: Chose Restaurant B (utility: 18.1 > -31.9)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+
+--- Day 22 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 8 purchases, $670.00 revenue
+
+=== DAY 23 ===
+Customers today: 10
+  day23_customer_1: Chose Restaurant B (utility: 4.6 > -55.4)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day23_customer_2: Chose Restaurant A (utility: -35.9 > -90.9)
+  Customer 2: NO PURCHASE at Restaurant A
+    → Valuation -10.9 <= Price $25
+  day23_customer_3: Chose Restaurant B (utility: -39.3 > -52.3)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 70.7 <= Price $110
+  day23_customer_4: Chose Restaurant A (utility: 6.5 > -15.5)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day23_customer_5: Chose Restaurant B (utility: -23.9 > -25.9)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 96.1 <= Price $120
+  day23_customer_6: Chose Restaurant B (utility: 74.2 > 34.2)
+  Customer 6: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day23_customer_7: Chose Restaurant A (utility: 45.0 > 40.0)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day23_customer_8: Chose Restaurant A (utility: 86.3 > 76.3)
+  Customer 8: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 5.0 stars
+  day23_customer_9: Chose Restaurant A (utility: 3.0 > -7.0)
+  Customer 9: PURCHASED Beef Bourguignon at Restaurant A ($100)
+    → Left review: 2.0 stars
+  day23_customer_10: Chose Restaurant B (utility: 7.5 > -27.5)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 23 Summary ---
+Restaurant A: 5 visitors, 4 purchases, $300.00 revenue
+Restaurant B: 5 visitors, 3 purchases, $275.00 revenue
+
+=== DAY 24 ===
+Customers today: 10
+  day24_customer_1: Chose Restaurant A (utility: 0.7 > -14.3)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day24_customer_2: Chose Restaurant A (utility: 47.3 > -5.7)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day24_customer_3: Chose Restaurant B (utility: 68.5 > 3.5)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day24_customer_4: Chose Restaurant A (utility: 90.5 > 60.5)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day24_customer_5: Chose Restaurant B (utility: 32.5 > -27.5)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day24_customer_6: Chose Restaurant B (utility: 25.8 > -9.2)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day24_customer_7: Chose Restaurant B (utility: -30.4 > -68.4)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 79.6 <= Price $110
+  day24_customer_8: Chose Restaurant B (utility: -9.5 > -34.5)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 100.5 <= Price $110
+  day24_customer_9: Chose Restaurant B (utility: 45.7 > 5.7)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day24_customer_10: Chose Restaurant B (utility: 27.6 > -12.4)
+  Customer 10: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+
+--- Day 24 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $135.00 revenue
+Restaurant B: 7 visitors, 5 purchases, $470.00 revenue
+
+=== DAY 25 ===
+Customers today: 10
+  day25_customer_1: Chose Restaurant B (utility: -43.6 > -56.6)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 76.4 <= Price $120
+  day25_customer_2: Chose Restaurant B (utility: 69.2 > 39.2)
+  Customer 2: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day25_customer_3: Chose Restaurant A (utility: 88.7 > 53.7)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day25_customer_4: Chose Restaurant B (utility: 1.0 > -32.0)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day25_customer_5: Chose Restaurant B (utility: 49.7 > -0.3)
+  Customer 5: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day25_customer_6: Chose Restaurant B (utility: 48.3 > 13.3)
+  Customer 6: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day25_customer_7: Chose Restaurant A (utility: 79.4 > 59.4)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day25_customer_8: Chose Restaurant B (utility: 38.6 > 23.6)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day25_customer_9: Chose Restaurant B (utility: 16.9 > -3.1)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day25_customer_10: Chose Restaurant A (utility: -63.8 > -66.8)
+  Customer 10: NO PURCHASE at Restaurant A
+    → Valuation 31.2 <= Price $95
+
+--- Day 25 Summary ---
+Restaurant A: 3 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $570.00 revenue
+
+=== DAY 26 ===
+Customers today: 10
+  day26_customer_1: Chose Restaurant A (utility: -19.8 > -74.8)
+  Customer 1: NO PURCHASE at Restaurant A
+    → Valuation 5.2 <= Price $25
+  day26_customer_2: Chose Restaurant A (utility: -10.1 > -23.1)
+  Customer 2: NO PURCHASE at Restaurant A
+    → Valuation 74.9 <= Price $85
+  day26_customer_3: Chose Restaurant B (utility: -29.1 > -51.1)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 55.9 <= Price $85
+  day26_customer_4: Chose Restaurant B (utility: 56.2 > 36.2)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day26_customer_5: Chose Restaurant B (utility: -43.2 > -65.2)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 41.8 <= Price $85
+  day26_customer_6: Chose Restaurant B (utility: 23.4 > 3.4)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day26_customer_7: Chose Restaurant B (utility: 0.1 > -4.9)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day26_customer_8: Chose Restaurant B (utility: 77.6 > 47.6)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day26_customer_9: Chose Restaurant B (utility: 120.6 > 35.6)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day26_customer_10: Chose Restaurant B (utility: 42.0 > 7.0)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+
+--- Day 26 Summary ---
+Restaurant A: 2 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 8 visitors, 6 purchases, $475.00 revenue
+
+=== DAY 27 ===
+Customers today: 10
+  day27_customer_1: Chose Restaurant B (utility: 26.7 > 26.7)
+  Customer 1: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day27_customer_2: Chose Restaurant B (utility: -11.1 > -43.1)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 88.9 <= Price $100
+  day27_customer_3: Chose Restaurant B (utility: 87.4 > 7.4)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day27_customer_4: Chose Restaurant A (utility: 27.7 > -20.3)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day27_customer_5: Chose Restaurant B (utility: 55.2 > 30.2)
+  Customer 5: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day27_customer_6: Chose Restaurant A (utility: 94.9 > 9.9)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day27_customer_7: Chose Restaurant A (utility: 62.5 > -22.5)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day27_customer_8: Chose Restaurant B (utility: 48.3 > -1.7)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day27_customer_9: Chose Restaurant B (utility: 21.7 > -8.3)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day27_customer_10: Chose Restaurant B (utility: 84.3 > -20.7)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+
+--- Day 27 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $75.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $435.00 revenue
+
+=== DAY 28 ===
+Customers today: 10
+  day28_customer_1: Chose Restaurant B (utility: 43.1 > 43.1)
+  Customer 1: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day28_customer_2: Chose Restaurant A (utility: -23.3 > -31.3)
+  Customer 2: NO PURCHASE at Restaurant A
+    → Valuation 66.7 <= Price $90
+  day28_customer_3: Chose Restaurant B (utility: 3.5 > -38.5)
+  Customer 3: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day28_customer_4: Chose Restaurant A (utility: 20.1 > -42.9)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day28_customer_5: Chose Restaurant A (utility: 47.3 > 32.3)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day28_customer_6: Chose Restaurant B (utility: -27.7 > -65.7)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 67.3 <= Price $95
+  day28_customer_7: Chose Restaurant B (utility: -19.1 > -62.1)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 75.9 <= Price $95
+  day28_customer_8: Chose Restaurant B (utility: 62.3 > 17.3)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day28_customer_9: Chose Restaurant B (utility: -12.9 > -52.9)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 107.1 <= Price $120
+  day28_customer_10: Chose Restaurant B (utility: 38.6 > -11.4)
+  Customer 10: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+
+--- Day 28 Summary ---
+Restaurant A: 3 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 7 visitors, 4 purchases, $360.00 revenue
+
+=== DAY 29 ===
+Customers today: 10
+  day29_customer_1: Chose Restaurant B (utility: 31.2 > 11.2)
+  Customer 1: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day29_customer_2: Chose Restaurant B (utility: 7.3 > -7.7)
+  Customer 2: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day29_customer_3: Chose Restaurant B (utility: 65.4 > 27.4)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day29_customer_4: Chose Restaurant B (utility: -8.2 > -38.2)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 111.8 <= Price $120
+  day29_customer_5: Chose Restaurant B (utility: 1.2 > -8.8)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day29_customer_6: Chose Restaurant B (utility: -2.4 > -75.4)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 82.6 <= Price $85
+  day29_customer_7: Chose Restaurant B (utility: 74.7 > 54.7)
+  Customer 7: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day29_customer_8: Chose Restaurant B (utility: -14.9 > -62.9)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 95.1 <= Price $110
+  day29_customer_9: Chose Restaurant B (utility: -13.3 > -46.3)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 81.7 <= Price $95
+  day29_customer_10: Chose Restaurant B (utility: 123.1 > 28.1)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+
+--- Day 29 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 6 purchases, $500.00 revenue
+
+=== DAY 30 ===
+Customers today: 10
+  day30_customer_1: Chose Restaurant B (utility: 45.8 > -52.2)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day30_customer_2: Chose Restaurant B (utility: 47.9 > -12.1)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day30_customer_3: Chose Restaurant B (utility: 15.1 > -29.9)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day30_customer_4: Chose Restaurant A (utility: 4.9 > -22.1)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day30_customer_5: Chose Restaurant B (utility: 36.1 > -38.9)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day30_customer_6: Chose Restaurant B (utility: 38.1 > 38.1)
+  Customer 6: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day30_customer_7: Chose Restaurant B (utility: -20.6 > -43.6)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 74.4 <= Price $95
+  day30_customer_8: Chose Restaurant B (utility: -6.4 > -49.4)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 88.6 <= Price $95
+  day30_customer_9: Chose Restaurant B (utility: 33.3 > -1.7)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day30_customer_10: Chose Restaurant B (utility: 2.8 > -12.2)
+  Customer 10: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+
+--- Day 30 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $625.00 revenue
+
+=== DAY 31 ===
+Customers today: 10
+  day31_customer_1: Chose Restaurant B (utility: 64.8 > 9.8)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day31_customer_2: Chose Restaurant B (utility: 17.2 > -7.8)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day31_customer_3: Chose Restaurant B (utility: 9.1 > -20.9)
+  Customer 3: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day31_customer_4: Chose Restaurant B (utility: -45.7 > -48.7)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 74.3 <= Price $120
+  day31_customer_5: Chose Restaurant B (utility: 106.8 > -3.2)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day31_customer_6: Chose Restaurant B (utility: 50.1 > 25.1)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day31_customer_7: Chose Restaurant B (utility: 36.1 > -3.9)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day31_customer_8: Chose Restaurant B (utility: 103.7 > 8.7)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day31_customer_9: Chose Restaurant B (utility: 17.7 > -17.3)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day31_customer_10: Chose Restaurant B (utility: -7.0 > -25.0)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 93.0 <= Price $100
+
+--- Day 31 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 8 purchases, $625.00 revenue
+
+=== DAY 32 ===
+Customers today: 10
+  day32_customer_1: Chose Restaurant B (utility: 22.2 > -17.8)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day32_customer_2: Chose Restaurant B (utility: 6.2 > -26.8)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day32_customer_3: Chose Restaurant B (utility: 25.2 > -9.8)
+  Customer 3: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day32_customer_4: Chose Restaurant B (utility: -56.6 > -59.6)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 63.4 <= Price $120
+  day32_customer_5: Chose Restaurant B (utility: 17.2 > -12.8)
+  Customer 5: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day32_customer_6: Chose Restaurant B (utility: 28.7 > 18.7)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day32_customer_7: Chose Restaurant B (utility: 21.8 > -23.2)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day32_customer_8: Chose Restaurant A (utility: 73.2 > 28.2)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day32_customer_9: Chose Restaurant B (utility: -24.9 > -26.9)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 75.1 <= Price $100
+  day32_customer_10: Chose Restaurant B (utility: 57.2 > 32.2)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+
+--- Day 32 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $660.00 revenue
+
+=== DAY 33 ===
+Customers today: 10
+  day33_customer_1: Chose Restaurant B (utility: 39.7 > 9.7)
+  Customer 1: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day33_customer_2: Chose Restaurant A (utility: 58.7 > 53.7)
+  Customer 2: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day33_customer_3: Chose Restaurant B (utility: 81.1 > 51.1)
+  Customer 3: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day33_customer_4: Chose Restaurant A (utility: 50.4 > 12.4)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day33_customer_5: Chose Restaurant B (utility: -26.5 > -51.5)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 68.5 <= Price $95
+  day33_customer_6: Chose Restaurant A (utility: 55.7 > 40.7)
+  Customer 6: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day33_customer_7: Chose Restaurant A (utility: 47.0 > 32.0)
+  Customer 7: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day33_customer_8: Chose Restaurant A (utility: 35.0 > 20.0)
+  Customer 8: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day33_customer_9: Chose Restaurant A (utility: 96.8 > 36.8)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day33_customer_10: Chose Restaurant B (utility: 37.4 > 17.4)
+  Customer 10: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+
+--- Day 33 Summary ---
+Restaurant A: 6 visitors, 6 purchases, $400.00 revenue
+Restaurant B: 4 visitors, 3 purchases, $270.00 revenue
+
+=== DAY 34 ===
+Customers today: 10
+  day34_customer_1: Chose Restaurant A (utility: 57.9 > -17.1)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day34_customer_2: Chose Restaurant B (utility: -28.9 > -46.9)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 91.1 <= Price $120
+  day34_customer_3: Chose Restaurant A (utility: 32.6 > 5.6)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day34_customer_4: Chose Restaurant B (utility: 76.7 > -3.3)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day34_customer_5: Chose Restaurant A (utility: 59.2 > 24.2)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day34_customer_6: Chose Restaurant B (utility: 24.3 > 19.3)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day34_customer_7: Chose Restaurant A (utility: 55.4 > 50.4)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day34_customer_8: Chose Restaurant B (utility: 72.9 > -22.1)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day34_customer_9: Chose Restaurant B (utility: 3.0 > 3.0)
+  Customer 9: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day34_customer_10: Chose Restaurant A (utility: 47.3 > 42.3)
+  Customer 10: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 5.0 stars
+
+--- Day 34 Summary ---
+Restaurant A: 5 visitors, 5 purchases, $250.00 revenue
+Restaurant B: 5 visitors, 4 purchases, $315.00 revenue
+
+=== DAY 35 ===
+Customers today: 10
+  day35_customer_1: Chose Restaurant A (utility: -2.7 > -17.7)
+  Customer 1: NO PURCHASE at Restaurant A
+    → Valuation 82.3 <= Price $85
+  day35_customer_2: Chose Restaurant B (utility: 8.9 > -6.1)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day35_customer_3: Chose Restaurant A (utility: 55.1 > 30.1)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day35_customer_4: Chose Restaurant A (utility: 35.9 > 25.9)
+  Customer 4: PURCHASED Lobster Thermidor at Restaurant A ($110)
+    → Left review: 5.0 stars
+  day35_customer_5: Chose Restaurant A (utility: 57.3 > 22.3)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+  day35_customer_6: Chose Restaurant A (utility: 61.4 > -13.6)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day35_customer_7: Chose Restaurant B (utility: 30.5 > 15.5)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day35_customer_8: Chose Restaurant A (utility: 102.0 > 47.0)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day35_customer_9: Chose Restaurant B (utility: -8.2 > -48.2)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 111.8 <= Price $120
+  day35_customer_10: Chose Restaurant B (utility: 44.5 > 24.5)
+  Customer 10: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+
+--- Day 35 Summary ---
+Restaurant A: 6 visitors, 5 purchases, $330.00 revenue
+Restaurant B: 4 visitors, 3 purchases, $285.00 revenue
+
+=== DAY 36 ===
+Customers today: 10
+  day36_customer_1: Chose Restaurant B (utility: 19.8 > -0.2)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day36_customer_2: Chose Restaurant B (utility: 37.7 > -12.3)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day36_customer_3: Chose Restaurant B (utility: 29.1 > -0.9)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day36_customer_4: Chose Restaurant B (utility: -31.0 > -69.0)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 79.0 <= Price $110
+  day36_customer_5: Chose Restaurant B (utility: 56.6 > 11.6)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day36_customer_6: Chose Restaurant B (utility: 13.8 > -44.2)
+  Customer 6: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day36_customer_7: Chose Restaurant A (utility: 52.1 > 22.1)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day36_customer_8: Chose Restaurant A (utility: 33.4 > 18.4)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day36_customer_9: Chose Restaurant B (utility: 103.0 > 18.0)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day36_customer_10: Chose Restaurant B (utility: 31.0 > 16.0)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 36 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $110.00 revenue
+Restaurant B: 8 visitors, 7 purchases, $580.00 revenue
+
+=== DAY 37 ===
+Customers today: 10
+  day37_customer_1: Chose Restaurant B (utility: -14.5 > -61.5)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 80.5 <= Price $95
+  day37_customer_2: Chose Restaurant A (utility: 47.4 > 9.4)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day37_customer_3: Chose Restaurant B (utility: -38.1 > -38.1)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 41.9 <= Price $80
+  day37_customer_4: Chose Restaurant B (utility: 41.9 > 41.9)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day37_customer_5: Chose Restaurant B (utility: -7.5 > -7.5)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 77.5 <= Price $85
+  day37_customer_6: Chose Restaurant A (utility: 149.7 > 79.7)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day37_customer_7: Chose Restaurant B (utility: 8.8 > -48.2)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day37_customer_8: Chose Restaurant B (utility: 53.4 > 28.4)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day37_customer_9: Chose Restaurant B (utility: -19.3 > -61.3)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 80.7 <= Price $100
+  day37_customer_10: Chose Restaurant B (utility: 14.0 > -1.0)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+
+--- Day 37 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 8 visitors, 4 purchases, $345.00 revenue
+
+=== DAY 38 ===
+Customers today: 10
+  day38_customer_1: Chose Restaurant A (utility: 46.1 > 36.1)
+  Customer 1: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 5.0 stars
+  day38_customer_2: Chose Restaurant B (utility: 27.1 > 17.1)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day38_customer_3: Chose Restaurant A (utility: -5.8 > -13.8)
+  Customer 3: NO PURCHASE at Restaurant A
+    → Valuation 74.2 <= Price $80
+  day38_customer_4: Chose Restaurant B (utility: 55.0 > 33.0)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day38_customer_5: Chose Restaurant B (utility: 61.4 > 36.4)
+  Customer 5: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day38_customer_6: Chose Restaurant B (utility: 116.2 > 96.2)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day38_customer_7: Chose Restaurant B (utility: 38.3 > 3.3)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day38_customer_8: Chose Restaurant B (utility: 2.6 > -17.4)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day38_customer_9: Chose Restaurant A (utility: 101.2 > 61.2)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day38_customer_10: Chose Restaurant A (utility: -28.8 > -36.8)
+  Customer 10: NO PURCHASE at Restaurant A
+    → Valuation 51.2 <= Price $80
+
+--- Day 38 Summary ---
+Restaurant A: 4 visitors, 2 purchases, $115.00 revenue
+Restaurant B: 6 visitors, 6 purchases, $425.00 revenue
+
+=== DAY 39 ===
+Customers today: 10
+  day39_customer_1: Chose Restaurant B (utility: -3.9 > -8.9)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 106.1 <= Price $110
+  day39_customer_2: Chose Restaurant B (utility: 21.1 > -8.9)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day39_customer_3: Chose Restaurant B (utility: 70.6 > 55.6)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day39_customer_4: Chose Restaurant A (utility: 66.8 > -8.2)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day39_customer_5: Chose Restaurant B (utility: 95.5 > 60.5)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day39_customer_6: Chose Restaurant B (utility: 49.4 > 34.4)
+  Customer 6: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day39_customer_7: Chose Restaurant B (utility: 38.7 > 18.7)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day39_customer_8: Chose Restaurant B (utility: 5.2 > -51.8)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day39_customer_9: Chose Restaurant B (utility: 86.3 > -8.7)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day39_customer_10: Chose Restaurant B (utility: -8.8 > -28.8)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 101.2 <= Price $110
+
+--- Day 39 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $555.00 revenue
+
+=== DAY 40 ===
+Customers today: 10
+  day40_customer_1: Chose Restaurant B (utility: 56.4 > 31.4)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day40_customer_2: Chose Restaurant B (utility: 23.1 > 23.1)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day40_customer_3: Chose Restaurant B (utility: 17.9 > 2.9)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day40_customer_4: Chose Restaurant B (utility: 72.0 > 47.0)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day40_customer_5: Chose Restaurant B (utility: -10.3 > -22.3)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 84.7 <= Price $95
+  day40_customer_6: Chose Restaurant A (utility: 70.9 > 20.9)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day40_customer_7: Chose Restaurant B (utility: 52.0 > -23.0)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day40_customer_8: Chose Restaurant B (utility: 72.6 > 34.6)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day40_customer_9: Chose Restaurant B (utility: -4.1 > -44.1)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 105.9 <= Price $110
+  day40_customer_10: Chose Restaurant B (utility: 26.8 > -38.2)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+
+--- Day 40 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $555.00 revenue
+
+=== DAY 41 ===
+Customers today: 10
+  day41_customer_1: Chose Restaurant B (utility: -4.7 > -9.7)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 115.3 <= Price $120
+  day41_customer_2: Chose Restaurant B (utility: 69.5 > -10.5)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day41_customer_3: Chose Restaurant B (utility: 77.0 > 37.0)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day41_customer_4: Chose Restaurant B (utility: 28.1 > 18.1)
+  Customer 4: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day41_customer_5: Chose Restaurant B (utility: 23.4 > -26.6)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day41_customer_6: Chose Restaurant B (utility: 43.4 > -11.6)
+  Customer 6: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day41_customer_7: Chose Restaurant B (utility: 22.6 > -17.4)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day41_customer_8: Chose Restaurant B (utility: -5.8 > -5.8)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 114.2 <= Price $120
+  day41_customer_9: Chose Restaurant B (utility: -9.9 > -52.9)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 85.1 <= Price $95
+  day41_customer_10: Chose Restaurant B (utility: -15.2 > -53.2)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 94.8 <= Price $110
+
+--- Day 41 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 6 purchases, $535.00 revenue
+
+=== DAY 42 ===
+Customers today: 10
+  day42_customer_1: Chose Restaurant B (utility: 83.6 > 13.6)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day42_customer_2: Chose Restaurant B (utility: 86.6 > 36.6)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day42_customer_3: Chose Restaurant B (utility: -22.2 > -50.2)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 87.8 <= Price $110
+  day42_customer_4: Chose Restaurant A (utility: 60.6 > 35.6)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day42_customer_5: Chose Restaurant B (utility: 44.6 > -20.4)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day42_customer_6: Chose Restaurant B (utility: 49.8 > 9.8)
+  Customer 6: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day42_customer_7: Chose Restaurant B (utility: 58.0 > -97.0)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day42_customer_8: Chose Restaurant B (utility: 17.2 > -12.8)
+  Customer 8: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day42_customer_9: Chose Restaurant B (utility: 39.7 > -35.3)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day42_customer_10: Chose Restaurant B (utility: -36.9 > -56.9)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 83.1 <= Price $120
+
+--- Day 42 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $600.00 revenue
+
+=== DAY 43 ===
+Customers today: 10
+  day43_customer_1: Chose Restaurant B (utility: 39.8 > -30.2)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day43_customer_2: Chose Restaurant B (utility: -13.6 > -68.6)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 86.4 <= Price $100
+  day43_customer_3: Chose Restaurant A (utility: 11.4 > -3.6)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day43_customer_4: Chose Restaurant B (utility: 4.9 > -23.1)
+  Customer 4: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day43_customer_5: Chose Restaurant B (utility: 13.1 > -16.9)
+  Customer 5: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day43_customer_6: Chose Restaurant B (utility: 70.8 > -42.2)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day43_customer_7: Chose Restaurant B (utility: -9.9 > -32.9)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 90.1 <= Price $100
+  day43_customer_8: Chose Restaurant B (utility: 6.7 > -18.3)
+  Customer 8: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day43_customer_9: Chose Restaurant B (utility: 110.6 > 10.6)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day43_customer_10: Chose Restaurant B (utility: 55.8 > 15.8)
+  Customer 10: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+
+--- Day 43 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $555.00 revenue
+
+=== DAY 44 ===
+Customers today: 10
+  day44_customer_1: Chose Restaurant A (utility: 67.0 > 37.0)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day44_customer_2: Chose Restaurant B (utility: 83.7 > -16.3)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day44_customer_3: Chose Restaurant A (utility: 55.7 > 0.7)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day44_customer_4: Chose Restaurant B (utility: 54.2 > 44.2)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day44_customer_5: Chose Restaurant B (utility: 33.3 > 3.3)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day44_customer_6: Chose Restaurant B (utility: -2.3 > -9.3)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 92.7 <= Price $95
+  day44_customer_7: Chose Restaurant B (utility: 6.5 > -8.5)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day44_customer_8: Chose Restaurant A (utility: -25.9 > -28.9)
+  Customer 8: NO PURCHASE at Restaurant A
+    → Valuation 69.1 <= Price $95
+  day44_customer_9: Chose Restaurant B (utility: 39.5 > -10.5)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day44_customer_10: Chose Restaurant B (utility: 114.9 > 19.9)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+
+--- Day 44 Summary ---
+Restaurant A: 3 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $415.00 revenue
+
+=== DAY 45 ===
+Customers today: 10
+  day45_customer_1: Chose Restaurant B (utility: 89.6 > -15.4)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day45_customer_2: Chose Restaurant B (utility: 48.0 > 13.0)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day45_customer_3: Chose Restaurant A (utility: 57.1 > -17.9)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day45_customer_4: Chose Restaurant B (utility: 14.4 > 9.4)
+  Customer 4: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day45_customer_5: Chose Restaurant B (utility: 60.3 > 10.3)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day45_customer_6: Chose Restaurant B (utility: 22.3 > -12.7)
+  Customer 6: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day45_customer_7: Chose Restaurant B (utility: 18.8 > -11.2)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day45_customer_8: Chose Restaurant B (utility: 16.3 > -28.7)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day45_customer_9: Chose Restaurant B (utility: 121.0 > 46.0)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day45_customer_10: Chose Restaurant B (utility: 93.1 > 3.1)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+
+--- Day 45 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $595.00 revenue
+
+=== DAY 46 ===
+Customers today: 10
+  day46_customer_1: Chose Restaurant B (utility: 90.8 > 45.8)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day46_customer_2: Chose Restaurant A (utility: 57.0 > 2.0)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day46_customer_3: Chose Restaurant B (utility: 55.1 > -31.9)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day46_customer_4: Chose Restaurant B (utility: -26.5 > -43.5)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 68.5 <= Price $95
+  day46_customer_5: Chose Restaurant B (utility: 58.7 > 28.7)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day46_customer_6: Chose Restaurant B (utility: 44.9 > 24.9)
+  Customer 6: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day46_customer_7: Chose Restaurant B (utility: 55.6 > 35.6)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day46_customer_8: Chose Restaurant B (utility: 44.0 > 19.0)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day46_customer_9: Chose Restaurant B (utility: 43.1 > 38.1)
+  Customer 9: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day46_customer_10: Chose Restaurant B (utility: 103.8 > 83.8)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+
+--- Day 46 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 8 purchases, $605.00 revenue
+
+=== DAY 47 ===
+Customers today: 10
+  day47_customer_1: Chose Restaurant B (utility: -9.0 > -46.0)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 86.0 <= Price $95
+  day47_customer_2: Chose Restaurant B (utility: 79.0 > -36.0)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day47_customer_3: Chose Restaurant B (utility: -22.8 > -34.8)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 97.2 <= Price $120
+  day47_customer_4: Chose Restaurant B (utility: 26.2 > -13.8)
+  Customer 4: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day47_customer_5: Chose Restaurant B (utility: -25.3 > -77.3)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 64.7 <= Price $90
+  day47_customer_6: Chose Restaurant B (utility: 83.6 > 63.6)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day47_customer_7: Chose Restaurant B (utility: 28.9 > 3.9)
+  Customer 7: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day47_customer_8: Chose Restaurant B (utility: 92.0 > 32.0)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day47_customer_9: Chose Restaurant B (utility: 99.6 > 24.6)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day47_customer_10: Chose Restaurant A (utility: 5.8 > -4.2)
+  Customer 10: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+
+--- Day 47 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $80.00 revenue
+Restaurant B: 9 visitors, 6 purchases, $335.00 revenue
+
+=== DAY 48 ===
+Customers today: 10
+  day48_customer_1: Chose Restaurant B (utility: 120.8 > 25.8)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day48_customer_2: Chose Restaurant B (utility: -0.5 > -37.5)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 94.5 <= Price $95
+  day48_customer_3: Chose Restaurant B (utility: -18.8 > -55.8)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 76.2 <= Price $95
+  day48_customer_4: Chose Restaurant B (utility: 117.9 > 37.9)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day48_customer_5: Chose Restaurant B (utility: 23.5 > -11.5)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day48_customer_6: Chose Restaurant B (utility: 34.2 > 14.2)
+  Customer 6: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day48_customer_7: Chose Restaurant B (utility: 35.2 > 30.2)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day48_customer_8: Chose Restaurant A (utility: 49.0 > 39.0)
+  Customer 8: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day48_customer_9: Chose Restaurant B (utility: 40.6 > 15.6)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day48_customer_10: Chose Restaurant B (utility: 24.4 > 4.4)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+
+--- Day 48 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $80.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $505.00 revenue
+
+=== DAY 49 ===
+Customers today: 10
+  day49_customer_1: Chose Restaurant A (utility: 69.2 > 4.2)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day49_customer_2: Chose Restaurant A (utility: 31.8 > 26.8)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day49_customer_3: Chose Restaurant A (utility: 2.5 > -7.5)
+  Customer 3: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day49_customer_4: Chose Restaurant B (utility: 118.2 > 53.2)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day49_customer_5: Chose Restaurant B (utility: 59.4 > 34.4)
+  Customer 5: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day49_customer_6: Chose Restaurant B (utility: 36.0 > 36.0)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day49_customer_7: Chose Restaurant A (utility: 15.3 > -4.7)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant A ($100)
+    → Left review: 5.0 stars
+  day49_customer_8: Chose Restaurant B (utility: 60.2 > 45.2)
+  Customer 8: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day49_customer_9: Chose Restaurant B (utility: 54.7 > 29.7)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day49_customer_10: Chose Restaurant B (utility: 40.3 > 40.3)
+  Customer 10: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+
+--- Day 49 Summary ---
+Restaurant A: 4 visitors, 4 purchases, $290.00 revenue
+Restaurant B: 6 visitors, 6 purchases, $510.00 revenue
+
+=== DAY 50 ===
+Customers today: 10
+  day50_customer_1: Chose Restaurant B (utility: -12.1 > -22.1)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 77.9 <= Price $90
+  day50_customer_2: Chose Restaurant A (utility: 21.6 > 16.6)
+  Customer 2: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day50_customer_3: Chose Restaurant B (utility: 84.8 > 54.8)
+  Customer 3: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day50_customer_4: Chose Restaurant B (utility: 6.5 > -3.5)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day50_customer_5: Chose Restaurant A (utility: 81.0 > 51.0)
+  Customer 5: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 2.0 stars
+  day50_customer_6: Chose Restaurant B (utility: 44.0 > 19.0)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day50_customer_7: Chose Restaurant A (utility: 27.6 > 22.6)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+  day50_customer_8: Chose Restaurant B (utility: 68.4 > 13.4)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day50_customer_9: Chose Restaurant B (utility: 52.3 > 22.3)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day50_customer_10: Chose Restaurant B (utility: 27.3 > -2.7)
+  Customer 10: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+
+--- Day 50 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $245.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $525.00 revenue
+
+=== DAY 51 ===
+Customers today: 10
+  day51_customer_1: Chose Restaurant B (utility: 10.7 > -9.3)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day51_customer_2: Chose Restaurant B (utility: 33.2 > -31.8)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day51_customer_3: Chose Restaurant B (utility: 21.2 > -23.8)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day51_customer_4: Chose Restaurant A (utility: 24.7 > -12.3)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day51_customer_5: Chose Restaurant B (utility: 65.2 > 60.2)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day51_customer_6: Chose Restaurant B (utility: 73.6 > -41.4)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day51_customer_7: Chose Restaurant B (utility: 26.7 > -63.3)
+  Customer 7: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day51_customer_8: Chose Restaurant B (utility: 2.4 > -57.6)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day51_customer_9: Chose Restaurant B (utility: 78.3 > -56.7)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day51_customer_10: Chose Restaurant B (utility: 79.4 > -75.6)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+
+--- Day 51 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $635.00 revenue
+
+=== DAY 52 ===
+Customers today: 10
+  day52_customer_1: Chose Restaurant B (utility: 58.3 > -21.7)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day52_customer_2: Chose Restaurant B (utility: 20.9 > -79.1)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day52_customer_3: Chose Restaurant B (utility: 118.4 > -1.6)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day52_customer_4: Chose Restaurant B (utility: 41.1 > -18.9)
+  Customer 4: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day52_customer_5: Chose Restaurant B (utility: 52.7 > 12.7)
+  Customer 5: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day52_customer_6: Chose Restaurant A (utility: 38.3 > 33.3)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day52_customer_7: Chose Restaurant B (utility: 6.8 > -53.2)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day52_customer_8: Chose Restaurant B (utility: 44.7 > -0.3)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day52_customer_9: Chose Restaurant B (utility: 24.3 > -25.7)
+  Customer 9: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day52_customer_10: Chose Restaurant B (utility: 0.1 > -19.9)
+  Customer 10: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+
+--- Day 52 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $785.00 revenue
+
+=== DAY 53 ===
+Customers today: 10
+  day53_customer_1: Chose Restaurant B (utility: 82.1 > 47.1)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day53_customer_2: Chose Restaurant B (utility: 86.2 > 46.2)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day53_customer_3: Chose Restaurant B (utility: 69.0 > 29.0)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day53_customer_4: Chose Restaurant B (utility: 48.1 > 3.1)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day53_customer_5: Chose Restaurant B (utility: 64.0 > 29.0)
+  Customer 5: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day53_customer_6: Chose Restaurant B (utility: 32.7 > -2.3)
+  Customer 6: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day53_customer_7: Chose Restaurant B (utility: 19.8 > -20.2)
+  Customer 7: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day53_customer_8: Chose Restaurant B (utility: 41.7 > 1.7)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day53_customer_9: Chose Restaurant B (utility: 103.7 > 68.7)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day53_customer_10: Chose Restaurant B (utility: 86.5 > -48.5)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+
+--- Day 53 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $810.00 revenue
+
+=== DAY 54 ===
+Customers today: 10
+  day54_customer_1: Chose Restaurant B (utility: 68.7 > 18.7)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day54_customer_2: Chose Restaurant B (utility: 27.2 > -42.8)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day54_customer_3: Chose Restaurant B (utility: 33.7 > 3.7)
+  Customer 3: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day54_customer_4: Chose Restaurant B (utility: 4.9 > -10.1)
+  Customer 4: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day54_customer_5: Chose Restaurant A (utility: 43.3 > -1.7)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day54_customer_6: Chose Restaurant A (utility: 33.9 > 33.9)
+  Customer 6: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 2.0 stars
+  day54_customer_7: Chose Restaurant B (utility: 114.6 > 24.6)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day54_customer_8: Chose Restaurant B (utility: 17.9 > 12.9)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day54_customer_9: Chose Restaurant A (utility: -12.8 > -17.8)
+  Customer 9: NO PURCHASE at Restaurant A
+    → Valuation 82.2 <= Price $95
+  day54_customer_10: Chose Restaurant A (utility: 106.3 > 66.3)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+
+--- Day 54 Summary ---
+Restaurant A: 4 visitors, 3 purchases, $140.00 revenue
+Restaurant B: 6 visitors, 6 purchases, $545.00 revenue
+
+=== DAY 55 ===
+Customers today: 10
+  day55_customer_1: Chose Restaurant B (utility: 65.4 > -57.6)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day55_customer_2: Chose Restaurant B (utility: 10.9 > -49.1)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day55_customer_3: Chose Restaurant B (utility: 109.7 > 14.7)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day55_customer_4: Chose Restaurant A (utility: 33.3 > 1.3)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day55_customer_5: Chose Restaurant B (utility: -5.5 > -25.5)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 114.5 <= Price $120
+  day55_customer_6: Chose Restaurant B (utility: 137.5 > 37.5)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day55_customer_7: Chose Restaurant B (utility: 4.4 > -55.6)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day55_customer_8: Chose Restaurant B (utility: 42.4 > 22.4)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day55_customer_9: Chose Restaurant B (utility: 51.6 > 21.6)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day55_customer_10: Chose Restaurant B (utility: 118.4 > 48.4)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+
+--- Day 55 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 8 purchases, $560.00 revenue
+
+=== DAY 56 ===
+Customers today: 10
+  day56_customer_1: Chose Restaurant B (utility: 10.2 > -24.8)
+  Customer 1: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day56_customer_2: Chose Restaurant B (utility: 32.3 > -32.7)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day56_customer_3: Chose Restaurant B (utility: 27.9 > -22.1)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day56_customer_4: Chose Restaurant B (utility: 76.4 > -48.6)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day56_customer_5: Chose Restaurant B (utility: 43.0 > -2.0)
+  Customer 5: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day56_customer_6: Chose Restaurant B (utility: 86.9 > -13.1)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day56_customer_7: Chose Restaurant B (utility: 53.1 > -26.9)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day56_customer_8: Chose Restaurant B (utility: 49.0 > 14.0)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day56_customer_9: Chose Restaurant B (utility: 39.4 > -10.6)
+  Customer 9: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day56_customer_10: Chose Restaurant B (utility: 22.2 > -7.8)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 56 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $760.00 revenue
+
+=== DAY 57 ===
+Customers today: 10
+  day57_customer_1: Chose Restaurant A (utility: 24.9 > 2.9)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day57_customer_2: Chose Restaurant B (utility: 43.5 > -1.5)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day57_customer_3: Chose Restaurant A (utility: 28.1 > 18.1)
+  Customer 3: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 5.0 stars
+  day57_customer_4: Chose Restaurant A (utility: 99.7 > 29.7)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day57_customer_5: Chose Restaurant B (utility: 23.7 > -6.3)
+  Customer 5: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day57_customer_6: Chose Restaurant B (utility: 97.8 > 77.8)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day57_customer_7: Chose Restaurant B (utility: 99.1 > 19.1)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day57_customer_8: Chose Restaurant B (utility: 89.2 > 54.2)
+  Customer 8: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day57_customer_9: Chose Restaurant B (utility: 35.4 > 35.4)
+  Customer 9: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day57_customer_10: Chose Restaurant B (utility: -12.0 > -22.0)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 108.0 <= Price $120
+
+--- Day 57 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $140.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $430.00 revenue
+
+=== DAY 58 ===
+Customers today: 10
+  day58_customer_1: Chose Restaurant A (utility: 108.5 > 68.5)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day58_customer_2: Chose Restaurant A (utility: 47.7 > 17.7)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day58_customer_3: Chose Restaurant B (utility: 65.0 > -0.0)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day58_customer_4: Chose Restaurant B (utility: 29.7 > -30.3)
+  Customer 4: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day58_customer_5: Chose Restaurant B (utility: 17.1 > -32.9)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day58_customer_6: Chose Restaurant B (utility: 2.5 > -72.5)
+  Customer 6: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day58_customer_7: Chose Restaurant B (utility: 1.3 > -58.7)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day58_customer_8: Chose Restaurant B (utility: -41.9 > -81.9)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 68.1 <= Price $110
+  day58_customer_9: Chose Restaurant B (utility: 20.1 > 20.1)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day58_customer_10: Chose Restaurant B (utility: 116.9 > -8.1)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+
+--- Day 58 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 8 visitors, 7 purchases, $615.00 revenue
+
+=== DAY 59 ===
+Customers today: 10
+  day59_customer_1: Chose Restaurant B (utility: 45.1 > 40.1)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day59_customer_2: Chose Restaurant B (utility: 59.5 > -20.5)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day59_customer_3: Chose Restaurant B (utility: 15.5 > -54.5)
+  Customer 3: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day59_customer_4: Chose Restaurant B (utility: 23.9 > -51.1)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day59_customer_5: Chose Restaurant A (utility: 37.1 > 22.1)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day59_customer_6: Chose Restaurant B (utility: -54.9 > -67.9)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 55.1 <= Price $110
+  day59_customer_7: Chose Restaurant B (utility: 44.3 > -15.7)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day59_customer_8: Chose Restaurant B (utility: -7.0 > -12.0)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 113.0 <= Price $120
+  day59_customer_9: Chose Restaurant B (utility: 47.0 > 27.0)
+  Customer 9: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day59_customer_10: Chose Restaurant B (utility: 68.1 > 18.1)
+  Customer 10: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+
+--- Day 59 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 7 purchases, $635.00 revenue
+
+=== DAY 60 ===
+Customers today: 10
+  day60_customer_1: Chose Restaurant B (utility: 14.5 > -55.5)
+  Customer 1: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day60_customer_2: Chose Restaurant B (utility: 14.1 > -35.9)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day60_customer_3: Chose Restaurant A (utility: 29.2 > -7.8)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day60_customer_4: Chose Restaurant B (utility: -41.4 > -74.4)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 58.6 <= Price $100
+  day60_customer_5: Chose Restaurant B (utility: -16.2 > -54.2)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 63.8 <= Price $80
+  day60_customer_6: Chose Restaurant A (utility: 28.5 > 1.5)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day60_customer_7: Chose Restaurant B (utility: 19.8 > -0.2)
+  Customer 7: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day60_customer_8: Chose Restaurant B (utility: 39.3 > 19.3)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day60_customer_9: Chose Restaurant B (utility: 38.2 > 8.2)
+  Customer 9: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day60_customer_10: Chose Restaurant B (utility: 60.9 > 30.9)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+
+--- Day 60 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 8 visitors, 6 purchases, $565.00 revenue
+
+=== DAY 61 ===
+Customers today: 10
+  day61_customer_1: Chose Restaurant A (utility: 3.0 > -2.0)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day61_customer_2: Chose Restaurant B (utility: 25.5 > 0.5)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day61_customer_3: Chose Restaurant B (utility: 40.9 > 5.9)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day61_customer_4: Chose Restaurant A (utility: 46.3 > 31.3)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+  day61_customer_5: Chose Restaurant B (utility: 88.8 > 68.8)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day61_customer_6: Chose Restaurant A (utility: 24.4 > 4.4)
+  Customer 6: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day61_customer_7: Chose Restaurant A (utility: -20.9 > -38.9)
+  Customer 7: NO PURCHASE at Restaurant A
+    → Valuation 59.1 <= Price $80
+  day61_customer_8: Chose Restaurant B (utility: -58.5 > -93.5)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 36.5 <= Price $95
+  day61_customer_9: Chose Restaurant B (utility: 18.4 > -1.6)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day61_customer_10: Chose Restaurant B (utility: -45.3 > -72.3)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 49.7 <= Price $95
+
+--- Day 61 Summary ---
+Restaurant A: 4 visitors, 3 purchases, $250.00 revenue
+Restaurant B: 6 visitors, 4 purchases, $280.00 revenue
+
+=== DAY 62 ===
+Customers today: 10
+  day62_customer_1: Chose Restaurant A (utility: 69.3 > 64.3)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day62_customer_2: Chose Restaurant B (utility: -2.9 > -2.9)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 107.1 <= Price $110
+  day62_customer_3: Chose Restaurant A (utility: -1.6 > -6.6)
+  Customer 3: NO PURCHASE at Restaurant A
+    → Valuation 83.4 <= Price $85
+  day62_customer_4: Chose Restaurant B (utility: -0.4 > -30.4)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 109.6 <= Price $110
+  day62_customer_5: Chose Restaurant B (utility: 9.6 > 9.6)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day62_customer_6: Chose Restaurant B (utility: 36.7 > 21.7)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day62_customer_7: Chose Restaurant B (utility: 109.7 > 89.7)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day62_customer_8: Chose Restaurant A (utility: 92.8 > 47.8)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day62_customer_9: Chose Restaurant A (utility: -28.1 > -43.1)
+  Customer 9: NO PURCHASE at Restaurant A
+    → Valuation 51.9 <= Price $80
+  day62_customer_10: Chose Restaurant B (utility: 73.7 > 53.7)
+  Customer 10: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+
+--- Day 62 Summary ---
+Restaurant A: 4 visitors, 2 purchases, $110.00 revenue
+Restaurant B: 6 visitors, 4 purchases, $305.00 revenue
+
+=== DAY 63 ===
+Customers today: 10
+  day63_customer_1: Chose Restaurant A (utility: 104.7 > 9.7)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day63_customer_2: Chose Restaurant B (utility: 37.3 > 37.3)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day63_customer_3: Chose Restaurant A (utility: 22.3 > 17.3)
+  Customer 3: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day63_customer_4: Chose Restaurant B (utility: 114.4 > 44.4)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day63_customer_5: Chose Restaurant A (utility: 19.9 > -0.1)
+  Customer 5: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 2.0 stars
+  day63_customer_6: Chose Restaurant A (utility: -25.1 > -33.1)
+  Customer 6: NO PURCHASE at Restaurant A
+    → Valuation 54.9 <= Price $80
+  day63_customer_7: Chose Restaurant A (utility: 71.1 > -3.9)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day63_customer_8: Chose Restaurant B (utility: 51.4 > 16.4)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day63_customer_9: Chose Restaurant B (utility: 50.8 > 35.8)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day63_customer_10: Chose Restaurant B (utility: 18.7 > 8.7)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+
+--- Day 63 Summary ---
+Restaurant A: 5 visitors, 4 purchases, $220.00 revenue
+Restaurant B: 5 visitors, 5 purchases, $385.00 revenue
+
+=== DAY 64 ===
+Customers today: 10
+  day64_customer_1: Chose Restaurant B (utility: 44.4 > -10.6)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day64_customer_2: Chose Restaurant B (utility: 58.3 > 28.3)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day64_customer_3: Chose Restaurant B (utility: 65.2 > 60.2)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day64_customer_4: Chose Restaurant B (utility: 17.7 > -14.3)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day64_customer_5: Chose Restaurant B (utility: 4.5 > -25.5)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day64_customer_6: Chose Restaurant A (utility: 24.9 > -23.1)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day64_customer_7: Chose Restaurant B (utility: 66.0 > 31.0)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day64_customer_8: Chose Restaurant B (utility: 57.3 > 52.3)
+  Customer 8: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day64_customer_9: Chose Restaurant B (utility: 56.0 > 26.0)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day64_customer_10: Chose Restaurant A (utility: 35.5 > -37.5)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+
+--- Day 64 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $730.00 revenue
+
+=== DAY 65 ===
+Customers today: 10
+  day65_customer_1: Chose Restaurant B (utility: 119.9 > 49.9)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day65_customer_2: Chose Restaurant A (utility: 11.4 > -18.6)
+  Customer 2: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 2.0 stars
+  day65_customer_3: Chose Restaurant B (utility: 87.3 > 47.3)
+  Customer 3: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day65_customer_4: Chose Restaurant A (utility: -31.1 > -34.1)
+  Customer 4: NO PURCHASE at Restaurant A
+    → Valuation 63.9 <= Price $95
+  day65_customer_5: Chose Restaurant B (utility: 88.9 > -6.1)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day65_customer_6: Chose Restaurant B (utility: 21.9 > 6.9)
+  Customer 6: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day65_customer_7: Chose Restaurant B (utility: 64.8 > -17.2)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day65_customer_8: Chose Restaurant B (utility: 124.6 > 34.6)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day65_customer_9: Chose Restaurant A (utility: -0.9 > -15.9)
+  Customer 9: NO PURCHASE at Restaurant A
+    → Valuation 84.1 <= Price $85
+  day65_customer_10: Chose Restaurant A (utility: 52.1 > 9.1)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+
+--- Day 65 Summary ---
+Restaurant A: 4 visitors, 2 purchases, $105.00 revenue
+Restaurant B: 6 visitors, 6 purchases, $275.00 revenue
+
+=== DAY 66 ===
+Customers today: 10
+  day66_customer_1: Chose Restaurant B (utility: 22.2 > -2.8)
+  Customer 1: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day66_customer_2: Chose Restaurant B (utility: 28.9 > 13.9)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day66_customer_3: Chose Restaurant A (utility: -28.7 > -31.7)
+  Customer 3: NO PURCHASE at Restaurant A
+    → Valuation 66.3 <= Price $95
+  day66_customer_4: Chose Restaurant A (utility: 79.5 > 44.5)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day66_customer_5: Chose Restaurant B (utility: 18.6 > -18.4)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day66_customer_6: Chose Restaurant B (utility: 91.3 > 66.3)
+  Customer 6: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day66_customer_7: Chose Restaurant B (utility: -36.1 > -58.1)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 63.9 <= Price $100
+  day66_customer_8: Chose Restaurant B (utility: 10.5 > -41.5)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day66_customer_9: Chose Restaurant B (utility: -5.6 > -15.6)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 104.4 <= Price $110
+  day66_customer_10: Chose Restaurant B (utility: 25.8 > 0.8)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 66 Summary ---
+Restaurant A: 2 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 8 visitors, 6 purchases, $515.00 revenue
+
+=== DAY 67 ===
+Customers today: 10
+  day67_customer_1: Chose Restaurant B (utility: 49.9 > 44.9)
+  Customer 1: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day67_customer_2: Chose Restaurant B (utility: 18.1 > 8.1)
+  Customer 2: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day67_customer_3: Chose Restaurant B (utility: 2.7 > -37.3)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day67_customer_4: Chose Restaurant B (utility: -50.6 > -57.6)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 59.4 <= Price $110
+  day67_customer_5: Chose Restaurant A (utility: 38.1 > 18.1)
+  Customer 5: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day67_customer_6: Chose Restaurant A (utility: 17.8 > 2.8)
+  Customer 6: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day67_customer_7: Chose Restaurant B (utility: 20.7 > 10.7)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day67_customer_8: Chose Restaurant A (utility: 1.7 > -18.3)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant A ($100)
+    → Left review: 5.0 stars
+  day67_customer_9: Chose Restaurant B (utility: 1.5 > -3.5)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day67_customer_10: Chose Restaurant B (utility: 27.3 > -12.7)
+  Customer 10: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+
+--- Day 67 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $275.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $555.00 revenue
+
+=== DAY 68 ===
+Customers today: 10
+  day68_customer_1: Chose Restaurant B (utility: 92.8 > 27.8)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day68_customer_2: Chose Restaurant A (utility: 97.0 > 2.0)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day68_customer_3: Chose Restaurant B (utility: 19.6 > -0.4)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day68_customer_4: Chose Restaurant B (utility: 42.3 > 17.3)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day68_customer_5: Chose Restaurant B (utility: 30.9 > 30.9)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day68_customer_6: Chose Restaurant B (utility: 80.2 > -14.8)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day68_customer_7: Chose Restaurant B (utility: 18.3 > 13.3)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day68_customer_8: Chose Restaurant A (utility: 116.5 > 31.5)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day68_customer_9: Chose Restaurant B (utility: 36.2 > 31.2)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day68_customer_10: Chose Restaurant A (utility: 37.9 > 32.9)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+
+--- Day 68 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $135.00 revenue
+Restaurant B: 7 visitors, 7 purchases, $510.00 revenue
+
+=== DAY 69 ===
+Customers today: 10
+  day69_customer_1: Chose Restaurant A (utility: 22.6 > 17.6)
+  Customer 1: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day69_customer_2: Chose Restaurant B (utility: 53.8 > 53.8)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day69_customer_3: Chose Restaurant B (utility: -29.7 > -39.7)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 80.3 <= Price $110
+  day69_customer_4: Chose Restaurant B (utility: 53.7 > -6.3)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day69_customer_5: Chose Restaurant B (utility: -25.0 > -35.0)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 55.0 <= Price $80
+  day69_customer_6: Chose Restaurant A (utility: 2.9 > -12.1)
+  Customer 6: PURCHASED Duck Confit at Restaurant A ($95)
+    → Left review: 5.0 stars
+  day69_customer_7: Chose Restaurant A (utility: 10.9 > -19.1)
+  Customer 7: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day69_customer_8: Chose Restaurant B (utility: 59.1 > 44.1)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day69_customer_9: Chose Restaurant B (utility: 136.3 > 81.3)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day69_customer_10: Chose Restaurant A (utility: 121.3 > 56.3)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+
+--- Day 69 Summary ---
+Restaurant A: 4 visitors, 4 purchases, $295.00 revenue
+Restaurant B: 6 visitors, 4 purchases, $225.00 revenue
+
+=== DAY 70 ===
+Customers today: 10
+  day70_customer_1: Chose Restaurant B (utility: 58.0 > 48.0)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day70_customer_2: Chose Restaurant B (utility: 52.4 > 32.4)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day70_customer_3: Chose Restaurant A (utility: 145.5 > 85.5)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day70_customer_4: Chose Restaurant B (utility: -1.8 > -31.8)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 78.2 <= Price $80
+  day70_customer_5: Chose Restaurant B (utility: 52.0 > 52.0)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day70_customer_6: Chose Restaurant A (utility: -2.1 > -27.1)
+  Customer 6: NO PURCHASE at Restaurant A
+    → Valuation 92.9 <= Price $95
+  day70_customer_7: Chose Restaurant B (utility: 5.1 > -24.9)
+  Customer 7: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day70_customer_8: Chose Restaurant B (utility: 32.0 > 22.0)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day70_customer_9: Chose Restaurant B (utility: 63.6 > 53.6)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day70_customer_10: Chose Restaurant A (utility: 75.6 > 10.6)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+
+--- Day 70 Summary ---
+Restaurant A: 3 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $515.00 revenue
+
+=== DAY 71 ===
+Customers today: 10
+  day71_customer_1: Chose Restaurant A (utility: 33.2 > 23.2)
+  Customer 1: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 5.0 stars
+  day71_customer_2: Chose Restaurant B (utility: 124.9 > 124.9)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day71_customer_3: Chose Restaurant B (utility: -11.0 > -16.0)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 84.0 <= Price $95
+  day71_customer_4: Chose Restaurant B (utility: 22.4 > -17.6)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day71_customer_5: Chose Restaurant B (utility: 17.6 > 12.6)
+  Customer 5: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day71_customer_6: Chose Restaurant A (utility: 23.7 > 18.7)
+  Customer 6: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+  day71_customer_7: Chose Restaurant B (utility: 83.2 > 53.2)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day71_customer_8: Chose Restaurant B (utility: 58.7 > 18.7)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day71_customer_9: Chose Restaurant B (utility: 89.0 > -1.0)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day71_customer_10: Chose Restaurant B (utility: 19.8 > -25.2)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 71 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $175.00 revenue
+Restaurant B: 8 visitors, 7 purchases, $495.00 revenue
+
+=== DAY 72 ===
+Customers today: 10
+  day72_customer_1: Chose Restaurant B (utility: 35.9 > 15.9)
+  Customer 1: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day72_customer_2: Chose Restaurant B (utility: 25.2 > 5.2)
+  Customer 2: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day72_customer_3: Chose Restaurant A (utility: 77.1 > 32.1)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day72_customer_4: Chose Restaurant B (utility: -17.3 > -34.3)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 82.7 <= Price $100
+  day72_customer_5: Chose Restaurant B (utility: 150.0 > 60.0)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day72_customer_6: Chose Restaurant B (utility: 33.0 > 13.0)
+  Customer 6: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day72_customer_7: Chose Restaurant A (utility: 19.5 > 4.5)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day72_customer_8: Chose Restaurant A (utility: 60.1 > 10.1)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day72_customer_9: Chose Restaurant B (utility: 40.8 > 40.8)
+  Customer 9: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day72_customer_10: Chose Restaurant B (utility: 34.8 > 19.8)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+
+--- Day 72 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $135.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $500.00 revenue
+
+=== DAY 73 ===
+Customers today: 10
+  day73_customer_1: Chose Restaurant B (utility: 65.7 > -9.3)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day73_customer_2: Chose Restaurant B (utility: 110.4 > 15.4)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day73_customer_3: Chose Restaurant B (utility: 67.2 > 52.2)
+  Customer 3: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day73_customer_4: Chose Restaurant A (utility: 43.2 > 33.2)
+  Customer 4: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 2.0 stars
+  day73_customer_5: Chose Restaurant B (utility: 58.3 > 23.3)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day73_customer_6: Chose Restaurant A (utility: 25.7 > 5.7)
+  Customer 6: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day73_customer_7: Chose Restaurant B (utility: 0.0 > 0.0)
+  Customer 7: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day73_customer_8: Chose Restaurant B (utility: 18.6 > -11.4)
+  Customer 8: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day73_customer_9: Chose Restaurant B (utility: 88.9 > 13.9)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day73_customer_10: Chose Restaurant B (utility: 24.3 > 4.3)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+
+--- Day 73 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $170.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $550.00 revenue
+
+=== DAY 74 ===
+Customers today: 10
+  day74_customer_1: Chose Restaurant B (utility: 9.1 > -2.9)
+  Customer 1: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day74_customer_2: Chose Restaurant B (utility: 47.9 > -2.1)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day74_customer_3: Chose Restaurant B (utility: 25.0 > 25.0)
+  Customer 3: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day74_customer_4: Chose Restaurant B (utility: 69.0 > 49.0)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day74_customer_5: Chose Restaurant B (utility: 84.0 > 54.0)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day74_customer_6: Chose Restaurant A (utility: 37.7 > 32.7)
+  Customer 6: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day74_customer_7: Chose Restaurant B (utility: 16.9 > -38.1)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day74_customer_8: Chose Restaurant B (utility: 5.5 > -14.5)
+  Customer 8: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day74_customer_9: Chose Restaurant B (utility: 114.7 > 39.7)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day74_customer_10: Chose Restaurant B (utility: 106.2 > 11.2)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+
+--- Day 74 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $85.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $715.00 revenue
+
+=== DAY 75 ===
+Customers today: 10
+  day75_customer_1: Chose Restaurant A (utility: 122.5 > 67.5)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day75_customer_2: Chose Restaurant A (utility: 84.1 > 24.1)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day75_customer_3: Chose Restaurant B (utility: 33.1 > 28.1)
+  Customer 3: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day75_customer_4: Chose Restaurant A (utility: 40.2 > 35.2)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day75_customer_5: Chose Restaurant B (utility: -0.3 > -15.3)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 79.7 <= Price $80
+  day75_customer_6: Chose Restaurant A (utility: 77.0 > 72.0)
+  Customer 6: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day75_customer_7: Chose Restaurant A (utility: 81.2 > 11.2)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day75_customer_8: Chose Restaurant B (utility: 39.1 > 19.1)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day75_customer_9: Chose Restaurant A (utility: 83.3 > 18.3)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day75_customer_10: Chose Restaurant B (utility: 85.7 > 10.7)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+
+--- Day 75 Summary ---
+Restaurant A: 6 visitors, 6 purchases, $265.00 revenue
+Restaurant B: 4 visitors, 3 purchases, $195.00 revenue
+
+=== DAY 76 ===
+Customers today: 10
+  day76_customer_1: Chose Restaurant B (utility: 1.8 > -18.2)
+  Customer 1: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day76_customer_2: Chose Restaurant B (utility: 11.6 > -3.4)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day76_customer_3: Chose Restaurant A (utility: 8.6 > -6.4)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day76_customer_4: Chose Restaurant A (utility: 46.7 > 21.7)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day76_customer_5: Chose Restaurant B (utility: 43.7 > 18.7)
+  Customer 5: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day76_customer_6: Chose Restaurant B (utility: -25.2 > -40.2)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 69.8 <= Price $95
+  day76_customer_7: Chose Restaurant B (utility: 7.6 > -17.4)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day76_customer_8: Chose Restaurant B (utility: 12.1 > -7.9)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day76_customer_9: Chose Restaurant B (utility: -6.2 > -6.2)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 83.8 <= Price $90
+  day76_customer_10: Chose Restaurant A (utility: 17.6 > 12.6)
+  Customer 10: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 5.0 stars
+
+--- Day 76 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $260.00 revenue
+Restaurant B: 7 visitors, 5 purchases, $450.00 revenue
+
+=== DAY 77 ===
+Customers today: 10
+  day77_customer_1: Chose Restaurant B (utility: 3.5 > 3.5)
+  Customer 1: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day77_customer_2: Chose Restaurant A (utility: 57.4 > 2.4)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day77_customer_3: Chose Restaurant B (utility: 90.9 > 45.9)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day77_customer_4: Chose Restaurant B (utility: 35.6 > -24.4)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day77_customer_5: Chose Restaurant B (utility: -9.0 > -36.0)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 76.0 <= Price $85
+  day77_customer_6: Chose Restaurant B (utility: -17.5 > -49.5)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 72.5 <= Price $90
+  day77_customer_7: Chose Restaurant B (utility: 75.0 > 75.0)
+  Customer 7: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day77_customer_8: Chose Restaurant B (utility: 28.8 > -11.2)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day77_customer_9: Chose Restaurant A (utility: -10.1 > -13.1)
+  Customer 9: NO PURCHASE at Restaurant A
+    → Valuation 74.9 <= Price $85
+  day77_customer_10: Chose Restaurant A (utility: 105.6 > 30.6)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+
+--- Day 77 Summary ---
+Restaurant A: 3 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 7 visitors, 5 purchases, $475.00 revenue
+
+=== DAY 78 ===
+Customers today: 10
+  day78_customer_1: Chose Restaurant B (utility: 9.9 > -38.1)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day78_customer_2: Chose Restaurant B (utility: 3.5 > -59.5)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day78_customer_3: Chose Restaurant B (utility: -17.0 > -55.0)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 83.0 <= Price $100
+  day78_customer_4: Chose Restaurant B (utility: -19.2 > -34.2)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 100.8 <= Price $120
+  day78_customer_5: Chose Restaurant B (utility: -27.3 > -50.3)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 82.7 <= Price $110
+  day78_customer_6: Chose Restaurant B (utility: -57.6 > -70.6)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 62.4 <= Price $120
+  day78_customer_7: Chose Restaurant B (utility: 29.1 > -20.9)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day78_customer_8: Chose Restaurant B (utility: 49.3 > 14.3)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day78_customer_9: Chose Restaurant B (utility: 47.2 > -7.8)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day78_customer_10: Chose Restaurant B (utility: 15.1 > -9.9)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 78 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 6 purchases, $535.00 revenue
+
+=== DAY 79 ===
+Customers today: 10
+  day79_customer_1: Chose Restaurant B (utility: 124.4 > 64.4)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day79_customer_2: Chose Restaurant B (utility: 0.1 > -67.9)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day79_customer_3: Chose Restaurant B (utility: -22.1 > -75.1)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 72.9 <= Price $95
+  day79_customer_4: Chose Restaurant B (utility: 15.0 > -35.0)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day79_customer_5: Chose Restaurant B (utility: 67.5 > 7.5)
+  Customer 5: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day79_customer_6: Chose Restaurant B (utility: 56.6 > 6.6)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day79_customer_7: Chose Restaurant B (utility: 116.0 > 11.0)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day79_customer_8: Chose Restaurant B (utility: -24.6 > -37.6)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 95.4 <= Price $120
+  day79_customer_9: Chose Restaurant B (utility: 76.2 > -33.8)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day79_customer_10: Chose Restaurant B (utility: 20.9 > 20.9)
+  Customer 10: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+
+--- Day 79 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 8 purchases, $630.00 revenue
+
+=== DAY 80 ===
+Customers today: 10
+  day80_customer_1: Chose Restaurant B (utility: 14.9 > 9.9)
+  Customer 1: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day80_customer_2: Chose Restaurant B (utility: 6.8 > -13.2)
+  Customer 2: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day80_customer_3: Chose Restaurant B (utility: 14.2 > -43.8)
+  Customer 3: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day80_customer_4: Chose Restaurant B (utility: 51.9 > 6.9)
+  Customer 4: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day80_customer_5: Chose Restaurant B (utility: 104.5 > 59.5)
+  Customer 5: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day80_customer_6: Chose Restaurant B (utility: -0.6 > -15.6)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 109.4 <= Price $110
+  day80_customer_7: Chose Restaurant B (utility: 37.2 > 7.2)
+  Customer 7: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day80_customer_8: Chose Restaurant B (utility: 24.8 > -35.2)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day80_customer_9: Chose Restaurant B (utility: 25.0 > -25.0)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day80_customer_10: Chose Restaurant B (utility: 75.3 > 30.3)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+
+--- Day 80 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 9 purchases, $865.00 revenue
+
+=== DAY 81 ===
+Customers today: 10
+  day81_customer_1: Chose Restaurant B (utility: -16.1 > -56.1)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 103.9 <= Price $120
+  day81_customer_2: Chose Restaurant B (utility: 31.3 > 1.3)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day81_customer_3: Chose Restaurant B (utility: 130.2 > 15.2)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day81_customer_4: Chose Restaurant B (utility: 46.1 > 16.1)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day81_customer_5: Chose Restaurant B (utility: 50.6 > 5.6)
+  Customer 5: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day81_customer_6: Chose Restaurant A (utility: -3.3 > -35.3)
+  Customer 6: NO PURCHASE at Restaurant A
+    → Valuation 21.7 <= Price $25
+  day81_customer_7: Chose Restaurant B (utility: 37.4 > 2.4)
+  Customer 7: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day81_customer_8: Chose Restaurant B (utility: 4.2 > -35.8)
+  Customer 8: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day81_customer_9: Chose Restaurant B (utility: 32.4 > 12.4)
+  Customer 9: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day81_customer_10: Chose Restaurant B (utility: 40.1 > 5.1)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+
+--- Day 81 Summary ---
+Restaurant A: 1 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 9 visitors, 8 purchases, $710.00 revenue
+
+=== DAY 82 ===
+Customers today: 10
+  day82_customer_1: Chose Restaurant B (utility: 111.4 > 6.4)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day82_customer_2: Chose Restaurant B (utility: 58.0 > 3.0)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day82_customer_3: Chose Restaurant B (utility: -16.2 > -64.2)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 68.8 <= Price $85
+  day82_customer_4: Chose Restaurant B (utility: 49.8 > 24.8)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day82_customer_5: Chose Restaurant B (utility: 84.2 > 24.2)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day82_customer_6: Chose Restaurant B (utility: 38.1 > -1.9)
+  Customer 6: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day82_customer_7: Chose Restaurant B (utility: 39.3 > 9.3)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day82_customer_8: Chose Restaurant B (utility: 26.3 > -18.7)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day82_customer_9: Chose Restaurant B (utility: -19.9 > -67.9)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 70.1 <= Price $90
+  day82_customer_10: Chose Restaurant B (utility: -10.9 > -33.9)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 99.1 <= Price $110
+
+--- Day 82 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 7 purchases, $545.00 revenue
+
+=== DAY 83 ===
+Customers today: 10
+  day83_customer_1: Chose Restaurant B (utility: 45.1 > -9.9)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day83_customer_2: Chose Restaurant B (utility: 28.9 > -1.1)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day83_customer_3: Chose Restaurant B (utility: 47.0 > 22.0)
+  Customer 3: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day83_customer_4: Chose Restaurant B (utility: 66.7 > 51.7)
+  Customer 4: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day83_customer_5: Chose Restaurant B (utility: -1.8 > -6.8)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 118.2 <= Price $120
+  day83_customer_6: Chose Restaurant B (utility: 39.4 > -20.6)
+  Customer 6: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day83_customer_7: Chose Restaurant B (utility: 42.0 > -28.0)
+  Customer 7: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day83_customer_8: Chose Restaurant B (utility: 57.5 > -75.5)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day83_customer_9: Chose Restaurant B (utility: 21.8 > -28.2)
+  Customer 9: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day83_customer_10: Chose Restaurant B (utility: -3.1 > -33.1)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 106.9 <= Price $110
+
+--- Day 83 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 8 purchases, $665.00 revenue
+
+=== DAY 84 ===
+Customers today: 10
+  day84_customer_1: Chose Restaurant B (utility: 38.5 > -31.5)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day84_customer_2: Chose Restaurant B (utility: 20.3 > -24.7)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day84_customer_3: Chose Restaurant A (utility: 63.9 > 33.9)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day84_customer_4: Chose Restaurant B (utility: 102.4 > 62.4)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day84_customer_5: Chose Restaurant A (utility: 28.0 > 6.0)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day84_customer_6: Chose Restaurant B (utility: -24.6 > -67.6)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 60.4 <= Price $85
+  day84_customer_7: Chose Restaurant A (utility: 95.2 > 65.2)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day84_customer_8: Chose Restaurant B (utility: 4.0 > -24.0)
+  Customer 8: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day84_customer_9: Chose Restaurant B (utility: 18.7 > 3.7)
+  Customer 9: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day84_customer_10: Chose Restaurant B (utility: -23.3 > -41.3)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 76.7 <= Price $100
+
+--- Day 84 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $75.00 revenue
+Restaurant B: 7 visitors, 5 purchases, $405.00 revenue
+
+=== DAY 85 ===
+Customers today: 10
+  day85_customer_1: Chose Restaurant B (utility: 8.6 > -29.4)
+  Customer 1: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day85_customer_2: Chose Restaurant B (utility: 28.1 > -41.9)
+  Customer 2: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day85_customer_3: Chose Restaurant B (utility: 26.8 > -43.2)
+  Customer 3: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day85_customer_4: Chose Restaurant B (utility: 63.8 > -39.2)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day85_customer_5: Chose Restaurant B (utility: 20.8 > -29.2)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day85_customer_6: Chose Restaurant B (utility: 17.3 > -12.7)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day85_customer_7: Chose Restaurant B (utility: 35.7 > -4.3)
+  Customer 7: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day85_customer_8: Chose Restaurant B (utility: 73.9 > 38.9)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day85_customer_9: Chose Restaurant B (utility: -37.2 > -75.2)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 82.8 <= Price $120
+  day85_customer_10: Chose Restaurant B (utility: -11.2 > -11.2)
+  Customer 10: NO PURCHASE at Restaurant B
+    → Valuation 108.8 <= Price $120
+
+--- Day 85 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 8 purchases, $695.00 revenue
+
+=== DAY 86 ===
+Customers today: 10
+  day86_customer_1: Chose Restaurant B (utility: 21.0 > -4.0)
+  Customer 1: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day86_customer_2: Chose Restaurant B (utility: 117.0 > 47.0)
+  Customer 2: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day86_customer_3: Chose Restaurant B (utility: 23.5 > -11.5)
+  Customer 3: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day86_customer_4: Chose Restaurant B (utility: 19.7 > 9.7)
+  Customer 4: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day86_customer_5: Chose Restaurant B (utility: 33.8 > 18.8)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day86_customer_6: Chose Restaurant B (utility: 20.2 > -9.8)
+  Customer 6: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day86_customer_7: Chose Restaurant B (utility: -37.0 > -50.0)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 83.0 <= Price $120
+  day86_customer_8: Chose Restaurant B (utility: 1.2 > -56.8)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day86_customer_9: Chose Restaurant A (utility: 55.3 > 25.3)
+  Customer 9: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day86_customer_10: Chose Restaurant A (utility: 63.0 > 38.0)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+
+--- Day 86 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 8 visitors, 7 purchases, $670.00 revenue
+
+=== DAY 87 ===
+Customers today: 10
+  day87_customer_1: Chose Restaurant B (utility: 41.8 > 6.8)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day87_customer_2: Chose Restaurant B (utility: 57.1 > -7.9)
+  Customer 2: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day87_customer_3: Chose Restaurant B (utility: -3.4 > -61.4)
+  Customer 3: NO PURCHASE at Restaurant B
+    → Valuation 96.6 <= Price $100
+  day87_customer_4: Chose Restaurant B (utility: 9.5 > -33.5)
+  Customer 4: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day87_customer_5: Chose Restaurant B (utility: 63.5 > 8.5)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day87_customer_6: Chose Restaurant B (utility: -33.3 > -36.3)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 86.7 <= Price $120
+  day87_customer_7: Chose Restaurant B (utility: 111.0 > 16.0)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day87_customer_8: Chose Restaurant B (utility: 53.5 > 33.5)
+  Customer 8: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day87_customer_9: Chose Restaurant B (utility: 27.5 > -47.5)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day87_customer_10: Chose Restaurant B (utility: 92.3 > 67.3)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+
+--- Day 87 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 8 purchases, $685.00 revenue
+
+=== DAY 88 ===
+Customers today: 10
+  day88_customer_1: Chose Restaurant B (utility: 42.7 > 27.7)
+  Customer 1: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day88_customer_2: Chose Restaurant A (utility: 56.5 > 41.5)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day88_customer_3: Chose Restaurant B (utility: 8.4 > -6.6)
+  Customer 3: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day88_customer_4: Chose Restaurant B (utility: -13.7 > -43.7)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 106.3 <= Price $120
+  day88_customer_5: Chose Restaurant B (utility: 20.7 > -19.3)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day88_customer_6: Chose Restaurant B (utility: -37.0 > -45.0)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 83.0 <= Price $120
+  day88_customer_7: Chose Restaurant B (utility: -4.9 > -14.9)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 115.1 <= Price $120
+  day88_customer_8: Chose Restaurant B (utility: 12.8 > -27.2)
+  Customer 8: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day88_customer_9: Chose Restaurant B (utility: 16.1 > -58.9)
+  Customer 9: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day88_customer_10: Chose Restaurant B (utility: 20.8 > -29.2)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+
+--- Day 88 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 6 purchases, $610.00 revenue
+
+=== DAY 89 ===
+Customers today: 10
+  day89_customer_1: Chose Restaurant B (utility: 27.6 > -12.4)
+  Customer 1: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day89_customer_2: Chose Restaurant B (utility: 22.2 > -7.8)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day89_customer_3: Chose Restaurant B (utility: 8.2 > -29.8)
+  Customer 3: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 2.0 stars
+  day89_customer_4: Chose Restaurant B (utility: 2.7 > -22.3)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day89_customer_5: Chose Restaurant B (utility: 64.8 > 44.8)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day89_customer_6: Chose Restaurant B (utility: 100.7 > -9.3)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day89_customer_7: Chose Restaurant B (utility: 74.1 > -28.9)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day89_customer_8: Chose Restaurant B (utility: 13.1 > -11.9)
+  Customer 8: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day89_customer_9: Chose Restaurant B (utility: -25.5 > -53.5)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 74.5 <= Price $100
+  day89_customer_10: Chose Restaurant B (utility: 0.6 > -42.4)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+
+--- Day 89 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 9 purchases, $735.00 revenue
+
+=== DAY 90 ===
+Customers today: 10
+  day90_customer_1: Chose Restaurant B (utility: -17.8 > -45.8)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 82.2 <= Price $100
+  day90_customer_2: Chose Restaurant B (utility: -55.6 > -88.6)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 44.4 <= Price $100
+  day90_customer_3: Chose Restaurant A (utility: 71.6 > 26.6)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day90_customer_4: Chose Restaurant A (utility: 66.6 > 11.6)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day90_customer_5: Chose Restaurant B (utility: -16.7 > -21.7)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 103.3 <= Price $120
+  day90_customer_6: Chose Restaurant B (utility: 1.3 > -28.7)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day90_customer_7: Chose Restaurant B (utility: 100.7 > 85.7)
+  Customer 7: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day90_customer_8: Chose Restaurant B (utility: 79.2 > -20.8)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day90_customer_9: Chose Restaurant B (utility: 45.5 > -14.5)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day90_customer_10: Chose Restaurant B (utility: 18.7 > -51.3)
+  Customer 10: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+
+--- Day 90 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $50.00 revenue
+Restaurant B: 8 visitors, 5 purchases, $425.00 revenue
+
+=== DAY 91 ===
+Customers today: 10
+  day91_customer_1: Chose Restaurant B (utility: 15.0 > -15.0)
+  Customer 1: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day91_customer_2: Chose Restaurant B (utility: 157.3 > 117.3)
+  Customer 2: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day91_customer_3: Chose Restaurant A (utility: 91.3 > 46.3)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day91_customer_4: Chose Restaurant B (utility: 34.5 > 14.5)
+  Customer 4: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day91_customer_5: Chose Restaurant B (utility: 36.5 > 16.5)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day91_customer_6: Chose Restaurant B (utility: -17.9 > -47.9)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 102.1 <= Price $120
+  day91_customer_7: Chose Restaurant B (utility: 52.9 > -22.1)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day91_customer_8: Chose Restaurant A (utility: 84.0 > 29.0)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day91_customer_9: Chose Restaurant B (utility: -18.7 > -30.7)
+  Customer 9: NO PURCHASE at Restaurant B
+    → Valuation 81.3 <= Price $100
+  day91_customer_10: Chose Restaurant A (utility: 71.0 > 26.0)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+
+--- Day 91 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $75.00 revenue
+Restaurant B: 7 visitors, 5 purchases, $440.00 revenue
+
+=== DAY 92 ===
+Customers today: 10
+  day92_customer_1: Chose Restaurant B (utility: 6.4 > -51.6)
+  Customer 1: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 2.0 stars
+  day92_customer_2: Chose Restaurant B (utility: 2.1 > -12.9)
+  Customer 2: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day92_customer_3: Chose Restaurant B (utility: 45.2 > -57.8)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day92_customer_4: Chose Restaurant B (utility: 5.9 > -4.1)
+  Customer 4: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day92_customer_5: Chose Restaurant B (utility: 55.4 > -4.6)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day92_customer_6: Chose Restaurant B (utility: -25.0 > -63.0)
+  Customer 6: NO PURCHASE at Restaurant B
+    → Valuation 70.0 <= Price $95
+  day92_customer_7: Chose Restaurant B (utility: -7.2 > -35.2)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 82.8 <= Price $90
+  day92_customer_8: Chose Restaurant B (utility: 55.8 > 15.8)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day92_customer_9: Chose Restaurant B (utility: 66.7 > 31.7)
+  Customer 9: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day92_customer_10: Chose Restaurant B (utility: 33.8 > 18.8)
+  Customer 10: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+
+--- Day 92 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 8 purchases, $730.00 revenue
+
+=== DAY 93 ===
+Customers today: 10
+  day93_customer_1: Chose Restaurant B (utility: 20.6 > -19.4)
+  Customer 1: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 2.0 stars
+  day93_customer_2: Chose Restaurant B (utility: 17.0 > -33.0)
+  Customer 2: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day93_customer_3: Chose Restaurant B (utility: 145.3 > 30.3)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day93_customer_4: Chose Restaurant A (utility: 45.4 > -9.6)
+  Customer 4: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day93_customer_5: Chose Restaurant B (utility: 64.0 > -23.0)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day93_customer_6: Chose Restaurant B (utility: 109.6 > 24.6)
+  Customer 6: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day93_customer_7: Chose Restaurant B (utility: 100.1 > -4.9)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day93_customer_8: Chose Restaurant B (utility: -7.2 > -34.2)
+  Customer 8: NO PURCHASE at Restaurant B
+    → Valuation 82.8 <= Price $90
+  day93_customer_9: Chose Restaurant B (utility: 1.1 > -28.9)
+  Customer 9: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day93_customer_10: Chose Restaurant B (utility: 82.1 > 7.1)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+
+--- Day 93 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 8 purchases, $455.00 revenue
+
+=== DAY 94 ===
+Customers today: 10
+  day94_customer_1: Chose Restaurant B (utility: 58.2 > -38.8)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day94_customer_2: Chose Restaurant A (utility: 74.5 > 69.5)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 2.0 stars
+  day94_customer_3: Chose Restaurant B (utility: 116.1 > 6.1)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day94_customer_4: Chose Restaurant B (utility: 27.9 > 27.9)
+  Customer 4: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day94_customer_5: Chose Restaurant B (utility: 13.4 > -11.6)
+  Customer 5: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day94_customer_6: Chose Restaurant B (utility: 0.5 > -67.5)
+  Customer 6: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day94_customer_7: Chose Restaurant B (utility: 35.1 > 0.1)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day94_customer_8: Chose Restaurant A (utility: -31.5 > -33.5)
+  Customer 8: NO PURCHASE at Restaurant A
+    → Valuation 48.5 <= Price $80
+  day94_customer_9: Chose Restaurant B (utility: 9.1 > -38.9)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day94_customer_10: Chose Restaurant A (utility: 33.6 > -3.4)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+
+--- Day 94 Summary ---
+Restaurant A: 3 visitors, 2 purchases, $110.00 revenue
+Restaurant B: 7 visitors, 7 purchases, $535.00 revenue
+
+=== DAY 95 ===
+Customers today: 10
+  day95_customer_1: Chose Restaurant A (utility: 103.1 > 53.1)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day95_customer_2: Chose Restaurant B (utility: -13.1 > -36.1)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 81.9 <= Price $95
+  day95_customer_3: Chose Restaurant A (utility: 65.2 > 35.2)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day95_customer_4: Chose Restaurant B (utility: 12.8 > -2.2)
+  Customer 4: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day95_customer_5: Chose Restaurant B (utility: 46.1 > 26.1)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day95_customer_6: Chose Restaurant A (utility: 23.9 > 8.9)
+  Customer 6: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day95_customer_7: Chose Restaurant B (utility: 97.4 > -17.6)
+  Customer 7: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day95_customer_8: Chose Restaurant B (utility: 79.4 > 54.4)
+  Customer 8: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day95_customer_9: Chose Restaurant B (utility: 33.9 > 18.9)
+  Customer 9: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 2.0 stars
+  day95_customer_10: Chose Restaurant B (utility: 103.6 > 18.6)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+
+--- Day 95 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $135.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $445.00 revenue
+
+=== DAY 96 ===
+Customers today: 10
+  day96_customer_1: Chose Restaurant A (utility: 61.4 > 46.4)
+  Customer 1: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+  day96_customer_2: Chose Restaurant A (utility: 46.8 > 36.8)
+  Customer 2: PURCHASED Lobster Thermidor at Restaurant A ($110)
+    → Left review: 5.0 stars
+  day96_customer_3: Chose Restaurant B (utility: 20.8 > 0.8)
+  Customer 3: PURCHASED Beef Bourguignon at Restaurant B ($100)
+    → Left review: 5.0 stars
+  day96_customer_4: Chose Restaurant A (utility: 69.8 > 49.8)
+  Customer 4: PURCHASED Beef Bourguignon at Restaurant A ($100)
+    → Left review: 2.0 stars
+  day96_customer_5: Chose Restaurant B (utility: 32.8 > 22.8)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day96_customer_6: Chose Restaurant A (utility: -32.2 > -35.2)
+  Customer 6: NO PURCHASE at Restaurant A
+    → Valuation 62.8 <= Price $95
+  day96_customer_7: Chose Restaurant B (utility: -8.2 > -28.2)
+  Customer 7: NO PURCHASE at Restaurant B
+    → Valuation 101.8 <= Price $110
+  day96_customer_8: Chose Restaurant B (utility: 132.2 > 17.2)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+  day96_customer_9: Chose Restaurant B (utility: 80.2 > 50.2)
+  Customer 9: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day96_customer_10: Chose Restaurant A (utility: 55.3 > 50.3)
+  Customer 10: PURCHASED Truffle Risotto at Restaurant A ($85)
+    → Left review: 5.0 stars
+
+--- Day 96 Summary ---
+Restaurant A: 5 visitors, 4 purchases, $380.00 revenue
+Restaurant B: 5 visitors, 4 purchases, $325.00 revenue
+
+=== DAY 97 ===
+Customers today: 10
+  day97_customer_1: Chose Restaurant A (utility: -55.6 > -63.6)
+  Customer 1: NO PURCHASE at Restaurant A
+    → Valuation 34.4 <= Price $90
+  day97_customer_2: Chose Restaurant B (utility: 77.5 > 62.5)
+  Customer 2: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day97_customer_3: Chose Restaurant A (utility: 20.7 > 10.7)
+  Customer 3: PURCHASED Veal Marsala at Restaurant A ($90)
+    → Left review: 2.0 stars
+  day97_customer_4: Chose Restaurant B (utility: 26.8 > -3.2)
+  Customer 4: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day97_customer_5: Chose Restaurant B (utility: 156.1 > 116.1)
+  Customer 5: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day97_customer_6: Chose Restaurant B (utility: 12.7 > -2.3)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day97_customer_7: Chose Restaurant B (utility: 52.5 > 22.5)
+  Customer 7: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day97_customer_8: Chose Restaurant B (utility: 8.4 > -1.6)
+  Customer 8: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day97_customer_9: Chose Restaurant A (utility: -22.8 > -79.8)
+  Customer 9: NO PURCHASE at Restaurant A
+    → Valuation 2.2 <= Price $25
+  day97_customer_10: Chose Restaurant B (utility: 86.6 > 36.6)
+  Customer 10: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+
+--- Day 97 Summary ---
+Restaurant A: 3 visitors, 1 purchases, $90.00 revenue
+Restaurant B: 7 visitors, 7 purchases, $640.00 revenue
+
+=== DAY 98 ===
+Customers today: 10
+  day98_customer_1: Chose Restaurant B (utility: 131.9 > 26.9)
+  Customer 1: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 5.0 stars
+  day98_customer_2: Chose Restaurant B (utility: 10.7 > -9.3)
+  Customer 2: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day98_customer_3: Chose Restaurant B (utility: 13.0 > -17.0)
+  Customer 3: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day98_customer_4: Chose Restaurant B (utility: -5.3 > -20.3)
+  Customer 4: NO PURCHASE at Restaurant B
+    → Valuation 104.7 <= Price $110
+  day98_customer_5: Chose Restaurant B (utility: 37.1 > 12.1)
+  Customer 5: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day98_customer_6: Chose Restaurant B (utility: 0.4 > -42.6)
+  Customer 6: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day98_customer_7: Chose Restaurant B (utility: 13.5 > -46.5)
+  Customer 7: PURCHASED Veal Marsala at Restaurant B ($90)
+    → Left review: 5.0 stars
+  day98_customer_8: Chose Restaurant B (utility: 84.7 > 4.7)
+  Customer 8: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day98_customer_9: Chose Restaurant B (utility: 11.7 > -3.3)
+  Customer 9: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day98_customer_10: Chose Restaurant B (utility: 40.8 > 10.8)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+
+--- Day 98 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 9 purchases, $820.00 revenue
+
+=== DAY 99 ===
+Customers today: 10
+  day99_customer_1: Chose Restaurant B (utility: -0.9 > -33.9)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 89.1 <= Price $90
+  day99_customer_2: Chose Restaurant B (utility: -0.3 > -50.3)
+  Customer 2: NO PURCHASE at Restaurant B
+    → Valuation 109.7 <= Price $110
+  day99_customer_3: Chose Restaurant A (utility: 40.0 > 5.0)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day99_customer_4: Chose Restaurant B (utility: 23.3 > -16.7)
+  Customer 4: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day99_customer_5: Chose Restaurant B (utility: -18.1 > -56.1)
+  Customer 5: NO PURCHASE at Restaurant B
+    → Valuation 81.9 <= Price $100
+  day99_customer_6: Chose Restaurant B (utility: 17.0 > -38.0)
+  Customer 6: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+  day99_customer_7: Chose Restaurant B (utility: 33.8 > -21.2)
+  Customer 7: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 2.0 stars
+  day99_customer_8: Chose Restaurant B (utility: 47.2 > 2.2)
+  Customer 8: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 5.0 stars
+  day99_customer_9: Chose Restaurant B (utility: 25.9 > 5.9)
+  Customer 9: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 2.0 stars
+  day99_customer_10: Chose Restaurant B (utility: 47.2 > 7.2)
+  Customer 10: PURCHASED Duck Confit at Restaurant B ($95)
+    → Left review: 5.0 stars
+
+--- Day 99 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $25.00 revenue
+Restaurant B: 9 visitors, 6 purchases, $600.00 revenue
+
+=== DAY 100 ===
+Customers today: 10
+  day100_customer_1: Chose Restaurant B (utility: -39.7 > -87.7)
+  Customer 1: NO PURCHASE at Restaurant B
+    → Valuation 70.3 <= Price $110
+  day100_customer_2: Chose Restaurant B (utility: 8.9 > -11.1)
+  Customer 2: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day100_customer_3: Chose Restaurant A (utility: 11.9 > -45.1)
+  Customer 3: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 5.0 stars
+  day100_customer_4: Chose Restaurant A (utility: 9.5 > 9.5)
+  Customer 4: PURCHASED Coq au Vin at Restaurant A ($80)
+    → Left review: 5.0 stars
+  day100_customer_5: Chose Restaurant B (utility: 46.7 > 11.7)
+  Customer 5: PURCHASED Coq au Vin at Restaurant B ($80)
+    → Left review: 5.0 stars
+  day100_customer_6: Chose Restaurant B (utility: 31.8 > 11.8)
+  Customer 6: PURCHASED Lobster Thermidor at Restaurant B ($110)
+    → Left review: 5.0 stars
+  day100_customer_7: Chose Restaurant B (utility: 129.4 > 114.4)
+  Customer 7: PURCHASED Truffle Risotto at Restaurant B ($85)
+    → Left review: 2.0 stars
+  day100_customer_8: Chose Restaurant A (utility: 61.5 > 21.5)
+  Customer 8: PURCHASED Crème Brûlée at Restaurant A ($25)
+    → Left review: 2.0 stars
+  day100_customer_9: Chose Restaurant B (utility: 59.2 > 49.2)
+  Customer 9: PURCHASED Wine Flight at Restaurant B ($120)
+    → Left review: 5.0 stars
+  day100_customer_10: Chose Restaurant B (utility: 48.6 > -58.4)
+  Customer 10: PURCHASED Crème Brûlée at Restaurant B ($25)
+    → Left review: 2.0 stars
+
+--- Day 100 Summary ---
+Restaurant A: 3 visitors, 3 purchases, $130.00 revenue
+Restaurant B: 7 visitors, 6 purchases, $540.00 revenue
+
+=== SIMULATION COMPLETED ===
+Total customers processed: 1000
+Console log saved to: data/outputs/simulation_nov06_recency_high/simulation_console_log.txt
+

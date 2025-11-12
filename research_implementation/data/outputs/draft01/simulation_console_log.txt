@@ -1,0 +1,379 @@
+=== COMPETITIVE CoNF SIMULATION STARTED ===
+Timestamp: 2025-11-10T14:22:57.759024
+Total customers: 100 over 10 days
+Base customers per day: 10
+
+=== DAY 1 ===
+Customers today: 10
+  day1_customer_1: Chose Restaurant B (utility: 117.1 > 110.1)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day1_customer_2: Chose Restaurant A (utility: 71.5 > 60.5)
+  Customer 2: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 5.0 stars
+  day1_customer_3: Chose Restaurant B (utility: 111.4 > 73.4)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day1_customer_4: Chose Restaurant B (utility: 156.8 > 155.8)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day1_customer_5: Chose Restaurant B (utility: 110.7 > 95.7)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day1_customer_6: Chose Restaurant B (utility: 53.4 > 30.4)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day1_customer_7: Chose Restaurant B (utility: 140.8 > 114.8)
+  Customer 7: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day1_customer_8: Chose Restaurant B (utility: 96.4 > 62.4)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day1_customer_9: Chose Restaurant B (utility: 140.2 > 135.2)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day1_customer_10: Chose Restaurant B (utility: 77.5 > 72.5)
+  Customer 10: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 1 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $17.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $159.00 revenue
+
+=== DAY 2 ===
+Customers today: 10
+  day2_customer_1: Chose Restaurant B (utility: 150.9 > 106.9)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day2_customer_2: Chose Restaurant B (utility: 130.4 > 99.4)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day2_customer_3: Chose Restaurant B (utility: 132.4 > 122.4)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day2_customer_4: Chose Restaurant B (utility: 133.7 > 123.7)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day2_customer_5: Chose Restaurant B (utility: 114.8 > 109.8)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day2_customer_6: Chose Restaurant B (utility: 78.6 > 73.6)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day2_customer_7: Chose Restaurant A (utility: 69.5 > 66.5)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 2.0 stars
+  day2_customer_8: Chose Restaurant B (utility: 100.6 > 94.6)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day2_customer_9: Chose Restaurant B (utility: 81.3 > 77.3)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day2_customer_10: Chose Restaurant B (utility: 150.4 > 112.4)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+
+--- Day 2 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $14.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $156.00 revenue
+
+=== DAY 3 ===
+Customers today: 10
+  day3_customer_1: Chose Restaurant B (utility: 102.7 > 86.7)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day3_customer_2: Chose Restaurant B (utility: 84.8 > 74.8)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day3_customer_3: Chose Restaurant B (utility: 135.2 > 120.2)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day3_customer_4: Chose Restaurant B (utility: 113.5 > 104.5)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day3_customer_5: Chose Restaurant B (utility: 119.5 > 96.5)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day3_customer_6: Chose Restaurant B (utility: 50.8 > 22.8)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day3_customer_7: Chose Restaurant B (utility: 75.0 > 56.0)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day3_customer_8: Chose Restaurant B (utility: 102.3 > 82.3)
+  Customer 8: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+  day3_customer_9: Chose Restaurant B (utility: 100.2 > 97.2)
+  Customer 9: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+  day3_customer_10: Chose Restaurant B (utility: 85.5 > 61.5)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+
+--- Day 3 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $192.00 revenue
+
+=== DAY 4 ===
+Customers today: 10
+  day4_customer_1: Chose Restaurant A (utility: 100.3 > 95.3)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 5.0 stars
+  day4_customer_2: Chose Restaurant B (utility: 138.8 > 133.8)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day4_customer_3: Chose Restaurant B (utility: 80.7 > 73.7)
+  Customer 3: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day4_customer_4: Chose Restaurant B (utility: 101.5 > 95.5)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day4_customer_5: Chose Restaurant B (utility: 155.2 > 126.2)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day4_customer_6: Chose Restaurant B (utility: 134.5 > 120.5)
+  Customer 6: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day4_customer_7: Chose Restaurant B (utility: 92.1 > 81.1)
+  Customer 7: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day4_customer_8: Chose Restaurant B (utility: 51.6 > 25.6)
+  Customer 8: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day4_customer_9: Chose Restaurant B (utility: 59.2 > 40.2)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day4_customer_10: Chose Restaurant B (utility: 179.0 > 141.0)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+
+--- Day 4 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $165.00 revenue
+
+=== DAY 5 ===
+Customers today: 10
+  day5_customer_1: Chose Restaurant B (utility: 122.6 > 106.6)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day5_customer_2: Chose Restaurant B (utility: 43.6 > -1.4)
+  Customer 2: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day5_customer_3: Chose Restaurant B (utility: 134.2 > 100.2)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day5_customer_4: Chose Restaurant B (utility: 144.2 > 119.2)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day5_customer_5: Chose Restaurant B (utility: 115.8 > 95.8)
+  Customer 5: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day5_customer_6: Chose Restaurant B (utility: 100.4 > 60.4)
+  Customer 6: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day5_customer_7: Chose Restaurant B (utility: 51.9 > 24.9)
+  Customer 7: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day5_customer_8: Chose Restaurant B (utility: 91.7 > 86.7)
+  Customer 8: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day5_customer_9: Chose Restaurant B (utility: 132.2 > 128.2)
+  Customer 9: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day5_customer_10: Chose Restaurant B (utility: 74.7 > 74.7)
+  Customer 10: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 2.0 stars
+
+--- Day 5 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $152.00 revenue
+
+=== DAY 6 ===
+Customers today: 10
+  day6_customer_1: Chose Restaurant B (utility: 76.8 > 43.8)
+  Customer 1: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day6_customer_2: Chose Restaurant B (utility: 106.8 > 104.8)
+  Customer 2: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day6_customer_3: Chose Restaurant A (utility: 89.5 > 85.5)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 5.0 stars
+  day6_customer_4: Chose Restaurant B (utility: 108.3 > 53.3)
+  Customer 4: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day6_customer_5: Chose Restaurant B (utility: 136.1 > 126.1)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day6_customer_6: Chose Restaurant B (utility: 98.8 > 66.8)
+  Customer 6: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day6_customer_7: Chose Restaurant B (utility: 53.3 > 29.3)
+  Customer 7: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day6_customer_8: Chose Restaurant B (utility: 146.4 > 98.4)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day6_customer_9: Chose Restaurant B (utility: 181.2 > 167.2)
+  Customer 9: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day6_customer_10: Chose Restaurant A (utility: 105.8 > 87.8)
+  Customer 10: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 2.0 stars
+
+--- Day 6 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $20.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $122.00 revenue
+
+=== DAY 7 ===
+Customers today: 10
+  day7_customer_1: Chose Restaurant A (utility: 153.2 > 144.2)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day7_customer_2: Chose Restaurant B (utility: 91.6 > 62.6)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day7_customer_3: Chose Restaurant B (utility: 53.2 > 32.2)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day7_customer_4: Chose Restaurant B (utility: 106.1 > 90.1)
+  Customer 4: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day7_customer_5: Chose Restaurant B (utility: 72.0 > 36.0)
+  Customer 5: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day7_customer_6: Chose Restaurant B (utility: 88.2 > 59.2)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day7_customer_7: Chose Restaurant B (utility: 28.0 > 11.0)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day7_customer_8: Chose Restaurant B (utility: 137.8 > 98.8)
+  Customer 8: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+  day7_customer_9: Chose Restaurant B (utility: 93.3 > 62.3)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day7_customer_10: Chose Restaurant B (utility: 98.2 > 78.2)
+  Customer 10: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 2.0 stars
+
+--- Day 7 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $133.00 revenue
+
+=== DAY 8 ===
+Customers today: 10
+  day8_customer_1: Chose Restaurant A (utility: 84.2 > 80.2)
+  Customer 1: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 5.0 stars
+  day8_customer_2: Chose Restaurant B (utility: 131.2 > 119.2)
+  Customer 2: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day8_customer_3: Chose Restaurant B (utility: 101.5 > 53.5)
+  Customer 3: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day8_customer_4: Chose Restaurant B (utility: 68.2 > 60.2)
+  Customer 4: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day8_customer_5: Chose Restaurant B (utility: 85.7 > 74.7)
+  Customer 5: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day8_customer_6: Chose Restaurant B (utility: 139.5 > 125.5)
+  Customer 6: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+  day8_customer_7: Chose Restaurant A (utility: 89.3 > 88.3)
+  Customer 7: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 2.0 stars
+  day8_customer_8: Chose Restaurant B (utility: 120.3 > 85.3)
+  Customer 8: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 2.0 stars
+  day8_customer_9: Chose Restaurant B (utility: 133.2 > 79.2)
+  Customer 9: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day8_customer_10: Chose Restaurant B (utility: 79.8 > 40.8)
+  Customer 10: PURCHASED Avocado Eggrolls at Restaurant B ($14)
+    → Left review: 5.0 stars
+
+--- Day 8 Summary ---
+Restaurant A: 2 visitors, 2 purchases, $31.00 revenue
+Restaurant B: 8 visitors, 8 purchases, $120.00 revenue
+
+=== DAY 9 ===
+Customers today: 10
+  day9_customer_1: Chose Restaurant B (utility: 64.5 > 34.5)
+  Customer 1: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day9_customer_2: Chose Restaurant B (utility: 85.0 > 84.0)
+  Customer 2: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+  day9_customer_3: Chose Restaurant B (utility: 124.9 > 114.9)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day9_customer_4: Chose Restaurant B (utility: 113.8 > 99.8)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day9_customer_5: Chose Restaurant B (utility: 87.9 > 40.9)
+  Customer 5: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day9_customer_6: Chose Restaurant B (utility: 158.2 > 134.2)
+  Customer 6: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day9_customer_7: Chose Restaurant B (utility: 78.7 > 48.7)
+  Customer 7: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day9_customer_8: Chose Restaurant B (utility: 99.3 > 78.3)
+  Customer 8: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day9_customer_9: Chose Restaurant B (utility: 29.1 > 20.1)
+  Customer 9: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 2.0 stars
+  day9_customer_10: Chose Restaurant B (utility: 131.7 > 92.7)
+  Customer 10: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 2.0 stars
+
+--- Day 9 Summary ---
+Restaurant A: 0 visitors, 0 purchases, $0.00 revenue
+Restaurant B: 10 visitors, 10 purchases, $177.00 revenue
+
+=== DAY 10 ===
+Customers today: 10
+  day10_customer_1: Chose Restaurant B (utility: 116.8 > 88.8)
+  Customer 1: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day10_customer_2: Chose Restaurant B (utility: 101.0 > 66.0)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant B ($9)
+    → Left review: 5.0 stars
+  day10_customer_3: Chose Restaurant B (utility: 55.9 > 45.9)
+  Customer 3: PURCHASED Chicken Madeira at Restaurant B ($24)
+    → Left review: 5.0 stars
+  day10_customer_4: Chose Restaurant B (utility: 55.8 > 18.8)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day10_customer_5: Chose Restaurant B (utility: 101.3 > 75.3)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant B ($28)
+    → Left review: 5.0 stars
+  day10_customer_6: Chose Restaurant A (utility: 86.6 > 81.6)
+  Customer 6: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 2.0 stars
+  day10_customer_7: Chose Restaurant B (utility: 168.5 > 124.5)
+  Customer 7: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 2.0 stars
+  day10_customer_8: Chose Restaurant B (utility: 88.1 > 52.1)
+  Customer 8: PURCHASED Fresh Strawberry Cheesecake at Restaurant B ($10)
+    → Left review: 5.0 stars
+  day10_customer_9: Chose Restaurant B (utility: 110.7 > 87.7)
+  Customer 9: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+  day10_customer_10: Chose Restaurant B (utility: 59.7 > 52.7)
+  Customer 10: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 2.0 stars
+
+--- Day 10 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $9.00 revenue
+Restaurant B: 9 visitors, 9 purchases, $134.00 revenue
+
+=== SIMULATION COMPLETED ===
+Total customers processed: 100
+Console log saved to: data/outputs/draft01/simulation_console_log.txt
+

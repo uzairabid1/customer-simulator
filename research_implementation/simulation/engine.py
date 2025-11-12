@@ -349,8 +349,8 @@ class RestaurantSimulation:
                 b_reviews = self._get_combined_reviews(self.restaurant_b)
                 
                 # Prepare initial review sets (5 each)
-                a_reviews_shown = a_reviews[:5]
-                b_reviews_shown = b_reviews[:5]
+                a_reviews_shown = a_reviews[:Config.CONF_LIMITED_ATTENTION]
+                b_reviews_shown = b_reviews[:Config.CONF_LIMITED_ATTENTION]
 
                 # Get TOTAL ratings and counts (initial + new)
                 a_total_rating = self.restaurant_a.get_overall_rating()
@@ -377,11 +377,13 @@ class RestaurantSimulation:
                 b_additional_reviews = []
                 a_post_investigation = None
                 b_post_investigation = None
-                
+
+                total_cap = Config.CONF_LIMITED_ATTENTION + Config.CONF_SKEPTICAL_REVIEWS
+
                 if a_skepticism["will_investigate"]:
                     a_additional_reviews = self._get_additional_reviews(self.restaurant_a)
                     a_reviews_shown.extend(a_additional_reviews)
-                    a_reviews_shown = a_reviews_shown[:10]  # Limit to 10 total
+                    a_reviews_shown = a_reviews_shown[:total_cap]  # Limit to 10 total
                     
                     # Assess post-investigation effects
                     a_post_investigation = self._assess_post_investigation_effects(
@@ -401,7 +403,7 @@ class RestaurantSimulation:
                 if b_skepticism["will_investigate"]:
                     b_additional_reviews = self._get_additional_reviews(self.restaurant_b)
                     b_reviews_shown.extend(b_additional_reviews)
-                    b_reviews_shown = b_reviews_shown[:10]  # Limit to 10 total
+                    b_reviews_shown = b_reviews_shown[:total_cap]  # Limit to 10 total
                     
                     # Assess post-investigation effects
                     b_post_investigation = self._assess_post_investigation_effects(
@@ -559,15 +561,15 @@ class RestaurantSimulation:
         restaurant_b = self.restaurant_b
         
         # Ensure policies are set correctly
-        restaurant_a.review_policy = "newest_first"
-        restaurant_b.review_policy = "random"
+        restaurant_a.review_policy = Config.RESTAURANT_A_REVIEW_POLICY
+        restaurant_b.review_policy = Config.RESTAURANT_B_REVIEW_POLICY
         
-        print(f"Restaurant A (Newest First) menu items and prices:")
+        print(f"Restaurant A {Config.RESTAURANT_A_REVIEW_POLICY} menu items and prices:")
         for item, price in restaurant_a.menu.items():
             print(f"  - {item}: ${price}")
         print()
         
-        print(f"Restaurant B (Random) menu items and prices:")
+        print(f"Restaurant B {Config.RESTAURANT_B_REVIEW_POLICY} menu items and prices:")
         for item, price in restaurant_b.menu.items():
             print(f"  - {item}: ${price}")
         print()
@@ -601,7 +603,7 @@ class RestaurantSimulation:
         
         results = {
             "restaurant_a": {
-                "policy": "newest_first",
+                "policy": Config.RESTAURANT_A_REVIEW_POLICY,
                 "revenue": 0,
                 "purchases": 0,
                 "customers_visited": 0,
@@ -609,7 +611,7 @@ class RestaurantSimulation:
                 "daily_stats": []
             },
             "restaurant_b": {
-                "policy": "random", 
+                "policy": Config.RESTAURANT_B_REVIEW_POLICY,
                 "revenue": 0,
                 "purchases": 0,
                 "customers_visited": 0,
@@ -1207,14 +1209,14 @@ class RestaurantSimulation:
         print(f"  - Total days: {results['days']}")
         print(f"  - Total customers: {results['total_customers']}")
         
-        print(f"\nRestaurant A (Newest First Policy):")
+        print(f"\nRestaurant A:")
         print(f"  - Customers visited: {restaurant_a['customers_visited']}")
         print(f"  - Purchases: {restaurant_a['purchases']}")
         print(f"  - Purchase rate: {restaurant_a['purchase_rate']:.1%}")
         print(f"  - Total revenue: ${restaurant_a['revenue']:.2f}")
         print(f"  - Avg revenue per visitor: ${restaurant_a['avg_revenue_per_visitor']:.2f}")
         
-        print(f"\nRestaurant B (Random Policy):")
+        print(f"\nRestaurant B:")
         print(f"  - Customers visited: {restaurant_b['customers_visited']}")
         print(f"  - Purchases: {restaurant_b['purchases']}")
         print(f"  - Purchase rate: {restaurant_b['purchase_rate']:.1%}")

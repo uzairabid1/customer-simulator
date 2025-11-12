@@ -326,12 +326,14 @@ Format as JSON:
             
             if skepticism["concerns"]:
                 concern_descriptions = {
-                    "too_many_perfect_ratings": "too many 5-star reviews seem suspicious",
-                    "suspiciously_perfect_ratings": "the perfect ratings look fake",
-                    "very_outdated_reviews": "all reviews are very old",
-                    "outdated_reviews": "reviews seem somewhat outdated",
-                    "too_few_reviews": "not enough reviews to be confident",
-                    "no_rating_diversity": "all reviews have the same rating (suspicious)"
+                    "suspiciously_uniform_distribution": "ratings look unnaturally consistent — real reviews usually show some variation",
+                    "low_variance_extreme_mean": "ratings cluster too tightly around an extreme average, which feels less credible",
+                    "rating_sentiment_mismatch": "average star rating and written sentiment don't align, lowering trust",
+                    "text_rating_incongruence": "review text tone conflicts with the star ratings, suggesting inconsistency",
+                    "outdated_feedback": "most reviews are old, reducing their relevance",
+                    "stale_reviews": "feedback seems outdated and may not reflect current quality",
+                    "rating_comparison": "compare ratings of reviews we are looking at versus the restaurant total reviews, suggesting they don't match"
+
                 }
                 context += "- Your concerns: " + ", ".join(
                     concern_descriptions.get(concern, concern) for concern in skepticism["concerns"]

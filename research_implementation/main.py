@@ -39,8 +39,8 @@ def main():
         print()
         print("Experiment Configuration:")
         print(f"- Two restaurants competing:")
-        print(f"  Restaurant A: Newest First policy (endogenous process)")
-        print(f"  Restaurant B: Random policy (exogenous process)")
+        print(f"  Restaurant A: {Config.RESTAURANT_A_REVIEW_POLICY}")
+        print(f"  Restaurant B: {Config.RESTAURANT_B_REVIEW_POLICY}")
         print(f"- True Quality: Restaurant A (μ={Config.CONF_TRUE_QUALITY_A}), Restaurant B (μ={Config.CONF_TRUE_QUALITY_B})")
         print(f"- Dynamic Pricing: Customers choose menu items with actual prices")
         print(f"- Total customers: {Config.CONF_NUM_CUSTOMERS}")
@@ -50,8 +50,8 @@ def main():
     else:
         print("Starting restaurant simulation...")
         print(f"Review policies from config:")
-        print(f"- Restaurant A (High-end): {Config.RESTAURANT_A_REVIEW_POLICY}")
-        print(f"- Restaurant B (Basic diner): {Config.RESTAURANT_B_REVIEW_POLICY}")
+        print(f"- Restaurant A: {Config.RESTAURANT_A_REVIEW_POLICY}")
+        print(f"- Restaurant B: {Config.RESTAURANT_B_REVIEW_POLICY}")
         print()
     
     # Get output folder name from user
