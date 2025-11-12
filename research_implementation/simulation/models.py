@@ -64,11 +64,21 @@ class Restaurant:
         self.restaurant_id = restaurant_id
         # Remove static quality rating - will be calculated dynamically
         self.review_policy = Config.RESTAURANT_A_REVIEW_POLICY if restaurant_id == "A" else Config.RESTAURANT_B_REVIEW_POLICY
-        # Use menus from config
+        
+        # Set restaurant information from config
         if restaurant_id == "A":
+            self.name = Config.RESTAURANT_A_NAME
+            self.description = Config.RESTAURANT_A_DESCRIPTION
+            self.cuisine_type = Config.RESTAURANT_A_CUISINE_TYPE
+            self.price_range = Config.RESTAURANT_A_PRICE_RANGE
             self.menu = Config.RESTAURANT_A_MENU.copy()
         else:
+            self.name = Config.RESTAURANT_B_NAME
+            self.description = Config.RESTAURANT_B_DESCRIPTION
+            self.cuisine_type = Config.RESTAURANT_B_CUISINE_TYPE
+            self.price_range = Config.RESTAURANT_B_PRICE_RANGE
             self.menu = Config.RESTAURANT_B_MENU.copy()
+            
         self.reviews: List[Review] = []
         self.revenue = 0
         self.initial_reviews: List[Review] = [] 
@@ -232,7 +242,7 @@ class Restaurant:
         
         return [review for review, _ in boosted_reviews]
     
-    def add_conf_review(self, customer_id: str, true_quality: float, ordered_item: str = None) -> Review:
+    def add_conf_review(self, customer_id: str, true_quality: float, ordered_item: str = None, simulation_date: datetime = None) -> Review:
         """
         Add a new review for CoNF experiment based on true quality.
         X_t ~ Bernoulli(mu) where mu is true quality
@@ -263,14 +273,15 @@ class Restaurant:
                 true_quality=true_quality
             )
             
-            # Create Review object from LLM response
+            # Create Review object from LLM response with proper simulation date
+            review_date = simulation_date.strftime("%Y-%m-%d %H:%M:%S") if simulation_date else llm_review["date"]
             review = Review(
                 review_id=llm_review["review_id"],
                 user_id=llm_review["user_id"],
                 business_id=llm_review["business_id"],
                 stars=float(llm_review["stars"]),
                 text=llm_review["text"],
-                date=llm_review["date"],
+                date=review_date,
                 ordered_item=llm_review["ordered_item"]
             )
             
@@ -280,13 +291,14 @@ class Restaurant:
             stars = random.choice([4.0, 5.0]) if is_positive else random.choice([1.0, 2.0, 3.0])
             text = f"{'Great' if is_positive else 'Poor'} experience with the {ordered_item}."
             
+            review_date = simulation_date.strftime("%Y-%m-%d %H:%M:%S") if simulation_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             review = Review(
                 review_id=str(uuid.uuid4()),
                 user_id=customer_id,
                 business_id=self.restaurant_id,
                 stars=stars,
                 text=text,
-                date=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                date=review_date,
                 ordered_item=ordered_item
             )
         
@@ -364,7 +376,7 @@ class Restaurant:
         
         return [review for review, _ in boosted_reviews]
     
-    def add_conf_review(self, customer_id: str, true_quality: float, ordered_item: str = None) -> Review:
+    def add_conf_review(self, customer_id: str, true_quality: float, ordered_item: str = None, simulation_date: datetime = None) -> Review:
         """
         Add a new review for CoNF experiment based on true quality.
         X_t ~ Bernoulli(mu) where mu is true quality
@@ -395,14 +407,15 @@ class Restaurant:
                 true_quality=true_quality
             )
             
-            # Create Review object from LLM response
+            # Create Review object from LLM response with proper simulation date
+            review_date = simulation_date.strftime("%Y-%m-%d %H:%M:%S") if simulation_date else llm_review["date"]
             review = Review(
                 review_id=llm_review["review_id"],
                 user_id=llm_review["user_id"],
                 business_id=llm_review["business_id"],
                 stars=float(llm_review["stars"]),
                 text=llm_review["text"],
-                date=llm_review["date"],
+                date=review_date,
                 ordered_item=llm_review["ordered_item"]
             )
             
@@ -412,13 +425,14 @@ class Restaurant:
             stars = random.choice([4.0, 5.0]) if is_positive else random.choice([1.0, 2.0, 3.0])
             text = f"{'Great' if is_positive else 'Poor'} experience with the {ordered_item}."
             
+            review_date = simulation_date.strftime("%Y-%m-%d %H:%M:%S") if simulation_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             review = Review(
                 review_id=str(uuid.uuid4()),
                 user_id=customer_id,
                 business_id=self.restaurant_id,
                 stars=stars,
                 text=text,
-                date=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                date=review_date,
                 ordered_item=ordered_item
             )
         

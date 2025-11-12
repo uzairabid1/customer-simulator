@@ -46,6 +46,17 @@ def main():
         print(f"- Total customers: {Config.CONF_NUM_CUSTOMERS}")
         print(f"- Limited attention: {Config.CONF_LIMITED_ATTENTION} + {Config.CONF_SKEPTICAL_REVIEWS} skeptical reviews")
         print(f"- Beta prior: α={Config.CONF_PRIOR_ALPHA}, β={Config.CONF_PRIOR_BETA}")
+        
+        # Customer criticality info
+        print()
+        criticality = Config.CUSTOMER_CRITICALITY.lower()
+        if criticality == "easy":
+            print("😊 EASY CUSTOMERS: Trusting, accommodating, less skeptical (-2 skepticism)")
+        elif criticality == "critical":
+            print("🔥 CRITICAL CUSTOMERS: Demanding, analytical, highly skeptical (+3 skepticism)")
+        else:
+            print("📝 MEDIUM CUSTOMERS: Balanced, reasonable, moderate skepticism")
+        
         print()
     else:
         print("Starting restaurant simulation...")

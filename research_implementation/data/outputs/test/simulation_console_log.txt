@@ -1,0 +1,31 @@
+=== COMPETITIVE CoNF SIMULATION STARTED ===
+Timestamp: 2025-11-12T15:38:33.926886
+Total customers: 5 over 1 days
+Base customers per day: 5
+
+=== DAY 1 ===
+Customers today: 5
+  day1_customer_1: Chose Restaurant B (utility: 96.1 > 92.1)
+  Customer 1: PURCHASED Bacon-Bacon Cheeseburger at Restaurant B ($18)
+    → Left review: 5.0 stars
+  day1_customer_2: Chose Restaurant A (utility: 115.9 > 114.9)
+  Customer 2: PURCHASED Avocado Eggrolls at Restaurant A ($14)
+    → Left review: 5.0 stars
+  day1_customer_3: Chose Restaurant B (utility: 164.4 > 152.4)
+  Customer 3: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day1_customer_4: Chose Restaurant B (utility: 79.6 > 44.6)
+  Customer 4: PURCHASED Club Sandwich at Restaurant B ($17)
+    → Left review: 5.0 stars
+  day1_customer_5: Chose Restaurant B (utility: 72.0 > 56.0)
+  Customer 5: PURCHASED Chicken Parmesan Pasta at Restaurant B ($23)
+    → Left review: 5.0 stars
+
+--- Day 1 Summary ---
+Restaurant A: 1 visitors, 1 purchases, $14.00 revenue
+Restaurant B: 4 visitors, 4 purchases, $75.00 revenue
+
+=== SIMULATION COMPLETED ===
+Total customers processed: 5
+Console log saved to: data/outputs/test\simulation_console_log.txt
+

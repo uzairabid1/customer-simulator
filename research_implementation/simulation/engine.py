@@ -2,7 +2,7 @@
 import json
 import uuid
 import random
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict
 from config import Config
 from .models import Customer, Review, Restaurant
@@ -10,85 +10,208 @@ from .llm import LLMInterface
 from .logger import SimulationLogger
 
 class RestaurantSimulation:
-    def _assess_skepticism(self, customer: Customer, reviews: List[Dict], restaurant_id: str) -> Dict:
+    def _assess_skepticism(self, customer: Customer, reviews: List[Dict], restaurant_id: str, rating_comparison: Dict = None) -> Dict:
         """
         Dynamic skepticism assessment based on customer personality and review patterns.
-        Returns skepticism level and specific concerns.
+        Returns skepticism level and specific concerns with detailed reasoning.
         """
         if not reviews:
-            return {"level": "none", "concerns": [], "will_investigate": False, "confidence_impact": 0}
+            return {
+                "level": "none", 
+                "concerns": [], 
+                "will_investigate": False, 
+                "confidence_impact": 0,
+                "detailed_reasons": ["No reviews available to assess"]
+            }
         
         concerns = []
+        detailed_reasons = []
         skepticism_score = 0
         
         # 1. Pattern Analysis
         five_star_count = sum(1 for r in reviews if r['stars'] == 5)
+        four_star_count = sum(1 for r in reviews if r['stars'] == 4)
+        low_star_count = sum(1 for r in reviews if r['stars'] <= 2)
         five_star_ratio = five_star_count / len(reviews)
-        if five_star_ratio > 0.8:
-            concerns.append("too_many_perfect_ratings")
-            skepticism_score += 2
-        elif five_star_ratio > 0.9:
+        
+        if five_star_ratio > 0.9:
             concerns.append("suspiciously_perfect_ratings")
+            detailed_reasons.append(f"Extremely suspicious: {five_star_count}/{len(reviews)} reviews are 5-star ({five_star_ratio:.1%})")
             skepticism_score += 3
+        elif five_star_ratio > 0.8:
+            concerns.append("too_many_perfect_ratings")
+            detailed_reasons.append(f"Too many perfect ratings: {five_star_count}/{len(reviews)} are 5-star ({five_star_ratio:.1%})")
+            skepticism_score += 2
+        elif five_star_ratio > 0.6:
+            detailed_reasons.append(f"High 5-star ratio noted: {five_star_count}/{len(reviews)} ({five_star_ratio:.1%}) - within normal range")
             
-        # 2. Recency Analysis
-        current_date = datetime.now()
-        six_months_ago = current_date.replace(month=current_date.month-6 if current_date.month > 6 else current_date.month+6, year=current_date.year-1 if current_date.month <= 6 else current_date.year)
-        one_year_ago = current_date.replace(year=current_date.year-1)
+        if low_star_count == 0 and len(reviews) >= 5:
+            concerns.append("no_negative_reviews")
+            detailed_reasons.append(f"No negative reviews among {len(reviews)} reviews - seems unlikely for real business")
+            skepticism_score += 1
+            
+        # 2. Recency Analysis using simulation timeline
+        current_sim_date = self.simulation_start_date + timedelta(days=self.current_simulation_day)
+        six_months_ago = current_sim_date - timedelta(days=180)
+        one_year_ago = current_sim_date - timedelta(days=365)
         
         try:
-            most_recent_date = max(datetime.strptime(r['date'], "%Y-%m-%d %H:%M:%S") for r in reviews)
+            review_dates = [datetime.strptime(r['date'], "%Y-%m-%d %H:%M:%S") for r in reviews]
+            most_recent_date = max(review_dates)
+            oldest_date = min(review_dates)
+            
+            days_since_recent = (current_sim_date - most_recent_date).days
+            
             if most_recent_date < one_year_ago:
                 concerns.append("very_outdated_reviews")
+                detailed_reasons.append(f"Very outdated: Most recent review is {days_since_recent} days old (over 1 year)")
                 skepticism_score += 3
             elif most_recent_date < six_months_ago:
                 concerns.append("outdated_reviews")
+                detailed_reasons.append(f"Outdated: Most recent review is {days_since_recent} days old (over 6 months)")
                 skepticism_score += 1
+            else:
+                detailed_reasons.append(f"Recency acceptable: Most recent review is {days_since_recent} days old")
+                
+            # Check for review clustering
+            date_range = (most_recent_date - oldest_date).days
+            if len(reviews) >= 5 and date_range <= 7:
+                concerns.append("suspicious_review_clustering")
+                detailed_reasons.append(f"Suspicious: {len(reviews)} reviews all within {date_range} days")
+                skepticism_score += 2
+                
         except ValueError:
             concerns.append("date_parsing_issues")
+            detailed_reasons.append("Cannot parse review dates - data quality concern")
             skepticism_score += 1
             
         # 3. Sample Size Analysis
         if len(reviews) < 3:
             concerns.append("too_few_reviews")
+            detailed_reasons.append(f"Very few reviews: Only {len(reviews)} reviews available")
             skepticism_score += 1
+        elif len(reviews) >= 20:
+            detailed_reasons.append(f"Good sample size: {len(reviews)} reviews available")
             
         # 4. Rating Diversity Analysis
         unique_ratings = set(r['stars'] for r in reviews)
+        rating_distribution = {i: sum(1 for r in reviews if r['stars'] == i) for i in range(1, 6)}
+        
         if len(unique_ratings) == 1:
             concerns.append("no_rating_diversity")
+            detailed_reasons.append(f"No diversity: All {len(reviews)} reviews have {list(unique_ratings)[0]} stars")
             skepticism_score += 2
+        elif len(unique_ratings) <= 2:
+            concerns.append("limited_rating_diversity")
+            detailed_reasons.append(f"Limited diversity: Only {len(unique_ratings)} different ratings ({sorted(unique_ratings)})")
+            skepticism_score += 1
+        else:
+            detailed_reasons.append(f"Good rating diversity: {len(unique_ratings)} different ratings")
             
         # 5. Personality-Based Skepticism Modifier
-        personality = customer.role_desc.get("personality", "").lower()
-        skeptical_personalities = ["analytical", "meticulous", "discerning", "strict", "picky", "reserved", "thoughtful"]
-        trusting_personalities = ["easy-going", "easygoing", "relaxed", "carefree", "cheerful", "optimistic", "friendly", "outgoing"]
+        personality = customer.role_desc.get("personality", "").lower() if hasattr(customer, 'role_desc') and customer.role_desc else ""
+        skeptical_personalities = ["analytical", "meticulous", "discerning", "strict", "picky", "reserved", "thoughtful", "critical", "demanding", "perfectionist", "skeptical", "cautious", "exacting", "uncompromising", "fastidious", "particular", "discriminating", "selective"]
+        trusting_personalities = ["easy-going", "easygoing", "relaxed", "carefree", "cheerful", "optimistic", "friendly", "outgoing", "open-minded", "balanced", "reasonable", "fair-minded"]
         
         personality_modifier = 0
-        if any(trait in personality for trait in skeptical_personalities):
+        personality_reason = ""
+        
+        matching_skeptical = [trait for trait in skeptical_personalities if trait in personality]
+        matching_trusting = [trait for trait in trusting_personalities if trait in personality]
+        
+        if matching_skeptical:
             personality_modifier = 2  # More skeptical
-        elif any(trait in personality for trait in trusting_personalities):
+            personality_reason = f"Naturally skeptical personality ({', '.join(matching_skeptical)}) increases scrutiny"
+        elif matching_trusting:
             personality_modifier = -1  # Less skeptical
+            personality_reason = f"Trusting personality ({', '.join(matching_trusting)}) reduces skepticism"
+        else:
+            personality_reason = "Neutral personality - no skepticism modifier"
+        
+        # Criticality level modifier
+        criticality_modifier = 0
+        if hasattr(customer, 'role_desc') and customer.role_desc:
+            criticality = customer.role_desc.get("criticality", "medium")
+            if criticality == "easy":
+                criticality_modifier = -2  # Less skeptical
+                detailed_reasons.append(f"EASY CUSTOMER: -2 skepticism points for being easy-going")
+            elif criticality == "critical":
+                criticality_modifier = 3  # More skeptical
+                detailed_reasons.append(f"CRITICAL CUSTOMER: +3 skepticism points for being highly critical")
+            else:  # medium
+                criticality_modifier = 0
+                detailed_reasons.append(f"MEDIUM CUSTOMER: No criticality modifier")
             
-        final_score = max(0, skepticism_score + personality_modifier)
+        detailed_reasons.append(personality_reason)
+        
+        # 6. Rating Comparison Analysis (if provided)
+        rating_comparison_modifier = 0
+        if rating_comparison:
+            detailed_reasons.append(f"\n--- RATING COMPARISON ANALYSIS ---")
+            
+            # Add customer's comparison thoughts
+            for thought in rating_comparison["comparison_thoughts"]:
+                detailed_reasons.append(f"Customer thought: {thought}")
+            
+            # Check for skepticism triggers from rating comparison
+            if rating_comparison["skepticism_triggers"]:
+                for trigger in rating_comparison["skepticism_triggers"]:
+                    if trigger == "suspiciously_high_sample":
+                        concerns.append("rating_discrepancy_high")
+                        detailed_reasons.append("CONCERN: Sample reviews much higher than overall rating - possible cherry-picking")
+                        rating_comparison_modifier += 2
+                    elif trigger == "suspiciously_low_sample":
+                        concerns.append("rating_discrepancy_low")
+                        detailed_reasons.append("CONCERN: Sample reviews much lower than overall rating - inconsistent")
+                        rating_comparison_modifier += 2
+                    elif trigger == "cherry_picked_positive_reviews":
+                        concerns.append("cherry_picked_positive")
+                        detailed_reasons.append("CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews")
+                        rating_comparison_modifier += 3
+                    elif trigger == "cherry_picked_negative_reviews":
+                        concerns.append("cherry_picked_negative")
+                        detailed_reasons.append("CONCERN: Poor sample vs good overall - suspicious negative selection")
+                        rating_comparison_modifier += 3
+                    elif trigger == "small_sample_with_discrepancy":
+                        concerns.append("small_sample_discrepancy")
+                        detailed_reasons.append("CONCERN: Small sample with rating discrepancy - need more data")
+                        rating_comparison_modifier += 1
+            
+            # Moderate discrepancies
+            abs_diff = rating_comparison.get("abs_difference", 0)
+            if 0.5 <= abs_diff < 1.0 and not rating_comparison["skepticism_triggers"]:
+                concerns.append("moderate_rating_discrepancy")
+                detailed_reasons.append(f"Moderate discrepancy: {abs_diff:.1f} star difference between sample and overall")
+                rating_comparison_modifier += 1
+            
+            detailed_reasons.append(f"Rating comparison modifier: +{rating_comparison_modifier}")
+            
+        final_score = max(0, skepticism_score + personality_modifier + criticality_modifier + rating_comparison_modifier)
         
         # Determine skepticism level and behavior
         if final_score >= 5:
             level = "high"
             will_investigate = random.random() < 0.8  # 80% chance to investigate
             confidence_impact = -0.3  # Significant negative impact on confidence
+            decision_reason = f"HIGH skepticism (score: {final_score}) - 80% chance to investigate further"
         elif final_score >= 3:
             level = "medium" 
             will_investigate = random.random() < 0.6  # 60% chance to investigate
             confidence_impact = -0.15  # Moderate negative impact
+            decision_reason = f"MEDIUM skepticism (score: {final_score}) - 60% chance to investigate further"
         elif final_score >= 1:
             level = "low"
             will_investigate = random.random() < 0.3  # 30% chance to investigate
             confidence_impact = -0.05  # Minor negative impact
+            decision_reason = f"LOW skepticism (score: {final_score}) - 30% chance to investigate further"
         else:
             level = "none"
             will_investigate = False
             confidence_impact = 0
+            decision_reason = f"NO skepticism (score: {final_score}) - accepting reviews at face value"
+            
+        detailed_reasons.append(decision_reason)
+        detailed_reasons.append(f"Will investigate further: {'YES' if will_investigate else 'NO'}")
             
         return {
             "level": level,
@@ -96,7 +219,17 @@ class RestaurantSimulation:
             "will_investigate": will_investigate,
             "confidence_impact": confidence_impact,
             "score": final_score,
-            "personality_modifier": personality_modifier
+            "personality_modifier": personality_modifier,
+            "criticality_modifier": criticality_modifier,
+            "rating_comparison_modifier": rating_comparison_modifier,
+            "detailed_reasons": detailed_reasons,
+            "rating_distribution": rating_distribution,
+            "review_timeline": {
+                "total_reviews": len(reviews),
+                "days_since_most_recent": days_since_recent if 'days_since_recent' in locals() else None,
+                "date_range_days": date_range if 'date_range' in locals() else None
+            },
+            "rating_comparison": rating_comparison
         }
 
     def _get_additional_reviews(self, restaurant: Restaurant) -> List[Dict]:
@@ -220,7 +353,7 @@ class RestaurantSimulation:
 
     def _get_recent_quality_boost_combined_reviews(self, all_reviews: List) -> List:
         """Apply recent quality boost algorithm to combined reviews (initial + new)"""
-        from datetime import datetime, timedelta
+        from datetime import datetime, timedelta, timedelta
         
         current_date = datetime.now()
         thirty_days_ago = current_date - timedelta(days=30)
@@ -267,6 +400,10 @@ class RestaurantSimulation:
         # Give logger access to restaurants
         self.logger.restaurant_a = self.restaurant_a
         self.logger.restaurant_b = self.restaurant_b
+        
+        # Simulation timeline - start date for consistent dating
+        self.simulation_start_date = datetime(2024, 1, 1, 9, 0, 0)  # Jan 1, 2024, 9:00 AM
+        self.current_simulation_day = 0
         self.shared_reviews = self._load_shared_reviews()
         self.current_day = 0
         self.customers = []
@@ -595,7 +732,7 @@ class RestaurantSimulation:
         import random
         import numpy as np
         import os
-        from datetime import datetime
+        from datetime import datetime, timedelta
         
         # Create console log file
         log_file_path = os.path.join(self.output_dir, "simulation_console_log.txt")
@@ -642,6 +779,7 @@ class RestaurantSimulation:
             log_and_print("")
             
             for day in range(1, Config.DAYS + 1):
+                self.current_simulation_day = day - 1  # Update simulation day for dating
                 # Add extra customer to some days if there's remainder
                 day_customers = customers_per_day + (1 if day <= remaining_customers else 0)
                 
@@ -686,8 +824,9 @@ class RestaurantSimulation:
                             daily_stats_a["revenue"] += item_price
                             
                             # Customer leaves review at Restaurant A
+                            review_date = self.simulation_start_date + timedelta(days=day-1, hours=random.randint(0, 12))
                             new_review = restaurant_a.add_conf_review(
-                                customer.customer_id, Config.CONF_TRUE_QUALITY_A, chosen_item
+                                customer.customer_id, Config.CONF_TRUE_QUALITY_A, chosen_item, review_date
                             )
                             log_and_print(f"  Customer {i+1}: PURCHASED {chosen_item} at Restaurant A (${item_price})")
                             log_and_print(f"    → Left review: {new_review.stars} stars")
@@ -699,8 +838,9 @@ class RestaurantSimulation:
                             daily_stats_b["revenue"] += item_price
                             
                             # Customer leaves review at Restaurant B
+                            review_date = self.simulation_start_date + timedelta(days=day-1, hours=random.randint(0, 12))
                             new_review = restaurant_b.add_conf_review(
-                                customer.customer_id, Config.CONF_TRUE_QUALITY_B, chosen_item
+                                customer.customer_id, Config.CONF_TRUE_QUALITY_B, chosen_item, review_date
                             )
                             log_and_print(f"  Customer {i+1}: PURCHASED {chosen_item} at Restaurant B (${item_price})")
                             log_and_print(f"    → Left review: {new_review.stars} stars")
@@ -781,8 +921,24 @@ class RestaurantSimulation:
         mu_estimate = customer.update_belief_beta_bernoulli(initial_reviews)
         valuation_estimate = customer.get_valuation_estimate(mu_estimate)
         
-        # Assess skepticism
-        is_skeptical = self._assess_conf_skepticism(initial_reviews, customer)
+        # Get restaurant's overall rating for comparison
+        restaurant_overall_rating = restaurant.get_overall_rating()
+        restaurant_total_reviews = restaurant.get_review_count()
+        
+        # Calculate rating of reviews customer is reading
+        reviews_read_rating = sum(r.stars for r in initial_reviews) / len(initial_reviews) if initial_reviews else 0
+        
+        # Explicit rating comparison
+        rating_comparison = self._compare_ratings(
+            reviews_read_rating, restaurant_overall_rating, 
+            len(initial_reviews), restaurant_total_reviews,
+            customer, restaurant_id
+        )
+        
+        # Assess skepticism with detailed logging (including rating comparison)
+        reviews_dict = [r.__dict__ for r in initial_reviews]
+        skepticism_result = self._assess_skepticism(customer, reviews_dict, restaurant_id, rating_comparison)
+        is_skeptical = skepticism_result["will_investigate"]
         
         if is_skeptical:
             # Customer sees additional reviews
@@ -809,7 +965,7 @@ class RestaurantSimulation:
             } for r in reviews_seen
         ]
         
-        # Record decision with detailed review logging
+        # Record decision with detailed review and skepticism logging
         decision = {
             "customer_id": customer.customer_id,
             "restaurant_evaluated": restaurant_id,
@@ -826,6 +982,18 @@ class RestaurantSimulation:
             "expected_utility": expected_utility,
             "will_purchase": will_purchase,
             "is_skeptical": is_skeptical,
+            "rating_comparison": rating_comparison,
+            "skepticism_details": {
+                "level": skepticism_result["level"],
+                "score": skepticism_result["score"],
+                "concerns": skepticism_result["concerns"],
+                "detailed_reasons": skepticism_result["detailed_reasons"],
+                "rating_distribution": skepticism_result["rating_distribution"],
+                "review_timeline": skepticism_result["review_timeline"],
+                "confidence_impact": skepticism_result["confidence_impact"],
+                "rating_comparison_modifier": skepticism_result["rating_comparison_modifier"],
+                "criticality_modifier": skepticism_result["criticality_modifier"]
+            },
             "beta_prior": {"alpha": customer.alpha, "beta": customer.beta},
             "beta_posterior": {
                 "alpha": customer.alpha + sum(1 for r in reviews_seen if r.stars >= 4.0),
@@ -840,6 +1008,106 @@ class RestaurantSimulation:
         }
         
         return valuation_data, decision
+    
+    def _compare_ratings(self, reviews_read_rating: float, restaurant_overall_rating: float, 
+                        reviews_read_count: int, total_reviews_count: int,
+                        customer: Customer, restaurant_id: str) -> Dict:
+        """
+        Explicit comparison between ratings of reviews customer is reading vs restaurant's overall rating.
+        Returns detailed analysis of any discrepancies that might trigger skepticism.
+        """
+        rating_difference = reviews_read_rating - restaurant_overall_rating
+        abs_difference = abs(rating_difference)
+        
+        comparison_result = {
+            "reviews_read_rating": reviews_read_rating,
+            "restaurant_overall_rating": restaurant_overall_rating,
+            "rating_difference": rating_difference,
+            "abs_difference": abs_difference,
+            "reviews_read_count": reviews_read_count,
+            "total_reviews_count": total_reviews_count,
+            "sample_percentage": (reviews_read_count / total_reviews_count * 100) if total_reviews_count > 0 else 0,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [],
+            "skepticism_triggers": []
+        }
+        
+        # Customer's internal comparison thoughts
+        if abs_difference < 0.2:
+            comparison_result["comparison_thoughts"].append(
+                f"Reviews I'm reading ({reviews_read_rating:.1f}★) match the overall rating ({restaurant_overall_rating:.1f}★) - consistent"
+            )
+        elif abs_difference < 0.5:
+            comparison_result["comparison_thoughts"].append(
+                f"Reviews I'm reading ({reviews_read_rating:.1f}★) are slightly different from overall rating ({restaurant_overall_rating:.1f}★) - minor variation"
+            )
+        else:
+            comparison_result["comparison_thoughts"].append(
+                f"Reviews I'm reading ({reviews_read_rating:.1f}★) differ significantly from overall rating ({restaurant_overall_rating:.1f}★) - notable discrepancy"
+            )
+        
+        # Analyze specific discrepancy patterns
+        if abs_difference >= 0.5:
+            if rating_difference > 0:
+                # Reviews read are higher than overall
+                comparison_result["discrepancy_concerns"].append("reviews_read_higher_than_overall")
+                comparison_result["comparison_thoughts"].append(
+                    f"The {reviews_read_count} reviews I'm seeing are {rating_difference:.1f} stars higher than the restaurant's {restaurant_overall_rating:.1f}★ average"
+                )
+                if rating_difference >= 1.0:
+                    comparison_result["skepticism_triggers"].append("suspiciously_high_sample")
+                    comparison_result["comparison_thoughts"].append(
+                        "This seems suspicious - why would the few reviews I'm seeing be so much better than average?"
+                    )
+            else:
+                # Reviews read are lower than overall
+                comparison_result["discrepancy_concerns"].append("reviews_read_lower_than_overall")
+                comparison_result["comparison_thoughts"].append(
+                    f"The {reviews_read_count} reviews I'm seeing are {abs(rating_difference):.1f} stars lower than the restaurant's {restaurant_overall_rating:.1f}★ average"
+                )
+                if abs(rating_difference) >= 1.0:
+                    comparison_result["skepticism_triggers"].append("suspiciously_low_sample")
+                    comparison_result["comparison_thoughts"].append(
+                        "This is concerning - either I'm seeing the worst reviews, or something's not right with the overall rating"
+                    )
+        
+        # Sample size analysis
+        sample_percentage = comparison_result["sample_percentage"]
+        if sample_percentage < 10 and total_reviews_count > 20:
+            comparison_result["comparison_thoughts"].append(
+                f"I'm only seeing {reviews_read_count} out of {total_reviews_count} reviews ({sample_percentage:.1f}%) - small sample"
+            )
+            if abs_difference >= 0.3:
+                comparison_result["skepticism_triggers"].append("small_sample_with_discrepancy")
+                comparison_result["comparison_thoughts"].append(
+                    "With such a small sample showing different ratings, I should probably read more reviews"
+                )
+        
+        # Extreme rating scenarios
+        if reviews_read_rating >= 4.5 and restaurant_overall_rating <= 3.5:
+            comparison_result["skepticism_triggers"].append("cherry_picked_positive_reviews")
+            comparison_result["comparison_thoughts"].append(
+                "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            )
+        elif reviews_read_rating <= 2.5 and restaurant_overall_rating >= 4.0:
+            comparison_result["skepticism_triggers"].append("cherry_picked_negative_reviews")
+            comparison_result["comparison_thoughts"].append(
+                "I'm seeing mostly poor reviews but the overall rating is good - this doesn't add up"
+            )
+        
+        # Customer personality affects interpretation
+        if hasattr(customer, 'role_desc') and customer.role_desc:
+            personality = customer.role_desc.get("personality", "").lower()
+            if "analytical" in personality or "meticulous" in personality:
+                comparison_result["comparison_thoughts"].append(
+                    "As someone who pays attention to details, this rating discrepancy stands out to me"
+                )
+            elif "trusting" in personality or "optimistic" in personality:
+                comparison_result["comparison_thoughts"].append(
+                    "I tend to give businesses the benefit of the doubt, but this rating difference is hard to ignore"
+                )
+        
+        return comparison_result
     
     def _initialize_conf_reviews(self, restaurant: Restaurant):
         """Initialize restaurant with actual initial reviews from input file"""
@@ -871,7 +1139,9 @@ class RestaurantSimulation:
             # Fallback to generated reviews
             for i in range(20):
                 customer_id = f"init_{restaurant.restaurant_id}_{i}"
-                restaurant.add_conf_review(customer_id, Config.CONF_TRUE_QUALITY)
+                # Initial reviews get dates before simulation start
+                initial_date = self.simulation_start_date - timedelta(days=random.randint(30, 365))
+                restaurant.add_conf_review(customer_id, Config.CONF_TRUE_QUALITY_A if restaurant.restaurant_id == "A" else Config.CONF_TRUE_QUALITY_B, None, initial_date)
     
     def _run_conf_simulation_for_restaurant(self, restaurant: Restaurant, restaurant_id: str) -> Dict:
         """Run CoNF simulation for a single restaurant"""
@@ -899,8 +1169,10 @@ class RestaurantSimulation:
             mu_estimate = customer.update_belief_beta_bernoulli(initial_reviews)
             valuation_estimate = customer.get_valuation_estimate(mu_estimate)
             
-            # Assess skepticism
-            is_skeptical = self._assess_conf_skepticism(initial_reviews, customer)
+            # Assess skepticism with detailed logging
+            reviews_dict = [r.__dict__ for r in initial_reviews]
+            skepticism_result = self._assess_skepticism(customer, reviews_dict, restaurant_id)
+            is_skeptical = skepticism_result["will_investigate"]
             
             if is_skeptical:
                 # Customer sees additional reviews
@@ -926,7 +1198,7 @@ class RestaurantSimulation:
                 } for r in reviews_seen
             ]
             
-            # Record decision with detailed review logging
+            # Record decision with detailed review and skepticism logging
             decision = {
                 "customer_id": customer.customer_id,
                 "theta": customer.theta,
@@ -941,6 +1213,17 @@ class RestaurantSimulation:
                 "valuation_estimate": valuation_estimate,
                 "will_purchase": will_purchase,
                 "is_skeptical": is_skeptical,
+                "skepticism_details": {
+                    "level": skepticism_result["level"],
+                    "score": skepticism_result["score"],
+                    "concerns": skepticism_result["concerns"],
+                    "detailed_reasons": skepticism_result["detailed_reasons"],
+                    "rating_distribution": skepticism_result["rating_distribution"],
+                    "review_timeline": skepticism_result["review_timeline"],
+                    "confidence_impact": skepticism_result["confidence_impact"],
+                    "rating_comparison_modifier": skepticism_result.get("rating_comparison_modifier", 0),
+                    "criticality_modifier": skepticism_result["criticality_modifier"]
+                },
                 "beta_prior": {"alpha": customer.alpha, "beta": customer.beta},
                 "beta_posterior": {
                     "alpha": customer.alpha + sum(1 for r in reviews_seen if r.stars >= 4.0),
@@ -955,7 +1238,8 @@ class RestaurantSimulation:
                 restaurant.revenue += item_price
                 
                 # Customer leaves a review (endogenous process) - use chosen item
-                new_review = restaurant.add_conf_review(customer.customer_id, Config.CONF_TRUE_QUALITY, chosen_item)
+                review_date = self.simulation_start_date + timedelta(days=i//10, hours=random.randint(0, 12))  # Spread reviews across simulation
+                new_review = restaurant.add_conf_review(customer.customer_id, Config.CONF_TRUE_QUALITY_A, chosen_item, review_date)
                 
                 print(f"Customer {i+1}: PURCHASED {chosen_item} (val: {valuation_estimate:.1f} > price: ${item_price})")
                 print(f"  → Read reviews: {[r.review_id for r in reviews_seen]} (avg: {sum(r.stars for r in reviews_seen)/len(reviews_seen):.1f} stars)")
@@ -985,15 +1269,44 @@ class RestaurantSimulation:
         return results
     
     def _generate_conf_customer(self, customer_id: str) -> Customer:
-        """Generate customer for CoNF experiment"""
+        """Generate customer for CoNF experiment with simple criticality levels"""
         import numpy as np
         
+        # Base theta calculation
         theta = np.random.normal(Config.CONF_THETA_MEAN, Config.CONF_THETA_STD)
+        
+        # Set personality and behavior based on criticality level
+        criticality = Config.CUSTOMER_CRITICALITY.lower()
+        
+        if criticality == "easy":
+            personalities = [
+                "easy-going", "friendly", "optimistic", "relaxed", "cheerful",
+                "trusting", "open-minded", "laid-back", "accommodating"
+            ]
+            customer_type = "easy_customer"
+        elif criticality == "critical":
+            personalities = [
+                "analytical", "meticulous", "discerning", "picky", "strict",
+                "demanding", "perfectionist", "skeptical", "critical", "exacting"
+            ]
+            customer_type = "critical_customer"
+        else:  # medium
+            personalities = [
+                "balanced", "reasonable", "fair-minded", "thoughtful", "careful",
+                "moderate", "sensible", "practical", "discerning"
+            ]
+            customer_type = "medium_customer"
+        
+        personality = random.choice(personalities)
         
         return Customer(
             customer_id=customer_id,
-            name=f"CoNF_Customer_{customer_id}",
-            role_desc={"type": "conf_experiment"},
+            name=f"{criticality.title()}_Customer_{customer_id}",
+            role_desc={
+                "type": customer_type,
+                "personality": personality,
+                "criticality": criticality
+            },
             theta=theta,
             alpha=Config.CONF_PRIOR_ALPHA,
             beta=Config.CONF_PRIOR_BETA
@@ -1258,7 +1571,7 @@ class RestaurantSimulation:
         """Save competitive CoNF experiment results"""
         import json
         import os
-        from datetime import datetime
+        from datetime import datetime, timedelta
         
         # Create output directory
         os.makedirs(self.output_dir, exist_ok=True)
