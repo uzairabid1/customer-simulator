@@ -921,12 +921,27 @@ class RestaurantSimulation:
         mu_estimate = customer.update_belief_beta_bernoulli(initial_reviews)
         valuation_estimate = customer.get_valuation_estimate(mu_estimate)
         
-        # Get restaurant's overall rating for comparison
-        restaurant_overall_rating = restaurant.get_overall_rating()
+        # Get both configured rating and review-based rating
+        configured_rating = Config.RESTAURANT_A_RATING if restaurant_id == "A" else Config.RESTAURANT_B_RATING
+        review_based_rating = restaurant.get_overall_rating()
         restaurant_total_reviews = restaurant.get_review_count()
+        
+        # Convert configured rating (0-100) to star scale (0-5) for comparison
+        configured_rating_stars = configured_rating / 20.0
+        
+        # Simple 50/50 weighting between configured rating and review-based rating
+        restaurant_overall_rating = (0.5 * configured_rating_stars) + (0.5 * review_based_rating)
         
         # Calculate rating of reviews customer is reading
         reviews_read_rating = sum(r.stars for r in initial_reviews) / len(initial_reviews) if initial_reviews else 0
+        
+        # Log what the customer sees for debugging
+        print(f"    Customer {customer.customer_id} evaluating Restaurant {restaurant_id}:")
+        print(f"      Configured rating: {configured_rating}/100 ({configured_rating_stars:.1f}★)")
+        print(f"      Review-based rating: {review_based_rating:.1f}★ (from {restaurant_total_reviews} reviews)")
+        print(f"      Combined rating shown to customer: {restaurant_overall_rating:.1f}★")
+        print(f"      Review policy: '{restaurant.review_policy}' - {self._get_policy_description(restaurant.review_policy)}")
+        print(f"      Reviews customer will read: {len(initial_reviews)} reviews, avg {reviews_read_rating:.1f}★")
         
         # Explicit rating comparison
         rating_comparison = self._compare_ratings(
@@ -982,6 +997,8 @@ class RestaurantSimulation:
             "expected_utility": expected_utility,
             "will_purchase": will_purchase,
             "is_skeptical": is_skeptical,
+            "restaurant_policy": restaurant.review_policy,
+            "policy_description": self._get_policy_description(restaurant.review_policy),
             "rating_comparison": rating_comparison,
             "skepticism_details": {
                 "level": skepticism_result["level"],
@@ -1109,11 +1126,27 @@ class RestaurantSimulation:
         
         return comparison_result
     
+    def _get_policy_description(self, policy: str) -> str:
+        """Get human-readable description of review policy"""
+        policy_descriptions = {
+            "highest_rating": "Shows highest-rated reviews first (best reviews at top)",
+            "newest_first": "Shows newest reviews first (most recent at top)", 
+            "latest": "Shows latest reviews first (most recent at top)",
+            "random": "Shows reviews in random order (no specific sorting)",
+            "recent_quality_boost": "Prioritizes recent high-quality reviews"
+        }
+        return policy_descriptions.get(policy, f"Unknown policy: {policy}")
+    
     def _initialize_conf_reviews(self, restaurant: Restaurant):
         """Initialize restaurant with actual initial reviews from input file"""
         # Load initial reviews from input file
         try:
-            with open("data/inputs/initial_reviews_a.json") as f:
+            if restaurant.restaurant_id == "A":
+                filename = "data/inputs/initial_reviews_a.json"
+            else:
+                filename = "data/inputs/initial_reviews_b.json"
+                
+            with open(filename) as f:
                 initial_data = json.load(f)
                 
             # Clear any existing reviews
@@ -1132,16 +1165,27 @@ class RestaurantSimulation:
                 )
                 restaurant.initial_reviews.append(review)
                 
-            print(f"Loaded {len(restaurant.initial_reviews)} initial reviews from input file")
+            print(f"Loaded {len(restaurant.initial_reviews)} initial reviews from {filename}")
+            
+            # Show what reviews customers will actually see with current policy
+            sorted_reviews = restaurant.get_sorted_reviews(Config.CONF_LIMITED_ATTENTION)
+            avg_visible = sum(r.stars for r in sorted_reviews) / len(sorted_reviews) if sorted_reviews else 0
+            print(f"Restaurant {restaurant.restaurant_id} policy '{restaurant.review_policy}': customers see {avg_visible:.1f} avg stars from initial reviews")
+            
+            # Show the actual reviews customers will see
+            print(f"  First {Config.CONF_LIMITED_ATTENTION} reviews customers see:")
+            for i, review in enumerate(sorted_reviews[:Config.CONF_LIMITED_ATTENTION]):
+                print(f"    {i+1}. {review.stars}★ - {review.text[:50]}...")
             
         except FileNotFoundError:
-            print("Warning: initial_reviews_a.json not found, generating reviews based on true quality")
+            print(f"Warning: {filename} not found, generating fallback reviews")
             # Fallback to generated reviews
+            true_quality = Config.CONF_TRUE_QUALITY_A if restaurant.restaurant_id == "A" else Config.CONF_TRUE_QUALITY_B
             for i in range(20):
                 customer_id = f"init_{restaurant.restaurant_id}_{i}"
                 # Initial reviews get dates before simulation start
                 initial_date = self.simulation_start_date - timedelta(days=random.randint(30, 365))
-                restaurant.add_conf_review(customer_id, Config.CONF_TRUE_QUALITY_A if restaurant.restaurant_id == "A" else Config.CONF_TRUE_QUALITY_B, None, initial_date)
+                restaurant.add_conf_review(customer_id, true_quality, None, initial_date)
     
     def _run_conf_simulation_for_restaurant(self, restaurant: Restaurant, restaurant_id: str) -> Dict:
         """Run CoNF simulation for a single restaurant"""
@@ -1550,8 +1594,8 @@ class RestaurantSimulation:
         market_share_b = restaurant_b['customers_visited'] / total_customers
         
         print(f"\nCompetitive Analysis:")
-        print(f"  - Restaurant A market share: {market_share_a:.1%}")
-        print(f"  - Restaurant B market share: {market_share_b:.1%}")
+        print(f"  - Restaurant A ({self.restaurant_a.review_policy}): {market_share_a:.1%} market share")
+        print(f"  - Restaurant B ({self.restaurant_b.review_policy}): {market_share_b:.1%} market share")
         
         # Revenue comparison
         if restaurant_b['revenue'] > 0:

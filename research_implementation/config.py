@@ -6,15 +6,15 @@ load_dotenv()
 class Config:
     API_KEY = os.getenv("OPENAI_API_KEY", "your-api-key-here")
     MODEL = "gpt-4.1-mini"
-    DAYS = 1  # Increased simulation duration
+    DAYS = 3  # Increased simulation duration
     CUSTOMERS_PER_DAY = 5  # More customers per day
     LOG_DIR = "data/outputs/logs"
     
     # === CoNF EXPERIMENT SETTINGS ===
     ENABLE_CONF_EXPERIMENT = True  # Enable Cost of Newest First experiment
-    CONF_NUM_CUSTOMERS = 5  # Number of customers for CoNF experiment
-    CONF_TRUE_QUALITY_A = 0.7  # True product quality for Restaurant A (mu parameter)
-    CONF_TRUE_QUALITY_B = 0.7  # True product quality for Restaurant B (mu parameter)
+    CONF_NUM_CUSTOMERS = 15  # Number of customers for CoNF experiment
+    CONF_TRUE_QUALITY_A = 0.1  # True product quality for Restaurant A (mu parameter)
+    CONF_TRUE_QUALITY_B = 0.9  # True product quality for Restaurant B (mu parameter)
     CONF_USE_DYNAMIC_PRICING = True  # Use actual menu item prices instead of fixed price
     CONF_LIMITED_ATTENTION = 3  # Number of reviews customers read initially
     CONF_SKEPTICAL_REVIEWS = 3  # Additional reviews if skeptical
@@ -27,11 +27,11 @@ class Config:
     CUSTOMER_CRITICALITY = "medium"  # Options: "easy", "medium", "critical"
     
     # Vertical differentiation ratings
-    RESTAURANT_A_RATING = 45
-    RESTAURANT_B_RATING = 45
+    RESTAURANT_A_RATING = 10
+    RESTAURANT_B_RATING = 90
     # Review policies - can be "highest_rating", "latest", "recent_quality_boost", "newest_first", "random"
-    RESTAURANT_A_REVIEW_POLICY = "random"
-    RESTAURANT_B_REVIEW_POLICY = "highest_rating"
+    RESTAURANT_A_REVIEW_POLICY = "highest_rating"
+    RESTAURANT_B_REVIEW_POLICY = "newest_first"
     
     # Restaurant Information
     RESTAURANT_A_NAME = "Bella Vista"

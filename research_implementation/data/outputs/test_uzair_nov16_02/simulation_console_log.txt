@@ -1,0 +1,75 @@
+=== COMPETITIVE CoNF SIMULATION STARTED ===
+Timestamp: 2025-11-16T15:54:17.204638
+Total customers: 15 over 3 days
+Base customers per day: 5
+
+=== DAY 1 ===
+Customers today: 5
+  day1_customer_1: Chose Restaurant A (utility: 99.7 > 63.7)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 3.0 stars
+  day1_customer_2: Chose Restaurant A (utility: 58.2 > 40.2)
+  Customer 2: PURCHASED Bacon-Bacon Cheeseburger at Restaurant A ($18)
+    → Left review: 3.0 stars
+  day1_customer_3: Chose Restaurant A (utility: 103.9 > 74.9)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 3.0 stars
+  day1_customer_4: Chose Restaurant A (utility: 80.5 > 58.5)
+  Customer 4: PURCHASED Bacon-Bacon Cheeseburger at Restaurant A ($18)
+    → Left review: 3.0 stars
+  day1_customer_5: Chose Restaurant A (utility: 103.1 > 91.1)
+  Customer 5: PURCHASED Grilled Salmon at Restaurant A ($28)
+    → Left review: 3.0 stars
+
+--- Day 1 Summary ---
+Restaurant A: 5 visitors, 5 purchases, $83.00 revenue
+Restaurant B: 0 visitors, 0 purchases, $0.00 revenue
+
+=== DAY 2 ===
+Customers today: 5
+  day2_customer_1: Chose Restaurant A (utility: 109.3 > 101.3)
+  Customer 1: PURCHASED Chicken Madeira at Restaurant A ($24)
+    → Left review: 3.0 stars
+  day2_customer_2: Chose Restaurant A (utility: 100.3 > 75.3)
+  Customer 2: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 3.0 stars
+  day2_customer_3: Chose Restaurant A (utility: 114.8 > 84.8)
+  Customer 3: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 3.0 stars
+  day2_customer_4: Chose Restaurant A (utility: 129.2 > 93.2)
+  Customer 4: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 3.0 stars
+  day2_customer_5: Chose Restaurant A (utility: 71.3 > 59.3)
+  Customer 5: PURCHASED Chicken Madeira at Restaurant A ($24)
+    → Left review: 3.0 stars
+
+--- Day 2 Summary ---
+Restaurant A: 5 visitors, 5 purchases, $76.00 revenue
+Restaurant B: 0 visitors, 0 purchases, $0.00 revenue
+
+=== DAY 3 ===
+Customers today: 5
+  day3_customer_1: Chose Restaurant A (utility: 58.3 > 32.3)
+  Customer 1: PURCHASED Fresh Strawberry Cheesecake at Restaurant A ($10)
+    → Left review: 3.0 stars
+  day3_customer_2: Chose Restaurant A (utility: 84.4 > 77.4)
+  Customer 2: PURCHASED Chicken Madeira at Restaurant A ($24)
+    → Left review: 3.0 stars
+  day3_customer_3: Chose Restaurant A (utility: 89.8 > 72.8)
+  Customer 3: PURCHASED Club Sandwich at Restaurant A ($17)
+    → Left review: 3.0 stars
+  day3_customer_4: Chose Restaurant A (utility: 21.6 > 1.6)
+  Customer 4: PURCHASED Grilled Salmon at Restaurant A ($28)
+    → Left review: 3.0 stars
+  day3_customer_5: Chose Restaurant A (utility: 85.3 > 64.3)
+  Customer 5: PURCHASED Original Cheesecake at Restaurant A ($9)
+    → Left review: 3.0 stars
+
+--- Day 3 Summary ---
+Restaurant A: 5 visitors, 5 purchases, $88.00 revenue
+Restaurant B: 0 visitors, 0 purchases, $0.00 revenue
+
+=== SIMULATION COMPLETED ===
+Total customers processed: 15
+Console log saved to: data/outputs/test_uzair_nov16_02\simulation_console_log.txt
+

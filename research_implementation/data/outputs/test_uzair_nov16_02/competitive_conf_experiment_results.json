@@ -1,0 +1,2028 @@
+{
+  "experiment_type": "competitive_cost_of_newest_first",
+  "description": "Two restaurants competing with different review policies",
+  "config": {
+    "true_quality_a": 0.1,
+    "true_quality_b": 0.9,
+    "pricing_model": "dynamic_menu_items",
+    "total_customers": 15,
+    "limited_attention": 3,
+    "skeptical_reviews": 3,
+    "prior_alpha": 1.0,
+    "prior_beta": 1.0,
+    "theta_mean": 50.0,
+    "theta_std": 30.0
+  },
+  "results": {
+    "restaurant_a": {
+      "policy": "highest_rating",
+      "revenue": 247,
+      "purchases": 15,
+      "customers_visited": 15,
+      "customer_decisions": [
+        {
+          "customer_id": "day1_customer_1",
+          "restaurant_evaluated": "A",
+          "theta": 39.67548799463965,
+          "chosen_item": "Fresh Strawberry Cheesecake",
+          "item_price": 10,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 109.67548799463965,
+          "expected_utility": 99.67548799463965,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 2.15,
+            "rating_difference": 2.85,
+            "abs_difference": 2.85,
+            "reviews_read_count": 3,
+            "total_reviews_count": 10,
+            "sample_percentage": 30.0,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.1\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 2.9 stars higher than the restaurant's 2.1\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 10,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -621 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.1\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 2.9 stars higher than the restaurant's 2.1\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 10) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -621,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day1_customer_2",
+          "restaurant_evaluated": "A",
+          "theta": 6.167370113725866,
+          "chosen_item": "Bacon-Bacon Cheeseburger",
+          "item_price": 18,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 76.16737011372587,
+          "expected_utility": 58.167370113725866,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 2.1136363636363633,
+            "rating_difference": 2.8863636363636367,
+            "abs_difference": 2.8863636363636367,
+            "reviews_read_count": 3,
+            "total_reviews_count": 11,
+            "sample_percentage": 27.27272727272727,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.1\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 2.9 stars higher than the restaurant's 2.1\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 12,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -621 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Naturally skeptical personality (discerning) increases scrutiny",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.1\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 2.9 stars higher than the restaurant's 2.1\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 12) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -621,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day1_customer_3",
+          "restaurant_evaluated": "A",
+          "theta": 42.85045387347332,
+          "chosen_item": "Original Cheesecake",
+          "item_price": 9,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 112.85045387347333,
+          "expected_utility": 103.85045387347333,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 2.083333333333333,
+            "rating_difference": 2.916666666666667,
+            "abs_difference": 2.916666666666667,
+            "reviews_read_count": 3,
+            "total_reviews_count": 12,
+            "sample_percentage": 25.0,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.1\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 2.9 stars higher than the restaurant's 2.1\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 10,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -621 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.1\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 2.9 stars higher than the restaurant's 2.1\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 10) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -621,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day1_customer_4",
+          "restaurant_evaluated": "A",
+          "theta": 34.51734629318462,
+          "chosen_item": "Bacon-Bacon Cheeseburger",
+          "item_price": 18,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 3,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.8,
+          "valuation_estimate": 98.51734629318463,
+          "expected_utility": 80.51734629318463,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 2.0576923076923075,
+            "rating_difference": 2.9423076923076925,
+            "abs_difference": 2.9423076923076925,
+            "reviews_read_count": 3,
+            "total_reviews_count": 13,
+            "sample_percentage": 23.076923076923077,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.1\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 2.9 stars higher than the restaurant's 2.1\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 10,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -621 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.1\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 2.9 stars higher than the restaurant's 2.1\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 10) - 80% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -621,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 4.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day1_customer_5",
+          "restaurant_evaluated": "A",
+          "theta": 67.09655676433725,
+          "chosen_item": "Grilled Salmon",
+          "item_price": 28,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 3,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.8,
+          "valuation_estimate": 131.09655676433727,
+          "expected_utility": 103.09655676433727,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 2.0357142857142856,
+            "rating_difference": 2.9642857142857144,
+            "abs_difference": 2.9642857142857144,
+            "reviews_read_count": 3,
+            "total_reviews_count": 14,
+            "sample_percentage": 21.428571428571427,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 10,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -621 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 10) - 80% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -621,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 4.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_1",
+          "restaurant_evaluated": "A",
+          "theta": 63.25444896664874,
+          "chosen_item": "Chicken Madeira",
+          "item_price": 24,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 133.25444896664874,
+          "expected_utility": 109.25444896664874,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 2.0166666666666666,
+            "rating_difference": 2.9833333333333334,
+            "abs_difference": 2.9833333333333334,
+            "reviews_read_count": 3,
+            "total_reviews_count": 15,
+            "sample_percentage": 20.0,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 9,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -620 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (fair-minded) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 9) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -620,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_2",
+          "restaurant_evaluated": "A",
+          "theta": 39.332766476332864,
+          "chosen_item": "Original Cheesecake",
+          "item_price": 9,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 109.33276647633286,
+          "expected_utility": 100.33276647633286,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 2.0,
+            "rating_difference": 3.0,
+            "abs_difference": 3.0,
+            "reviews_read_count": 3,
+            "total_reviews_count": 16,
+            "sample_percentage": 18.75,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 10,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -620 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 10) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -620,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_3",
+          "restaurant_evaluated": "A",
+          "theta": 53.75798563061144,
+          "chosen_item": "Original Cheesecake",
+          "item_price": 9,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 123.75798563061144,
+          "expected_utility": 114.75798563061144,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 1.9852941176470589,
+            "rating_difference": 3.014705882352941,
+            "abs_difference": 3.014705882352941,
+            "reviews_read_count": 3,
+            "total_reviews_count": 17,
+            "sample_percentage": 17.647058823529413,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 12,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -620 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Naturally skeptical personality (thoughtful) increases scrutiny",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 12) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -620,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_4",
+          "restaurant_evaluated": "A",
+          "theta": 69.21500792651827,
+          "chosen_item": "Fresh Strawberry Cheesecake",
+          "item_price": 10,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 139.21500792651827,
+          "expected_utility": 129.21500792651827,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 1.9722222222222223,
+            "rating_difference": 3.0277777777777777,
+            "abs_difference": 3.0277777777777777,
+            "reviews_read_count": 3,
+            "total_reviews_count": 18,
+            "sample_percentage": 16.666666666666664,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 9,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -620 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (balanced) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 9) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -620,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_5",
+          "restaurant_evaluated": "A",
+          "theta": 25.3140351329043,
+          "chosen_item": "Chicken Madeira",
+          "item_price": 24,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 95.31403513290431,
+          "expected_utility": 71.31403513290431,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 1.9605263157894737,
+            "rating_difference": 3.0394736842105265,
+            "abs_difference": 3.0394736842105265,
+            "reviews_read_count": 3,
+            "total_reviews_count": 19,
+            "sample_percentage": 15.789473684210526,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 9,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -620 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (reasonable) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (2.0\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 2.0\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 9) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -620,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_1",
+          "restaurant_evaluated": "A",
+          "theta": -1.6716190310641608,
+          "chosen_item": "Fresh Strawberry Cheesecake",
+          "item_price": 10,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 68.32838096893585,
+          "expected_utility": 58.328380968935846,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 1.95,
+            "rating_difference": 3.05,
+            "abs_difference": 3.05,
+            "reviews_read_count": 3,
+            "total_reviews_count": 20,
+            "sample_percentage": 15.0,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 1.9\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 9,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -619 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (reasonable) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.0 stars higher than the restaurant's 1.9\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 9) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -619,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_2",
+          "restaurant_evaluated": "A",
+          "theta": 38.3651564173917,
+          "chosen_item": "Chicken Madeira",
+          "item_price": 24,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 108.3651564173917,
+          "expected_utility": 84.3651564173917,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 1.9404761904761905,
+            "rating_difference": 3.0595238095238093,
+            "abs_difference": 3.0595238095238093,
+            "reviews_read_count": 3,
+            "total_reviews_count": 21,
+            "sample_percentage": 14.285714285714285,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.1 stars higher than the restaurant's 1.9\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 9,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -619 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (balanced) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.1 stars higher than the restaurant's 1.9\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 9) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -619,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_3",
+          "restaurant_evaluated": "A",
+          "theta": 36.78243541547563,
+          "chosen_item": "Club Sandwich",
+          "item_price": 17,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 106.78243541547563,
+          "expected_utility": 89.78243541547563,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 1.9318181818181819,
+            "rating_difference": 3.0681818181818183,
+            "abs_difference": 3.0681818181818183,
+            "reviews_read_count": 3,
+            "total_reviews_count": 22,
+            "sample_percentage": 13.636363636363635,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.1 stars higher than the restaurant's 1.9\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 10,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -619 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.1 stars higher than the restaurant's 1.9\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 10) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -619,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_4",
+          "restaurant_evaluated": "A",
+          "theta": -20.378384852826045,
+          "chosen_item": "Grilled Salmon",
+          "item_price": 28,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            },
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 6,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.875,
+          "valuation_estimate": 49.621615147173955,
+          "expected_utility": 21.621615147173955,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 1.923913043478261,
+            "rating_difference": 3.0760869565217392,
+            "abs_difference": 3.0760869565217392,
+            "reviews_read_count": 3,
+            "total_reviews_count": 23,
+            "sample_percentage": 13.043478260869565,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.1 stars higher than the restaurant's 1.9\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 12,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -619 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Naturally skeptical personality (thoughtful) increases scrutiny",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.1 stars higher than the restaurant's 1.9\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 12) - 80% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -619,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 7.0,
+            "beta": 1.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_5",
+          "restaurant_evaluated": "A",
+          "theta": 30.26491250953422,
+          "chosen_item": "Original Cheesecake",
+          "item_price": 9,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "A3",
+              "stars": 5.0,
+              "text": "We stopped in for brunch and we weren't expecting the food to be so delicious.  The 3 meat hash was ...",
+              "date": "2023-08-05 18:45:00",
+              "user_id": "U3"
+            },
+            {
+              "review_id": "A4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "A6",
+              "stars": 5.0,
+              "text": "My boyfriend and I tried this deli for the first time today. I had a turkey, avocado & bacon panini ...",
+              "date": "2024-11-14 20:00:00",
+              "user_id": "U6"
+            }
+          ],
+          "positive_reviews": 3,
+          "negative_reviews": 0,
+          "average_stars_seen": 5.0,
+          "mu_estimate": 0.8,
+          "valuation_estimate": 94.26491250953421,
+          "expected_utility": 85.26491250953421,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "highest_rating",
+          "policy_description": "Shows highest-rated reviews first (best reviews at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 5.0,
+            "restaurant_overall_rating": 1.9166666666666667,
+            "rating_difference": 3.083333333333333,
+            "abs_difference": 3.083333333333333,
+            "reviews_read_count": 3,
+            "total_reviews_count": 24,
+            "sample_percentage": 12.5,
+            "discrepancy_concerns": [
+              "reviews_read_higher_than_overall"
+            ],
+            "comparison_thoughts": [
+              "Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "The 3 reviews I'm seeing are 3.1 stars higher than the restaurant's 1.9\u2605 average",
+              "This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking"
+            ],
+            "skepticism_triggers": [
+              "suspiciously_high_sample",
+              "cherry_picked_positive_reviews"
+            ]
+          },
+          "skepticism_details": {
+            "level": "high",
+            "score": 9,
+            "concerns": [
+              "suspiciously_perfect_ratings",
+              "no_rating_diversity",
+              "rating_discrepancy_high",
+              "cherry_picked_positive"
+            ],
+            "detailed_reasons": [
+              "Extremely suspicious: 3/3 reviews are 5-star (100.0%)",
+              "Recency acceptable: Most recent review is -619 days old",
+              "No diversity: All 3 reviews have 5.0 stars",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (fair-minded) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (5.0\u2605) differ significantly from overall rating (1.9\u2605) - notable discrepancy",
+              "Customer thought: The 3 reviews I'm seeing are 3.1 stars higher than the restaurant's 1.9\u2605 average",
+              "Customer thought: This seems suspicious - why would the few reviews I'm seeing be so much better than average?",
+              "Customer thought: I'm seeing mostly excellent reviews but the overall rating is mediocre - feels like cherry-picking",
+              "CONCERN: Sample reviews much higher than overall rating - possible cherry-picking",
+              "CONCERN: Excellent sample vs mediocre overall - likely cherry-picked reviews",
+              "Rating comparison modifier: +5",
+              "HIGH skepticism (score: 9) - 80% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 3
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -619,
+              "date_range_days": 769
+            },
+            "confidence_impact": -0.3,
+            "rating_comparison_modifier": 5,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 4.0,
+            "beta": 1.0
+          }
+        }
+      ],
+      "daily_stats": [
+        {
+          "day": 1,
+          "customers_visited": 5,
+          "purchases": 5,
+          "revenue": 83
+        },
+        {
+          "day": 2,
+          "customers_visited": 5,
+          "purchases": 5,
+          "revenue": 76
+        },
+        {
+          "day": 3,
+          "customers_visited": 5,
+          "purchases": 5,
+          "revenue": 88
+        }
+      ],
+      "purchase_rate": 1.0,
+      "avg_revenue_per_visitor": 16.466666666666665
+    },
+    "restaurant_b": {
+      "policy": "newest_first",
+      "revenue": 0,
+      "purchases": 0,
+      "customers_visited": 0,
+      "customer_decisions": [],
+      "daily_stats": [
+        {
+          "day": 1,
+          "customers_visited": 0,
+          "purchases": 0,
+          "revenue": 0
+        },
+        {
+          "day": 2,
+          "customers_visited": 0,
+          "purchases": 0,
+          "revenue": 0
+        },
+        {
+          "day": 3,
+          "customers_visited": 0,
+          "purchases": 0,
+          "revenue": 0
+        }
+      ],
+      "purchase_rate": 0,
+      "avg_revenue_per_visitor": 0
+    },
+    "total_customers": 15,
+    "days": 3,
+    "customers_per_day": 5
+  },
+  "timestamp": "2025-11-16T15:54:25.942654"
+}

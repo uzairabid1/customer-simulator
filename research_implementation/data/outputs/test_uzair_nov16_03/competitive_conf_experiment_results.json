@@ -1,0 +1,1599 @@
+{
+  "experiment_type": "competitive_cost_of_newest_first",
+  "description": "Two restaurants competing with different review policies",
+  "config": {
+    "true_quality_a": 0.1,
+    "true_quality_b": 0.9,
+    "pricing_model": "dynamic_menu_items",
+    "total_customers": 15,
+    "limited_attention": 3,
+    "skeptical_reviews": 3,
+    "prior_alpha": 1.0,
+    "prior_beta": 1.0,
+    "theta_mean": 50.0,
+    "theta_std": 30.0
+  },
+  "results": {
+    "restaurant_a": {
+      "policy": "highest_rating",
+      "revenue": 0,
+      "purchases": 0,
+      "customers_visited": 0,
+      "customer_decisions": [],
+      "daily_stats": [
+        {
+          "day": 1,
+          "customers_visited": 0,
+          "purchases": 0,
+          "revenue": 0
+        },
+        {
+          "day": 2,
+          "customers_visited": 0,
+          "purchases": 0,
+          "revenue": 0
+        },
+        {
+          "day": 3,
+          "customers_visited": 0,
+          "purchases": 0,
+          "revenue": 0
+        }
+      ],
+      "purchase_rate": 0,
+      "avg_revenue_per_visitor": 0
+    },
+    "restaurant_b": {
+      "policy": "newest_first",
+      "revenue": 235,
+      "purchases": 15,
+      "customers_visited": 15,
+      "customer_decisions": [
+        {
+          "customer_id": "day1_customer_1",
+          "restaurant_evaluated": "B",
+          "theta": 95.4551486270636,
+          "chosen_item": "Chicken Parmesan Pasta",
+          "item_price": 23,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 143.45514862706358,
+          "expected_utility": 120.45514862706358,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 4.15,
+            "rating_difference": -0.15000000000000036,
+            "abs_difference": 0.15000000000000036,
+            "reviews_read_count": 3,
+            "total_reviews_count": 10,
+            "sample_percentage": 30.0,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.2\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "low",
+            "score": 1,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -647 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.2\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "LOW skepticism (score: 1) - 30% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -647,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.05,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day1_customer_2",
+          "restaurant_evaluated": "B",
+          "theta": 67.60100353020019,
+          "chosen_item": "Bacon-Bacon Cheeseburger",
+          "item_price": 18,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 115.60100353020019,
+          "expected_utility": 97.60100353020019,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 4.113636363636363,
+            "rating_difference": -0.11363636363636331,
+            "abs_difference": 0.11363636363636331,
+            "reviews_read_count": 3,
+            "total_reviews_count": 11,
+            "sample_percentage": 27.27272727272727,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.1\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "none",
+            "score": 0,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -647 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (reasonable) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.1\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "NO skepticism (score: 0) - accepting reviews at face value",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -647,
+              "date_range_days": 235
+            },
+            "confidence_impact": 0,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day1_customer_3",
+          "restaurant_evaluated": "B",
+          "theta": 63.783863487732425,
+          "chosen_item": "Bacon-Bacon Cheeseburger",
+          "item_price": 18,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            },
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 4,
+          "negative_reviews": 2,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.625,
+          "valuation_estimate": 113.78386348773242,
+          "expected_utility": 95.78386348773242,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 4.083333333333333,
+            "rating_difference": -0.08333333333333304,
+            "abs_difference": 0.08333333333333304,
+            "reviews_read_count": 3,
+            "total_reviews_count": 12,
+            "sample_percentage": 25.0,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.1\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "low",
+            "score": 1,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -647 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.1\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "LOW skepticism (score: 1) - 30% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -647,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.05,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 5.0,
+            "beta": 3.0
+          }
+        },
+        {
+          "customer_id": "day1_customer_4",
+          "restaurant_evaluated": "B",
+          "theta": 83.4712305349743,
+          "chosen_item": "Fresh Strawberry Cheesecake",
+          "item_price": 10,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 131.4712305349743,
+          "expected_utility": 121.4712305349743,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 4.0576923076923075,
+            "rating_difference": -0.05769230769230749,
+            "abs_difference": 0.05769230769230749,
+            "reviews_read_count": 3,
+            "total_reviews_count": 13,
+            "sample_percentage": 23.076923076923077,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.1\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "low",
+            "score": 1,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -647 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.1\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "LOW skepticism (score: 1) - 30% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -647,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.05,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day1_customer_5",
+          "restaurant_evaluated": "B",
+          "theta": 104.17276032888157,
+          "chosen_item": "Chicken Parmesan Pasta",
+          "item_price": 23,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 152.17276032888157,
+          "expected_utility": 129.17276032888157,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 4.035714285714286,
+            "rating_difference": -0.03571428571428559,
+            "abs_difference": 0.03571428571428559,
+            "reviews_read_count": 3,
+            "total_reviews_count": 14,
+            "sample_percentage": 21.428571428571427,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "medium",
+            "score": 3,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -647 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Naturally skeptical personality (thoughtful) increases scrutiny",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "MEDIUM skepticism (score: 3) - 60% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -647,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.15,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_1",
+          "restaurant_evaluated": "B",
+          "theta": 7.150002661870602,
+          "chosen_item": "Bacon-Bacon Cheeseburger",
+          "item_price": 18,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 55.1500026618706,
+          "expected_utility": 37.1500026618706,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 4.016666666666667,
+            "rating_difference": -0.016666666666666607,
+            "abs_difference": 0.016666666666666607,
+            "reviews_read_count": 3,
+            "total_reviews_count": 15,
+            "sample_percentage": 20.0,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "low",
+            "score": 1,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -646 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "LOW skepticism (score: 1) - 30% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -646,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.05,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_2",
+          "restaurant_evaluated": "B",
+          "theta": 22.138661727372362,
+          "chosen_item": "Chicken Parmesan Pasta",
+          "item_price": 23,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            },
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 4,
+          "negative_reviews": 2,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.625,
+          "valuation_estimate": 72.13866172737237,
+          "expected_utility": 49.138661727372366,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 4.0,
+            "rating_difference": 0.0,
+            "abs_difference": 0.0,
+            "reviews_read_count": 3,
+            "total_reviews_count": 16,
+            "sample_percentage": 18.75,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "low",
+            "score": 1,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -646 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "LOW skepticism (score: 1) - 30% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -646,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.05,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 5.0,
+            "beta": 3.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_3",
+          "restaurant_evaluated": "B",
+          "theta": 73.20460378977455,
+          "chosen_item": "Fresh Strawberry Cheesecake",
+          "item_price": 10,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 121.20460378977455,
+          "expected_utility": 111.20460378977455,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 3.985294117647059,
+            "rating_difference": 0.014705882352941124,
+            "abs_difference": 0.014705882352941124,
+            "reviews_read_count": 3,
+            "total_reviews_count": 17,
+            "sample_percentage": 17.647058823529413,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "low",
+            "score": 1,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -646 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "LOW skepticism (score: 1) - 30% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -646,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.05,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_4",
+          "restaurant_evaluated": "B",
+          "theta": 92.34832910732544,
+          "chosen_item": "Original Cheesecake",
+          "item_price": 9,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 140.34832910732544,
+          "expected_utility": 131.34832910732544,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 3.9722222222222223,
+            "rating_difference": 0.02777777777777768,
+            "abs_difference": 0.02777777777777768,
+            "reviews_read_count": 3,
+            "total_reviews_count": 18,
+            "sample_percentage": 16.666666666666664,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "none",
+            "score": 0,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -646 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (reasonable) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "NO skepticism (score: 0) - accepting reviews at face value",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -646,
+              "date_range_days": 235
+            },
+            "confidence_impact": 0,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day2_customer_5",
+          "restaurant_evaluated": "B",
+          "theta": 22.498883147123784,
+          "chosen_item": "Chicken Parmesan Pasta",
+          "item_price": 23,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 70.49888314712379,
+          "expected_utility": 47.49888314712379,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 3.9605263157894735,
+            "rating_difference": 0.03947368421052655,
+            "abs_difference": 0.03947368421052655,
+            "reviews_read_count": 3,
+            "total_reviews_count": 19,
+            "sample_percentage": 15.789473684210526,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "none",
+            "score": 0,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -646 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (reasonable) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "NO skepticism (score: 0) - accepting reviews at face value",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -646,
+              "date_range_days": 235
+            },
+            "confidence_impact": 0,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_1",
+          "restaurant_evaluated": "B",
+          "theta": 47.02563223585088,
+          "chosen_item": "Original Cheesecake",
+          "item_price": 9,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 95.02563223585088,
+          "expected_utility": 86.02563223585088,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 3.95,
+            "rating_difference": 0.04999999999999982,
+            "abs_difference": 0.04999999999999982,
+            "reviews_read_count": 3,
+            "total_reviews_count": 20,
+            "sample_percentage": 15.0,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "low",
+            "score": 1,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -645 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (4.0\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "LOW skepticism (score: 1) - 30% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -645,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.05,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_2",
+          "restaurant_evaluated": "B",
+          "theta": 66.28560378250384,
+          "chosen_item": "Original Cheesecake",
+          "item_price": 9,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 114.28560378250384,
+          "expected_utility": 105.28560378250384,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 3.9404761904761907,
+            "rating_difference": 0.05952380952380931,
+            "abs_difference": 0.05952380952380931,
+            "reviews_read_count": 3,
+            "total_reviews_count": 21,
+            "sample_percentage": 14.285714285714285,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (3.9\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "medium",
+            "score": 3,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -645 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Naturally skeptical personality (thoughtful) increases scrutiny",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (3.9\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "MEDIUM skepticism (score: 3) - 60% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -645,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.15,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_3",
+          "restaurant_evaluated": "B",
+          "theta": 2.1229954972505993,
+          "chosen_item": "Original Cheesecake",
+          "item_price": 9,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 50.1229954972506,
+          "expected_utility": 41.1229954972506,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 3.9318181818181817,
+            "rating_difference": 0.06818181818181834,
+            "abs_difference": 0.06818181818181834,
+            "reviews_read_count": 3,
+            "total_reviews_count": 22,
+            "sample_percentage": 13.636363636363635,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (3.9\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "low",
+            "score": 1,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -645 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Neutral personality - no skepticism modifier",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (3.9\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "LOW skepticism (score: 1) - 30% chance to investigate further",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -645,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.05,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_4",
+          "restaurant_evaluated": "B",
+          "theta": 66.12899236319016,
+          "chosen_item": "Fresh Strawberry Cheesecake",
+          "item_price": 10,
+          "reviews_seen_count": 3,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 2,
+          "negative_reviews": 1,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.6,
+          "valuation_estimate": 114.12899236319016,
+          "expected_utility": 104.12899236319016,
+          "will_purchase": true,
+          "is_skeptical": false,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 3.9239130434782608,
+            "rating_difference": 0.07608695652173925,
+            "abs_difference": 0.07608695652173925,
+            "reviews_read_count": 3,
+            "total_reviews_count": 23,
+            "sample_percentage": 13.043478260869565,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (3.9\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "none",
+            "score": 0,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -645 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Trusting personality (fair-minded) reduces skepticism",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (3.9\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "NO skepticism (score: 0) - accepting reviews at face value",
+              "Will investigate further: NO"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -645,
+              "date_range_days": 235
+            },
+            "confidence_impact": 0,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 3.0,
+            "beta": 2.0
+          }
+        },
+        {
+          "customer_id": "day3_customer_5",
+          "restaurant_evaluated": "B",
+          "theta": 56.642445073715756,
+          "chosen_item": "Chicken Parmesan Pasta",
+          "item_price": 23,
+          "reviews_seen_count": 6,
+          "reviews_read_details": [
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            },
+            {
+              "review_id": "B5",
+              "stars": 2.0,
+              "text": "Walked into the restaurant, with reservations, and many open tables.  I asked the manager for a wind...",
+              "date": "2025-10-08 19:30:00",
+              "user_id": "U5"
+            },
+            {
+              "review_id": "B4",
+              "stars": 5.0,
+              "text": "The depot burger is so delicious along with the shishito peppers! Perfect food, perfect atmosphere, ...",
+              "date": "2025-09-12 21:00:00",
+              "user_id": "U4"
+            },
+            {
+              "review_id": "B9",
+              "stars": 5.0,
+              "text": "From the second you walk in the door, you're greeted by the adorable woman at the counter. It seems ...",
+              "date": "2025-02-14 21:30:00",
+              "user_id": "U9"
+            }
+          ],
+          "positive_reviews": 4,
+          "negative_reviews": 2,
+          "average_stars_seen": 4.0,
+          "mu_estimate": 0.625,
+          "valuation_estimate": 106.64244507371575,
+          "expected_utility": 83.64244507371575,
+          "will_purchase": true,
+          "is_skeptical": true,
+          "restaurant_policy": "newest_first",
+          "policy_description": "Shows newest reviews first (most recent at top)",
+          "rating_comparison": {
+            "reviews_read_rating": 4.0,
+            "restaurant_overall_rating": 3.916666666666667,
+            "rating_difference": 0.08333333333333304,
+            "abs_difference": 0.08333333333333304,
+            "reviews_read_count": 3,
+            "total_reviews_count": 24,
+            "sample_percentage": 12.5,
+            "discrepancy_concerns": [],
+            "comparison_thoughts": [
+              "Reviews I'm reading (4.0\u2605) match the overall rating (3.9\u2605) - consistent"
+            ],
+            "skepticism_triggers": []
+          },
+          "skepticism_details": {
+            "level": "medium",
+            "score": 3,
+            "concerns": [
+              "limited_rating_diversity"
+            ],
+            "detailed_reasons": [
+              "High 5-star ratio noted: 2/3 (66.7%) - within normal range",
+              "Recency acceptable: Most recent review is -645 days old",
+              "Limited diversity: Only 2 different ratings ([2.0, 5.0])",
+              "MEDIUM CUSTOMER: No criticality modifier",
+              "Naturally skeptical personality (thoughtful) increases scrutiny",
+              "\n--- RATING COMPARISON ANALYSIS ---",
+              "Customer thought: Reviews I'm reading (4.0\u2605) match the overall rating (3.9\u2605) - consistent",
+              "Rating comparison modifier: +0",
+              "MEDIUM skepticism (score: 3) - 60% chance to investigate further",
+              "Will investigate further: YES"
+            ],
+            "rating_distribution": {
+              "1": 0,
+              "2": 1,
+              "3": 0,
+              "4": 0,
+              "5": 2
+            },
+            "review_timeline": {
+              "total_reviews": 3,
+              "days_since_most_recent": -645,
+              "date_range_days": 235
+            },
+            "confidence_impact": -0.15,
+            "rating_comparison_modifier": 0,
+            "criticality_modifier": 0
+          },
+          "beta_prior": {
+            "alpha": 1.0,
+            "beta": 1.0
+          },
+          "beta_posterior": {
+            "alpha": 5.0,
+            "beta": 3.0
+          }
+        }
+      ],
+      "daily_stats": [
+        {
+          "day": 1,
+          "customers_visited": 5,
+          "purchases": 5,
+          "revenue": 92
+        },
+        {
+          "day": 2,
+          "customers_visited": 5,
+          "purchases": 5,
+          "revenue": 83
+        },
+        {
+          "day": 3,
+          "customers_visited": 5,
+          "purchases": 5,
+          "revenue": 60
+        }
+      ],
+      "purchase_rate": 1.0,
+      "avg_revenue_per_visitor": 15.666666666666666
+    },
+    "total_customers": 15,
+    "days": 3,
+    "customers_per_day": 5
+  },
+  "timestamp": "2025-11-16T15:59:25.293958"
+}
