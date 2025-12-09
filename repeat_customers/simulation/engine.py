@@ -3,6 +3,7 @@ import json
 import os
 import random
 import sys
+import numpy as np
 from datetime import datetime, timedelta
 from typing import Dict, List, Tuple
 
@@ -147,7 +148,13 @@ class RepeatCustomerSimulation:
             for i in range(20):
                 customer_id = f"init_{restaurant.restaurant_id}_{i}"
                 initial_date = self.simulation_start_date - timedelta(days=random.randint(30, 365))
-                restaurant.add_conf_review(customer_id, true_quality, None, initial_date)
+                # Generate experience quality based on true quality with variation
+                concentration = 5.0
+                alpha_param = true_quality * concentration
+                beta_param = (1.0 - true_quality) * concentration
+                experience_quality = np.random.beta(max(alpha_param, 0.1), max(beta_param, 0.1))
+                experience_quality = max(0.0, min(1.0, experience_quality))
+                restaurant.add_conf_review(customer_id, experience_quality, true_quality, None, initial_date)
     
     def _generate_repeat_customers(self):
         """Generate the same 50 customers who will visit throughout the simulation"""
@@ -266,13 +273,39 @@ class RepeatCustomerSimulation:
         a_reviews_dict = [self._review_to_dict(r) for r in a_reviews]
         b_reviews_dict = [self._review_to_dict(r) for r in b_reviews]
         
+        # Calculate skepticism for both restaurants based on customer criticality
+        a_skepticism = self._calculate_skepticism(customer, a_reviews_dict, self.restaurant_a, "A")
+        b_skepticism = self._calculate_skepticism(customer, b_reviews_dict, self.restaurant_b, "B")
+        
+        # Log skepticism assessments
+        self.logger.log_skepticism_assessment(customer.customer_id, customer.name, day, "A", a_skepticism)
+        self.logger.log_skepticism_assessment(customer.customer_id, customer.name, day, "B", b_skepticism)
+        
+        # If skeptical, get additional reviews
+        a_post_investigation = None
+        b_post_investigation = None
+        
+        if a_skepticism["will_investigate"]:
+            additional_a_reviews = self.restaurant_a.get_sorted_reviews(limit=Config.SKEPTICAL_REVIEWS)
+            a_reviews_dict.extend([self._review_to_dict(r) for r in additional_a_reviews])
+            a_post_investigation = self._post_investigation_assessment(a_skepticism, additional_a_reviews)
+            self.logger.log_reviews_seen(customer.customer_id, customer.name, day, "A", 
+                                        [self._review_to_dict(r) for r in additional_a_reviews], is_additional=True)
+        
+        if b_skepticism["will_investigate"]:
+            additional_b_reviews = self.restaurant_b.get_sorted_reviews(limit=Config.SKEPTICAL_REVIEWS)
+            b_reviews_dict.extend([self._review_to_dict(r) for r in additional_b_reviews])
+            b_post_investigation = self._post_investigation_assessment(b_skepticism, additional_b_reviews)
+            self.logger.log_reviews_seen(customer.customer_id, customer.name, day, "B", 
+                                        [self._review_to_dict(r) for r in additional_b_reviews], is_additional=True)
+        
         # Get restaurant ratings
         a_rating = self.restaurant_a.get_overall_rating()
         b_rating = self.restaurant_b.get_overall_rating()
         a_count = self.restaurant_a.get_review_count()
         b_count = self.restaurant_b.get_review_count()
         
-        # Use LLM to make decision considering past experiences
+        # Use LLM to make decision considering past experiences and skepticism
         decision_result = self.llm.make_repeat_customer_decision(
             customer=customer.role_desc,
             customer_experiences=customer.experiences,
@@ -286,6 +319,10 @@ class RepeatCustomerSimulation:
             b_count=b_count,
             restaurant_a=self.restaurant_a,
             restaurant_b=self.restaurant_b,
+            a_skepticism=a_skepticism,
+            b_skepticism=b_skepticism,
+            a_post_investigation=a_post_investigation,
+            b_post_investigation=b_post_investigation,
             day=day
         )
         
@@ -351,19 +388,38 @@ class RepeatCustomerSimulation:
         self.logger.log_order(customer.customer_id, customer.name, restaurant.restaurant_id, 
                              chosen_item, item_price, day, menu_reason)
         
-        # Generate experience based on true quality
+        # Generate experience based on true quality with variation
         true_quality = Config.TRUE_QUALITY_A if restaurant.restaurant_id == "A" else Config.TRUE_QUALITY_B
-        is_positive_experience = random.random() < true_quality
         
-        # Determine satisfaction and rating
-        if is_positive_experience:
-            stars_given = random.choice([4.0, 5.0])
+        # Generate experience quality as a continuous value (0.0 to 1.0)
+        # Use true_quality as the mean, but add variation
+        # Use a beta distribution to create natural variation around the true quality
+        # Beta distribution parameters: higher concentration around true_quality
+        # Scale alpha and beta to create appropriate variance
+        concentration = 5.0  # Controls variance (higher = less variance)
+        alpha_param = true_quality * concentration
+        beta_param = (1.0 - true_quality) * concentration
+        experience_quality = np.random.beta(max(alpha_param, 0.1), max(beta_param, 0.1))
+        experience_quality = max(0.0, min(1.0, experience_quality))  # Clamp to [0, 1]
+        
+        # Map experience quality to star rating
+        if experience_quality <= 0.1:
+            stars_given = 1.0
+            was_satisfied = False
+        elif experience_quality <= 0.3:
+            stars_given = 2.0
+            was_satisfied = False
+        elif experience_quality <= 0.5:
+            stars_given = 3.0
+            was_satisfied = False
+        elif experience_quality <= 0.8:
+            stars_given = 4.0
             was_satisfied = True
         else:
-            stars_given = random.choice([1.0, 2.0, 3.0])
-            was_satisfied = False
+            stars_given = 5.0
+            was_satisfied = True
         
-        # Create experience
+        # Create experience (store experience_quality for review generation)
         current_date = self.simulation_start_date + timedelta(days=day-1, hours=random.randint(9, 21))
         experience = CustomerExperience(
             restaurant_id=restaurant.restaurant_id,
@@ -372,7 +428,8 @@ class RepeatCustomerSimulation:
             stars_given=stars_given,
             price_paid=item_price,
             was_satisfied=was_satisfied,
-            review_text=""  # Will be filled when review is generated
+            review_text="",  # Will be filled when review is generated
+            experience_quality=experience_quality
         )
         
         # Update restaurant revenue and tracking
@@ -394,8 +451,12 @@ class RepeatCustomerSimulation:
             review_date = self.simulation_start_date + timedelta(days=day-1, hours=random.randint(12, 23))
             
             # Add review to restaurant
+            # Get experience quality from the experience object
+            experience_quality = experience.experience_quality
+            
             review = restaurant.add_conf_review(
                 customer_id=customer.customer_id,
+                experience_quality=experience_quality,
                 true_quality=Config.TRUE_QUALITY_A if restaurant.restaurant_id == "A" else Config.TRUE_QUALITY_B,
                 ordered_item=experience.ordered_item,
                 simulation_date=review_date
@@ -503,6 +564,161 @@ class RepeatCustomerSimulation:
         print(f"    Prefer A: {prefer_a} ({prefer_a/total_with_exp*100:.1f}%)")
         print(f"    Prefer B: {prefer_b} ({prefer_b/total_with_exp*100:.1f}%)")
         print(f"    Neutral: {neutral} ({neutral/total_with_exp*100:.1f}%)")
+    
+    def _calculate_skepticism(self, customer: Customer, reviews: List[Dict], restaurant: Restaurant, restaurant_id: str) -> Dict:
+        """
+        Calculate customer skepticism based on review patterns and customer criticality.
+        Returns a skepticism dictionary with level, concerns, and investigation decision.
+        """
+        if not reviews:
+            return {
+                "level": "none",
+                "score": 0.0,
+                "concerns": [],
+                "will_investigate": False,
+                "confidence_impact": 0.0,
+                "personality_modifier": 1.0
+            }
+        
+        # Get customer criticality from config
+        criticality = customer.role_desc.get("criticality", Config.CUSTOMER_CRITICALITY).lower()
+        
+        # Base skepticism thresholds based on criticality
+        if criticality == "easy":
+            base_threshold = 0.7  # Easy customers are less skeptical
+            personality_modifier = 0.5
+        elif criticality == "critical":
+            base_threshold = 0.3  # Critical customers are more skeptical
+            personality_modifier = 1.5
+        else:  # medium
+            base_threshold = 0.5
+            personality_modifier = 1.0
+        
+        concerns = []
+        skepticism_score = 0.0
+        
+        # Check for suspicious patterns
+        stars = [r["stars"] for r in reviews]
+        avg_rating = sum(stars) / len(stars) if stars else 0
+        
+        # 1. Suspiciously uniform distribution (all same rating or very little variation)
+        if len(set(stars)) <= 1 and len(reviews) >= 3:
+            concerns.append("suspiciously_uniform_distribution")
+            skepticism_score += 0.3
+        
+        # 2. Low variance with extreme mean (all high or all low)
+        variance = sum((s - avg_rating) ** 2 for s in stars) / len(stars) if stars else 0
+        if variance < 0.5 and (avg_rating >= 4.5 or avg_rating <= 1.5):
+            concerns.append("low_variance_extreme_mean")
+            skepticism_score += 0.25
+        
+        # 3. Rating vs overall restaurant rating mismatch
+        overall_rating = restaurant.get_overall_rating()
+        if abs(avg_rating - overall_rating) > 1.5:
+            concerns.append("rating_comparison")
+            skepticism_score += 0.2
+        
+        # 4. Check for text-rating mismatch (simplified - just check if there's variation)
+        # In a real implementation, you'd use sentiment analysis
+        positive_words = ["great", "excellent", "amazing", "love", "perfect", "wonderful", "delicious", "fantastic"]
+        negative_words = ["terrible", "awful", "disappointed", "bad", "poor", "horrible", "worst"]
+        
+        for review in reviews:
+            text_lower = review.get("text", "").lower()
+            stars = review.get("stars", 0)
+            
+            has_positive_words = any(word in text_lower for word in positive_words)
+            has_negative_words = any(word in text_lower for word in negative_words)
+            
+            if stars >= 4 and has_negative_words and not has_positive_words:
+                concerns.append("text_rating_incongruence")
+                skepticism_score += 0.15
+                break
+            elif stars <= 2 and has_positive_words and not has_negative_words:
+                concerns.append("text_rating_incongruence")
+                skepticism_score += 0.15
+                break
+        
+        # 5. Check for outdated reviews
+        from datetime import datetime, timedelta
+        try:
+            recent_count = 0
+            for review in reviews:
+                review_date = datetime.strptime(review.get("date", ""), "%Y-%m-%d %H:%M:%S")
+                if (datetime.now() - review_date).days <= 30:
+                    recent_count += 1
+            
+            if recent_count == 0 and len(reviews) >= 3:
+                concerns.append("outdated_feedback")
+                skepticism_score += 0.1
+        except:
+            pass  # If date parsing fails, skip this check
+        
+        # Apply personality modifier
+        skepticism_score *= personality_modifier
+        skepticism_score = min(skepticism_score, 1.0)  # Cap at 1.0
+        
+        # Determine skepticism level
+        if skepticism_score >= base_threshold:
+            if skepticism_score >= 0.7:
+                level = "high"
+            elif skepticism_score >= 0.4:
+                level = "medium"
+            else:
+                level = "low"
+            will_investigate = True
+        else:
+            level = "none"
+            will_investigate = False
+        
+        confidence_impact = -skepticism_score * 0.3  # Reduce confidence by up to 30%
+        
+        return {
+            "level": level,
+            "score": skepticism_score,
+            "concerns": list(set(concerns)),  # Remove duplicates
+            "will_investigate": will_investigate,
+            "confidence_impact": confidence_impact,
+            "personality_modifier": personality_modifier
+        }
+    
+    def _post_investigation_assessment(self, initial_skepticism: Dict, additional_reviews: List) -> Dict:
+        """
+        Assess whether additional reviews resolved or increased skepticism.
+        """
+        if not additional_reviews:
+            return {
+                "resolved": True,
+                "reason": "no_additional_reviews_available",
+                "ongoing_doubt": False
+            }
+        
+        # Simple check: if additional reviews show similar patterns, skepticism remains
+        # If they show more variation, skepticism may be reduced
+        additional_stars = [r.stars for r in additional_reviews]
+        if len(additional_stars) > 0:
+            additional_avg = sum(additional_stars) / len(additional_stars)
+            additional_variance = sum((s - additional_avg) ** 2 for s in additional_stars) / len(additional_stars)
+            
+            # If variance is higher, it's more credible
+            if additional_variance > 0.5:
+                return {
+                    "resolved": True,
+                    "reason": "additional_reviews_show_variation",
+                    "ongoing_doubt": False
+                }
+            else:
+                return {
+                    "resolved": False,
+                    "reason": "additional_reviews_confirm_suspicious_pattern",
+                    "ongoing_doubt": True
+                }
+        
+        return {
+            "resolved": False,
+            "reason": "insufficient_additional_information",
+            "ongoing_doubt": True
+        }
     
     def _calculate_loyalty_metrics(self) -> Dict:
         """Calculate customer loyalty and switching behavior"""

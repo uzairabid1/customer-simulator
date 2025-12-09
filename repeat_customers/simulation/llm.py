@@ -56,13 +56,31 @@ class LLMInterface:
         }
     
     def generate_conf_review(self, customer_id: str, business_id: str, ordered_item: str, 
-                           is_positive: bool, true_quality: float) -> Dict:
+                           experience_quality: float, true_quality: float) -> Dict:
         """
         Generate a realistic review for CoNF experiment using LLM.
+        experience_quality: A value from 0.0 to 1.0 representing the specific experience quality
+        true_quality: The restaurant's true quality parameter (mu)
         """
         
-        # Create a basic customer profile for the review generation
-        experience_type = "positive" if is_positive else "negative"
+        # Map experience quality to rating levels
+        # experience_quality ranges from 0.0 to 1.0
+        if experience_quality <= 0.1:
+            rating_level = 1  # Extremely negative
+            experience_description = "extremely negative - terrible experience with major issues"
+        elif experience_quality <= 0.3:
+            rating_level = 2  # Negative
+            experience_description = "negative - disappointing experience with several problems"
+        elif experience_quality <= 0.5:
+            rating_level = 3  # Neutral
+            experience_description = "neutral - average experience, nothing special but not bad"
+        elif experience_quality <= 0.8:
+            rating_level = 4  # Good/Positive
+            experience_description = "good/positive - enjoyable experience with minor issues or room for improvement"
+        else:
+            rating_level = 5  # Exceptional
+            experience_description = "exceptional - outstanding experience that exceeded expectations"
+        
         quality_description = "high-quality" if true_quality > 0.6 else "average" if true_quality > 0.4 else "below-average"
         
         prompt = f"""Generate a realistic restaurant review for the following scenario:
@@ -70,30 +88,40 @@ class LLMInterface:
 Customer ID: {customer_id}
 Restaurant: {business_id}
 Ordered Item: {ordered_item}
-Experience Type: {experience_type}
-Restaurant Quality Level: {quality_description} (μ={true_quality:.1f})
+Experience Quality Level: {experience_description} (quality score: {experience_quality:.2f})
+Restaurant Overall Quality: {quality_description} (μ={true_quality:.1f})
 
-The customer had a {experience_type} experience that reflects the restaurant's {quality_description} quality level.
+The customer had a specific experience that should be rated as {rating_level} stars based on the experience quality level.
+
+IMPORTANT RATING GUIDELINES:
+- 1 star: Extremely negative - major problems, terrible service, inedible food, or serious issues
+- 2 stars: Negative - disappointing experience with multiple problems, poor quality or service
+- 3 stars: Neutral - average experience, nothing special, acceptable but forgettable
+- 4 stars: Good/Positive - enjoyable experience, good quality, minor issues or room for improvement
+- 5 stars: Exceptional - outstanding experience, exceeded expectations, excellent in every way
 
 Requirements:
-1. Generate a star rating appropriate for the experience type:
-   - Positive experience: 4-5 stars
-   - Negative experience: 1-3 stars
-2. Write 20-40 words of realistic review text
+1. Generate a star rating of exactly {rating_level} stars based on the experience description
+2. Write 20-40 words of realistic review text that matches the {rating_level}-star rating
 3. Mention the ordered item naturally in the review
 4. Use authentic restaurant review language
-5. Make the rating consistent with the text
+5. Make the rating and text perfectly consistent - a {rating_level}-star review should sound like a {rating_level}-star experience
+6. Create variation in the review - don't use generic phrases, make it specific to the experience level
 
 Format as JSON:
 {{
-    "stars": [rating 1-5],
-    "text": "[realistic review text mentioning the experience and food]",
+    "stars": {rating_level},
+    "text": "[realistic review text mentioning the experience and food, matching {rating_level} stars]",
     "user_id": "{customer_id}",
     "business_id": "{business_id}",
     "ordered_item": "{ordered_item}"
 }}"""
 
         response = self._call_llm(prompt)
+        
+        # Ensure the rating matches what we requested
+        if "stars" in response:
+            response["stars"] = float(rating_level)
         
         # Add additional fields
         review = response

@@ -17,6 +17,7 @@ class CustomerExperience:
     price_paid: float
     was_satisfied: bool
     review_text: str = ""
+    experience_quality: float = 0.5  # Quality score from 0.0 to 1.0 for review generation
     
 @dataclass
 class Customer:
@@ -165,14 +166,12 @@ class Restaurant:
         """Returns combined list of initial and new reviews"""
         return self.initial_reviews + self.reviews
     
-    def add_conf_review(self, customer_id: str, true_quality: float, ordered_item: str = None, simulation_date: datetime = None) -> Review:
+    def add_conf_review(self, customer_id: str, experience_quality: float, true_quality: float, ordered_item: str = None, simulation_date: datetime = None) -> Review:
         """
-        Add a new review for CoNF experiment based on true quality.
-        X_t ~ Bernoulli(mu) where mu is true quality
+        Add a new review for CoNF experiment based on experience quality.
+        experience_quality: A value from 0.0 to 1.0 representing the specific experience quality
+        true_quality: The restaurant's true quality parameter (mu)
         """
-        # Generate binary outcome based on true quality (Bernoulli distribution)
-        is_positive = random.random() < true_quality
-        
         # Use the specific item the customer ordered (passed as parameter)
         if not ordered_item:
             menu_items = list(self.menu.keys())
@@ -183,12 +182,12 @@ class Restaurant:
         llm = LLMInterface()
         
         try:
-            # Generate review using LLM
+            # Generate review using LLM with experience quality
             llm_review = llm.generate_conf_review(
                 customer_id=customer_id,
                 business_id=self.restaurant_id,
                 ordered_item=ordered_item,
-                is_positive=is_positive,
+                experience_quality=experience_quality,
                 true_quality=true_quality
             )
             
@@ -207,8 +206,18 @@ class Restaurant:
         except Exception as e:
             print(f"Warning: LLM review generation failed ({str(e)}), using fallback")
             # Fallback to simple review generation if LLM fails
-            stars = random.choice([4.0, 5.0]) if is_positive else random.choice([1.0, 2.0, 3.0])
-            text = f"{'Great' if is_positive else 'Poor'} experience with the {ordered_item}."
+            # Map experience_quality to rating
+            if experience_quality <= 0.1:
+                stars = 1.0
+            elif experience_quality <= 0.3:
+                stars = 2.0
+            elif experience_quality <= 0.5:
+                stars = 3.0
+            elif experience_quality <= 0.8:
+                stars = 4.0
+            else:
+                stars = 5.0
+            text = f"{'Great' if experience_quality > 0.5 else 'Poor'} experience with the {ordered_item}."
             
             review_date = simulation_date.strftime("%Y-%m-%d %H:%M:%S") if simulation_date else datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             review = Review(
